@@ -1,0 +1,1489 @@
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40  
+https://doi.org/10.1186/s41239-024-00468-z
+International Journal of Educational
+
+Technology in Higher Education
+
+Open Access
+
+REVIEW ARTICLE
+
+A scoping review on how generative artificial 
+intelligence transforms assessment in higher 
+education
+
+Qi Xia3   , Xiaojing Weng2   , Fan Ouyang3   , Tzung Jin Lin4 and Thomas K.F. Chiu1,5,6*
+
+Abstract
+
+*Correspondence:   
+Thomas.kf.chiu@gmail.com; 
+tchiu@cuhk.edu.hk
+
+Generative artificial intelligence provides both opportunities and challenges for higher 
+education. Existing literature has not properly investigated how this technology would 
+impact assessment in higher education. This scoping review took a forward-thinking 
+approach to investigate how generative artificial intelligence transforms assessment 
+in higher education. We used the PRISMA extension for scoping reviews to select articles 
+for review and report the results. In the screening, we retrieved 969 articles and selected 
+32 empirical studies for analysis. Most of the articles were published in 2023. We used 
+three levels—students, teachers, and institutions—to analyses the articles. Our results 
+suggested that assessment should be transformed to cultivate students’ self-regulated 
+learning skills, responsible learning, and integrity. To successfully transform assessment 
+in higher education, the review suggested that (i) teacher professional development 
+activities for assessment, AI, and digital literacy should be provided, (ii) teachers’ beliefs 
+about human and AI assessment should be strengthened, and (iii) teachers should be 
+innovative and holistic in their teaching to reflect the assessment transformation. Edu-
+cational institutions are recommended to review and rethink their assessment policies, 
+as well as provide more inter-disciplinary programs and teaching.
+
+1 Department of Curriculum 
+and Instruction, The Chinese 
+University of Hong Kong, Hong 
+Kong, China
+2 Department of Curriculum 
+and Instruction, The Education 
+University of Hong Kong, Hong 
+Kong, China
+3 College of Education, Zhejiang 
+University, Hangzhou, China
+4 Program of Learning Sciences, 
+National Taiwan Normal 
+University, Taipei, Taiwan
+5 Centre for Learning Sciences 
+and Technologies, The Chinese 
+University of Hong Kong, Hong 
+Kong, China
+6 Centre for University 
+and School Partnership, The 
+Chinese University of Hong 
+Kong, Hong Kong SAR, China
+
+Keywords:  Generative artificial intelligence, Scoping review, Higher education, 
+Assessment, Educational policy, Professional development, Assessment literacy, AI 
+literacy
+
+Introduction
+Artificial intelligence (AI) technologies have played an important role in improving learn-
+ing, teaching, assessment, and educational administration (Chen et  al., 2020; Zhang & 
+Aslan, 2021; Chiu et al., 2023). With the release of ChatGPT, generative artificial intelligence 
+(GenAI) is seen as having an unprecedented major impact on higher education. How GenAI 
+transforms and influences higher education is still unclear (Al-Zahrani, 2023). GenAI refers 
+to a subset of AI technologies capable of generating new content, ranging from text, images, 
+and music to code and synthetic data (Chiu, 2023, 2024). Unlike typical AI technologies pri-
+marily designed for analysis and pattern recognition, GenAI can create novel outputs based 
+on the data they have been trained on (Barrett & Pack, 2023). The advent of GenAI not only
+
+© The Author(s) 2024. Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits 
+use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original 
+author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third 
+party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mate-
+rial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or 
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://​
+creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+Page 2 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+indicates a new era of efficiency and precision but also brings forth a set of challenges and 
+ethical considerations (Perera & Lankathilake, 2023; Chiu, 2024). GenAI stands out as a 
+transformative force at all levels of education, particularly in the field of higher education.
+
+Historically, assessment in higher education has predominantly been a manual and 
+time-intensive task, often constrained by limited human resources and teacher-centered 
+instruction (Broadbent, 2017; Knight & Drysdale, 2020; Penny & Coe, 2004). However, 
+GenAI is starting to reshape these limitations and add more challenges, offering innova-
+tive approaches for evaluating student performance, tailoring learning experiences, and 
+improving the overall quality of educational outcomes (Moorhouse et  al., 2023; Chiu, 
+2023; Chiu et al., 2023). Recent research suggests that tools like ChatGPT can aid college 
+students in completing tasks such as essay and proposal writing and take-home exami-
+nations, raising concerns about increased risks of cheating and undermining academic 
+integrity (Chiu et al, 2023; Moorhouse et al., 2023). These indicate that two of the major 
+affordances of GenAI will have been transforming what program goals and student learn-
+ing outcomes should be (Chiu et al., 2023; Chiu, 2024; Guo & Wang, 2023). First, with the 
+aid of this technology, students may be able to complete tasks for which they lack the nec-
+essary skills, such as creating photographs and getting some ideas from other disciplines 
+(Guo & Wang, 2023). This opportunity motivates higher education institutions to create 
+more interdisciplinary programs and instructors to employ more interdisciplinary teach-
+ing strategies. Second, GenAI could assist students in getting disciplinary subject content 
+by producing content-based assignments and providing answers to questions based on the 
+discipline (Chan, 2023; Chaudhry et al., 2023). The students could access the disciplinary 
+content easier than before for self-regulated learning. GenAI will have been utilized in the 
+workplace. Therefore, what skills graduates should nurture need to be revisited and recon-
+sidered. The traditional assessment method is becoming increasingly inadequate for accu-
+rately assessing students’ actual learning outcomes. These also indicate that the assessment 
+methods in higher education must evolve in response to the implications of GenAI.
+
+Assessment that is related to the programs and course objectives has a direct impact on 
+learning and teaching for students and teachers (Heeneman et al., 2015; Popham, 2009). 
+Higher education institutions should design and redesign policy and curriculum to address 
+the changes brought about by GenAI; they must adapt to changing educational needs and 
+ensure equitable AI access (Perkins, 2023; Rajabi et al., 2023). However, research on its appli-
+cation in higher education assessment methods is still limited, and opinions vary widely as 
+the majority were conducted in 2023. For future high education, coexisting with evolving AI 
+technology and adapting to an AI-driven environment is a necessary path for employment 
+and life (Chiu, 2024). How GenAI transforms higher education needs more studies. Accord-
+ingly, this scoping review addresses this research gap by focusing on the impact of GenAI on 
+three aspects—students, teachers, and institutions—in higher education assessment over the 
+past five years. Through exploring these three aspects, the review aims to provide a detailed 
+understanding of GenAI’s role in modernizing and potentially revolutionizing the assess-
+ment landscape in higher education. The main research question is: How does GenAI trans-
+form assessment in higher education? This question is explored through three sub-questions:
+
+RQ1. How does GenAI add learning opportunities and challenges to student assessment?
+RQ2. How does GenAI impact teachers in assessing student learning?
+RQ3. How does GenAI impact institution policies on assessments?
+
+Page 3 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Method
+Scoping reviews are an ideal tool for determining the scope or coverage of a body of lit-
+erature on a given topic and giving a clear indication of the volume of the literature while 
+providing a broader overview of its focus (Munn et al., 2018). In particular, the explora-
+tory nature of scoping reviews informs areas for subsequent research. We conducted 
+this scoping review in accordance with the PRISMA Extension for Scoping Reviews 
+(PRISMA-ScR) reporting guidelines and checklist (Tricco et  al. 2018). This review 
+focuses on empirical studies conducted in the past five years regarding the application of 
+GenAI in higher education.
+
+Article selection process
+To find the targeted literature, we searched three widely used digital academic data-
+bases related to education and AI technologies: ERIC, Web of Science, and Scopus. The 
+search terms were constructed with a boolean logic as follows: (assess* OR evaluate*) 
+AND (“higher education” OR universit* OR college* OR undergrad* OR graduate* OR 
+postgrad* OR under-grad* OR post-grad*) AND (“generative artificial intelligence” OR 
+“ChatGPT” OR “generative AI”). During the search process, the following selection cri-
+teria were set in the search engine: (a) peer-reviewed journal articles; (b) written in Eng-
+lish; (c) published in the last 5 years. As the search engines of different databases have 
+different ways of setting options, the search criteria settings were adjusted to suit each 
+database. The initial search was completed on September 30, 2023.
+
+Page 4 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Article identification
+Screening and inclusion procedures were then used to select articles for the main analy-
+sis. First, 58 duplicate articles were eliminated. Two of the authors then examined the 
+titles and abstracts of the articles to identify peer-reviewed articles related to GenAI 
+and higher education, thus excluding systematic literature reviews, meta-analyses, com-
+mentaries, and editorials. When they disagreed on paper identification, another author 
+assessed the paper and made a final decision. The full texts of the remaining 231 articles 
+were then read, and articles that are not GenAI or GenAI are not used for assessment. 
+Contexts other than higher education (n = 28), non-assessment-related activities (n = 62), 
+and theoretical, conceptual, and review studies (n = 22) were removed. Ultimately, 32 
+articles were retained for this scoping review; see Table 1. Most of the articles were pub-
+lished in 2023. It is reasonable because GenAI is more accessible to teachers and educa-
+tional researchers since the launch of ChatGPT on November 30, 2022, by OpenAI.
+
+Coding and analysis
+To answer the research questions, we used three levels—students, teachers, and institu-
+tions—to code and analyze the reviewed articles on various dimensions. The information 
+extracted from the reviewed articles includes ChatGPT’s role and limitations for assess-
+ment in higher education, ChatGPT’s key challenge for assessment in higher education, 
+the attitudes of students and teachers, and the implications of GenAI for assessment in 
+higher education. A coding form was jointly developed by two authors and reviewed by 
+another author to determine which variables to extract, see Appendix 1. The two coders 
+coded the articles and charted the data continuously in an iterative discussion process 
+using an inductive analysis approach.
+
+Results and findings
+While ChatGPT offers significant potential in educational settings, its limitations, 
+impact on academic integrity, and the need for adapted assessment methods and poli-
+cies are key areas of concern and focus for educators, students, and institutions. As 
+shown in Figs. 1 and 2, the articles reviewed originate from a diverse range of regions, as 
+indicated by the locations of the corresponding authors. In total, they represent 18 dif-
+ferent regions and 11 disciplines, with education, medicine, and computer science being 
+the top three disciplines.
+
+How does GenAI place and add learning opportunities and challenges to student
+
+assessment?
+Twenty-seven of the reviewed articles indicated that GenAI offered learning opportuni-
+ties and challenges to student assessment. They revealed that the use of GenAI presented 
+significant challenges to academic integrity and raised concerns about ethical behavior 
+(e.g., cheating) in academic settings. Overall, GenAI added three opportunities—per-
+ceived unbiased feedback, immediate and diverse feedback, and self-assessment—and 
+a challenge—student academic integrity—to student assessments in the following four 
+aspects (see Fig. 3).
+
+Page 5 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Fig. 1  Region of corresponding author
+
+Fig. 2  Displine
+
+Immediate and diverse feedback
+Thirteen percent of the twenty-seven articles revealed that students could get imme-
+diate and feedback or preliminary grades and comments from GenAI anytime and 
+anywhere. Moreover, the students could ask GenAI to provide more feedback from
+
+Page 6 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Fig. 3  Keys areas of concern and focus for students
+
+various perspectives. They could gain more understanding through these diverse 
+ranges of feedback (Naidu & Sevnarayan, 2023). Teachers are unable to give feedback 
+to the way GenAI does. With the aid of GenAI, the students were encouraged to use 
+assessment for learning approach in studying their courses. However, GenAI may 
+not be able to generate correct content or course-based feedback (Ali et  al., 2024; 
+Cross et al., 2023; Ouh et al., 2023). For example, Guo and Wang (2023) suggested 
+that ChatGPT might use different evaluation criteria from the courses or teachers’ 
+own, and its lack of specific knowledge about the class and the students could lead to 
+inappropriate feedback.
+
+Perceived unbiased feedback
+Eleven percent of the twenty-seven reviewed articles suggested that, when compared 
+to teachers, students felt that GenAI’s feedback was less judgmental, subjective, and 
+biased. AI has the potential to lessen individual biases in grading procedures, includ-
+ing essays, project proposals, and theses (Guo & Wang, 2023). For instance, while 
+evaluating undergraduate and graduate students’ theses, AI could lessen the examin-
+ers’ personal prejudices (Greiner et al., 2023). AI is perceived as a machine; there-
+fore, students feel that it is impartial. However, the output of GenAI, like ChatGPT, 
+might be skewed due to biased training data (Naidu & Sevnarayan, 2023; Rajabi et al., 
+2023). Unfair evaluations and grades, as well as biased comments, could result from it 
+(Naidu & Sevnarayan, 2023).
+
+Self‑assessment
+Twenty-two percent of the twenty-seven reviewed articles demonstrated that GenAI can 
+aid student learning through self-assessment. ChatGPT, for example, can help generate 
+ideas and rubrics (Rajabi et al., 2023), as well as learning questions (Cheung et al., 2023;
+
+Page 7 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Cross et al., 2023; Kang, 2023; Naidu & Sevnarayan, 2023) for students’ self-assessment. 
+These imply that students might obtain immediate and relevant resources for evaluat-
+ing their own work, as well as recommendations for improvement and further learn-
+ing. Furthermore, according to the reviewed articles, the students might learn from the 
+mistakes and errors of a learning task that was suggested by GenAI (Rajabi et al., 2023). 
+The articles highlighted that the learning tasks benefited student learning but did not 
+involve critical thinking (Currie et al., 2023; Rajabi et al., 2023). In addition, the students 
+were suggested to regularly evaluate their progress when interacting with ChatGPT. It 
+was because ChatGPT performs differently on different tests, possibly because it gen-
+erates output based on different data sources. For example, caution was needed when 
+using ChatGPT in healthcare that is inter-discipline because of inconsistent accuracy 
+(Fuchs et al., 2023). The students should critically assess ChatGPT outputs by using their 
+knowledge, expertise, judgment, and creativity (Dai et al., 2023; Overono & Ditta, 2023). 
+Overall, GenAI provided the students with new possibilities to learn and group by self-
+assessing their work and GenAI’s output.
+
+Student academic integrity
+Fifty-four percent of the reviewed articles highlighted that the emergence of GenAI 
+presented a significant challenge to student academic integrity (Adeshola & Ade-
+poju, 2023; Alexander et al., 2023; Chaudhry et al., 2023; Chan, 2023; Dai et al., 2023; 
+Elsayed, 2023; Geerling et al., 2023; Kang, 2023; Nikolic et al., 2023; Ouh et al., 2023; 
+Overono & Ditta, 2023; Perkins, 2023; Smolansky et al., 2023; Stutz et al., 2023). The 
+major concern is that ChatGPT has the potential to encourage cheating and academic 
+dishonesty (Crawford et  al., 2023; Currie et  al., 2023; Gorichanaz, 2023; Naidu & 
+Sevnarayan, 2023). For example, short-form essays have become an obsolete assess-
+ment tool (Yeadon et al., 2023). This is supported by a study examining the effective-
+ness of ChatGPT in academic settings. For example, it was found that submissions 
+generated by ChatGPT scored impressively, and its performance typically qualifies for 
+a First-Class grade, the highest academic distinction awarded in UK universities (Yea-
+don et al., 2023). Related research shows that ChatGPT performs well in exams in 
+disciplines such as engineering (Uhlig et al., 2023), economics (Geerling et al., 2023), 
+medicine (Currie et al., 2023), and geography (Stutz et al., 2023), indicating that the 
+issue of academic integrity in higher education is facing unprecedented challenges. 
+Overall, students should be nurtured about the importance of academic integrity and 
+ethical behavior.
+
+How does GenAI impact teachers in assessing student learning?
+According to 31 reviewed articles, GenAI had a significant impact on teacher abilities 
+and approaches to assessing student learning. Its technologies could facilitate teacher 
+assessment processes and pose challenges to the diversity and innovation of assessment 
+methods. Overall, this includes the following six aspects (see Fig. 4).
+
+Teacher assessment literacy
+About one-third of the 31 reviewed articles recognize that GenAI will be chang-
+ing assessment methods, with a need for educators to prepare for these changes
+
+Page 8 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Fig. 4  Keys areas of concern and focus for teachers
+
+(Alexander et al., 2023; Guo & Wang, 2023; Naidu & Sevnarayan, 2023; Ouh et al., 
+2023; Yeadon et al., 2023). Teachers may need to modify their assessment items and 
+approaches to minimize students’ misuse of this technology, including in-class testing 
+and questions requiring deeper understanding (Naidu & Sevnarayan, 2023). Teachers’ 
+assessment literacy should include knowledge and skills related to assessment design, 
+implementation, interpretation, and ethical use (Dai et al., 2023). The teachers should 
+focus on critical thinking, problem-solving, and creativity in designing assessments 
+(Chan, 2023; Dai et  al., 2023). They also should create valid, reliable, and relevant 
+assessment tasks to minimize AI-generated content dishonesty (Chan, 2023; Dai et al., 
+2023). For example, Farazouli et al. (2023) revealed that the teachers were more critical 
+when grading student-written texts as they thought their students might finish their 
+assessment tasks with ChatGPT. The teachers should consider designing innovative 
+assessment methods that ensure academic integrity in the era of ChatGPT (Stutz et al., 
+2023). Overall, teachers should use assessment to promote students’ active participa-
+tion in the learning process and foster the development of students’ critical thinking 
+and problem-solving skills (Elsayed, 2023).
+
+More diverse and innovative assessment
+Twenty-nine percent of the 31 reviewed articles suggested that more diverse and innova-
+tive assessment was needed, which aligns with the previous findings on teacher assess-
+ment literacy. First, there is a need for strategies to prevent cheating using GenAI tools 
+in assessments, such as asking questions and assigning tasks that ChatGPT cannot easily 
+answer (Naidu & Sevnarayan, 2023). For example, Smolansky et al. (2023) found that 
+the assignment types rated to be least impacted are presentations and discussions that 
+were either pre-recorded or live; assessments that require product design or creative/
+artistic work were also rated as moderately affected by ChatGPT. For instance, Nikolic 
+et  al. (2023) suggested an alternative assessment method: video-conferencing for
+
+Page 9 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+evaluating student assignments through questioning and answering. In addition, assess-
+ment methods should be more innovative, like developing podcasts or storyboards, 
+where ChatGPT serves as an auxiliary tool (Currie et al., 2023). Moreover, ChatGPT 
+offers opportunities for authentic assessment by challenging students’ beliefs and critical 
+thinking (Crawford et al., 2023; Currie et al., 2023; Geerling et al., 2023). The students 
+can demonstrate their understanding by applying their knowledge to evaluate complex 
+cases generated by ChatGPT. Moving beyond traditional knowledge-based assessments 
+and emphasizing problem-solving, data interpretation, and case-study-based questions 
+is necessary (Ali et al., 2024; Fergus et al., 2023; Gorichanaz, 2023; Rajabi et al., 2023). 
+These highlight a need for carefully designing and framing new assessment approaches 
+in ways that center the process of learning, higher-order thinking, and authentic tasks 
+(Smolansky et al., 2023).
+
+Assessment driven teaching
+Assessment acts as a driving force in teaching and learning (Heeneman et al., 2015; 
+Popham, 2009). Higher education aims to prepare students to join the job market; 
+therefore, the assessment should target the competence of the future workforce. 
+GenAI technologies have transformed teaching and learning in higher education 
+(Chiu, 2024). The shift towards AI in education highlights the need for self-regulated 
+learning, supported by AI and digital literacy. The assessment should go beyond tra-
+ditional coursework (Firat, 2023). For example, Firat (2023) claims that critical think-
+ing, creativity, problem-solving, and AI and digital literacy skills should be explicitly 
+included as learning outcomes in course designs. Teaching and learning with GenAI 
+should be one of the key learning outcomes (Chiu, 2024; Stutz et  al., 2023; Uhlig 
+et  al.,  2023). Overall, teachers should teach and assess the skills needed in an AI-
+influenced landscape (Chan, 2023; Cheung et al., 2023; Farazouli et al., 2023; Stutz 
+et al., 2023).
+
+Possible poor student development of essential skills
+According to seventeen of the 31 reviewed articles, teachers are concerned about 
+student overreliance on ChatGPT. This might impede the development of essential 
+skills like teamwork, leadership, empathy, creativity, critical analysis, and independ-
+ent thinking—competencies crucial for future job markets (Chan, 2023; Rajabi et al., 
+2023; Stutz et al., 2023). The use of GenAI in classrooms could potentially lead stu-
+dents to be less prepared for employment if it replaces the learning of vital skills 
+(Rajabi et al., 2023). For example, Firat (2023) claims that to counteract the poten-
+tial negative impacts, teachers should design assessments that encourage original 
+thinking and reduce dependence on AI-generated solutions, thereby fostering critical 
+engagement and problem-solving abilities. Moreover, the need for humans skilled in 
+working with GenAI is growing. It is because competent employees would produce 
+higher-quality outcomes more effectively when collaborating with Gen AI (Howell & 
+Potgieter, 2023). Students must be prepared for a world where GenAI is prevalent. 
+Teachers should understand GenAI’s broader implications for cognition, social inter-
+action, and values so that they can effectively train the students to use GenAI to solve
+
+Page 10 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+problems (Smolansky et  al., 2023). They should evaluate student abilities to solve 
+problems, but not just their proficiency, with GenAI tools. These involve providing 
+the necessary knowledge and ideas to teachers to design questions that assess stu-
+dents’ understanding while minimizing their dependency on GenAI for answers and 
+solutions (Elsayed, 2023).
+
+Teacher beliefs about assessment
+Teachers generally agreed that ChatGPT should be integrated into teacher teaching and 
+student learning (Cross et al., 2023). Some teachers already trusted the information that 
+was generated from ChatGPT and used it as a “one-stop shop” for knowledge sourc-
+ing (Cross et al., 2023). Some teachers understood GenAI’s limitations and its impact 
+on their feedback (Guo & Wang, 2023; Ouh et al., 2023). For example, teachers felt that 
+ChatGPT’s feedback, often lengthy and complex, included irrelevant comments. This 
+poses comprehension challenges for students with low abilities (Guo & Wang, 2023). In 
+addition, some teachers noticed that ChatGPT might use different evaluation criteria 
+from their own, and its lack of specific knowledge about the class and students could 
+lead to inappropriate feedback (Morjaria et al., 2023). These limitations indicated that 
+although ChatGPT seemed to be powerful, it could not replace teacher feedback. Teach-
+ers should play a role in evaluating machine feedback, even if the machine is as powerful 
+as ChatGPT, the most state-of-the-art AI tool.
+
+Balancing GenAI and human assessment
+Twenty-six percent of the 31 reviewed articles encouraged teachers to use GenAI in their 
+assessments. Assessments should incorporate GenAI technologies to enhance learning 
+outcomes (Chan, 2023). However, maintaining academic integrity and high-quality edu-
+cation requires finding a balance between AI-assisted and conventional human-centered 
+teaching methods. It is recommended to use a balanced approach when integrating 
+GenAI into assessment (Chan, 2023; Naidu & Sevnarayan, 2023; Stutz et al., 2023). They 
+suggested using ChatGPT as an education tool and embracing it for various assessment-
+related tasks (Nikolic et al., 2023). Assessments should go beyond traditional approaches 
+such as examination and essay and focus on evaluating higher-order thinking skills like 
+critical thinking, creativity, and problem solving (Chaudhry et al., 2023; Geerling et al., 
+2023; Kang, 2023). For example, GenAI can be used to advance writing such as proof-
+reading, critique, and editing (Currie et al., 2023), create personalized assessments, and 
+simulate conversations (Cheung et al., 2023; Currie et al., 2023). Therefore, the teachers 
+were encouraged to use alternative grading practices, like incorporating nontraditional, 
+authentic assessments that are difficult for AI to replicate without prompting (Chaudhry 
+et al., 2023; Fuchs et al., 2023; Morjaria et al., 2023; Overono & Ditta, 2023; Perkins, 
+2023). In other words, the students’ language can be self-assessed through GenAI, while 
+the students’ ideas and logical thinking can be assessed by teachers. Overall, teachers 
+should consider what GenAI can and cannot afford in assessment. The human-centered 
+assessment methods can focus on the items that GenAI cannot. This will move assess-
+ment from human-centered or machine-centered to mixed methods, transforming the 
+traditional mode of assessment (Naidu & Sevnarayan, 2023).
+
+Page 11 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Fig. 5  Keys areas of concern and focus for institutions
+
+How does GenAI impact on institution policies on assessments?
+Twenty-six reviewed articles indicated that GenAI greatly disrupted traditional assess-
+ment approaches and methods, which significantly impacted the formulation of institu-
+tional policies. This specifically includes the following five aspects, see Fig. 5.
+
+Redesigning assessment policies
+The use of AI tools like ChatGPT in education requires rethinking assessment policies 
+(Gorichanaz, 2023; Morjaria et al., 2023), as traditional examinations and assignments 
+may become obsolete due to AI-generated content (Geerling et al., 2023; Gorichanaz, 
+2023). When making policies for assessment, educational institutions should carefully 
+rethink what assessment approaches are needed to ensure academic integrity and mean-
+ingful learning (Perkins, 2023; Rajabi et al., 2023). Clear policies on GenAI usage and 
+assessment rules are necessary (Currie et al., 2023; Kang, 2023). For example, the use 
+of these tools may not necessarily be considered plagiarism if students are transparent 
+in how they have been used in any submission (Perkins, 2023). The examination can be 
+turned into a self-learning online platform.
+
+New literacy and professional development for teachers
+Researchers emphasiz the importance of training in new literacy in light of GenAI 
+advancements (Alexander et al., 2023; Guo & Wang, 2023). Education should focus 
+on developing holistic competencies and generic skills in students (Chan, 2023).
+
+Page 12 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+For example, Chan (2023) conducted a mixed-method study aimed at developing 
+an AI Ecological Education Policy Framework for higher education in Hong Kong. 
+This framework comprises Pedagogical, Governance, and Operational dimensions, 
+addressing training and support for teachers, staff, and students in AI literacy. Efforts 
+should be made to address data privacy, transparency, accountability, and security in 
+AI education (Chan, 2023; Cheung et  al., 2023; Dai et  al., 2023). Institutions must 
+cope with the impact of GenAI on teaching and assessment practices by providing 
+comprehensive AI, data, and digital literacy training and professional development 
+for both teachers and students (Alexander et al., 2023; Elsayed, 2023). The training 
+should encompass the ethical use of AI, understanding its capabilities and limita-
+tions (Chan, 2023). Incorporating critical thinking, creativity, problem-solving, AI, 
+and digital competencies into curricula is crucial for students to critically assess 
+and effectively utilize AI outputs (Chan, 2023; Firat, 2023; Nikolic et al., 2023; Uhlig 
+et al., 2023). This holistic approach will empower both teachers and students to navi-
+gate GenAI tools responsibly, with an understanding of their social, emotional, and 
+technical aspects. In order to prepare teachers for increasingly automated future 
+classrooms, it is essential that they have a strong understanding of AI and digital 
+competency, which goes beyond simple technical knowledge to include the use of AI 
+and digital tools (Adeshola & Adepoju, 2023).
+
+Shifting educational focus and rethinking learning objectives
+Curricula and pedagogical changes caused by GenAI should focus on whole-person 
+development, including personality traits like grit and perseverance (Chiu, 2023; Dai 
+et al., 2023) and critical thinking (Chan, 2023). These attributes help students adapt and 
+persist in the face of unforeseen challenges (Chiu, 2023; Dai et al., 2023). For example, 
+Nikolic and colleagues (2023) investigated how ChatGPT influences the assessment of 
+engineering education, the subjects included ten courses from seven universities in Aus-
+tralia. The study found that ChatGPT did indeed pass some courses and performed well 
+in certain types of assessments. Dai and collogues (2023) claims shifting the educational 
+focus from the known to the unknown. For example, the cultivation of certain person-
+ality traits, such as grit, perseverance, and resistance, should be especially prioritized. 
+Educational institutions should emphasize the importance of re-evaluating learning 
+objectives in programs (Nikolic et al., 2023).
+
+More interdisciplinary assessment
+Interdisciplinary learning and assessment were advocated in the 6% of the reviewed 
+articles; however, most classroom teaching is still single-disciplinary-based. GenAI 
+enables students to learn a disciplinary knowledge or do some tasks (e.g., drawing, 
+creating videos) that they are familiar, which fosters interdisciplinary learning such 
+as project- and problem- based. UNESCO’s guidance on AI in education recom-
+mended institutions to adopt an integrated approach to planning and governance 
+that spans multiple sectors. For example, Chan (2023) claims that policies related 
+to AI and education should be crafted through the synergy of various disciplines, 
+ensuring a well-rounded and inclusive policy framework. Policymakers are advised
+
+Page 13 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+to engage with experts in diverse fields such as education, technology, and ethics 
+to formulate policies that comprehensively address the multifaceted nature of AI in 
+the educational sphere (Chan, 2023). Furthermore, it is important to foster learn-
+ing environments where individuals can thrive while working on collaborative and 
+interdisciplinary projects (Chaudhry et al., 2023). This holistic student development 
+ensures that the workforce is well-equipped for the collaborative and interdiscipli-
+nary nature of modern challenges. Therefore, more assessment on interdisciplinary 
+learning is needed.
+
+Disrupting traditional assessment methods
+The existing performance-based assessment systems adopted by higher education 
+institutions to ensure that students are learning and developing the necessary skills 
+for future job markets seem likely to be unserviceable with the arrival of ChatGPT 
+(Chaudhry et al., 2023). As GenAI can generate coherent essays that may bypass pla-
+giarism detection software (Nikolic et al., 2023; Perkins, 2023; Yeadon et al., 2023), 
+some researchers argue that traditional assessment methods need to be changed 
+(Geerling et  al., 2023; Kang, 2023; Overono & Ditta, 2023). Various assignment 
+types, including essays and computer coding, are impacted differently by GenAI 
+(Fergus et al., 2023; Greiner et al., 2023; Guo & Wang, 2023; Naidu & Sevnarayan, 
+2023; Ouh et  al., 2023; Smolansky et  al., 2023). For example, Chaudhry and col-
+leagues (2023) think that existing assessment tools (e.g., essays, problem-solving 
+questions and creative writing) are not adequate to confirm students’ learning 
+and performance. Therefore, it is essential to transform the traditional assessment 
+method. As ChatGPT does not pose any threat to knowledge-based assessments 
+conducted directly face-to-face on university campuses (Ali et al., 2024), Nikolic and 
+colleagues (2023) think teachers can use short-term solutions, oral presentation, in-
+person exams, projects, laboratory work, and other assessments that require creativ-
+ity and go beyond writing. Overall, the teachers’ assessment follows the institution’s 
+policies; therefore, institutions should clearly suggest how to assess student skills 
+that are needed for future workforces and also run relevant professional develop-
+ment activities.
+
+Discussion, implications and future research direction
+
+Implications for student learning
+
+Cultivate student self‑regulated learning skills
+The three opportunities—perceived unbiased feedback, immediate and diverse feedback, 
+and self-assessment—offered by GenAI in the reviewed articles encourage students to 
+study independently. To leverage GenAI opportunities, students need to develop strong 
+self-regulated learning skills, which include goal setting, self-monitoring, self-assess-
+ment, and adaptive learning strategies (Xia, et al., 2023; Xia, Chiu, Chai, Xie, 2023; Zim-
+merman, 2002). Educators can foster these skills by designing GenAI-enhanced curricula 
+that encourage exploration, critical thinking, and problem-solving. This involves creat-
+ing learning environments where students are guided to set their own learning objec-
+tives, monitor their progress with GenAI, and adjust their learning approaches based 
+on feedback (Hooshyar et al., 2020). Additionally, integrating GenAI tools that provide
+
+Page 14 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+personalized feedback and adaptive learning paths can help students become more 
+aware of their learning process and outcomes. As a result, the students are not only pre-
+pared to navigate the GenAI-driven educational landscape but are also equipped with 
+lifelong learning skills crucial in a rapidly changing world.
+
+Student responsible learning and integrity
+GenAI placed a big challenge on academic integrity in student learning and develop-
+ment (Chiu, 2024; Moorhouse et al., 2023; Gou & Wang, 2023). Students must use 
+GenAI tools ethically and responsibly, respecting intellectual property and recogniz-
+ing GenAI limitations. Educators should foster student critical thinking and analyti-
+cal skills, guiding them to scrutinize and cross-check GenAI-generated information. 
+These skills are vital for discerning the accuracy and relevance of information, ensur-
+ing that their learning is comprehensive and rooted in a deep disciplinary under-
+standing (Firat, 2023; Moorhouse et al., 2023). Besides, educators should view active 
+engagement in learning, setting personal goals, and using GenAI as a supplementary 
+tool as essential learning responsibilities of students. The students should realize the 
+importance of having a deep understanding of disciplinary knowledge when using 
+GenAI for meaningful and well-grounded learning.
+
+Implications for teacher instruction
+
+Professional development for teacher assessment and digital literacy
+The reviewed articles suggested that more diverse and innovative assessment is 
+needed, which poses new challenges in professional development for teacher literacy, 
+such as assessment, AI and digital literacy (Chan, 2023; Chiu et al., 2024). Teach-
+ers need to develop assessment literacy and the ability to set reasonable tasks. They 
+should also be capable of distinguishing between tasks completed by students and 
+those done by GenAI, i.e., AI literacy (Chan, 2023). Additionally, providing timely 
+feedback and assigning fair and reasonable grades to students is essential. Besides, 
+teachers must commit to continuous professional development of AI literacy to stay 
+abreast of evolving GenAI technologies and their applications in education (Chan, 
+2023). This includes acquiring knowledge about the latest GenAI tools, understand-
+ing their pedagogical implications, and learning how to integrate these technologies 
+effectively into the curriculum 2024.
+
+Teacher innovative and holistic teaching that is driven by assessment
+Assessment drives teaching, i.e., how to assess is associated with how to teach. The 
+reviewed articles suggested that assessment in GenAI-based learning should cater to 
+holistic (both generic skills and disciplinary knowledge) and innovative teaching (Heene-
+man et al., 2015; Popham, 2009). Contemporary assessments prioritize student higher-
+order thinking. Thus, critical thinking, creativity, and problem-solving, as well as AI and 
+digital literacy, should be explicitly incorporated into the learning outcomes of course 
+designs (Chan, 2023; Firat, 2023). For example, instead of reducing reliance on rote 
+and repetitive memorization, enhancing students’ understanding of concepts and the
+
+Page 15 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+development of higher-order skills are recommended. Teachers can get some new teach-
+ing ideas and revise their teaching strategies to fit the needs of students, e.g., what they 
+need for their careers. In summary, the advent of GenAI requires teachers to adapt their 
+instructional strategies to align with diverse assessment methods and address the various 
+learning needs of students.
+
+Teacher belief about human and AI assessment
+While ChatGPT is powerful, teachers should have a strong belief that they cannot 
+be replaced by GenAI in many aspects. For assessment, teachers need to understand 
+what GenAI can and cannot offer in assessment, moving from human-centered and 
+machine-centered methods to mixed methods, thereby altering traditional assessment 
+modes (Naidu & Sevnarayan, 2023). Teachers also need to acknowledge the importance 
+of AI and digital literacy for themselves and their students, understanding that profi-
+ciency in AI and digital tools is crucial for contemporary education and society. This 
+includes responsible and ethical AI use in classrooms. Despite the advancements of AI, 
+teachers should believe that human judgment and critical thinking remain irreplace-
+able, emphasizing the teachers’ role in guiding students, especially amidst abundant 
+AI-generated content. They should also recognize the need for lifelong learning and 
+continuous professional development to stay abreast of technological changes, adapting 
+their skills and strategies accordingly.
+
+Implications for institutional policy
+
+Assessment polices
+As GenAI is here to stay and its usage for learning becomes more popular, higher edu-
+cation institutions need to rethink their assessment policies. This is supported by the 
+three aspects: redesigning assessment policies, new literacy and professional devel-
+opment for teachers, shifting educational focus, and rethinking learning objectives. 
+Gorichanaz (2023) suggests that GenAI requires a significant evolution of traditional 
+assessment methods, as its content-generating capabilities may diminish the effective-
+ness of standard exams and assignments (Chiu et al., 2023). This evolution calls for a 
+shift in educational focus, along with a re-evaluation of learning objectives and assess-
+ment policies, to stay aligned with the evolving AI-integrated educational landscape. 
+The institutions can lead this educational revolution by revising their assessment poli-
+cies. For example, they could advocate (i) more diverse assessment methods that extend 
+beyond traditional exams and written assignments; (ii) new focused learning outcomes 
+that address student needs for careers; and (iii) innovative teaching with GenAI that 
+better fosters generic skills.
+
+Interdisciplinary programme
+The reviewed articles suggested that the adoption of GenAI led to shifting educa-
+tional focus, rethinking learning objectives, more interdisciplinary assessment, and 
+disrupting traditional assessment methods. Therefore, higher education institutions 
+should consider implementing more interdisciplinary programs that emphasize
+
+Page 16 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+curricula and pedagogical changes aimed at whole-person development. Such pro-
+grams should not only impart knowledge but also focus on developing personality 
+traits like grit and perseverance (Chiu, 2023). The advocacy for interdisciplinary 
+learning and assessment underlines the need to disrupt traditional assessment meth-
+ods. The institutions can encourage a more holistic form of education, integrating 
+various disciplines to provide students with a more comprehensive understanding 
+and skill set. For example, they can offer specialized funding that is exclusively avail-
+able to interdisciplinary programs. This approach would incentivize cooperation 
+across different fields, encouraging a more integrated and collaborative educational 
+environment. This shift is crucial in preparing students to navigate and excel in an 
+increasingly complex and interconnected world.
+
+Future research direction
+
+More future studies on diverse and innovative assessment are needed
+As discussed, various assessment methods, such as face-to-face tests, oral exams, 
+and non-written tasks, can be employed to mitigate the impact of GenAI in academic 
+assessments. However, there is still a need for a comprehensive assessment strategy 
+tailored to different disciplines in higher education. Future research should focus on 
+developing a precise assessment policy to standardize these methods. This standard-
+ized policy would ensure consistency and fairness across different fields of study while 
+effectively addressing the challenges posed by advanced GenAI technologies in educa-
+tional assessments.
+
+More interdisciplinary assessment approaches
+Future research should indeed emphasize more interdisciplinary assessment 
+approaches. This direction is essential in preparing students for the increasingly 
+interconnected and complex challenges of the modern world. Interdisciplinary 
+assessments encourage a broader understanding, integrate knowledge from various 
+fields, and foster critical thinking and problem-solving skills that are vital in today’s 
+diverse and dynamic environments. By focusing on these approaches, research can 
+contribute significantly to the development of educational strategies that reflect real-
+world demands and prepare students for successful, adaptable careers in a rapidly 
+evolving global landscape.
+
+AI literacy for students and teachers
+AI literacy equips both students and teachers with an understanding of AI technol-
+ogies, their capabilities, and their limitations. This knowledge is essential not only 
+for using AI tools effectively, but also for leveraging these tools in various fields of 
+study and research. Institutions should conduct surveys or studies to assess the cur-
+rent level of AI literacy among students and teachers. This can help identify gaps in 
+knowledge and areas that need more focus. Explore how AI literacy can be embedded 
+in various academic disciplines, not just computer science. This includes how AI can 
+be applied in the humanities, social sciences, arts, and other fields. More studies are
+
+Page 17 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+needed to understand what AI literacy is for the students and teachers, and how to 
+effectively assess the literacy.
+
+Teacher assessment literacy
+In future educational research, focusing on teachers’ assessment literacy is crucial. 
+This encompasses understanding assessment purposes, designing effective strate-
+gies, and interpreting results accurately. With the integration of AI in education, 
+enhancing teacher assessment literacy is vital for maintaining educational quality and 
+impacting student outcomes. Research should explore how to design effective contin-
+uous professional development activities for higher education teachers. We suggest 
+research on the design should emphasize evidence-based approaches that are more 
+convincing.
+
+More student and industry voice
+Future research should focus on developing educational policies that actively incorpo-
+rate feedback from both students and industry professionals. This inclusive approach 
+is crucial for creating policies that are academically robust and aligned with the needs 
+from the real-world. Engaging students in the policy-making process ensures that their 
+diverse needs and learning experiences are addressed, leading to more student-centered 
+educational assessment systems. Similarly, input from industry experts can bridge the 
+gap between academic training and workforce requirements, making education more 
+relevant and practical. This comprehensive and participatory approach in policy devel-
+opment is essential for preparing students effectively for future challenges and opportu-
+nities in GenAI society.
+
+Conclusion and limitations
+Thirty-two articles over the past five years in ERIC, Web of Science, and Scopus were 
+selected for review to provide evidence how GenAI transform assessment in higher 
+education. This scoping review used three levels - students, teachers and institutions 
+- to summarize how GenAI impacts assessment. Although the results of this review 
+are preliminary, they provide a different understanding of GenAI’s role in modern-
+izing and potentially revolutionizing the assessment landscape in higher education. 
+This review highlights valuable trends and proposes future research directions in 
+GenAI for both researchers and practitioners, but two limitations should be noted. 
+Firstly, as a scoping review, the study cannot provide specific recommendations. To 
+gain a better understanding of how GenAI impacts students, teachers, and institu-
+tions in higher education assessments, systematic reviews and meta-analyses are 
+advised once a larger body of related research is available. Secondly, some of the stud-
+ies reviewed discussed the application of GenAI in a general context without detail-
+ing specific technologies. Consequently, the findings related to the roles of GenAI in 
+this review may not be sufficiently detailed.
+
+Page 18 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Appendix 1
+Coding table
+
+ID
+Author
+Year
+Displine
+Region of 
+corresponding 
+author
+
+Key areas 
+of concern 
+and focus for 
+students
+
+Key areas 
+of concern 
+and focus for 
+teachers
+
+Key areas 
+of concern 
+and focus for 
+institutions
+
+1
+Fergus et al.
+2023
+Chemistry
+United Kingdom N/A
+T1
+I3
+
+I4
+
+T1
+T2.
+
+Canada
+S1
+S2
+S3
+
+2
+Rajabi et al.
+2023
+Computer 
+Science
+& Engineering 
+Sciences
+
+I3
+
+3
+Naidu & 
+Sevnarayan
+
+T3.
+T1
+T4
+
+2023
+Education
+South Africa
+S1
+S2
+S3
+S4
+
+4
+Guo & Wang
+2023
+English
+Hong Kong SAR, 
+China
+
+S2
+T3
+T5
+
+I1.
+I3.
+
+I3
+
+5
+Ouh et al.
+2023
+Computer 
+Science
+
+Singapore
+S4
+S1
+
+T3
+T5
+
+2023
+English
+Cyprus
+S4
+T3
+I1
+
+6
+Alexander 
+et al.
+
+7
+Yeadon et al.
+2023
+Physics
+United Kingdom S4
+T3
+I3
+
+I3
+
+8
+Smolansky 
+et al.
+
+2023
+Education
+USA
+S4
+T1
+T2.
+
+9
+Greiner et al.
+2023
+Education
+Germany
+S2
+T4
+I3
+
+10 Dai et al.
+2023
+Education
+Hong Kong SAR, 
+China
+
+S3
+S4
+
+T3
+I1
+I2
+
+11 Chan
+2023
+Education
+Hong Kong SAR, 
+China
+
+I2
+I5
+
+S4
+T3
+T6
+T2
+
+I1
+
+12 Cheung et al.
+2023
+Medicine
+Hong Kong SAR, 
+China
+
+S3
+T4
+T6
+
+13 Kang
+2023
+Education
+Korea
+S3
+S4
+
+T4
+I4
+I3
+
+Bangladesh
+S4
+T6
+I1
+
+14 Uhlig et al.
+2023
+Computer 
+Science
+
+15 Gorichanaz
+2023
+Education
+USA
+S4
+T1
+I4
+
+16 Geerling et al.
+2023
+Economics
+USA
+N/A
+T1
+I3
+
+I4
+
+17 Currie et al.
+2023
+Medicine
+Australia
+S3
+S4
+
+T1
+T4
+
+18 Firat
+2023
+Education
+Turkey
+S4
+T1
+I1
+
+19 Crawford et al. 2023
+Education
+Australia
+S4
+T1
+N/A
+
+2023
+Education
+USA
+S4
+T4
+I3
+
+20 Overono & 
+Ditta
+
+21 Perkins
+2023
+Education
+Vietnam
+S4
+T4
+I3
+
+22 Chaudhry 
+et al.
+
+2023
+Education
+United Arab 
+Emirates
+
+S4
+T4
+I5
+I3
+
+N/A
+
+23 Stutz et al.
+2023
+geography
+Austria
+S4
+T3
+T6
+T2
+T4
+
+24 Nikolic et al.
+2023
+engineering 
+education
+
+Australia
+S4
+T4
+I1
+I2
+I3
+
+South Africa
+N/A
+T2
+N/A
+
+25 Howell & 
+Potgieter
+
+2023
+telecommuni-
+cations
+
+Page 19 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+ID
+Author
+Year
+Displine
+Region of 
+corresponding 
+author
+
+Key areas 
+of concern 
+and focus for 
+students
+
+Key areas 
+of concern 
+and focus for 
+teachers
+
+Key areas 
+of concern 
+and focus for 
+institutions
+
+N/A
+
+26 Farazouli et al.
+2023
+Education
+Sweden
+N/A
+T6.
+T3
+
+27 Ali et al.
+2024
+Medicine
+Qatar
+S1
+T1
+I3
+
+28 Fuchs et al.
+2023b
+Medicine
+Switzerland
+S3
+T4
+N/A
+
+T5
+N/A
+
+29 Cross et al.
+2023
+Medicine
+USA
+S1
+S3
+
+I4
+
+30 Morjaria et al.
+2023
+Medicine
+Canada
+N/A
+T5
+T4
+
+2023
+N/A
+Turkey
+S4
+N/A
+I1
+
+31 Adeshola & 
+Adepoju
+
+Australia
+S4
+T3
+I1
+
+32 Elsayed
+2023
+Computer 
+Science
+
+Legend of coding table
+
+RQ
+Code Topic
+Example
+
+1
+Key areas of concern and focus 
+for students
+
+S1
+S2
+S3
+S4
+
+Immediate and diverse feed-
+back (5 times)
+Perceived unbiased feedback 
+(4)
+Self-assessment (8)
+Student academic integrity 
+(20)
+
+Students get answers when 
+needed; students can receive 
+different answers from ChatGPT.
+Students feel fairness; their feed-
+back differs from other students’, 
+and they don’t know the reason 
+for the feedback discrepancy.
+ChatGPT can be used for self-
+assessment by students.
+Students may copy answers 
+from ChatGPT.
+
+2
+Key areas of concern and focus 
+for teachers
+
+T1
+T2
+T3
+T4
+T5
+T6
+
+More diverse and innovative 
+assessment (10)
+Possible poor student develop-
+ment of essential skills (5)
+Teachers Assessment Literacy 
+(10)
+Balancing GenAI and Human 
+assessment (12)
+Teacher beliefs about assess-
+ment (4)
+Assessment driven teaching (5)
+
+Teachers need different assess-
+ment so that students can’s rely 
+on ChatGPT.
+Poor students can get higher 
+score with ChatGPT, so teachers 
+can’t find poor students.
+Teacher should know the 
+significance and new method of 
+assessment.
+Combine teachers’ and 
+mashine’s assessment.
+Teachers should play a role in 
+evaluating machine feedback.
+Assessment acts as a driving 
+force in teaching and learning.
+
+3
+Key areas of concern and focus 
+for institutions
+
+I1
+I2
+I3
+I4
+I5
+
+New Literacy and Professional 
+Development (9)
+Shifting Educational Focus and 
+Rethinking learning objec-
+tives (3)
+Disrupting traditional assess-
+ment methods (14)
+Redesigning assessment poli-
+cies (5)
+More interdisciplinary assess-
+ment (2)
+
+Institutions should improve stu-
+dents’ and teachers’ AI literacy
+Institutions should focus on 
+holistic education.
+The traditional test GenAI can 
+pass, so it must be changed to 
+evaluation.
+Reformulate evaluation policies.
+Policies related to AI and educa-
+tion should be crafted through 
+the synergy of various discipline
+
+Page 20 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Acknowledgements
+Not applicable.
+
+Authors’ contributions
+Q.X.: Conceptualization, Methodology, Formal analysis, Validation, Writing - Original Draft, Writing - Review & Editing. X.W.: 
+Formal analysis, Validation., Writing - Review & Editing. F.O.: Validation., Writing - Review & Editing. T.L.: Validation, Writing 
+- Review & Editing. T.K.F.C.: Funding acquisition, Conceptualization, Methodology, Formal analysis, Validation, Writing - 
+Original Draft, Writing - Review & Editing, Supervision.
+
+Funding
+This is supported by Research Excellence Award, The Chinese University of Hong Kong.
+
+Availability of data and materials
+There are no human data involved in this review. The articles selected for this review are accessible in the databases 
+stated in the method.
+
+Declarations
+
+Competing interests
+The authors declare that they have no known competing financial interests or personal relationships that could have 
+appeared to influence the work reported in this paper.
+
+Received: 21 January 2024   Accepted: 19 April 2024
+
+References
+Adeshola, I., & Adepoju, A. P. (2023). The opportunities and challenges of ChatGPT in education. Interactive Learning
+
+Environments. https://​doi.​org/​10.​1080/​10494​820.​2023.​22538​58
+Alexander, K., Savvidou, C., & Alexander, C. (2023). WHO WROTE THIS ESSAY? DETECTING AI-GENERATED WRITING in SEC-
+
+OND LANGUAGE EDUCATION in HIGHER EDUCATION. Teaching English with Technology, 23(2), 25–43. https://​doi.​org/​
+10.​56297/​BUKA4​060/​XHLD5​365
+Ali, K., Barhom, N., Tamimi, F., & Duggal, M. (2024). ChatGPT—A double‐edged sword for healthcare education? Implica-
+
+tions for assessments of dental students. European Journal of Dental Education, 28(1), 206-211. https://​doi.​org/​10.​
+1111/​eje.​12937
+Al-Zahrani, A. M. (2023). The impact of generative AI tools on researchers and research: Implications for academia in
+
+higher education. Innovations in Education and Teaching International. https://​doi.​org/​10.​1080/​14703​297.​2023.​22714​
+45
+Barrett, A., & Pack, A. (2023). Not quite eye to A.I.: Student and teacher perspectives on the use of generative artificial
+
+intelligence in the writing process. International Journal of Educational Technology in Higher Education, 20(1), 59. 
+https://​doi.​org/​10.​1186/​s41239-​023-​00427-0
+Broadbent, J. (2017). Large class teaching: How does one go about the task of moderating large volumes of assessment?
+
+Active Learning in Higher Education, 19(2), 173–185. https://​doi.​org/​10.​1177/​14697​87417​721360
+Chan, C. K. Y. (2023). A comprehensive AI policy education framework for university teaching and learning. International
+
+Journal of Educational Technology in Higher Education, 20(1). https://​doi.​org/​10.​1186/​s41239-​023-​00408-3. Article 38.
+Chaudhry, I. S., Sarwary, S. A. M., Refae, E., G. A., & Chabchoub, H. (2023). Time to revisit existing Student’s performance
+
+evaluation Approach in Higher Education Sector in a new era of ChatGPT — A Case Study. Cogent Education, 10(1). 
+https://​doi.​org/​10.​1080/​23311​86X.​2023.​22104​61
+Chen, L., Chen, P., & Lin, Z. (2020). Artificial Intelligence in Education: A review. Ieee Access : Practical Innovations, Open Solu-
+
+tions, 8, 75264–75278. https://​doi.​org/​10.​1109/​ACCESS.​2020.​29885​10
+Cheung, B. H. H., Lau, G. K. K., Wong, G. T. C., Lee, E. Y. P., Kulkarni, D., Seow, C. S., Wong, R., & Co, M. T.-H. (2023). ChatGPT
+
+versus human in generating medical graduate exam multiple choice questions-A multinational prospective study 
+(Hong Kong SAR, Singapore, Ireland, and the United Kingdom). PLoS ONE, 18(8), Article e0290691. https://​doi.​org/​10.​
+1371/​journ​al.​pone.​02906​91
+Chiu, T. K. F. (2023). The impact of Generative AI (GenAI) on practices, policies and research direction in education: A case
+
+of ChatGPT and Midjourney, Interactive Learning Environments. https://​doi.​org/​10.​1080/​10494​820.​2023.​22538​61 
+Chiu T. K. F. (2024). Future research recommendations for transforming higher education with Generative AI, Computer &
+
+Education: Artificial Intelligence, 6, 100197, https://​doi.​org/​10.​1016/j.​caeai.​2023.​100197
+Chiu, T. K. F., Xia, Q., Zhou, X-Y, Chai, C. S., & Cheng, M-T (2023). Systematic literature review on opportunities, challenges,
+
+and future research recommendations of artificial intelligence in education, Computer & Education: Artificial Intel-
+ligence, 4, 100118. https://​doi.​org/​10.​1016/j.​caeai.​2022.​100118
+Chiu, T. K. F., Falloon, G., Song, Y.J., Wong, V. W. L., Zhao, Li, & Ismailov, M., A (2024) A Self-determination Theory Approach
+
+to Teacher Digital Competence Development, Computers & Education, 24, 105017. https://​doi.​org/​10.​1016/j.​compe​
+du.​2024.​105017 
+Crawford, J., Cowling, M., & Allen, K. A. (2023). Leadership is needed for ethical ChatGPT: Character, assessment, and
+
+learning using artificial intelligence (AI). Journal of University Teaching and Learning Practice, 20(3). https://​doi.​org/​10.​
+53761/1.​20.3.​02
+
+Page 21 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+Cross, J., Robinson, R., Devaraju, S., Vaughans, A., Hood, R., Kayalackakom, T., ... & Robinson, R. E. (2023). Transforming medi-
+
+cal education: assessing the integration of ChatGPT into faculty workflows at a Caribbean medical school. Cureus, 
+15(7). https://​doi.​org/​10.​7759/​cureus.​41399
+Currie, G., Singh, C., Nelson, T., Nabasenja, C., Al-Hayek, Y., & Spuur, K. (2023). ChatGPT in medical imaging higher educa-
+
+tion. Radiography, 29(4), 792–799. https://​doi.​org/​10.​1016/j.​radi.​2023.​05.​011
+Dai, Y., Liu, A., & Lim, C. P. (2023). Reconceptualizing ChatGPT and generative AI as a student-driven innovation in higher
+
+education. Procedia CIRP, https://​www.​scien​cedir​ect.​com/​scien​ce/​artic​le/​pii/​S2212​82712​30044​07?​via%​3Dihub
+Elsayed, S. (2023). Towards Mitigating ChatGPT’s Negative Impact on Education: Optimizing Question Design Through Bloom’s
+
+Taxonomy. https://​doi.​org/​10.​1109/​tensy​mp558​90.​2023.​10223​662
+Farazouli, A., Cerratto-Pargman, T., Bolander-Laksov, K., & McGrath, C. (2023). Hello GPT! Goodbye home examination? An
+
+exploratory study of AI chatbots impact on university teachers’ assessment practices. Assessment and Evaluation in 
+Higher Education. https://​doi.​org/​10.​1080/​02602​938.​2023.​22416​76
+Fergus, S., Botha, M., & Ostovar, M. (2023). Evaluating academic answers generated using ChatGPT. Journal of Chemical
+
+Education, 100(4), 1672–1675. https://​doi.​org/​10.​1021/​acs.​jchem​ed.​3c000​87
+Firat, M. (2023). What ChatGPT means for universities: Perceptions of scholars and students. Journal of Applied Learning
+
+and Teaching, 6(1), 57–63. https://​doi.​org/​10.​37074/​jalt.​2023.6.​1.​22
+Fuchs, A., Trachsel, T., Weiger, R., & Eggmann, F. (2023). ChatGPT’s performance in dentistry and allergy-immunology
+
+assessments: a comparative study. Swiss dental journal, 134(5). ://MEDLINE:37799027.
+Geerling, W., Mateer, G. D., Wooten, J., & Damodaran, N. (2023). ChatGPT has aced the test of understanding in College
+
+Economics: Now what? American Economist, 68(2), 233–245. https://​doi.​org/​10.​1177/​05694​34523​11696​54
+Gorichanaz, T. (2023). Accused: How students respond to allegations of using ChatGPT on assessments. Learning:
+
+Research and Practice. https://​doi.​org/​10.​1080/​23735​082.​2023.​22547​87
+Greiner, C., Peisl, T. C., Höpfl, F., & Beese, O. (2023). Acceptance of AI in semi-structured decision-making situations
+
+applying the four-sides model of Communication—An empirical analysis focused on higher education. Education 
+Sciences, 13(9), Article865. https://​doi.​org/​10.​3390/​educs​ci130​90865
+Guo, K., & Wang, D. (2023). To resist it or to embrace it? Examining ChatGPT’s potential to support teacher feedback in EFL
+
+writing. Education and Information Technologies. https://​doi.​org/​10.​1007/​s10639-​023-​12146-0
+Heeneman, S., Oudkerk Pool, A., Schuwirth, L. W., van der Vleuten, C. P., & Driessen, E. W. (2015). The impact of program-
+
+matic assessment on student learning: theory versus practice. Medical education, 49(5), 487-498. https://​doi.​org/​10.​
+1111/​medu.​12645
+Hooshyar, D., Pedaste, M., Saks, K., Leijen, Ä., Bardone, E., & Wang, M. (2020). Open learner models in supporting self-
+
+regulated learning in higher education: A systematic literature review. Computers & Education, 154, 103878. https://​
+doi.​org/​10.​1016/j.​compe​du.​2020.​103878
+Howell, B. E., & Potgieter, P. H. (2023). What do telecommunications policy academics have to fear from GPT-3? Telecom-
+
+munications Policy. https://​doi.​org/​10.​1016/j.​telpol.​2023.​102576. Article 102576.
+Kang, D. (2023). Open Book exams and flexible Grading Systems: Post-COVID University policies from a student perspec-
+
+tive. Behavioral Sciences, 13(7). https://​doi.​org/​10.​3390/​bs130​70607
+Knight, G. L., & Drysdale, T. D. (2020). The future of higher education (HE) hangs on innovating our assessment – but are
+
+we ready, willing and able? HIGHER EDUCATION PEDAGOGIES, 5(1), 57–60. https://​doi.​org/​10.​1080/​23752​696.​2020.​
+17716​10
+Moorhouse, B. L., Yeo, M. A., & Wan, Y. W. (2023). Generative AI tools and assessment: Guidelines of the world’s top-ranking
+
+universities. Computers and Education Open, 5, 100151. https://​doi.​org/​10.​1016/j.​caeo.​2023.​100151
+Morjaria, L., Burns, L., Bracken, K., Ngo, Q. N., Lee, M., Levinson, A. J., Smith, J., Thompson, P., & Sibbald, M. (2023). Examin-
+
+ing the threat of ChatGPT to the validity of short answer assessments in an Undergraduate Medical Program. 
+Journal of Medical Education and Curricular Development, 10. https://​doi.​org/​10.​1177/​23821​20523​12041​78. Article 
+23821205231204178.
+Munn, Z., Peters, M. D., Stern, C., Tufanaru, C., McArthur, A., & Aromataris, E. (2018). Systematic review or scoping review?
+
+Guidance for authors when choosing between a systematic or scoping review approach. BMC medical research 
+methodology, 18, 1-7. https://​doi.​org/​10.​1186/​s12874-​018-​0611-x
+Naidu, K., & Sevnarayan, K. (2023). ChatGPT: An ever-increasing encroachment of artificial intelligence in online assess-
+
+ment in distance education. Online Journal of Communication and Media Technologies, 13(3). https://​doi.​org/​10.​
+30935/​ojcmt/​13291. Article e202336.
+Nikolic, S., Daniel, S., Haque, R., Belkina, M., Hassan, G. M., Grundy, S., Lyden, S., Neal, P., & Sandison, C. (2023). ChatGPT
+
+versus engineering education assessment: A multidisciplinary and multi-institutional benchmarking and analysis of 
+this generative artificial intelligence tool to investigate assessment integrity. European Journal of Engineering Educa-
+tion, 48(4), 559–614. https://​doi.​org/​10.​1080/​03043​797.​2023.​22131​69
+Ouh, E. L., Gan, B. K. S., Shim, J., K., & Wlodkowski, S. (2023). ChatGPT, Can You Generate Solutions for my Coding Exercises?
+
+An Evaluation on its Effectiveness in an undergraduate Java Programming Course. Annual Conference on Innova-
+tion and Technology in Computer Science Education, ITiCSE, https://​doi.​org/​10.​1145/​35871​02.​35887​94
+Overono, A. L., & Ditta, A. S. (2023). The rise of Artificial Intelligence: A Clarion Call for Higher Education to Redefine Learn-
+
+ing and Reimagine Assessment. College Teaching. https://​doi.​org/​10.​1080/​87567​555.​2023.​22336​53
+Penny, A. R., & Coe, R. (2004). Effectiveness of Consultation on student ratings feedback: A Meta-analysis. Review of Educa-
+
+tional Research, 74(2), 215–253. https://​doi.​org/​10.​3102/​00346​54307​40022​15
+Perera, P., & Lankathilake, M. (2023). Preparing to Revolutionize Education with the Multi-model GenAI Tool Google
+
+Gemini? A journey towards effective policy making. Journal of Advances in Education and Philosophy.
+Perkins, M. (2023). Academic Integrity considerations of AI large Language models in the post-pandemic era: ChatGPT
+
+and beyond. Journal of University Teaching and Learning Practice, 20(2). https://​doi.​org/​10.​53761/1.​20.​02.​07. Article 7.
+Popham, W. J. (2009). Assessment literacy for teachers: Faddish or fundamental?. Theory into practice, 48(1), 4-11. https://​
+
+doi.​org/​10.​1080/​00405​84080​25775​36
+Rajabi, P., Taghipour, P., Cukierman, D., & Doleck, T. (2023). Exploring ChatGPT’s impact on post-secondary education: A
+
+qualitative study. ACM International Conference Proceeding Series, https://​www.​scopus.​com/​inward/​record.​uri?​
+
+Page 22 of 22
+Xia et al. Int J Educ Technol High Educ           (2024) 21:40
+
+eid=2-​s2.0-​85169​10719​2&​doi=​10.​1145%​2f359​3342.​35933​60&​partn​erID=​40&​md5=​68d30​cdb59​2617e​fa71c​b57b0​
+9d93d​fe
+Smolansky, A., Cram, A., Raduescu, C., Zeivots, S., Huber, E., & Kizilcec, R. F. (2023). Educator and Student Perspectives on
+
+the Impact of Generative AI on Assessments in Higher Education. L@S 2023 - Proceedings of the 10th ACM Confer-
+ence on Learning @ Scale, https://​www.​scopus.​com/​inward/​record.​uri?​eid=2-​s2.0-​85167​87091​7&​doi=​10.​1145%​
+2f357​3051.​35961​91&​partn​erID=​40&​md5=​9dca2​5ba9d​c863a​ce544​f5bf3​774ef​4b
+Stutz, P., Elixhauser, M., Grubinger-Preiner, J., Linner, V., Reibersdorfer-Adelsberger, E., Traun, C., Wallentin, G., Wöhs, K., &
+
+Zuberbühler, T. (2023). Ch(e)atGPT? An Anecdotal Approach addressing the impact of ChatGPT on Teaching and 
+Learning GIScience. GI_Forum, 11(1), 140–147. https://​doi.​org/​10.​1553/​gisci​ence2​023_​01_​s140
+Tricco, A. C., Lillie, E., Zarin, W., O’Brien, K. K., Colquhoun, H., Levac, D., ... & Straus, S. E. (2018). PRISMA extension for scoping
+
+reviews (PRISMA-ScR): checklist and explanation. Annals of internal medicine, 169(7), 467-473. https://​doi.​org/​10.​
+7326/​M18-​0850
+Uhlig, R. P., Jawad, S., Sinha, B., Dey, P. P., & Amin, M. N. (2023, June). Student Use of Artificial Intelligence to Write Techni-
+
+cal Engineering Papers–Cheating or a Tool to Augment Learning. In 2023 ASEE Annual Conference & Exposition. 
+https://​doi.​org/​10.​18260/1-​2--​44330
+Xia Q., Chiu T. K. F., Chai, C. S., & Xie K. (2023). The mediating effects of needs satisfaction on the relationships between
+
+prior knowledge and self-regulated learning through artificial intelligence chatbot, British Journal of Educational 
+Technology, 54(4), 967-986. https://​doi.​org/​10.​1111/​bjet.​13305
+Xia Q., & Chiu T. K. F., & Chai, C. S. (2023). The moderating effects of gender and need satisfaction on self-regulated learn-
+
+ing through Artificial Intelligence (AI). Education and Information Technologies, 28, 8691-8713. https://​doi.​org/​10.​
+1007/​s10639-​022-​11547-x
+Yeadon, W., Inyang, O. O., Mizouri, A., Peach, A., & Testrow, C. P. (2023). The death of the short-form physics essay in the
+
+coming AI revolution. Physics Education, 58(3). https://​doi.​org/​10.​1088/​1361-​6552/​acc5cf
+Zhang, K., & Aslan, A. B. (2021). AI technologies for education: Recent research & future directions. Computers and Educa-
+
+tion: Artificial Intelligence, 2, 100025. https://​doi.​org/​10.​1016/j.​caeai.​2021.​100025
+Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory into Practice, 41(2), 64–70. https://​doi.​
+
+org/​10.​1207/​s1543​0421t​ip4102_2
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

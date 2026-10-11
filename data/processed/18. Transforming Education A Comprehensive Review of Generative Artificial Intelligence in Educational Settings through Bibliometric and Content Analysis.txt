@@ -1,0 +1,3102 @@
+sustainability
+
+Review
+Transforming Education: A Comprehensive Review of
+
+Generative Artiﬁcial Intelligence in Educational Settings
+through Bibliometric and Content Analysis
+
+Zied Bahroun 1,*
+, Chiraz Anane 2, Vian Ahmed 1
+and Andrew Zacca 1
+
+1
+Department of Industrial Engineering, College of Engineering, American University of Sharjah,
+Sharjah P.O. Box 26666, United Arab Emirates; vahmed@aus.edu (V.A.); b00084411@aus.edu (A.Z.)
+2
+Department of Foreign Languages, College of Arts, Humanities and Social Sciences, University of Sharjah,
+Sharjah P.O. Box 27272, United Arab Emirates; canane@sharjah.ac.ae
+*
+Correspondence: zbahroun@aus.edu
+
+Citation: Bahroun, Z.; Anane, C.;
+
+Ahmed, V.; Zacca, A. Transforming
+
+Education: A Comprehensive Review
+
+of Generative Artiﬁcial Intelligence in
+
+Educational Settings through
+
+Abstract: In the ever-evolving era of technological advancements, generative artiﬁcial intelligence
+(GAI) emerges as a transformative force, revolutionizing education. This review paper, guided by
+the PRISMA framework, presents a comprehensive analysis of GAI in education, synthesizing key
+insights from a selection of 207 research papers to identify research gaps and future directions in
+the ﬁeld. This study begins with a content analysis that explores GAI’s transformative impact in
+speciﬁc educational domains, including medical education and engineering education. The versatile
+applications of GAI encompass assessment, personalized learning support, and intelligent tutoring
+systems. Ethical considerations, interdisciplinary collaboration, and responsible technology use are
+highlighted, emphasizing the need for transparent GAI models and addressing biases. Subsequently, a
+bibliometric analysis of GAI in education is conducted, examining prominent AI tools, research focus,
+geographic distribution, and interdisciplinary collaboration. ChatGPT emerges as a dominant GAI
+tool, and the analysis reveals signiﬁcant and exponential growth in GAI research in 2023. Moreover,
+this paper identiﬁes promising future research directions, such as GAI-enhanced curriculum design
+and longitudinal studies tracking its long-term impact on learning outcomes. These ﬁndings provide
+a comprehensive understanding of GAI’s potential in reshaping education and offer valuable insights
+to researchers, educators, and policymakers interested in the intersection of GAI and education.
+
+Bibliometric and Content Analysis.
+
+Sustainability 2023, 15, 12983.
+
+https://doi.org/10.3390/
+
+Keywords: education; generative artiﬁcial intelligence; educational technology; ChatGPT; ethics;
+review
+
+su151712983
+
+Academic Editors: Savvas A.
+
+Chatzichristoﬁs, Hao-Chiang
+
+Koong Lin, Jian-Hong Ye,
+
+1. Introduction
+
+Yung-Wei Hao and Yu-Feng Wu
+
+Received: 1 August 2023
+
+Revised: 17 August 2023
+
+Accepted: 17 August 2023
+
+Published: 29 August 2023
+
+Copyright:
+© 2023 by the authors.
+
+Licensee MDPI, Basel, Switzerland.
+
+This article is an open access article
+
+In an era where technological advancements are redeﬁning human existence, there is
+one revolutionary force that stands out among the rest: artiﬁcial intelligence (AI). AI has
+permeated every corner of our lives, quietly and profoundly transforming the way we work,
+communicate, and navigate the world. The rise of AI was sparked in November 2022, when
+U.S. company OpenAI (San Francisco, CA, USA) released ChatGPT [1], an AI program
+that draws upon a large language database to generate responses from text-based inputs
+entered by humans [2]. Since its launch, it has skyrocketed in popularity, becoming one of
+the fastest-growing consumer applications ever with an estimated 100 million active users
+every month [3]. Following the successful release of ChatGPT, other tech companies have
+come out with their own AI-powered products, such as Google’s Bard [4] and GitHub’s
+Copilot [5].
+
+distributed
+under
+the
+terms
+and
+
+conditions of the Creative Commons
+
+Attribution (CC BY) license (https://
+
+creativecommons.org/licenses/by/
+
+AI has infused various domains of our lives, revolutionizing industries such as ﬁnance,
+education, engineering, healthcare, and many more. According to Hadi et al. [6], AI has
+transformed practices in the ﬁnancial sector, such as algorithmic trading, market prediction,
+and ﬁnancial reporting. Hadi et al. [6] further argue that education has seen the integration
+
+4.0/).
+
+Sustainability 2023, 15, 12983. https://doi.org/10.3390/su151712983
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2023, 15, 12983
+2 of 40
+
+of AI in automated essay grading, intelligent tutoring systems, and personalized learning.
+In engineering, AI drives advancements in code generation, software testing, and document
+generation. In addition, in the healthcare sector, AI assists in radiologic decision-making,
+patient care, and medical education. These various use cases demonstrate the extensive
+reach and transformative power that AI can deliver across these diverse domains.
+
+More notably, the ﬁeld of education is experiencing a transformative revolution, driven
+by the emergence of GAI. According to Baidoo-Anu and Owusu Ansah [7], GAI is an unsu-
+pervised or partially supervised machine learning framework that seamlessly generates
+artiﬁcial creations by analyzing existing digital content like videos, images/graphics, text,
+and audio. The impact of GAI has been felt across a diverse range of educational ﬁelds.
+In education, GAI ﬁnds versatile applications in assessment and evaluation, student per-
+formance prediction, intelligent tutoring systems, and learning management [8]. In the
+medical ﬁeld, the application of GAI, such as ChatGPT, extends to medical education,
+where it offers realistic case scenarios and instantaneous feedback to medical students on
+their diagnostic and treatment decisions [9]. Moreover, GAI proves instrumental in provid-
+ing simpliﬁed explanations of complex medical and pharmaceutical concepts, facilitating
+students’ understanding [9,10]. In the ﬁeld of computer science, AI tools demonstrate
+tremendous potential in coding education, as evidenced by GPT-3’s ability to generate
+diverse code explanations [11].
+
+AI’s impact has triggered a wide array of discussions encompassing diverse topics,
+ranging from its potential in transforming learning and teaching methods [12] to its role
+in aiding research endeavors and to the crucial considerations of ethics and academic
+integrity in its implementation [13]. In the domain of teaching, GAI showcases promising
+opportunities for lesson planning, personalized learning support, rapid assessment and
+evaluation, and addressing learners’ queries [12]. Furthermore, Markel et al. [14] have
+introduced a novel AI tool called “GPTeach”, which is speciﬁcally designed for teacher
+training, enabling aspiring educators to practice teaching with simulated students powered
+by GPT. As the transformative inﬂuence of AI in education continues to unfold, these
+discussions will undoubtedly shape the future of how we impart knowledge and foster
+learning in an ever-evolving educational landscape.
+
+This transformative technology has opened up new avenues for personalized instruc-
+tion, enhanced feedback, and tailored learning experiences, ultimately paving the way for
+a more efﬁcient, inclusive, and engaging educational environment. GAI is reshaping the
+way we teach and learn by offering innovative solutions to longstanding challenges and
+opening up new possibilities for improving educational experiences for learners of all ages.
+As GAI continues to advance, it is crucial to investigate its applications, implications, and
+the challenges it poses to further explore its role in shaping the future of education.
+
+The scope of this review encompasses a wide range of topics, delving into the ap-
+plications of GAI in various educational contexts, the tools and techniques utilized, the
+effectiveness of GAI in supporting teaching and learning, the impact on student outcomes,
+and the potential challenges and ethical considerations associated with its implementation.
+By examining multiple dimensions of GAI in education, this review aims to provide a
+holistic overview of the ﬁeld. This paper aims to analyze and consolidate a compilation
+of existing reviews on GAI in speciﬁc ﬁelds of education. By thoroughly examining a
+diverse range of papers in this domain, this study offers a comprehensive and in-depth
+understanding of the current state of research in this ﬁeld. Through synthesizing and
+summarizing key ﬁndings, methodologies, and recommendations from multiple papers,
+this study provides a valuable resource for researchers, educators, and policymakers who
+are keenly interested in exploring the transformative intersection of GAI and education.
+
+This review paper contributes to the ﬁeld in various ways. Firstly, it provides a compre-
+hensive overview of the current state of research on GAI in education, allowing researchers
+to identify the prevailing themes and research directions within the ﬁeld. Secondly, it
+synthesizes the ﬁndings and insights from multiple review papers, providing a holistic
+perspective on the effectiveness and potential of GAI in educational contexts. Additionally,
+
+Sustainability 2023, 15, 12983
+3 of 40
+
+this review identiﬁes research gaps and areas that require further investigation, guiding
+future research endeavors. The subsequent sections of this paper will, therefore, present
+the methodology employed in selecting and analyzing the research papers, followed by a
+comprehensive content analysis and synthesis of the ﬁndings and insights. Key themes,
+trends, and recommendations will be presented, allowing readers to gain a comprehensive
+understanding of the existing knowledge base. Subsequently, a comprehensive bibliometric
+analysis will be conducted, examining prominent AI tools, research focus, geographic
+distribution, and interdisciplinary collaboration in detail. Finally, this review will conclude
+by highlighting the implications of the synthesized ﬁndings and suggesting future research
+directions to advance the ﬁeld of GAI in education.
+
+2. Methodology
+
+The methodology employed in this research follows a systematic approach to gather
+and analyze literature concerning the integration of GAI in education. It involves four key
+steps, as described below:
+
+a.
+Literature retrieval—This step entails selecting appropriate search terms and key-
+words to comprehensively capture pertinent publications related to the intended
+topic representing the initial and pivotal phase of the data collection process. We
+retrieved a compilation of pre-existing articles and publications in the domain of
+GAI in education from the Scopus database. By utilizing a combination of the follow-
+ing keywords, “Education”, “GAI”, “Generative Artiﬁcial Intelligence”, “GPT-4”,
+“ChatGPT”, “AlphaCode”, “GitHub Copilot”, and “Bard”, the authors conducted a
+
+targeted search across titles, abstracts, and keyword ﬁelds. This process resulted in
+the enlistment of a total of 437 papers, spanning the years 2018 to 2023.
+b.
+Literature screening—The literature screening process for this study drew inspiration
+from the PRISMA statement, which is widely recognized as a rigorous and trans-
+parent approach for conducting systematic reviews and meta-analyses (Figure 1).
+PRISMA provides a structured framework to ensure the systematic identiﬁcation,
+selection, and evaluation of the relevant literature, promoting the reliability and
+reproducibility of the review process [15]. Initially, a total of 437 papers were re-
+trieved. Following the removal of duplicates, 312 papers remained. After observingly
+reviewing each publication, all articles that were deemed irrelevant to our research
+focus were discarded. We narrowed the list down to 217 reviews, papers, and publi-
+cations that spanned from the years 2018 to 2023. The chronological growth of the
+papers (in the context of the topic) in the above-mentioned spanned years is depicted
+in Figure 2.
+
+The ﬁgure above depicts a substantial number of papers available from our compiled
+list, speciﬁcally published in the year 2023. Notably, there is a signiﬁcant and exponential
+growth in the ﬁeld of GAI from 2018 to 2023, indicating a growing amount of research
+interest in the topic. This surge in research can be attributed to the recent emergence
+of popular GAI tools, such as ChatGPT, which have garnered considerable attention and
+sparked innovation within the education domain. The increasing research activity, therefore,
+suggests that GAI is perceived as a promising area for innovation in education and that
+researchers and educators are increasingly recognizing the potential beneﬁts of integrating
+AI technologies into educational settings.
+
+c.
+Content analysis—This step entails carefully studying a large amount of informa-
+tion, like research publications, and organizing it in a meaningful way. This helps
+researchers see common themes and patterns in the information. In this case, the
+content analysis focused on how GAI is being used in education. The methodology
+involved categorizing and classifying the research papers into different themes and
+sub-themes. This organization helps researchers understand the different ways GAI
+is impacting education, making it easier to draw conclusions and insights from the
+collected information.
+
+Sustainability 2023, 15, 12983
+4 of 40
+
+d.
+Bibliometric analysis—It serves the purpose of systematically evaluating academic
+literature, typically through analyzing citations and references in research papers. This
+methodology helps researchers understand the inﬂuence, trends, and relationships
+among different academic works. By examining patterns of citations, co-authorships,
+and keywords, bibliometric analysis allows for the identiﬁcation of key authors,
+inﬂuential papers, emerging areas of study, and collaborative networks within a
+particular ﬁeld. This approach aids researchers in gaining insights into the evolution
+of research topics, identifying leading scholars.
+
+Keywords used:
+
+Records identified through
+
+"Education", "GAI",
+
+Scopus database search: 437
+
+"Generative Artificial
+
+Intelligence", "GPT-4",
+
+"ChatGPT", "AlphaCode",
+
+"GitHub Copilot", "Bard” 
+Records 
+after 
+duplicates
+
+removed: 312 
+125 duplicate records
+
+removed
+
+Records after screening for
+
+relevance and assessing for
+
+95 records were excluded
+
+eligibility: 217
+
+due to ineligibility and lack
+
+Studies included in review:
+
+217
+
+Figure 1. Literature screening approach.
+
+Chronological Growth
+
+200
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+NUMBER OF PUBLICATIONS
+
+40
+
+20
+
+0
+
+2018
+2019
+2020
+2021
+2022
+2023
+
+YEAR
+
+Figure 2. The number of papers and publications in relation to GAI in education (2018–2023).
+
+Sustainability 2023, 15, 12983
+5 of 40
+
+The remaining part of this paper presents a content analysis and a bibliometric analysis
+while adhering to the methodological steps described in this section.
+
+3. Content Analysis
+
+The integration of GAI in education has become a subject of considerable interest,
+opening up new possibilities and challenges for educational practices. GAI models, such as
+ChatGPT, have been extensively explored across various academic disciplines, presenting
+transformative opportunities in teaching, learning, and research. This section seeks to
+provide a thorough content analysis of the use of GAI in education.
+
+3.1. Application of GAI in Computer Science
+
+This study explores a collection of research papers focusing on the intersection of GAI
+and computer science education and assesses various aspects of GAI technologies and their
+implications for teaching and learning programming concepts (Table 1).
+
+Table 1. The applications of GAI in computer science.
+
+Themes
+Authors
+Focus
+
+Jonsson and Tholander (2022) [16]
+
+Highlights the transformative potential of generative
+machine learning in creative programming education,
+fostering both programming proﬁciency and creativity
+through students’ exploration of the tool’s
+inconsistent behavior.
+
+Finnie-Ansley et al. (2022) [17]
+
+Investigates the performance and implications of Codex, a
+deep learning model, in introductory programming,
+showcasing its ability to outperform students in
+problem-solving while raising considerations for
+computing education.
+
+Implications and
+potential of GAI code
+
+generation tools in
+programming education
+
+MacNeil et al. (2022) [11]
+
+Explores the potential of large language models (LLMs) in
+providing explanations for programming concepts,
+contributing to the understanding of LLMs’ role in
+enhancing learning experiences.
+
+Denny et al. (2023) [18]
+
+Investigates Copilot, an AI-powered code generation tool,
+emphasizing its problem-solving capabilities and discussing
+prompt engineering as a means to enhance computational
+thinking skills.
+
+Kazemitabaar et al. (2023) [19]
+
+Demonstrates the positive inﬂuence of AI code generators,
+like OpenAI Codex, on novice programmers, highlighting
+improvements in performance, computational thinking
+skills, and motivation.
+
+Savelka et al. (2023) [20]
+
+Investigates the effectiveness of generative pre-trained
+transformer (GPT) models in answering code-related
+multiple-choice questions, highlighting the challenges faced
+by GPT models in code analysis and reasoning.
+
+Exploration and
+utilization of AI tools for
+programming education
+
+Wermelinger (2023) [21]
+
+Focuses on GitHub Copilot, an AI-powered programming
+assistant, evaluating its performance and limitations in code
+generation, explanation provision, test generation, and
+bug ﬁxing.
+
+Sustainability 2023, 15, 12983
+6 of 40
+
+Table 1. Cont.
+
+Themes
+Authors
+Focus
+
+Becker et al. (2023) [22]
+
+Emphasizes the need for collaborative efforts to explore the
+implications and effectiveness of AI-driven code generation
+tools in computing education, highlighting the importance
+of shaping their trajectory.
+
+Ethical considerations
+
+Jacques (2023) [23]
+
+and pedagogical
+approaches in AI
+
+education
+
+Challenges the notion that AI-generated coding tools render
+human programming obsolete, advocating for a
+reevaluation of teaching methods that foster
+problem-solving, critical thinking, and
+communication skills.
+
+Raji et al. (2021) [24]
+
+Delves into the ethical considerations in AI education and
+proposes a shift toward a collaborative and holistic
+pedagogy that bridges the gap between computer science
+and humanities and social sciences.
+
+Yilmaz and Yilmaz (2023) [25]
+
+Integration of AI
+
+Explores the incorporation of ChatGPT into programming
+education and highlights its positive impact on
+computational thinking skills, programming self-efﬁcacy,
+and student motivation.
+
+technologies in
+programming education
+
+Cortinas-Lorenzo and Lacey (2023) [26]
+
+Addresses the need for transparency and interpretability in
+affective computing systems, highlighting the challenges
+associated with multimodal data, context integration, and
+interaction capturing.
+
+The ﬁndings from the above publications reveal several key insights. Firstly, re-
+searchers highlight the transformative potential of generative machine learning in creative
+programming education, indicating that GAI can signiﬁcantly impact how programming
+concepts are taught and learned. Secondly, crucial considerations are raised regarding
+AI-generated code, pointing to the need for careful examination of the quality and relia-
+bility of code produced by AI systems. Moreover, the potential of large language models
+(LLMs) in providing explanations for programming concepts is showcased, suggesting
+that AI can enhance the understanding of complex programming principles. Additionally,
+practical insights are offered into the implications of AI-powered code generation tools,
+like Copilot, shedding light on the beneﬁts and challenges of using such technologies in
+educational settings.
+
+These ﬁndings, therefore, provide valuable insights into GAI in computer science
+education, highlighting a lack of in-depth exploration of drawbacks and ethical concerns.
+While the spotlight is often on the positive outcomes of AI-generated code, it is crucial to ac-
+knowledge the possible drawbacks, like an excessive dependence on automated coding and
+its potential to undermine students’ algorithmic comprehension. Furthermore, the studies
+focus on short-term improvements in performance and motivation without fully consid-
+ering long-term effects on problem-solving skills and holistic learning. Future research
+should, therefore, balance the positive and negative aspects of GAI integration, address-
+ing academic integrity, assessment challenges, and innovative methods for incorporating
+AI-generated code into programming curricula.
+
+3.2. Application of GAI in Engineering Education
+
+This section delves into a collection of research papers that explore the impact of GAI
+in various disciplines within engineering education. The papers are, therefore, categorized
+into three groups, as shown in Table 2.
+
+Sustainability 2023, 15, 12983
+7 of 40
+
+Table 2. The application of GAI in engineering education.
+
+Themes
+Authors
+Focus
+
+Marquez et al. (2023) [27]
+
+Emphasizes the potential of integrating product-based
+learning strategies and AI text generation models in
+biobased materials education, showcasing how this
+approach promotes active participation, problem-solving
+skills, and the generation of sustainable solutions.
+
+Humphry and Fuller (2023) [28]
+
+Transformative role of
+
+Demonstrates the utility of ChatGPT in revolutionizing
+chemistry education by effectively generating discussion
+sections for laboratory reports, highlighting its potential to
+improve student learning experiences and streamline the
+report writing process.
+
+AI in education and
+
+learning
+
+Sánchez-Ruiz et al. (2023) [29]
+
+Investigates ChatGPT’s impact on blended learning in
+engineering education, particularly mathematics. The study
+reveals that the integration of ChatGPT positively inﬂuences
+students’ critical thinking abilities, problem-solving skills,
+and collaborative work. However, it also raises concerns
+about potential effects on the development of lateral
+competencies, highlighting the need for adaptive teaching
+strategies in blended learning environments.
+
+Nikolic et al. (2023) [30]
+Analyzes the impact of ChatGPT on assessment practices in
+engineering education.
+
+Gmeiner et al. (2023) [31]
+
+Identiﬁes challenges faced by designers when collaborating
+with AI-based design tools, including difﬁculties in
+understanding and adjusting AI-generated outputs and
+effectively communicating design objectives.
+
+Chen et al. (2020) [32]
+
+Sheds light on the transformative inﬂuence of AI in
+engineering design education, enabling the realization of
+previously unattainable solutions and concepts.
+
+AI in design and
+
+collaboration
+
+Galdon et al. (2021) [33]
+
+Presents an operational framework that harnesses abductive
+reasoning and probabilistic knowledge to enrich design and
+engineering education. The study showcases the
+framework’s potential in fostering creative engagement
+with knowledge and generating impactful solutions,
+emphasizing the necessity of reframing probabilistic
+knowledge and embracing transformative approaches to
+address real-world uncertainties and challenges.
+
+Innovative applications
+
+of social robots
+Elfaki et al. (2023) [34]
+
+Introduces a cloud-based framework aimed at augmenting
+the intelligence and autonomy of social robots in
+engineering education. The study showcases the feasibility
+and potential of this framework, empowering social robots
+to showcase heightened capabilities through the utilization
+of cloud computing and clustering.
+
+GAI presents transformative beneﬁts in engineering education, as evident from various
+studies. Indeed, its integration enhances active learning and problem-solving skills and
+streamlines educational processes through advanced chatbots and text generation models.
+The potential to foster creative engagement in design and collaboration further empowers
+students to generate innovative solutions. Cloud-based frameworks amplify social robots’
+intelligence and accessibility in engineering education, providing new opportunities for
+interactive learning experiences.
+
+Taking a critical view of these studies, while they undoubtedly showcase the positive
+implications of GAI for fostering active learning, honing problem-solving skills, and stream-
+lining design processes, they also unveil crucial issues that demand careful consideration.
+These concerns encompass the potential erosion of lateral competencies due to overreliance
+
+Sustainability 2023, 15, 12983
+8 of 40
+
+on GAI, challenges in human–AI collaboration, and the necessity for a pedagogical frame-
+work that seamlessly incorporates GAI tools without diluting the essence of education.
+While these research papers accentuate the transformative potential of GAI in revolutioniz-
+ing the educational landscape, they simultaneously underscore the urgency for judicious
+implementation, particularly within dynamic domains, like design and social robots. To
+address these issues, future work must reﬁne GAI integration and assess long-term impacts
+to ensure its beneﬁts are maximized while mitigating potential challenges.
+
+3.3. Application of GAI in Higher Education
+
+This section explores the potential, applications, challenges, and implications of GAI
+tools in speciﬁcally higher education. Table 3 shows the classiﬁcation of these papers and
+their main focus.
+
+Table 3. The application of GAI in higher education.
+
+Publications
+Authors
+Focus
+
+Konecki et al. (2023) [35]
+
+Conducts a comprehensive examination of ChatGPT’s role
+as an educational aid, providing insights into its beneﬁts
+and limitations.
+
+Eager and Brunton (2023) [36]
+
+Focuses on the broader implications of LLMs and
+conversational-style GAI on pedagogy. They emphasize the
+importance of implementing effective plagiarism detection
+mechanisms, fostering supportive learning environments,
+and offering faculty development programs to ensure the
+responsible integration of AI in teaching and learning.
+
+The integration of GAI
+tools such as ChatGPT in
+
+higher education
+
+Chaudhry et al. (2023) [37]
+
+Intensively examines the impact of ChatGPT on learning
+outcomes and academic integrity in undergraduate degree
+programs. The study evaluates ChatGPT’s performance in
+handling assignments and compares it to high-achieving
+students. Additionally, the effectiveness of plagiarism
+detection tools is assessed in the context of ChatGPT usage.
+The ﬁndings highlight the limitations of ChatGPT in its
+ability to fully replace human performance and underscore
+the need for a reevaluation of student evaluation
+approaches in light of AI-based tools.
+
+Iskender (2023) [38]
+
+Students’ acceptance and
+use of GAI technology in
+
+Addresses the ethical and pedagogical considerations of
+GAI in higher education and conducted an interview with
+ChatGPT to delve into its impact on the realm of higher
+education and academic publishing. The interview sheds
+light on ChatGPT’s potential in grading and supporting
+students, acknowledging its usefulness in certain
+educational contexts. However, it also raises crucial
+concerns about potential risks, such as the possibility of
+diminishing critical thinking skills and exacerbating
+educational inequalities.
+
+higher education
+
+Strzelecki (2023) [39]
+
+Delves into the adoption and use of ChatGPT among higher
+education students, developing a model based on
+technology adoption theory. The study identiﬁes key
+predictors such as habit, performance expectancy, and
+hedonic motivation in determining students’ acceptance
+and usage of ChatGPT.
+
+Sustainability 2023, 15, 12983
+9 of 40
+
+Table 3. Cont.
+
+Publications
+Authors
+Focus
+
+Stojanov (2023) [40]
+
+Presents an autoethnographic study exploring the
+utilization of ChatGPT as a learning aid. The study
+underscores the potential beneﬁts of ChatGPT while
+acknowledging its limitations, including occasional
+superﬁciality and inconsistency in generated answers. It
+emphasizes the need for caution and further research to
+fully understand the implications of incorporating ChatGPT
+in educational contexts.
+
+The applications of AI
+
+and ML in higher
+
+Pinto et al. (2023) [41]
+
+education
+
+Conducts a systematic literature review to shed light on the
+diverse uses of ML in higher eduction. The review
+highlights the prediction of academic performance and
+employability as the most extensively studied application of
+ML in higher education.
+
+The studies in this section offer insights into various aspects of GAI integration
+in higher education. They delve into the integration of GAI tools, such as ChatGPT
+and large language models, exploring their potential impact on teaching and learning
+practices. Student acceptance and usage of GAI technology are examined, revealing factors
+that inﬂuence their adoption. The applications of AI and machine learning in higher
+education are explored, particularly in predicting academic performance and employability.
+Furthermore, the impact of ChatGPT on learning outcomes and academic integrity is
+assessed, prompting discussions on assessment methodologies. Ethical and pedagogical
+considerations of GAI are discussed, highlighting both potential beneﬁts and concerns
+related to originality and critical thinking.
+
+These studies provide valuable insights into the potential of GAI tools in enhancing
+higher education. However, there are certain areas that could be more comprehensive,
+whereby the tendency to highlight the positive aspects of GAI integration could beneﬁt
+from a more balanced exploration of potential challenges and unintended consequences.
+For instance, while the impact of tools like ChatGPT on student learning is explored, a
+deeper investigation into how such tools might affect critical thinking skills and originality
+in academic work could provide a more holistic understanding. Additionally, while the
+studies touch on students’ acceptance of GAI technology, a deeper analysis of the socio-
+cultural factors inﬂuencing students’ attitudes and perceptions is warranted. By addressing
+these critical perspectives, future research in this area can provide a more nuanced and
+comprehensive understanding of the role and impact of GAI in higher education.
+
+3.4. Application of GAI in Medical Education
+
+This section aims to provide an overview of research papers that discuss the integration
+of GAI tools in healthcare, as shown in Table 4.
+
+Table 4. The application of GAI in medical education.
+
+Publications
+Authors
+Focus
+
+The integration of
+
+Sallam et al. (2023) [9]
+
+GAI tools in
+
+healthcare
+
+Investigates the potential beneﬁts and limitations of
+incorporating ChatGPT into medical ﬁelds. The study
+reveals the promising advantages of ChatGPT, such as
+personalized learning, clinical reasoning support, and better
+comprehension of complex concepts in medical education.
+It highlights concerns related to data privacy, potential bias
+in generated content, and possible negative effects on
+critical thinking and communication skills.
+
+Sustainability 2023, 15, 12983
+10 of 40
+
+Table 4. Cont.
+
+Publications
+Authors
+Focus
+
+Waisberg et al. (2023) [42]
+
+Investigates the potential applications of GPT-4 in
+neurosurgery, revealing its ability to enhance precision and
+effectiveness in neurosurgical practices, leading to
+improved patient outcomes and advancements in the ﬁeld.
+
+Sevgi et al. (2023) [43]
+
+Assesses the reliability of ChatGPT in neurosurgical
+education, pointing out that while it provides interesting
+responses, its credibility is compromised by the lack of
+citations for scientiﬁc queries, suggesting caution in relying
+solely on ChatGPT as an educational resource.
+
+Šlapeta (2023) [44]
+
+Explores the advantages of integrating large language
+models, including ChatGPT, in parasitology education,
+highlighting their potential to improve learning outcomes
+and facilitate knowledge acquisition in the ﬁeld.
+
+Huh (2023) [45]
+
+Compares ChatGPT’s knowledge and interpretive abilities
+with those of medical students in Korea in parasitology,
+revealing its inferior performance and indicating the need
+for further reﬁnement in specialized medical contexts.
+
+Dolezal et al. (2023) [46]
+
+Investigates the use of deep neural networks and
+conditional generative adversarial networks (cGANs) to
+generate synthetic histology for tumor classiﬁcation,
+showcasing its value as an educational tool for enhancing
+understanding of tumor biology.
+
+Skalidis et al. (2023) [47]
+
+Examines ChatGPT’s performance in answering questions
+from a post-graduate exam in core cardiology,
+demonstrating its impressive success in handling
+higher-level examination content and raising discussions on
+its potential applications in diverse educational contexts
+within cardiology.
+
+Corsello and Santangelo (2023) [48]
+
+Discusses the potential impact of ChatGPT on future
+pediatric research, highlighting positive effects such as
+improved clinical decision-making and enhanced medical
+education. However, the study also addresses concerns
+about bias, fairness, and ethical considerations associated
+with GAI utilization.
+
+Lyu et al. (2023) [49]
+
+Investigates the feasibility of utilizing ChatGPT for
+translating radiology reports into plain language, revealing
+its effective translation capabilities while noting occasional
+occurrences of random or oversimpliﬁed responses that
+require attention.
+
+The applications of
+
+GAI in clinical
+education and
+
+Abdel-Messih and Kamel Boulos (2023) [50]
+
+practices
+
+Demonstrates ChatGPT’s ability to successfully pass the
+United States Medical Licensing Examination (USMLE) by
+effectively answering queries related to clinical toxicology,
+showcasing its potential in this domain.
+
+Oh et al. (2023) [51]
+
+Explores the feasibility of integrating ChatGPT into surgical
+education and training, acknowledging its successful
+translation outcomes in radiology reports while also
+recognizing the need to address occasional occurrences of
+random or oversimpliﬁed responses.
+
+Lee et al. (2023) [52]
+
+Discusses the implications of GPT-4 for a chatbot speciﬁcally
+tailored for the ﬁeld of medicine. The study examines the
+potential impacts of this well-educated chatbot on the
+practice of medicine.
+
+Sustainability 2023, 15, 12983
+11 of 40
+
+Table 4. Cont.
+
+Publications
+Authors
+Focus
+
+Yang et al. (2023) [53]
+
+The potential of GAI
+
+in health education
+and social interaction
+
+Focuses on the utilization of ChatGPT in assisting children
+with Down syndrome, conducting a literature review to
+explore its advantages and limitations in various domains
+for individuals with this condition. It highlights the
+signiﬁcance of ChatGPT as a valuable tool for promoting
+cognitive development, education, and social interaction,
+catering to the unique requirements of children with
+Down syndrome.
+
+Wang et al. (2023) [54]
+
+Explores the role of GAI in pandemic response and future
+medicine and conducts a comprehensive review of the
+potential applications of AI and GAI in the prevention and
+treatment of the COVID-19 pandemic.
+
+Cascella et al. (2023) [55]
+
+Investigates the potential applications and limitations of
+ChatGPT in healthcare, emphasizing the need to educate
+stakeholders about the appropriate utilization of AI-based
+language models in medicine while addressing the ethical
+challenges they may present.
+
+The ethical
+considerations and
+
+responsible use of
+
+Gupta et al. (2023) [56]
+
+GAI in healthcare
+
+Examines the use of ChatGPT in generating innovative
+ideas in plastic surgery, highlighting its potential to
+contribute to research and support various aspects of patient
+care. However, ethical considerations must be taken into
+account to ensure its responsible and beneﬁcial application.
+
+Masters (2023) [57]
+
+Addresses concerns about the improper utilization of
+ChatGPT by students and academics, emphasizing the
+importance of addressing this issue to prevent misuse and
+mitigate potential negative consequences.
+
+The research papers in this section reveal a range of ﬁndings regarding the integration
+of GAI tools in medical education and practice. Notably, ChatGPT and GPT-4 showcase
+potential beneﬁts, including personalized learning, improved comprehension of medical
+concepts, and effective translation of radiology reports. However, concerns about data
+privacy, potential bias, and impacts on critical thinking are brought to light. In clinical
+education, these tools exhibit promise in enhancing decision-making and supporting
+surgical training, although occasional random or oversimpliﬁed responses are identiﬁed
+as areas of caution. Specialized medical ﬁelds, such as neurosurgery and parasitology,
+show potential for GAI integration, but validation and context-speciﬁc reﬁnement are
+crucial. The application of GAI in health education for individuals with Down syndrome
+highlights its signiﬁcance in cognitive development and social interaction. Moreover,
+GAI’s role in pandemic response and shaping future medicine proves noteworthy, with
+AI models contributing to mitigating COVID-19 spread and suggesting new research
+directions. Ethical considerations emerge as a common theme, emphasizing responsible
+usage and preventing misuse of GAI tools in healthcare.
+
+A critical perspective reveals that these papers sometimes tend to overlook signiﬁcant
+concerns such as data privacy, biases, and the risk of undermining critical thinking. Con-
+sequently, future work should prioritize establishing ethical guidelines and governance
+frameworks to address data privacy, bias, and transparency. Rigorous validation processes
+are essential to ensure the accuracy and reliability of GAI-generated information. Contin-
+uous research and development efforts are needed to enhance GAI capabilities for more
+complex medical scenarios. Interdisciplinary collaboration can promote responsible and
+effective integration of GAI in medical practices and education.
+
+Sustainability 2023, 15, 12983
+12 of 40
+
+3.5. Application of GAI in Nursing Education
+
+In this section, we explore a few research papers that delve into the implications of
+ChatGPT in nursing education (Table 5).
+
+Table 5. The application of GAI in nursing education.
+
+Publications
+Authors
+Focus
+
+Choi et al.’s (2023) [58]
+
+Potential and
+
+Examines the effects of ChatGPT on nurse education,
+highlighting the importance of striking a balance between
+AI integration and human interaction to ensure
+comprehensive learning experiences.
+
+implications
+
+of ChatGPT
+
+Irwin et al. (2023) [59]
+
+Discusses the broader implications of ChatGPT in nursing
+and midwifery practice, stressing the potential beneﬁts it
+brings alongside the challenges in implementing this
+transformative technology.
+
+Ethical considerations of
+
+Abdulai and Hung (2023) [60]
+
+using ChatGPT in
+nursing education
+
+Delves into the ethical considerations of using ChatGPT in
+nursing education, emphasizing the signiﬁcance of aligning
+AI integration with nursing’s core values to maintain the
+profession’s unique identity.
+
+Seney et al. (2023) [61]
+
+Sheds light on ChatGPT’s role in enhancing clinical
+judgment in nursing education and proposes a thoughtful
+teaching strategy to address its limitations in generating
+NCLEX-style questions.
+
+Fostering critical
+thinking skills among
+
+Ahmed (2023) [62]
+
+nursing students.
+
+Takes a closer look at ChatGPT’s transformative impact on
+personalized learning and clinical decision-making for
+nurses while addressing the ethical considerations
+surrounding its use.
+
+Lo (2023) [63]
+
+Introduces the CLEAR Framework, a valuable tool for
+equipping nursing students with critical thinking skills,
+enabling them to engage effectively with AI language
+models and promoting responsible AI use in
+nursing education.
+
+The research papers in this section focus on the potential beneﬁts of integrating GAI
+into nursing education. These studies explore how AI can enhance patient care, information
+literacy, and critical thinking skills among nursing students. The papers emphasize the
+importance of balancing AI integration with human interaction for comprehensive learning
+experiences and address ethical considerations. They delve into topics such as AI’s impact
+on clinical judgment, broader implications in nursing practice, personalized learning, and
+clinical decision-making. Frameworks are introduced to equip nursing students with
+critical thinking skills for responsible AI engagement.
+
+Future work in this domain is needed to address critical issues such as data privacy,
+biases, and the potential threat of compromising human-centered nursing practices. This
+can be achieved by establishing robust ethical guidelines and governance frameworks for
+the integration of AI in nursing education. Additionally, rigorous validation processes are
+essential to ensure the accuracy and reliability of AI-generated content.
+
+3.6. Application of GAI in Communication
+
+In this section, we explore a collection of research papers that delve into the applica-
+tions and implications of GAI in communication education. These studies shed light on
+how GAI models are revolutionizing research, education, journalism, and social media in
+the context of communication, as shown in Table 6.
+
+Sustainability 2023, 15, 12983
+13 of 40
+
+Table 6. The application of GAI in communication.
+
+Publications
+Authors
+Focus
+
+Wang (2022) [64]
+
+Focuses on machine translation, speciﬁcally examining the
+use of generative adversarial network-based neural
+machine translation models to improve Chinese–English
+translation accuracy and naturalness.
+
+GAI models are
+revolutionizing in
+
+the context of
+communication.
+
+Santandreu-Calonge et al. (2023) [65]
+
+Investigates the advantages of natural language processing
+tools, like ChatGPT, in addressing challenges such as jargon
+and coordination issues. The authors emphasize the
+importance of combining AI technologies with human
+expertise to achieve effective communication and enhanced
+patient outcomes.
+
+Pavlik (2023) [66]
+
+GAI models are
+
+revolutionizing
+
+Critically analyzes ChatGPT and discusses its implications.
+The analysis highlights the transformative capacity of GAI
+in shaping the future of journalism and media, highlighting
+both the opportunities and challenges that arise from the
+integration of AI in these ﬁelds.
+
+journalism
+
+Feng et al. (2023) [67]
+
+Conducts a data-driven analysis using Twitter and Reddit.
+Their research uncovers the profound inﬂuence of ChatGPT
+on streaming media and highlights the potential of
+integrating ChatGPT with visual generative models.
+
+These studies showcase the effectiveness of GAI in improving machine translation
+accuracy and its transformative potential in journalism and media education. Furthermore,
+the impact of AI on streaming media is explored, providing an understanding of GAI’s role
+in communication education.
+
+The small number of papers provide a restricted view of the challenges and ethical
+issues linked to biases and human interaction. These papers predominantly accentuate
+the positive impacts of GAI. This highlights the need for further research to gain a holistic
+understanding of GAI’s impacts on communication and strike a balance between tech-
+nological advancements and maintaining authentic human engagement. Future research
+could focus on developing and assessing AI-powered tools for communication skills, as
+well as examining ethical implications and potential biases in GAI model implementation
+in communication and journalism.
+
+3.7. Application of GAI in Academia
+
+This section examines a collection of research papers focusing on GAI’s impact on
+research and its potential applications in different ﬁelds, as summarized in Table 7 below.
+
+This section highlights the transformative impact of GAI in academia, showcasing
+its potential beneﬁts for higher education, research, and library services. The discussion
+covers the advantages of AI technologies, natural language processing techniques, and
+large language models in various domains. However, it also stresses the need to address
+ethical concerns, algorithmic biases, and maintain academic integrity. Strategies to ensure
+integrity and accuracy are explored to address these challenges. Additionally, the section
+sheds light on the implications of GAI in library science.
+
+Moving forward, future research should take a critical and interdisciplinary approach
+to GAI integration in academia, considering a wide array of potential beneﬁts and risks. It
+is imperative to delve deeper into the ethical implications, potential biases, and algorithmic
+transparency associated with GAI tools. Moreover, a more in-depth investigation into
+the long-term effects of GAI on academic integrity, learning experiences, and research
+methodologies is warranted.
+
+Sustainability 2023, 15, 12983
+14 of 40
+
+Table 7. The application of GAI in academia.
+
+Publications
+Authors
+Focus
+
+Alqahtani et al. (2023) [68]
+
+Highlights the transformative impact of (GAI) models, such
+as GPT-4 and BARD, in higher education and research. They
+explore the potential beneﬁts of these technologies,
+including text generation, data analysis, literature review,
+and educational support. However, the authors also
+emphasize the importance of addressing ethical concerns
+and algorithmic biases to ensure responsible and effective
+utilization of GAI in academia.
+
+Cotton et al. (2023) [69]
+
+Sheds light on the beneﬁts and challenges associated with
+the use of ChatGPT in higher education. The authors
+emphasize the advantages of increased student engagement
+and accessibility while addressing concerns related to
+academic dishonesty. Strategies to detect and prevent
+cheating are explored, highlighting the need for a proactive
+and ethical approach to integrating AI tools.
+
+GAI and ethical
+considerations in academia
+
+Currie (2023) [70]
+
+Focuses on the impact of ChatGPT on academic integrity in
+nuclear medicine and radiology, acknowledging its
+potential while highlighting limitations, such as errors and
+fabrications. Emphasizes the ethical and responsible
+integration of ChatGPT.
+
+Dergaa et al. (2023) [71]
+
+Examines the prospects and potential threats of ChatGPT in
+academic writing, emphasizing the need to redeﬁne norms
+and adjust information expectations for ethical utilization.
+
+Perkins (2023) [72]
+
+Explores the implications of AI tools like ChatGPT on
+academic integrity during formal assessments, addressing
+concerns about undetectable original content generation.
+The importance of transparent student use and updates to
+academic integrity policies in higher education institutions
+are emphasized throughout these papers.
+
+Inamdar (2023) [73]
+
+Conducts a comprehensive investigation into the impact of
+artiﬁcial intelligence text generators (AITGs) on library
+services, resources, and staff roles, highlighting their
+potential to enhance various aspects of library operations
+and accessibility.
+
+GAI in library science
+
+Frederick (2023) [74]
+
+Focuses on information environments and explores the role
+of ChatGPT in libraries, analyzing current discussions and
+historical developments. The paper uncovers the potential
+risks and beneﬁts associated with ChatGPT, providing
+valuable guidance for librarians to navigate the implications
+of this technology and emphasizing the importance of
+librarians acquiring knowledge about AI to adapt to
+changing information landscapes.
+
+3.8. Application of GAI in General Education
+
+In this section, we delve into the general applications of GAI in education. While
+earlier sections have explored the use of GAI in speciﬁc domains, such as medical education,
+higher education, engineering education, and more, this section broadens the scope to
+encompass the wider applications of GAI in education. To provide a structured analysis of
+this topic, the content is divided into several subsections. This section, therefore, covers a
+review of a wide range of applications and considerations regarding the integration of GAI
+in education, as discussed in Table 8 below:
+
+Sustainability 2023, 15, 12983
+15 of 40
+
+Table 8. Application of GAI in general education.
+
+GAI Application
+Authors
+Focus
+
+Technology
+Adoption and
+
+Integration in
+
+Education
+
+Al Ghatriﬁet al. (2023) [75],
+Geerling (2023) [76],
+Skavronskaya et al. (2023) [77],
+Elnozahy and El Khayat (2023) [78],
+Aydın and Ayhan Erdem (2022) [79],
+Cooper (2023) [80],
+Su and Yang (2023) [81],
+Murugesan and Cherukuri (2023) [82],
+Hsu and Ching (2023) [83],
+Mørch and Andersen (2023) [84],
+Gentile et al. (2023) [85],
+Jangjarat et al. (2023) [86],
+Tlili et al. (2023) [87],
+Lodge et al. (2023) [88],
+Chen et al. (2020) [89],
+Luo et al. (2023) [90],
+Kasneci et al. (2023) [91],
+Golovianko et al. (2023) [92],
+Ye and Bors (2022) [93].
+
+•
+AI, blockchain, and big data analysis applicability in accounting
+education systems.
+•
+ChatGPT and AI as tools for sophisticated evaluation methods.
+•
+Ethical integration of AI in tourism education.
+•
+AI decision-making support across various languages
+and contexts.
+•
+AI technologies in different linguistic and cultural settings.
+•
+Beneﬁts and drawbacks of integrating LLMs, like ChatGPT,
+in education.
+•
+Educative AI framework that highlights personalized learning
+experiences and efﬁcient feedback.
+•
+Responsible GAI implementation while optimizing the advantages
+of GAI in an ethical manner.
+•
+Uses, beneﬁts, and concerns of GAI in education.
+•
+Human-centered AI approach in education to balance technology
+integration with pedagogical principles and learner needs.
+•
+Manifesto to guide educators through the AI transformation;
+focuses on proactive measures to integrate AI into
+teaching practices.
+•
+Public’s acceptance of ChatGPT and the importance of considering
+human interaction factors.
+•
+Importance of responsible integration and the need for further
+research to ensure safe and ethical use of AI in education.
+•
+Impact of GAI on tertiary education.
+•
+Review of artiﬁcial intelligence in education.
+•
+ChatGPT’s roles and challenges in early childhood education.
+•
+Opportunities and challenges of large language models, including
+ChatGPT, in education.
+•
+Pi-Mind agent, a cognitive digital clone designed to emulate
+human decision-making processes.
+•
+Teacher–student network framework that combines GAN and
+Variational Autoencoder (VAE) to enable lifelong learning.
+
+Classroom Design
+
+and Learning
+Environment
+
+Karadag et al. (2022) [94],
+Vartiainen and Tedre (2023) [95],
+Zhai et al. (2023) [96],
+Sarr et al. (2020) [97].
+
+•
+Education AI model for generating adaptable and functional
+classroom layouts.
+•
+Using text-to-image GAI in craft education.
+•
+MACHE-Bot, an AI dialogue system, enhances the learning
+experience through humor and empathy.
+•
+Djehuty, an AI-powered educational gamiﬁed environment that
+addresses literacy challenges in resource-constrained settings.
+
+Assessment
+Practices and
+
+Academic
+
+Integrity
+
+Geerling (2023) [76],
+Bauer et al. (2023) [98],
+Farrokhnia et al. (2023) [99],
+Howell and Potgieter (2023) [100],
+Huang and Khan (2023) [101],
+Ibrahim et al. (2023) [102],
+Sung et al. (2019) [103],
+Lo (2023) [104],
+Ajevski et al. (2023) [105],
+Johinke et al. (2023) [106].
+
+•
+Questioning traditional assessment methods and highlighting AI’s
+potential in education.
+•
+A comprehensive framework to enhance peer-feedback processes.
+•
+ChatGPT’s strengths in generating credible responses and
+personalized learning experiences and limitations in
+comprehension and potential biases.
+•
+Concerns about the authenticity and credibility of AI-generated
+student work.
+•
+AI and machine learning techniques for assessing complex
+competencies in education.
+•
+Evaluating ChatGPT’s efﬁcacy in university-level courses.
+•
+Short answer grading using transformer-based pre-training.
+•
+Updating assessment methods, implementing policies, and
+educating instructors and students on ChatGPT’s implications.
+•
+Adapted assessment strategies and responsible integration of AI.
+•
+Importance of upholding educational values while incorporating
+AI-powered writing generators, like ChatGPT.
+
+Sustainability 2023, 15, 12983
+16 of 40
+
+Table 8. Cont.
+
+GAI Application
+Authors
+Focus
+
+Language
+Instruction
+
+Kovaˇcevi´c (2023) [107],
+Zhao and Song (2022) [108],
+Tang and Deng (2022) [109],
+O’Leary (2023) [110],
+Yan (2023) [111].
+
+•
+The potential of ChatGPT in English for Specific Purpose (ESP)
+teaching and learning and how it enhances lesson planning,
+execution, and assessment of written assignments.
+•
+AI-assisted feedback system for English language classes.
+•
+AI-based expert system to enhance students’ interest, learning
+strategies, and English language abilities.
+•
+Comparative analysis of language chatbots.
+•
+ChatGPT’s potential to enhance writing efﬁciency and workﬂow in
+Language 2 (L2) writing classrooms, concerns about academic
+integrity, and the need for policies and pedagogical guidance for
+responsible usage.
+
+Ethics and
+Responsible
+
+GAI Use
+
+Kooli (2023) [13],
+Bearman and Ajjawi (2023) [112],
+Fernandez (2023) [113],
+Bahrini et al. (2023) [3],
+Ray (2023) [114],
+Singh and Singh (2023) [115],
+Danry et al. (2022) [116],
+Ali et al. (2021) [117].
+
+•
+The need for adaptation, heightened awareness, and thoughtful
+ethical considerations to harness AI’s positive impact.
+•
+A pedagogical approach to equip learners with skills to navigate
+AI systems.
+•
+Understanding societal boundaries and ethical standards to foster
+critical engagement.
+•
+Opportunities, threats, and limitations of ChatGPT, and the
+importance of human expertise.
+•
+Balance between AI-assisted innovation and human expertise.
+•
+The need for multidisciplinary research to understand and harness
+its potential.
+•
+Positive applications and ethical implications of AI-generated
+characters, including design considerations and potential impact
+in entertainment, education, and therapy.
+•
+Understanding GAI techniques and assessing the societal
+implications of misinformation through a curriculum for middle
+school students.
+
+Subject-Speciﬁc
+
+Education and
+
+Skills
+Development
+
+Adams et al. (2023) [118],
+Bearman and Ajjawi (2023) [112],
+Emenike and Emenike (2023) [119],
+Agathokleous et al. (2023) [120],
+Kooli (2023) [13],
+Hallsworth et al. (2023) [121],
+Megahed et al. (2023) [122],
+Ivanov and Soliman (2023) [123],
+Fergus et al. (2023) [124],
+Siche and Siche (2023) [125],
+Uddin et al. (2023) [126],
+Wolfert et al. (2022) [127].
+
+•
+Enriching curricula with sustainable development goals (SDGs)
+through improved keyword analysis.
+•
+Equipping learners with skills to navigate AI systems and
+understand ethical standards associated with AI in a
+relational context.
+•
+Implications of AI programs, like ChatGPT, in
+chemistry education.
+•
+Potential advantages of ChatGPT and similar AI technologies in
+biology and environmental science.
+•
+Effective regulations and ethical values to safeguard
+educational integrity.
+•
+The role of theory-based approaches in biology, the importance of
+human engagement in scientiﬁc innovation, and the value of
+non-mainstream research.
+•
+Application of ChatGPT in the domain of statistical process
+control (SPC).
+•
+Implications of ChatGPT in tourism education and research.
+•
+Application of ChatGPT in addressing chemistry
+assessment queries.
+•
+Potential applications of ChatGPT in the agricultural and
+livestock industry.
+•
+Effectiveness of ChatGPT in enhancing hazard recognition
+capabilities among construction students.
+•
+Integrating Building Information Models (BIM) with diverse
+information systems in construction projects by introducing the
+novel concept of Open Design Learning (ODL).
+
+Sustainability 2023, 15, 12983
+17 of 40
+
+Table 8. Cont.
+
+GAI Application
+Authors
+Focus
+
+Learning
+Outcomes and
+
+Student
+Engagement
+
+Wu and Yu (2023) [128],
+Muñoz et al. (2023) [129],
+Crawford et al. (2023) [130],
+Shoufan (2023) [131],
+Gardner and Giordano (2023) [132],
+Hemachandran et al. (2022) [133],
+Limo et al. (2023) [134],
+Alnaqbi and Fouda (2023) [135],
+Jeon and Lee (2023) [136],
+Dijkstra et al.(2023) [137],
+Pataranutaporn et al. (2022) [138].
+
+•
+Human-like avatars, gamiﬁcation elements, and emotional
+intelligence in chatbot design to further enhance
+learning outcomes.
+•
+Enhanced learning outcomes through the integration of ChatGPT
+into education.
+•
+ChatGPT for character development and authentic assessments in
+higher education.
+•
+Senior computer engineering students’ perceptions of using
+ChatGPT in learning activities.
+•
+The importance of communication and teamwork skills is
+highlighted by the value of oral exams in physical
+chemistry classrooms.
+•
+The need for improved communication and information exchange
+within the classroom.
+•
+Inﬂuence of factors such as students’ perception, satisfaction, and
+engagement on the utilization of ChatGPT for
+personalized tutoring.
+•
+Utilization of ChatGPT and social media for collecting real-time
+student feedback on teaching styles in higher education.
+•
+Collaborative nature of teacher–AI interaction and the importance
+of teachers’ pedagogical expertise.
+•
+EduQuiz, an all-encompassing quiz generator that utilizes a
+ﬁne-tuned GPT-3 model.
+•
+Inﬂuence of learning from an AI-generated virtual instructor
+resembling an admired individual.
+
+Challenges and
+Considerations in
+
+AI Integration
+
+Shu et al. (2021) [139],
+Wardat et al. (2023) [140],
+Halaweh (2023) [141],
+Lim et al. (2023) [142],
+Hwang and Chen (2023) [143],
+Yu and Guo (2023) [144],
+Dwivedi et al. (2023) [145].
+
+•
+Vulnerability of STEM learners to AI-generated misinformation.
+•
+Perspectives of students and educators on using AI.
+•
+Analyzed the concerns expressed by educators regarding the
+integration of ChatGPT in educational settings.
+•
+A comprehensive framework for the future coexistence of GAI
+and education.
+•
+GAI applications, challenges, and future research directions.
+•
+GAI and ChatGPT’s current status, issues, and prospects in
+educational settings.
+•
+Opportunities, challenges, and implications of generative
+conversational AI for research, practice, and policy.
+
+Pedagogical
+Approaches and
+Teaching Methods
+
+Javed et al. (2022) [146],
+Bauer et al. (2023) [98],
+Karaali (2023) [147],
+Lawrie (2023) [148],
+Robertson and Muirhead (2022) [149],
+Álvarez-Álvarez and
+Falcon (2023) [150].
+
+•
+Proposed the BAG model (Build, Assess, and Govern) as a
+teaching paradigm.
+•
+A comprehensive framework to enhance peer feedback processes.
+•
+Challenges of teaching quantitative literacy and reasoning
+alongside language-based AI systems, like ChatGPT.
+•
+Teachers’ adaptability and creativity in incorporating AI tools into
+their instructional approaches.
+•
+Gaps in curriculum and educational policies, emphasizing the
+need for interdisciplinary approaches.
+•
+Students’ preferences regarding university teaching methods.
+
+The remaining part of this section synthesizes and discusses the applications of GAI
+in general education across each subcategory of papers outlined in Table 8.
+
+Technology Adoption and Integration in Education—The ﬁndings demonstrate im-
+proved learning outcomes, enhanced student engagement, and the potential for person-
+alized learning experiences. However, ethical considerations, responsible usage, and
+addressing limitations are crucial. Future work necessitates a more critical perspective
+in developing nuanced guidelines and policies, cautiously navigating interdisciplinary
+collaboration and fostering genuinely informed critical thinking skills. This is imperative
+to ensure that AI integration in education addresses complex challenges effectively and eth-
+ically. Additionally, an in-depth exploration of the lasting repercussions of AI technologies
+on education is crucial, surpassing superﬁcial assessments and delving into their potential
+to reshape fundamental educational dynamics.
+
+Sustainability 2023, 15, 12983
+18 of 40
+
+Classroom Design and Learning Environment—The papers in this category highlight
+the signiﬁcance of incorporating technology and GAI in creating effective learning envi-
+ronments. The research demonstrates the potential of AI models to automate classroom
+design, optimize learning spaces, and enhance the learning experience through interactive
+dialogue systems and gamiﬁed environments. However, it is crucial to acknowledge the
+potential pitfalls, like algorithmic biases and copyright concerns. Moving forward, there is a
+pressing need to prioritize the promotion of AI interactions that are inclusive and culturally
+sensitive. Moreover, the development of AI-powered solutions tailored to resource-limited
+educational contexts should be a key focus of future endeavors.
+
+Assessment Practices and Academic Integrity—The research highlights the superior
+performance of AI chatbots, such as ChatGPT, in subject-speciﬁc exams and the potential
+of natural language processing techniques to enhance peer feedback processes. However,
+concerns regarding authenticity, credibility, systematic errors, and the risk of plagiarism
+are raised, underscoring the need for caution and the responsible integration of AI tools in
+educational assessments. While the papers touch on the importance of updating assessment
+strategies, policy implementation, instructor training, and student awareness about AI’s
+impact on evaluations, a more in-depth analysis of these measures’ efﬁcacy is warranted.
+To advance, it is crucial to ﬁne-tune AI models for assessment precision, tackle biases and
+accuracy concerns, and establish robust guidelines and ethical standards to govern AI’s
+role in educational assessments.
+
+Language Instruction—The publications demonstrate how integrating AI chatbots into
+language instruction can offer personalized support, optimize learning experiences, and
+address diverse language proﬁciencies. However, a more critical viewpoint uncovers the
+apprehensions surrounding the preservation of academic integrity and equitable learning
+experiences. While the potential gains are evident, the unexplored territory of AI’s potential
+biases and fairness concerns necessitates not only policy frameworks but also a deep
+reevaluation of instructional strategies.
+
+Ethics and Responsible GAI Use—These papers highlight the importance of ethical
+considerations and the responsible use of AI systems, particularly chatbots like ChatGPT,
+in education and research. These works shed light on the merits, shortcomings, obstacles,
+and debates surrounding such technologies. Looking ahead, it is imperative that forthcom-
+ing efforts concentrate on interdisciplinary investigations to confront ethical difﬁculties,
+integrate conscientious AI education into academic curricula, and promote collaborative
+endeavors aimed at formulating comprehensive regulations and principled directives.
+
+Subject-Speciﬁc Education and Skills Development—The reviewed research papers
+shed light on the potential applications of GAI in speciﬁc educational domains, including
+sustainability education, digital skills development, chemistry education, biology and envi-
+ronmental science, and construction education. The ﬁndings indicate that GAI technologies,
+such as ChatGPT, have the ability to simplify complex tasks, expedite education and re-
+search processes, enhance hazard recognition capabilities, promote safety management
+practices, and facilitate interdisciplinary approaches. However, the papers also acknowl-
+edge the limitations and potential risks associated with the utilization of GAI, such as
+concerns about data privacy, biases, and the need for human engagement. Moving forward,
+future work should focus on the seamless integration of sustainability education into AI
+learning frameworks, a dedicated commitment to addressing issues of equity and accessi-
+bility to ensure that the beneﬁts of GAI are universally accessible, and a diligent pursuit of
+strategies to maximize the advantages that GAI offers while concurrently taking proactive
+steps to mitigate the inherent risks that come with its implementation.
+
+Learning Outcomes and Student Engagement—The papers highlight the positive im-
+pact of GAI, such as AI chatbots and virtual instructors, on students’ learning outcomes and
+engagement. The ﬁndings demonstrate improvements in learning outcomes, motivation,
+and engagement when utilizing AI chatbots, like ChatGPT. However, a more discerning
+analysis beckons for heightened scrutiny in various aspects. This includes the imperative
+reﬁnement of AI chatbot design, probing into alternative assessment strategies, enhancing
+
+Sustainability 2023, 15, 12983
+19 of 40
+
+the interaction between AI and educators, and undertaking an in-depth exploration into
+the long-term impact of AI on student motivation and engagement.
+
+Challenges and Considerations in AI Integration—The related papers shed light on
+the obstacles and considerations associated with integrating GAI, such as ChatGPT, into
+education. These studies emphasize the importance of addressing concerns related to
+AI-generated misinformation, ensuring the secure integration of AI in education, and
+promoting responsible implementation practices. The ﬁndings underscore the need for
+raising learners’ awareness about the potential inﬂuence of AI on their learning and fur-
+ther research to ensure the conscientious and secure integration of AI technologies, like
+ChatGPT, in educational settings. The future trajectory in this ﬁeld involves developing
+comprehensive strategies and guidelines to address challenges while conducting further re-
+search on AI integration’s impact on student learning outcomes. This avenue of exploration
+aims to formulate effective approaches to counter challenges and rigorously investigate
+how AI integration inﬂuences students’ academic achievements.
+
+Pedagogical Approaches and Teaching Methods—The papers shed light on innovative
+instructional practices and frameworks that integrate AI technologies into education. The
+ﬁndings offer insights into teaching ethics in AI courses, enhancing peer feedback pro-
+cesses through natural language processing techniques, addressing challenges in teaching
+quantitative literacy alongside language-based AI systems, and showcasing the integration
+of AI to support student learning. The papers also emphasize the importance of interdisci-
+plinary collaboration. Future endeavors could dedicate their focus to meticulously reﬁning
+and substantially expanding the currently presented pedagogical methodologies. Delving
+deeper, a crucial area of investigation could encompass understanding the enduring ef-
+fects of AI integration on the overall learning achievements of students, shedding light on
+potential shifts in learning dynamics, cognitive development, and critical thinking skills
+over the long term. Furthermore, it becomes imperative to navigate the intricate ﬁeld of
+ethical considerations, delving into the multifaceted implications of AI technologies within
+educational contexts.
+
+To sum-up the ﬁndings in this section, Figure 3 provides a comprehensive visualization
+and categorization of the diverse applications of GAI in the ﬁeld of education. This spider
+graph employs a two-tier structure to present the information effectively. The initial tier
+highlights the primary themes that have been central to a majority of applications. The
+proportional sizing of the circles reﬂects the prevalence of these themes, representing the
+number of applications and associated publications in each domain. Furthermore, within
+each thematic category, a secondary layer delineates speciﬁc keywords, encapsulating the
+nuances of each area. The size of these sub-circles corresponds to the prominence of these
+keywords, which are characterized by their density and the number of related research
+publications. This elaborate spider graph succinctly encapsulates the breadth and depth of
+GAI’s inﬂuence in education, providing an illuminating snapshot of the ongoing research
+endeavors and practical implementations in this ﬁeld.
+
+Sustainability 2023, 15, 12983
+20 of 40
+
+Figure 3. Summary of GAI research and applications in education.
+
+4. Bibliometric Analysis
+
+In this section, we embark on a comprehensive bibliometric analysis that delves
+into the ﬁeld of GAI within the context of education. By examining a vast collection of
+existing articles and publications retrieved from the Scopus database, we seek to provide a
+deeper understanding of the current state of research and innovation in this evolving ﬁeld.
+Through systematic literature screening and data analysis, we aim to uncover valuable
+insights, trends, and implications surrounding GAI’s integration and impact on teaching
+and learning in educational settings. This exploration will shed light, for example, on the
+interdisciplinary nature of GAI research, key AI tools employed, the geographic distribution
+of contributions, and the diverse ﬁelds within education where GAI ﬁnds its applications.
+As we navigate through the ﬁndings and visualizations, we uncover the growth trajectory of
+GAI research, observe patterns of co-occurrence between terms, and ascertain the prominent
+applications of GAI tools, like ChatGPT, in educational settings.
+
+To provide an in-depth analysis of the current state of GAI in education, we utilized
+VOSviewer to generate ﬁve types of visualization maps. These maps are designed to
+provide a comprehensive analysis of the topic. Each map consists of circles that represent
+different items such as publications, researchers, or terms. The size of the circle and the
+
+Sustainability 2023, 15, 12983
+21 of 40
+
+font within it indicate the level of activity associated with that item. A larger circle and a
+bigger font size indicate a higher level of activity, whereas a smaller circle and a smaller
+font size suggest less activity. The distance between any two terms in the diagram reﬂects
+the degree of association between them. A shorter distance signiﬁes a stronger correlation,
+whereas a longer distance indicates a weaker correlation [151].
+
+4.1. Co-Occurrence Map Based on Text Data
+
+The relevant and frequently occurring terms were identiﬁed by analyzing the text data
+of the 217 selected publications. The analysis of text data looks to extract relevant terms from
+the titles and abstracts of the selected articles and constructs a network of co-occurrence
+links between them [151]. This analysis enables us to detect any emerging developments
+and identify impactful terms within the ﬁeld of GAI in education. A total of 4408 terms
+were generated, out of which 102 terms meet the minimum threshold of 10 occurrences. To
+further narrow down the selection of terms, VOSviewer calculated a relevance score for
+each term, and the top 60% most relevant terms were selected, resulting in the 61 terms that
+were displayed in the network seen in Figure 4. Terms with a high relevance score represent
+more speciﬁc topics covered by the text data, while terms with a low relevance score tend
+to be of a general nature [151]. A thesaurus was created and uploaded to VOSviewer for
+the standardization of keywords and the elimination of duplicate terms [152].
+
+Figure 4. Co-occurrence map of text data.
+
+The ﬁndings in Figure 4 demonstrate the diverse range of research and exploration
+within the ﬁeld of GAI in education. The interconnected web of key terms suggests that
+the research on GAI has encompassed the areas of assessment, teaching, research, higher
+education, academic integrity, and ethics. The ﬁndings also highlight GAI’s revolution-
+ary potential with the appearance of terms such as “opportunity” and “effectiveness”.
+Additionally, the terms that are directly linked with GAI are shown in Figure 5.
+
+Sustainability 2023, 15, 12983
+22 of 40
+
+Figure 5. Terms directly connected with “Generative Artiﬁcial Intelligence”.
+
+The ﬁndings in Figure 5 indicate a strong relationship between GAI and “Generative
+Pre-training Transformers” (GPT), which are a type of large language model (LLM). GPTs,
+such as ChatGPT, have emerged as foundational technologies in GAI and have demon-
+strated their capabilities in various applications. The integration of GPTs in educational
+contexts, particularly in the development of AI chatbots, has the potential to enhance
+learning experiences through personalized interactions, intelligent feedback, and adaptive
+learning pathways. This raises questions about the impact of GAI on student engagement,
+motivation, and learning outcomes. Additionally, the association between GAI and terms
+such as opportunity, question, response, and assessment highlight the diverse applica-
+tions of GAI in educational contexts. GAI has the potential to support various aspects of
+teaching and learning, including generating questions, providing responses, and assessing
+student performance. The use of GAI in assessments raises concerns about the fairness and
+reliability of automated grading systems. It is crucial to examine the validity and equity
+of GAI-based assessment methods to ensure that they align with established educational
+standards and principles of fairness.
+
+The ten most frequently occurring terms and their number of occurrences can be
+seen listed below in Table 9. Also listed in the table is the relevance score for each term.
+The relevance score for each term is calculated by VOSviewer. For each term, VOSviewer
+determines the distribution of (second order) co-occurrences over all terms and then com-
+pares it to the overall distribution of co-occurrences over terms. The larger the difference
+between the two distributions (measured using the Kullback–Leibler distance), the higher
+the relevance of a term [153]. Table 9 provides an insightful analysis of the key terms
+
+Sustainability 2023, 15, 12983
+23 of 40
+
+frequently encountered in the context of GAI in education. These terms shed light on
+the diverse aspects of GAI’s integration into educational practices. The term “System”
+suggests the broader framework within which GAI operates, emphasizing the need for
+systematic implementations. “Response” indicates the generation of AI-driven outputs,
+while “Question” signiﬁes GAI’s potential to create queries and foster interactive learning
+environments. “Concern” highlights the importance of addressing ethical and practical
+considerations when employing GAI in education. “Opportunity” underscores the posi-
+tive prospects that GAI offers in enhancing educational experiences and outcomes. The
+prominence of “Generative Pre-training Transformers (GPT)” demonstrates the pivotal
+role of advanced language models, like ChatGPT, in driving GAI applications. Terms like
+“Assessment” and “Capability” indicate GAI’s relevance in evaluating student performance
+
+and its potential to augment educational capabilities. This analysis unveils the nuanced
+facets of GAI in education, encompassing both its capabilities and the essential aspects that
+demand attention for responsible implementation.
+
+Table 9. Top 10 terms by occurrences.
+
+Rank
+Term
+Occurrences
+Relevance Score
+
+1
+System
+39
+0.8012
+2
+Response
+38
+1.4718
+3
+Concern
+35
+0.8416
+4
+Question
+34
+1.1378
+5
+Opportunity
+30
+0.8361
+6
+GPT
+28
+1.0504
+7
+Information
+27
+1.4886
+8
+Assessment
+26
+0.6512
+9
+Way
+25
+1.134
+10
+Capability
+25
+0.5872
+
+4.2. Co-Occurrences Map Based on Keywords
+
+The keywords that occur frequently were identiﬁed by analyzing the bibliographic
+data of the 217 selected publications. A total of 1204 keywords were found, out of which
+50 were selected, where the minimum number of occurrences of those terms was limited
+to 6 (Figure 6). A thesaurus was also used in VOSviewer to standardize keywords and
+eliminate redundant duplicate terms. This analysis looks at all keywords, including both
+author keywords and index keywords. Author keywords are speciﬁc keywords chosen and
+provided by the authors of the articles themselves, while index keywords are keywords
+that have been assigned by indexers or databases to classify and categorize the articles for
+the purpose of information retrieval and indexing.
+
+Some of the most common keywords identiﬁed include “Artiﬁcial intelligence”, “Chat-
+GPT”, “Education”, and “Human”. A list of the ten most frequently used keywords,
+their occurrences, and their total link strength can be found in Table 10. The total link
+strength indicates the total strength of the co-occurrence links of a given keyword with
+other keywords [151].
+
+Table 10 presents a comprehensive analysis of the most frequently occurring keywords
+in the domain of GAI in education, offering valuable insights into the prominent themes
+and research areas. The top ten keywords are indicative of the central focus and key aspects
+of GAI’s integration into educational contexts. “Artiﬁcial intelligence” emerges as the most
+prevalent keyword, reﬂecting the overarching role of AI technologies in transforming edu-
+cational practices. “ChatGPT” follows closely, showcasing the widespread recognition and
+utilization of this AI chatbot in educational applications. “Education” and “Human” hold
+signiﬁcant positions, highlighting the signiﬁcance of GAI in shaping learning experiences
+and considering human aspects in the educational process. “Education computing” signi-
+ﬁes the intersection of computing technologies and education, while “Machine learning”
+underscores the pivotal role of ML algorithms in GAI applications. “Medical education”
+
+Sustainability 2023, 15, 12983
+24 of 40
+
+and “Natural language processing” reveal GAI’s potential in healthcare education and
+language-based learning environments. Lastly, “Students” emphasizes the focus on learners
+and their experiences, reﬂecting the student-centric approach that GAI-driven educational
+interventions strive to achieve. These keywords depict the breadth and depth of GAI
+research in education, with an emphasis on AI-driven technologies, human-centric design,
+and transformative potential in diverse educational settings.
+
+Figure 6. Co-occurrence map of all keywords.
+
+Table 10. Top 10 keywords by occurrences.
+
+Rank
+Keyword
+Occurrences
+Total Link Strength
+
+1
+Artiﬁcial intelligence
+111
+97
+2
+ChatGPT
+88
+69
+3
+Education
+41
+37
+4
+Education computing
+19
+18
+5
+Human
+41
+41
+6
+Humans
+26
+26
+7
+Machine learning
+21
+18
+8
+Medical education
+19
+19
+9
+Natural language processing
+19
+18
+10
+Students
+24
+21
+
+To further the analysis, two additional keyword maps were generated. Firstly, a map
+of the most common author keywords was generated. The keywords were limited to a
+minimum of ﬁve occurrences, which resulted in a total of twenty-ﬁve author keywords in
+the network visualization (Figure 7). Similarly, a map of the most common index keywords
+was created. The keywords were also limited to a minimum of ﬁve occurrences, which
+resulted in a total of thirty-nine index keywords in the map (Figure 8).
+
+Sustainability 2023, 15, 12983
+25 of 40
+
+Figure 7. Co-occurrence map of author keywords.
+
+Figure 8. Co-occurrence map of index keywords.
+
+The analysis of keywords reveals the central focus of GAI research in education, with
+terms such as artiﬁcial intelligence, ChatGPT, and education featuring prominently. This
+emphasizes the signiﬁcance of AI technologies in transforming educational practices and
+the need for collaborations between AI experts and educators. The inclusion of medical
+education-related keywords suggests potential applications of GAI in healthcare education.
+GAI has the potential to support medical training, enhance diagnostic processes, and
+improve patient care.
+
+4.3. Co-Occurrence Map Based on Country of Co-Authorship
+
+Furthermore, the data analysis enabled us to examine the geographic distribution of
+these publications. The visualization map was generated for the countries of co-authorship
+by setting the minimum number of documents of a country to ﬁve. Of the 69 countries
+with publications, 20 met the threshold, and the results are depicted in Figure 9.
+
+Sustainability 2023, 15, 12983
+26 of 40
+
+Figure 9. Country of co-authorships.
+
+Most publications appeared from English-speaking countries (USA, Australia, and the
+UK), followed by India, Germany, and China. The ten countries with the strongest links on
+the map are listed in Table 11.
+
+Table 11. Top 10 countries by link strength.
+
+Rank
+Country
+Documents
+Citations
+Total Link Strength
+
+1
+United States
+73
+334
+59
+2
+Australia
+26
+102
+31
+3
+United Kingdom
+15
+89
+29
+4
+New Zealand
+8
+67
+27
+5
+India
+15
+98
+20
+6
+Germany
+11
+75
+19
+7
+Hong Kong
+7
+211
+19
+8
+Italy
+7
+63
+17
+9
+Saudi Arabia
+6
+40
+17
+10
+Switzerland
+5
+45
+16
+
+Table 11 presents the top 10 countries based on their contributions to GAI research in
+education. The United States leads the list, indicating its central role in GAI-related studies.
+Australia and the United Kingdom follow closely, showcasing their active engagement in
+the ﬁeld. New Zealand, India, Germany, Hong Kong, Italy, Saudi Arabia, and Switzerland
+also feature, reﬂecting their emerging roles in GAI research within the educational context.
+
+The geographical distribution of publications demonstrates widespread global interest
+and collaboration in exploring the potential of GAI in education. Moreover, the distribution
+indicates the dominance of English-speaking countries such as the United States, Australia,
+and the United Kingdom. This aligns with the global prominence of these countries
+in educational research and technological advancements. However, it is worth noting
+the increasing contributions from countries like India, Germany, and China, suggesting
+a broader global interest in GAI in education. Collaboration and knowledge sharing
+across countries and regions can further propel advancements and foster cross-cultural
+perspectives in GAI research.
+
+4.4. Co-Occurrence Map Based on Authorship
+
+A further analysis looks at investigating the authorship relations across the multitude
+of authors of the publications. The network visualization map was limited to authors with
+a minimum of ﬁve citations. Out of the 682 authors, 144 met the threshold, and the largest
+set of connected authors included 23 authors. The resulting network visualization, depicted
+in Figure 10, presents a complex web of links connecting these 23 authors.
+
+Sustainability 2023, 15, 12983
+27 of 40
+
+Figure 10. Co-occurrence map of authors.
+
+The network visualization consists of a large network of links connecting the authors,
+which showcases the collaborative and interdisciplinary nature of the research being
+conducted within the ﬁeld of GAI in education. Moreover, it demonstrates how researchers
+from diverse backgrounds and institutions come together to advance knowledge and
+innovation in this area. By highlighting these connections, the visualization fosters a better
+understanding of the knowledge-sharing dynamics and the collective effort behind the
+advancements in GAI in education. This insight can prove invaluable in identifying key
+contributors, potential research trends, and opportunities for further collaboration and
+development within the ﬁeld.
+
+The top 10 authors in terms of documents produced and citations can be seen in
+Tables 12 and 13, respectively. The total link strength in each table indicates the total
+strength of the co-occurrence links of a given author with other authors [151].
+
+Table 12 depicts the key contributors of research in the domain of GAI in education.
+The relatively high number of documents, citations, and total link strength demonstrates
+the great inﬂuence and contribution of the authors.
+
+Table 12. Top 10 authors by documents produced.
+
+Rank
+Author
+Documents
+Citations
+Total Link Strength
+
+1
+Ali S.
+4
+23
+13
+2
+Breazeal C.
+4
+23
+13
+3
+Denny P.
+4
+30
+12
+4
+Fischer F.
+3
+30
+22
+5
+Becker B.A.
+3
+29
+12
+6
+Dipaola D.
+3
+23
+12
+7
+Finnie-Ansley J.
+3
+29
+12
+8
+Luxton-Reilly A.
+3
+29
+12
+9
+Prather J.
+3
+29
+12
+10
+Cowling M.
+3
+9
+3
+
+Sustainability 2023, 15, 12983
+28 of 40
+
+Table 13. Top 10 authors by citations.
+
+Rank
+Author
+Documents
+Citations
+Total Link Strength
+
+1
+Hwang G.-J.
+2
+162
+3
+2
+Chen X.
+1
+162
+3
+3
+Xie H.
+1
+162
+3
+4
+Zou D.
+1
+162
+3
+5
+Thorp H.H.
+1
+116
+0
+6
+Stokel-Walker C.
+1
+51
+0
+7
+Chartash D.
+1
+47
+6
+8
+Chi L.
+1
+47
+6
+9
+Gilson A.
+1
+47
+6
+10
+Huang T.
+1
+47
+6
+
+Similarly, Table 13 identiﬁes key contributors who have been inﬂuential through their
+publications within this domain. Notably, the top four authors, namely Hwang G.-J., Chen
+X., Xie H. and Zou D., all have an impressive citation count of 162. This exceptional citation
+count comes from their highly inﬂuential research paper titled “Application and theory
+gaps during the rise of Artiﬁcial Intelligence in Education”, which played a vital role in
+exploring the applications of AI in education in 2020, contributing signiﬁcantly to the early
+development of the ﬁeld [89].
+
+4.5. Data Analysis on Article Sources
+
+To investigate the different sources of the 217 publications, a list of all unique sources
+was created and then ordered from the highest number of articles to the lowest. A total
+of 152 unique sources were found. The sources with the highest number of publications
+were “Computers and Education: Artiﬁcial Intelligence” and the “Journal of University
+Teaching and Learning Practice”, with ﬁve publications each. A bar graph showcasing the
+top 10 sources by number of publications can be found in Figure 11.
+
+Figure 11. Bar graph of the top 10 sources by number of publications.
+
+The analysis of article sources, therefore, presents a compelling picture of the interdis-
+ciplinary nature of GAI research in education, drawing insights from various ﬁelds such
+as computer science, education, and even the medical ﬁeld. The convergence of expertise
+from diverse disciplines underscores the signiﬁcance of collaborative efforts in addressing
+the complex challenges associated with GAI implementation in education.
+
+Sustainability 2023, 15, 12983
+29 of 40
+
+4.6. Data Analysis on Document Type, Fields, GAI Tools Used, and Research Types
+
+In this section, we classiﬁed the 217 publications based on their type, ﬁeld of study, GAI
+tools used, and paper types. Figure 12 presents an analysis of the occurrences of various
+document types from Scopus. Notably, the most common document type is “Article”,
+which appears 99 times, highlighting its preeminent role as the primary form of publication
+within the dataset. “Article” is followed by “Note”, with 23 occurrences, and “Conference
+Paper” and “Review”, with 20 and 18 occurrences, respectively. Moderately represented
+are “Letter” and “Editorial”, each occurring 17 and 11 times, respectively. Conversely,
+“Short Survey” is the least common, appearing only once. The dominance of scholarly
+
+articles in the dataset aligns with the typical composition of academic databases like Scopus,
+emphasizing their pivotal role as reliable sources of scientiﬁc information.
+
+Document types
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+Article
+Note
+Conference
+
+Review
+Letter
+Editorial
+Short Survey
+
+Paper
+
+Figure 12. Occurrences of document types.
+
+Additionally, the analysis delves further into the ﬁeld, revealing 21 distinct disciplines
+within the dataset, with the top 10 most prevalent ﬁelds illustrated in Figure 13. It is crucial
+to acknowledge that papers falling into multiple categories, such as higher education and
+academia, were individually counted as separate occurrences.
+
+As depicted in Figure 13, the majority of the papers encompass a broad scope of
+education and fall under the “general education” category, comprising 104 occurrences.
+Additionally, our analysis reveals the integration of GAI in various educational frame-
+works across different ﬁelds. Particularly noteworthy is the signiﬁcant number of papers
+originating from the medical ﬁeld, with 43 occurrences, indicating the growing adoption
+of GAI in both medical and educational contexts. Academia-related papers account for
+21 occurrences, further highlighting the relevance of GAI in academic research. More-
+over, we observed GAI’s intersection with speciﬁc disciplines, such as computer science
+education, nursing education, and engineering education, with thirteen, nine, and nine
+occurrences, respectively. Lastly, it is worth mentioning the representation of GAI in other
+ﬁelds, including higher education and communication education, with eight and six occur-
+rences, respectively, showcasing the diverse applications and potential of this technology
+in various educational domains.
+
+Sustainability 2023, 15, 12983
+30 of 40
+
+Figure 13. Occurrences of unique ﬁelds in education.
+
+Moving forward, we conducted an analysis of the AI tools utilized in each paper,
+providing valuable insights into the tool landscape within the ﬁeld of GAI in education
+(Figure 14). It is important to note that some papers utilize multiple AI tools, with each tool
+recorded as a distinct occurrence. Particularly noteworthy is the dominance of ChatGPT,
+which features in a signiﬁcant number of papers, with a staggering 151 occurrences. This
+remarkable prevalence highlights the widespread recognition and adoption of ChatGPT
+within educational contexts, underlining its efﬁcacy in generating coherent and contextually
+relevant responses for educational applications.
+
+Tools Used
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+ChatGPT
+GAI
+AI
+Codex
+GitHub Copilot
+
+Figure 14. Occurrences of AI tools.
+
+AI-powered Chatbots, such as BlenderBot and LaMDA, and AI text generators (AITG)
+appear in the dataset, albeit with lower frequencies [73,110]. Tools such as Codex and
+GitHub Copilot, which translate natural language to code, appear in a limited number of
+papers [5,154]. BERT, a method of pre-training language representations, and Conditional
+GAN, a type of GAN that involves the conditional generation of images by a generator
+model, appear a few times in the dataset. Other unique tools with a low number of
+occurrences include EDU-AI, a model for generating adaptable and functional classroom
+
+Sustainability 2023, 15, 12983
+31 of 40
+
+layouts [94], MACHE—bot, an AI dialogue system [96], and Djehuty (AI), an AI-powered
+educational gamiﬁed environment [97]. Furthermore, several papers do not specify a
+particular tool and instead use more general terms, like “GAI” and “AI”, to describe the
+approaches they employed.
+
+Then, we outlined the types of research in the context of GAI in education to gain
+valuable insights into the nature and focus of the scholarly work conducted in this ﬁeld
+(Figure 15).
+
+Type of research
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+General
+Analysis
+Assistance
+Learning
+Teaching
+Testing
+GAI Threats Tutoring
+Research Interaction
+
+Figure 15. Occurrences of research types in education.
+
+The most prevalent type of research is “General”, with 70 occurrences. This suggests a
+broad range of papers that cover a wide array of topics, methodologies, and perspectives
+within the domain of GAI in education. Following general papers, “Analysis” emerges as
+the second most common type, appearing in 47 papers. This indicates a signiﬁcant emphasis
+on examining and interpreting data, models, or educational contexts through analytical
+lenses, allowing for a deeper understanding of the implications and applications of GAI.
+“Assistance” is the third most frequent type, featured in 37 papers. This underscores the
+
+relevance of research aimed at developing AI systems that provide support and guidance
+to learners or educators. It suggests a strong interest in exploring how GAI can serve
+as an intelligent assistant in educational settings. “Learning”, “Teaching”, and “Testing”
+papers follow with 21, 18, and 17 occurrences, respectively. These types highlight the
+focus on investigating how GAI can enhance and optimize various aspects of the learning
+and assessment processes within educational environments. Moreover, “GAI Threats”,
+“Tutoring”, “Research”, and “Interaction” types make appearances in a more limited
+
+number of papers. These occurrences highlight speciﬁc areas of interest, such as addressing
+potential threats associated with GAI in education, exploring the use of AI systems in
+tutoring scenarios, conducting research studies, and examining interaction dynamics.
+
+Sustainability 2023, 15, 12983
+32 of 40
+
+5. Conclusions and Future Research
+
+AI has emerged as a revolutionary force in the era of rapid technological advancements,
+profoundly transforming various aspects of human life. In the ﬁeld of education, the
+emergence of GAI has sparked a transformative revolution, inﬂuencing areas such as
+medical and engineering education. GAI’s versatile applications include assessment,
+personalized learning support, and intelligent tutoring systems. The integration of GAI
+in education has prompted discussions on ethics, academic integrity, and its potential to
+reshape teaching and learning methods. As GAI continues to advance, thorough research
+on its applications, implications, and challenges becomes essential in shaping the future of
+education. This review paper comprehensively analyzed the research on GAI in education,
+synthesized key ﬁndings and insights from 207 publications, and identiﬁed research gaps
+and future directions in the ﬁeld.
+
+The ﬁrst step of this work was to conduct a comprehensive examination of the utiliza-
+tion of GAI in education through an in-depth study and content analysis of the literature in
+the ﬁeld.
+
+The content analysis has provided signiﬁcant ﬁndings that highlight the transforma-
+tive impact of GAI in education. Across various domains and contexts, the integration
+of GAI, including AI chatbots and virtual instructors, offers substantial opportunities for
+enhancing educational practices and improving learning outcomes. In computer science
+education, GAI has proven to be a powerful tool in teaching and learning programming
+concepts. The research papers revealed the potential beneﬁts of AI technologies for creative
+programming education and the use of AI-powered code generation tools, like Copilot.
+Engineering education also beneﬁts greatly from GAI’s integration, empowering students
+to generate innovative solutions through advanced chatbots and text-generation models.
+Cloud-based frameworks and social robots enhance interactive learning experiences, creat-
+ing a technologically advanced and effective engineering education landscape. Medical
+education sees promising applications of GAI in ﬁelds like medicine, dentistry, pharmacy,
+and public health education. Nursing education beneﬁts from ChatGPT in enhancing pa-
+tient care and fostering critical thinking skills among nursing students. In communication
+education, GAI models showcase potential in journalism, media education, and healthcare
+communication. The studies demonstrate GAI’s effectiveness in enhancing translation
+accuracy, emphasizing the importance of educating students about responsible AI use
+and ethical considerations. In academia, GAI offers potential beneﬁts in various academic
+ﬁelds, such as using AI technologies, natural language processing techniques, and LLMs
+for research. Furthermore, the subsection on “General Education” provided a comprehen-
+sive overview of GAI’s wider applications in the educational landscape. Diverse research
+papers explored technology adoption, classroom design, assessment practices, language
+instruction, ethics, subject-speciﬁc education, learning outcomes, student engagement,
+challenges in AI integration, and innovative pedagogical approaches.
+
+After conducting the content analysis, the next step involved a bibliometric analysis of
+GAI within the context of education. It included an examination of a total of 437 pre-existing
+articles and publications retrieved from the Scopus database. After conducting a literature
+screening and removing duplicates, the analysis comprised a list of 217 publications that
+focused on GAI in education.
+
+The comprehensive bibliometric analysis of GAI in education yielded several key
+ﬁndings. The research on GAI experienced signiﬁcant and exponential growth from
+2018 to 2023, with a notable surge in papers published in 2023, which was likely due
+to the popularity and innovation sparked by tools like ChatGPT. In addition, ChatGPT
+emerged as the dominant AI tool in GAI research within educational contexts, indicating
+its widespread adoption for intelligent interactions and contextually relevant responses.
+The interdisciplinary nature of GAI research in education, spanning computer science,
+engineering education, and medical education, highlights the need for collaboration in
+addressing complex challenges and potential applications.
+
+Sustainability 2023, 15, 12983
+33 of 40
+
+While highlighting the promising contributions of GAI integration in education, this
+review also delved into potential concerns associated with its implementation. This pa-
+per navigated the landscape of ethical implications, responsible GAI use, data privacy
+safeguards, biases, and academic integrity when exploring the assimilation of GAI within
+educational settings. These multifaceted concerns were considered in various sections of
+this review paper.
+
+Based on the ﬁndings from this review paper, several future research directions can be
+suggested to advance the ﬁeld of GAI in educational settings:
+•
+Exploring Transparency: Future research should focus on enhancing the transparency
+of GAI models. Understanding how AI-generated outputs are generated and provid-
+ing transparent explanations to users can increase user trust and acceptance of GAI
+tools in educational settings;
+•
+Addressing Biases and Fairness: As GAI models learn from existing data, they may
+inherit biases present in the data, potentially leading to biased outputs. Future re-
+search should focus on addressing and mitigating biases in GAI tools, especially in
+educational contexts, to not perpetuate stereotypes or discriminate against certain
+groups of learners;
+•
+Designing AI-Enhanced Curriculum: Researchers can explore the potential of GAI in
+generating adaptive and dynamic learning materials that cater to individual learners’
+needs. AI-powered curriculum design can foster personalized and engaging learning
+experiences, promoting lifelong learning and skill development;
+•
+GAI in Teacher Professional Development: Research can investigate how GAI tools can
+assist educators in improving their teaching practices, developing tailored instructional
+materials, and providing real-time feedback on their performance;
+•
+Collaborative AI in Education: Research the potential of collaborative AI systems in
+education, where humans and AI work together to achieve educational goals;
+•
+Longitudinal Studies: Conduct longitudinal studies to track the long-term effects of
+GAI integration in education. These studies can provide insights into the sustained
+impact of GAI on learning outcomes, retention rates, and academic performance over
+extended periods;
+•
+Privacy and Data Security: Research should focus on developing robust data protection
+measures and ensuring that student data is handled responsibly and securely;
+•
+Long-term Impact on Learning Outcomes: Investigate the long-term impact of GAI
+integration on learning outcomes, academic achievement, and students’ problem-
+solving skills;
+•
+Ethical Considerations and Responsible AI: Further explore the ethical implications of
+using GAI in education, addressing concerns related to plagiarism, academic integrity,
+and the potential impact on students’ critical thinking skills. Develop guidelines
+and policies to ensure the responsible and ethical use of GAI technologies in educa-
+tional settings;
+•
+Student Acceptance and Adoption: Conduct research on students’ acceptance and
+adoption of GAI technology in the learning process. Understand factors inﬂuencing
+their attitudes toward AI-powered tools and identify strategies to enhance student
+engagement and acceptance;
+•
+Interdisciplinary Collaborations: Foster interdisciplinary collaborations between edu-
+cators, AI researchers, and policymakers to develop comprehensive frameworks for
+integrating GAI into education;
+•
+Inclusivity and Accessibility: Explore ways to make GAI-powered educational tools
+more accessible to diverse learners, including those with disabilities or language barriers;
+•
+AI in Assessment and Evaluation: Investigate the effectiveness of GAI in assessment
+practices, including essay grading, problem-solving evaluation, and personalized feedback;
+•
+AI and Pedagogy: Investigate the implications of GAI for pedagogical practices,
+examining how it can complement and enhance traditional teaching methods.
+
+Sustainability 2023, 15, 12983
+34 of 40
+
+This literature review revealed the immense potential of GAI in reshaping educa-
+tion across various disciplines. While GAI presents exciting opportunities for improving
+teaching, learning, and educational processes, responsible and ethical usage, as well as
+addressing potential biases and academic integrity, are crucial aspects that demand atten-
+tion. The continued exploration of GAI’s potential, along with developing comprehensive
+guidelines and fostering critical thinking skills, will pave the way for a technologically
+advanced, inclusive, and effective educational landscape.
+
+Author Contributions: Conceptualization, Z.B., C.A. and V.A.; methodology, Z.B., C.A. and V.A. and
+A.Z.; software, A.Z.; formal analysis, Z.B., C.A. and V.A.; investigation, Z.B., C.A. and V.A.; resources,
+Z.B. and C.A.; data curation, Z.B., C.A., V.A. and A.Z.; writing—original draft preparation, Z.B., C.A.,
+V.A. and A.Z.; writing—review and editing, Z.B., C.A., V.A. and A.Z.; visualization, Z.B., C.A., V.A.
+and A.Z.; supervision, Z.B.; project administration, Z.B. All authors have read and agreed to the
+published version of the manuscript.
+
+Funding: The authors acknowledge the support of the American University of Sharjah under the
+Open Access Program. This paper represents the opinions of the authors and does not mean to
+represent the position or opinions of the American University of Sharjah.
+
+Data Availability Statement: Not applicable.
+
+Acknowledgments: The authors express their gratitude to Melvern Moras, an undergraduate student,
+for his assistance in conducting the bibliometric analysis.
+
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.
+OpenAI ChatGPT. Available online: https://chat.openai.com (accessed on 28 July 2023).
+2.
+Sullivan, M.; Kelly, A.; McLaughlan, P. ChatGPT in higher education: Considerations for academic integrity and student learning.
+J. Appl. Learn. Teach. 2023, 6, 31–40. [CrossRef]
+3.
+Bahrini, A.; Khamoshifar, M.; Abbasimehr, H.; Riggs, R.J.; Esmaeili, M.; Majdabadkohne, R.M.; Pasehvar, M. ChatGPT: Applica-
+tions, opportunities, and threats. In Proceedings of the 2023 Systems and Information Engineering Design Symposium (SIEDS),
+Charlottesville, VA, USA, 27–28 April 2023. [CrossRef]
+4.
+Google Bard. Available online: https://bard.google.com/ (accessed on 28 July 2023).
+5.
+Github Copilot. Available online: https://copilot.github.com/ (accessed on 28 July 2023).
+6.
+Hadi, M.U.; Qureshi, R.; Shah, A.; Irfan, M.; Zafar, A.; Shaikh, M.B.; Akhtar, N.; Wu, J.; Mirjalili, S. A Survey on Large Language
+Models: Applications, Challenges, Limitations, and Practical Usage. TechRxiv 2023. [CrossRef]
+7.
+Baidoo-Anu, D.; Owusu Ansah, L. Education in the Era of Generative Artiﬁcial Intelligence (AI): Understanding the Potential
+Beneﬁts of ChatGPT in Promoting Teaching and Learning. Available online: https://ssrn.com/abstract=4337484 (accessed on 28
+July 2023).
+8.
+Crompton, H.; Burke, D. Artiﬁcial intelligence in higher education: The state of the ﬁeld. Int. J. Educ. Technol. High. Educ. 2023, 20,
+22. [CrossRef]
+9.
+Sallam, M.; Salim, N.; Barakat, M.; Al-Tammemi, A. ChatGPT applications in medical, dental, pharmacy, and public health
+education: A descriptive study highlighting the advantages and limitations. Narra J. 2023, 3, e103. [CrossRef]
+10.
+Hsu, M.; Chan, T.; Yu, C. Termbot: A Chatbot-Based Crossword Game for Gamiﬁed Medical Terminology Learning. Int. J. Environ.
+Res. Public Health 2023, 20, 4185. [CrossRef]
+11.
+MacNeil, S.; Tran, A.; Mogil, D.; Bernstein, S.; Ross, E.; Huang, Z. Generating diverse code explanations using the gpt-3
+large language model. In Proceedings of the 2022 ACM Conference on International Computing Education Research, Lugano,
+Switzerland, 7–11 August 2022; Volume 2. [CrossRef]
+12.
+Rahman, M.M.; Watanobe, Y. ChatGPT for education and research: Opportunities, threats, and strategies. Appl. Sci. 2023, 13, 5783.
+[CrossRef]
+13.
+Kooli, C. Chatbots in education and research: A critical examination of ethical implications and solutions. Sustainability 2023, 15,
+5614. [CrossRef]
+14.
+Markel, J.M.; Opferman, S.G.; Landay, J.A.; Piech, C. GPTeach: Interactive TA Training with GPT Based Students. In Proceedings
+of the Tenth ACM Conference on Learning @ Scale (L@S ‘23), Association for Computing Machinery, New York, NY, USA, 20–22
+July 2023.
+15.
+Prisma Framework. Available online: http://www.prisma-statement.org/ (accessed on 6 August 2023).
+16.
+Jonsson, M.; Tholander, J. Cracking the code: Co-coding with AI in creative programming education. In Proceedings of the 14th
+Conference on Creativity and Cognition, Venice, Italy, 20–23 June 2022. [CrossRef]
+
+Sustainability 2023, 15, 12983
+35 of 40
+
+17.
+Finnie-Ansley, J.; Denny, P.; Becker, B.A.; Luxton-Reilly, A.; Prather, J. The robots are coming: Exploring the implications of openai
+codex on introductory programming. In Proceedings of the 24th Australasian Computing Education Conference, Virtual Event,
+14–18 February 2022. [CrossRef]
+18.
+Denny, P.; Kumar, V.; Giacaman, N. Conversing with copilot: Exploring prompt engineering for solving cs1 problems using
+natural language. In Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1, Toronto, ON,
+Canada, 15–18 March 2023. [CrossRef]
+19.
+Kazemitabaar, M.; Chow, J.; Ma, C.K.T.; Ericson, B.J.; Weintrop, D.; Grossman, T. Studying the effect of AI code generators on
+supporting novice learners in introductory programming. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems, Hamburg, Germany, 23–28 April 2023. [CrossRef]
+20.
+Savelka, J.; Agarwal, A.; Bogart, C.; Sakr, M. Large language models (gpt) struggle to answer multiple-choice questions about
+code. arXiv 2023, arXiv:2303.08033.
+21.
+Wermelinger, M. Using GitHub copilot to solve simple programming problems. In Proceedings of the 54th ACM Technical
+Symposium on Computer Science Education V. 1, Toronto, ON, Canada, 15–18 March 2023. [CrossRef]
+22.
+Becker, B.A.; Denny, P.; Finnie-Ansley, J.; Luxton-Reilly, A.; Prather, J.; Santos, E.A. Programming is hard-or at least it used to
+be: Educational opportunities and challenges of AI code generation. In Proceedings of the 54th ACM Technical Symposium on
+Computer Science Education V. 1, Toronto, ON, Canada, 15–18 March 2023. [CrossRef]
+23.
+Jacques, L. Teaching CS-101 at the Dawn of ChatGPT. ACM Inroads 2023, 14, 40–46. [CrossRef]
+24.
+Raji, I.D.; Scheuerman, M.K.; Amironesei, R. You can’t sit with us: Exclusionary pedagogy in AI ethics education. In Proceedings
+of the 2021 ACM Conference on Fairness, Accountability, and Transparency, Virtual Event, 3–10 March 2021. [CrossRef]
+25.
+Yilmaz, R.; Yilmaz, F.G.K. The effect of generative artiﬁcial intelligence (AI)-based tool use on students’ computational thinking
+skills, programming self-efﬁcacy and motivation. Comput. Educ. Artif. Intell. 2023, 4, 100147. [CrossRef]
+26.
+Cortiñas-Lorenzo, K.; Lacey, G. Toward Explainable Affective Computing: A Review. IEEE Trans. Neural Netw. Learn. Syst. 2023.
+accepted. [CrossRef] [PubMed]
+27.
+Marquez, R.; Barrios, N.; Vera, R.E.; Mendez, M.E.; Tolosa, L.; Zambrano, F.; Li, Y. A perspective on the synergistic potential of
+artiﬁcial intelligence and product-based learning strategies in biobased materials education. Educ. Chem. Eng. 2023, 44, 164–180.
+[CrossRef]
+28.
+Humphry, T.; Fuller, A.L. Potential ChatGPT Use in Undergraduate Chemistry Laboratories. J. Chem. Educ. 2023, 100, 1434–1436.
+[CrossRef]
+29.
+Sánchez-Ruiz, L.M.; Moll-López, S.; Nuñez-Pérez, A.; Moraño-Fernández, J.A.; Vega-Fleitas, E. ChatGPT Challenges Blended
+Learning Methodologies in Engineering Education: A Case Study in Mathematics. Appl. Sci. 2023, 13, 6039. [CrossRef]
+30.
+Nikolic, S.; Daniel, S.; Haque, R.; Belkina, M.; Hassan, G.M.; Grundy, S.; Lyden, S.; Neal, P.; Sandison, C. ChatGPT versus
+engineering education assessment: A multidisciplinary and multi-institutional benchmarking and analysis of this generative
+artiﬁcial intelligence tool to investigate assessment integrity. Eur. J. Eng. Educ. 2023, 48, 559–614. [CrossRef]
+31.
+Gmeiner, F.; Yang, H.; Yao, L.; Holstein, K.; Martelaro, N. Exploring challenges and opportunities to support designers in
+learning to co-create with AI-based manufacturing design tools. In Proceedings of the 2023 CHI Conference on Human Factors in
+Computing Systems, Hamburg, Germany, 23–28 April 2023. [CrossRef]
+32.
+Chen, C.; Olajoyegbe, T.O.; Morkos, B. The imminent educational paradigm shift: How artiﬁcial intelligence will reframe how
+we educate the next generation of engineering designers. In Proceedings of the 2020 ASEE Virtual Annual Conference Content
+Access, Virtual Event, 22–26 June 2020. [CrossRef]
+33.
+Galdon, F.; Hall, A.; Ferrarello, L. Enhacing abductive reasoning in design and engineering education via probabilistic knowledge;
+a case study in ai. In Proceedings of the DS 110: 23rd International Conference on Engineering and Product Design Education
+(E&PDE 2021), VIA Design, VIA University, Herning, Denmark, 9–10 September 2021. [CrossRef]
+34.
+Elfaki, A.O.; Abduljabbar, M.; Ali, L.; Alnajjar, F.; Mehiar, D.; Marei, A.M.; Alhmiedat, T.; Al-Jumaily, A. Revolutionizing Social
+Robotics: A Cloud-Based Framework for Enhancing the Intelligence and Autonomy of Social Robots. Robotics 2023, 12, 48.
+[CrossRef]
+35.
+Konecki, M.; Konecki, M.; Biškupi´c, I. Using artiﬁcial intelligence in higher education. In Proceedings of the 15th International
+Conference on Computer Supported Education, Prague, Czech Republic, 21–23 April 2023. [CrossRef]
+36.
+Eager, B.; Brunton, R. Prompting higher education towards AI-augmented teaching and learning practice. J. Univ. Teach. Learn.
+Pract. 2023, 20, 02. [CrossRef]
+37.
+Chaudhry, I.S.; Sarwary, S.A.M.; El Refae, G.A.; Chabchoub, H. Time to Revisit Existing Student’s Performance Evaluation
+Approach in Higher Education Sector in a New Era of ChatGPT—A Case Study. Cogent Educ. 2023, 10, 2210461. [CrossRef]
+38.
+Iskender, A. Holy or unholy? Interview with open AI’s ChatGPT. Eur. J. Tour. Res. 2023, 34, 3414. [CrossRef]
+39.
+Strzelecki, A. To use or not to use ChatGPT in higher education? A study of students’ acceptance and use of technology. Interact.
+Learn. Environ. 2023, 34, 3414. [CrossRef]
+40.
+Stojanov, A. Learning with ChatGPT 3.5 as a more knowledgeable other: An autoethnographic study. Int. J. Educ. Technol. High.
+Educ. 2023, 20, 35. [CrossRef]
+41.
+Pinto, A.S.; Abreu, A.; Costa, E.; Paiva, J. How Machine Learning (ML) is Transforming Higher Education: A Systematic Literature
+Review. J. Inf. Syst. Eng. Manag. 2023, 8, 21168. [CrossRef]
+
+Sustainability 2023, 15, 12983
+36 of 40
+
+42.
+Waisberg, E.; Ong, J.; Masalkhi, M.; Kamran, S.A.; Zaman, N.; Sarker, P.; Lee, A.G.; Tavakkoli, A. GPT-4: A new era of artiﬁcial
+intelligence in medicine. Ir. J. Med. Sci. 2023, 1–4. [CrossRef]
+43.
+Sevgi, U.T.; Erol, G.; Do˘gruel, Y.; Sönmez, O.F.; Tubbs, R.S.; Güngor, A. The role of an open artiﬁcial intelligence platform in
+modern neurosurgical education: A preliminary study. Neurosurg. Rev. 2023, 46, 86. [CrossRef]
+44.
+Šlapeta, J. Are ChatGPT and other pretrained language models good parasitologists? Trends Parasitol. 2023, 39, 314–316. [CrossRef]
+[PubMed]
+45.
+Huh, S. Are ChatGPT’s knowledge and interpretation ability comparable to those of medical students in Korea for taking a
+parasitology examination?: A descriptive study. J. Educ. Eval. Health Prof. 2023, 20, 1–6. [CrossRef]
+46.
+Dolezal, J.M.; Wolk, R.; Hieromnimon, H.M.; Howard, F.M.; Srisuwananukorn, A.; Karpeyev, D.; Ramesh, S.; Kochanny, S.; Kwon,
+J.W.; Agni, M.; et al. Deep learning generates synthetic cancer histology for explainability and education. NPJ Precis. Oncol. 2023,
+7, 49. [CrossRef] [PubMed]
+47.
+Skalidis, I.; Cagnina, A.; Luangphiphat, W.; Mahendiran, T.; Muller, O.; Abbe, E.; Fournier, S. ChatGPT takes on the European
+Exam in Core Cardiology: An artiﬁcial intelligence success story? Eur. Heart J.-Digit. Health 2023, 4, 279–281. [CrossRef] [PubMed]
+48.
+Corsello, A.; Santangelo, A. May Artiﬁcial Intelligence Inﬂuence Future Pediatric Research?—The Case of ChatGPT. Children
+2023, 10, 757. [CrossRef]
+49.
+Lyu, Q.; Tan, J.; Zapadka, M.E.; Ponnatapuram, J.; Niu, C.; Wang, G.; Whitlow, C.T. Translating radiology reports into plain
+language using chatgpt and gpt-4 with prompt learning: Promising results, limitations, and potential. arXiv 2023, arXiv:2303.09038.
+[CrossRef]
+50.
+Abdel-Messih, M.S.; Kamel Boulos, M.N. ChatGPT in clinical toxicology. JMIR Med. Educ. 2023, 9, e46876. [CrossRef]
+51.
+Oh, N.; Choi, G.; Lee, W.Y. ChatGPT goes to the operating room: Evaluating GPT-4 performance and its potential in surgical
+education and training in the era of large language models. Ann. Surg. Treat. Res. 2023, 104, 269. [CrossRef]
+52.
+Lee, P.; Bubeck, S.; Petro, J. Beneﬁts, limits, and risks of GPT-4 as an AI chatbot for medicine. N. Engl. J. Med. 2023, 388, 1233–1239.
+[CrossRef]
+53.
+Yang, J.; Por, L.Y.; Leong, M.C.; Ku, C.S. The Potential of ChatGPT in Assisting Children with Down Syndrome. Ann. Biomed. Eng.
+2023, 1–3. [CrossRef]
+54.
+Wang, H.; Jia, S.; Li, Z.; Duan, Y.; Tao, G.; Zhao, Z. A Comprehensive Review of Artiﬁcial Intelligence in Prevention and Treatment
+of COVID-19 Pandemic. Front. Genet. 2022, 13, 845305. [CrossRef] [PubMed]
+55.
+Cascella, M.; Montomoli, J.; Bellini, V.; Bignami, E. Evaluating the feasibility of ChatGPT in healthcare: An analysis of multiple
+clinical and research scenarios. J. Med. Syst. 2023, 47, 33. [CrossRef] [PubMed]
+56.
+Gupta, R.; Herzog, I.; Weisberger, J.; Chao, J.; Chaiyasate, K.; Lee, E.S. Utilization of ChatGPT for plastic surgery research: Friend
+or foe? J. Plast. Reconstr. Aesthetic Surg. 2023, 80, 145–147. [CrossRef] [PubMed]
+57.
+Masters, K. Ethical use of artiﬁcial intelligence in health professions education: AMEE Guide No. 158. Med. Teach. 2023, 45,
+574–584. [CrossRef] [PubMed]
+58.
+Choi, E.P.H.; Lee, J.J.; Ho, M.; Kwok, J.Y.Y.; Lok, K.Y.W. Chatting or cheating? The impacts of ChatGPT and other artiﬁcial
+intelligence language models on nurse education. Nurse Educ. Today 2023, 125, 105796. [CrossRef]
+59.
+Irwin, P.; Jones, D.; Fealy, S. What is ChatGPT and what do we do with it? Implications of the age of AI for nursing and midwifery
+practice and education: An editorial. Nurse Educ. Today 2023, 127, 105835. [CrossRef]
+60.
+Abdulai, A.; Hung, L. Will ChatGPT undermine ethical values in nursing education, research, and practice. Nurs. Inq. 2023, 30,
+e12556. [CrossRef]
+61.
+Seney, V.; Desroches, M.L.; Schuler, M.S. Using ChatGPT to teach enhanced clinical judgment in nursing education. Nurse Educ.
+2023, 48, 124. [CrossRef]
+62.
+Ahmed, S.K. The Impact of ChatGPT on the Nursing Profession: Revolutionizing Patient Care and Education. Ann. Biomed. Eng.
+2023, 1–2. [CrossRef]
+63.
+Lo, L.S. The CLEAR path: A framework for enhancing information literacy through prompt engineering. J. Acad. Librariansh.
+2023, 49, 102720. [CrossRef]
+64.
+Wang, H. Short sequence Chinese-English machine translation based on generative adversarial networks of emotion. Comput.
+Intell. Neurosci. 2022, 2022, 3385477. [CrossRef] [PubMed]
+65.
+Santandreu-Calonge, D.; Medina-Aguerrebere, P.; Hultberg, P.; Shah, M. Can ChatGPT improve communication in hospitals?
+Prof. Inf. 2023, 32, e320219. [CrossRef]
+66.
+Pavlik, J.V. Collaborating with ChatGPT: Considering the implications of generative artiﬁcial intelligence for journalism and
+media education. J. Mass Commun. Educ. 2023, 78, 84–93. [CrossRef]
+67.
+Feng, Y.; Poralla, P.; Dash, S.; Li, K.; Desai, V.; Qiu, M. The impact of chatgpt on streaming media: A crowdsourced and
+data-driven analysis using twitter and reddit. In Proceedings of the 2023 IEEE 9th Intl Conference on Big Data Security on Cloud
+(BigDataSecurity), IEEE Intl Conference on High Performance and Smart Computing, (HPSC) and IEEE Intl Conference on
+Intelligent Data and Security (IDS), New York, NY, USA, 6–8 May 2023. [CrossRef]
+68.
+Alqahtani, T.; Badreldin, H.A.; Alrashed, M.; Alshaya, A.I.; Alghamdi, S.S.; bin Saleh, K.; Alowais, S.A.; Alshaya, O.A.; Rahman,
+I.; Al Yami, M.S.; et al. The emergent role of artiﬁcial intelligence, natural learning processing, and large language models in
+higher education and research. Res. Soc. Adm. Pharm. 2023, 19, 1236–1242. [CrossRef] [PubMed]
+
+Sustainability 2023, 15, 12983
+37 of 40
+
+69.
+Cotton, D.R.; Cotton, P.A.; Shipway, J.R. Chatting and cheating: Ensuring academic integrity in the era of ChatGPT. Innov. Educ.
+Teach. Int. 2023, 1–12. [CrossRef]
+70.
+Currie, G.M. Academic integrity and artiﬁcial intelligence: Is ChatGPT hype, hero or heresy? Semin. Nucl. Med. 2023, 53, 719–730.
+[CrossRef]
+71.
+Dergaa, I.; Chamari, K.; Zmijewski, P.; Saad, H.B. From human writing to artiﬁcial intelligence generated text: Examining the
+prospects and potential threats of ChatGPT in academic writing. Biol. Sport 2023, 40, 615–622. [CrossRef]
+72.
+Perkins, M. Academic Integrity considerations of AI Large Language Models in the post-pandemic era: ChatGPT and beyond. J.
+Univ. Teach. Learn. Pract. 2023, 20, 07. [CrossRef]
+73.
+Inamdar, S. Impact of artiﬁcial intelligence text generators (AITGs) on libraries. Libr. Hi Tech News 2023. ahead-of-print. [CrossRef]
+74.
+Frederick, D.E. ChatGPT: A viral data-driven disruption in the information environment. Libr. Hi Tech News 2023, 40, 4–10.
+[CrossRef]
+75.
+Al Ghatriﬁ, M.O.M.; Al Amairi, J.S.S.; Thottoli, M.M. Surﬁng the technology wave: An international perspective on enhancing
+teaching and learning in accounting. Comput. Educ. Artif. Intell. 2023, 4, 100144. [CrossRef]
+76.
+Geerling, W.; Mateer, G.D.; Wooten, J.; Damodaran, N. ChatGPT has aced the test of understanding in college economics: Now
+what? Am. Econ. 2023, 05694345231169654. [CrossRef]
+77.
+Skavronskaya, L.; Hadinejad, A.; Cotterell, D. Reversing the threat of artiﬁcial intelligence to opportunity: A discussion of
+ChatGPT in tourism education. J. Teach. Travel Tour. 2023, 23, 253–258. [CrossRef]
+78.
+Elnozahy, W.A.; El Khayat, G.A. Multi-lang question answering framework for decision support in educational institutes. In
+Proceedings of the 15th International Conference on Computer Supported Education, Prague, Czech Republic, 21–23 April 2023.
+[CrossRef]
+79.
+Aydın, N.; Erdem, O.A. A research on the new generation artiﬁcial intelligence technology generative pretraining transformer 3.
+In Proceedings of the 2022 3rd International Informatics and Software Engineering Conference (IISEC), Ankara, Turkey, 15–16
+December 2022. [CrossRef]
+80.
+Cooper, G. Examining science education in chatgpt: An exploratory study of generative artiﬁcial intelligence. J. Sci. Educ. Technol.
+2023, 32, 444–452. [CrossRef]
+81.
+Su, J.; Yang, W. Unlocking the power of ChatGPT: A framework for applying generative AI in education. ECNU Rev. Educ. 2023,
+20965311231168423. [CrossRef]
+82.
+Murugesan, S.; Cherukuri, A.K. The Rise of Generative Artiﬁcial Intelligence and Its Impact on Education: The Promises and
+Perils. Computer 2023, 56, 116–121. [CrossRef]
+83.
+Hsu, Y.; Ching, Y. Generative Artiﬁcial Intelligence in Education, Part One: The Dynamic Frontier. TechTrends 2023, 67, 603–607.
+[CrossRef]
+84.
+Mørch, A.I.; Andersen, R. Human-Centred AI in Education in the Age of Generative AI Tools. Available online: https://ceur-ws.
+org/Vol-3408/short-s2-08.pdf (accessed on 14 July 2023).
+85.
+Gentile, M.; Città, G.; Perna, S.; Allegra, M. Do we still need teachers? navigating the paradigm shift of the teacher’s role in the AI
+era. Front. Educ. 2023, 8, 1161777. [CrossRef]
+86.
+Jangjarat, K.; Kraiwanit, T.; Limna, P.; Sonsuphap, R. Public Perceptions Towards ChatGPT as the Robo-Assistant. Online J.
+Commun. Media Technol. 2023, 13, e202338. [CrossRef]
+87.
+Tlili, A.; Shehata, B.; Adarkwah, M.A.; Bozkurt, A.; Hickey, D.T.; Huang, R.; Agyemang, B. What if the devil is my guardian angel:
+ChatGPT as a case study of using chatbots in education. Smart Learn. Environ. 2023, 10, 15. [CrossRef]
+88.
+Lodge, J.M.; Thompson, K.; Corrin, L. Mapping out a research agenda for generative artiﬁcial intelligence in tertiary education.
+Australas. J. Educ. Technol. 2023, 39, 1–8. [CrossRef]
+89.
+Chen, X.; Xie, H.; Zou, D.; Hwang, G. Application and theory gaps during the rise of artiﬁcial intelligence in education. Comput.
+Educ. Artif. Intell. 2020, 1, 100002. [CrossRef]
+90.
+Luo, W.; He, H.; Liu, J.; Berson, I.R.; Berson, M.J.; Zhou, Y.; Li, H. Aladdin’s Genie or Pandora’s Box for Early Childhood
+Education? Experts Chat on the Roles, Challenges, and Developments of ChatGPT. Early Educ. Dev. 2023, 2214181. [CrossRef]
+91.
+Kasneci, E.; Seßler, K.; Küchemann, S.; Bannert, M.; Dementieva, D.; Fischer, F.; Gasser, U.; Groh, G.; Günnemann, S.; Hüllermeier,
+E.; et al. ChatGPT for good? On opportunities and challenges of large language models for education. Learn. Individ. Differ. 2023,
+103, 102274. [CrossRef]
+92.
+Golovianko, M.; Gryshko, S.; Terziyan, V.; Tuunanen, T. Responsible cognitive digital clones as decision-makers: A design science
+research study. Eur. J. Inf. Syst. 2022, 1–23. [CrossRef]
+93.
+Ye, F.; Bors, A.G. Lifelong teacher-student network learning. IEEE Trans. Pattern Anal. Mach. Intell. 2021, 44, 6280–6296. [CrossRef]
+94.
+Karadag, I.; Güzelci, O.Z.; Alaçam, S. EDU-AI: A twofold machine learning model to support classroom layout generation. Constr.
+Innov. 2022, 23, 898–914. [CrossRef]
+95.
+Vartiainen, H.; Tedre, M. Using artiﬁcial intelligence in craft education: Crafting with text-to-image generative models. Digit.
+Creat. 2023, 34, 1–21. [CrossRef]
+96.
+Zhai, C.; Wibowo, S.; Cowling, M. An innovative tool for education: An adversarial dialogue system embedded with humor,
+empathy and culture. In Proceedings of the 2023 11th International Conference on Information and Education Technology (ICIET),
+Fujisawa, Japan, 18–20 March 2023. [CrossRef]
+
+Sustainability 2023, 15, 12983
+38 of 40
+
+97.
+Sarr, J.M.A.; Yannakakis, G.N.; Liapis, A.; Bah, A.; Cambier, C. Djehuty: A mixed-initiative handwriting game for preschoolers. In
+Proceedings of the 15th International Conference on the Foundations of Digital Games, Bugibba, Malta, 15–18 September 2020.
+[CrossRef]
+98.
+Bauer, E.; Greisel, M.; Kuznetsov, I.; Berndt, M.; Kollar, I.; Dresel, M.; Fischer, M.R.; Fischer, F. Using natural language processing
+to support peer-feedback in the age of artiﬁcial intelligence: A cross-disciplinary framework and a research agenda. Br. J. Educ.
+Technol. 2023, 54, 1222–1245. [CrossRef]
+99.
+Farrokhnia, M.; Banihashem, S.K.; Noroozi, O.; Wals, A. A SWOT analysis of ChatGPT: Implications for educational practice and
+research. Innov. Educ. Teach. Int. 2023, 1–15. [CrossRef]
+100. Howell, B.E.; Potgieter, P.H. What do telecommunications policy academics have to fear from GPT-3? Telecommun. Policy 2023,
+102576. [CrossRef]
+101. Huang, Y.; Khan, S.M. Advances in AI and machine learning for education research. In Computational Psychometrics: New
+Methodologies for a New Generation of Digital Learning and Assessment: With Examples in R and Python; Springer: Berlin/Heidelberg,
+Germany, 2021; pp. 195–208. [CrossRef]
+102. Ibrahim, H.; Asim, R.; Zaffar, F.; Rahwan, T.; Zaki, Y. Rethinking Homework in the Age of Artiﬁcial Intelligence. IEEE Intell. Syst.
+2023, 38, 24–27. [CrossRef]
+103. Sung, C.; Dhamecha, T.I.; Mukhi, N. Improving short answer grading using transformer-based pre-training. In Proceedings of the
+Artiﬁcial Intelligence in Education: 20th International Conference, AIED 2019, Chicago, IL, USA, 25–29 June 2019. [CrossRef]
+104. Lo, C.K. What is the impact of ChatGPT on education? A rapid review of the literature. Educ. Sci. 2023, 13, 410. [CrossRef]
+105. Ajevski, M.; Barker, K.; Gilbert, A.; Hardie, L.; Ryan, F. ChatGPT and the future of legal education and practice. Law Teach. 2023,
+1–13. [CrossRef]
+106. Johinke, R.; Cummings, R.; Di Lauro, F. Reclaiming the technology of higher education for teaching digital writing in a post—
+Pandemic world. J. Univ. Teach. Learn. Pract. 2023, 20, 01. [CrossRef]
+107. Kovaˇcevi´c, D. Use of chatgpt in ESP teaching process. In Proceedings of the 2023 22nd International Symposium INFOTEH-
+JAHORINA (INFOTEH), East Sarajevo, Bosnia and Herzegovina, 15–17 March 2023. [CrossRef]
+108. Zhao, T.; Song, T. Establishing a Fusion Model of Attention Mechanism and Generative Adversarial Network to Estimate Students’
+Attitudes in English Classes. Teh. Vjesn. 2022, 29, 1464–1471. [CrossRef]
+109. Tang, J.; Deng, Y. The Design Model of English Graded Teaching Assistant Expert System Based on Improved B/S Three-Tier
+Structure System. Mob. Inf. Syst. 2022, 2022, 4167760. [CrossRef]
+110. O’Leary, D.E. An analysis of three chatbots: BlenderBot, ChatGPT and LaMDA. Intell. Syst. Account. Financ. Manag. 2023, 30,
+41–54. [CrossRef]
+111. Yan, D. Impact of ChatGPT on learners in a L2 writing practicum: An exploratory investigation. Educ. Inf. Technol. 2023, 1–25.
+[CrossRef]
+112. Bearman, M.; Ajjawi, R. Learning to work with the black box: Pedagogy for a world with artiﬁcial intelligence. Br. J. Educ. Technol.
+2023, 54, 1160–1173. [CrossRef]
+113. Fernandez, P. Through the looking glass: Envisioning new library technologies AI-text generators as explained by ChatGPT. Libr.
+Hi Tech News 2023, 40, 11–14. [CrossRef]
+114. Ray, P.P. ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future
+scope. Internet Things Cyber-Phys. Syst. 2023, 3, 121–154. [CrossRef]
+115. Singh, H.; Singh, A. ChatGPT: Systematic Review, Applications, and Agenda for Multidisciplinary Research. J. Chin. Econ. Bus.
+Stud. 2023, 21, 193–212. [CrossRef]
+116. Danry, V.; Leong, J.; Pataranutaporn, P.; Tandon, P.; Liu, Y.; Shilkrot, R.; Punpongsanon, P.; Weissman, T.; Maes, P.; Sra, M.
+AI-generated characters: Putting deepfakes to good use. In Proceedings of the CHI Conference on Human Factors in Computing
+Systems Extended Abstracts, New Orleans, LA, USA, 29 April–5 May 2022. [CrossRef]
+117. Ali, S.; DiPaola, D.; Lee, I.; Hong, J.; Breazeal, C. Exploring generative models with middle school students. In Proceedings of the
+2021 CHI Conference on Human Factors in Computing Systems, Yokohama, Japan, 8–13 May 2021. [CrossRef]
+118. Adams, T.; Jameel, S.M.; Goggins, J. Education for Sustainable Development: Mapping the SDGs to University Curricula.
+Sustainability 2023, 15, 8340. [CrossRef]
+119. Emenike, M.E.; Emenike, B.U. Was This Title Generated by ChatGPT? Considerations for Artiﬁcial Intelligence Text-Generation
+Software Programs for Chemists and Chemistry Educators. J. Chem. Educ. 2023, 100, 1413–1418. [CrossRef]
+120. Agathokleous, E.; Saitanis, C.J.; Fang, C.; Yu, Z. Use of ChatGPT: What does it mean for biology and environmental science? Sci.
+Total Environ. 2023, 888, 164154. [CrossRef]
+121. Hallsworth, J.E.; Udaondo, Z.; Pedrós-Alió, C.; Höfer, J.; Benison, K.C.; Lloyd, K.G.; Cordero, R.J.; de Campos, C.B.; Yakimov,
+M.M.; Amils, R. Scientiﬁc novelty beyond the experiment. Microb. Biotechnol. 2023, 16, 1131–1173. [CrossRef]
+122. Megahed, F.M.; Chen, Y.; Ferris, J.A.; Knoth, S.; Jones-Farmer, L.A. How generative AI models such as chatgpt can be (mis) used
+in spc practice, education, and research? an exploratory study. Qual. Eng. 2023, 1–29. [CrossRef]
+123. Ivanov, S.; Soliman, M. Game of algorithms: ChatGPT implications for the future of tourism education and research. J. Tour.
+Futures 2023, 9, 214–221. [CrossRef]
+124. Fergus, S.; Botha, M.; Ostovar, M. Evaluating academic answers generated using ChatGPT. J. Chem. Educ. 2023, 100, 1672–1675.
+[CrossRef]
+
+Sustainability 2023, 15, 12983
+39 of 40
+
+125. Siche, R.; Siche, N. El modelo de lenguaje basado en inteligencia artiﬁcial sensible-ChatGPT: Análisis bibliométrico y posibles
+usos en la agricultura y pecuaria. Sci. Agropecu. 2023, 14, 111–116. [CrossRef]
+126. Uddin, S.J.; Albert, A.; Ovid, A.; Alsharef, A. Leveraging ChatGPT to Aid Construction Hazard Recognition and Support Safety
+Education and Training. Sustainability 2023, 15, 7121. [CrossRef]
+127. Wolfert, R.; van Nederveen, S.; Binnekamp, R. Fit for Purpose Building Information Modelling and Systems Integration (BIMSI)
+for Better Construction Projects Management. J. Mod. Proj. Manag. 2022, 10, 174–187. [CrossRef]
+128. Wu, R.; Yu, Z. Do AI chatbots improve students learning outcomes? Evidence from a meta-analysis. Br. J. Educ. Technol. 2023.
+[CrossRef]
+129. Muñoz, S.A.S.; Gayoso, G.G.; Huambo, A.C.; Tapia, R.D.C.; Incaluque, J.L.; Aguila, O.E.P.; Cajamarca, J.C.R.; Acevedo, J.E.R.;
+Rivera, H.V.H.; Arias-Gonzáles, J.L. Examining the Impacts of ChatGPT on Student Motivation and Engagement. Soc. Space 2023,
+23, 1–27.
+130. Crawford, J.; Cowling, M.; Allen, K. Leadership is needed for ethical ChatGPT: Character, assessment, and learning using artiﬁcial
+intelligence (AI). J. Univ. Teach. Learn. Pract. 2023, 20, 02. [CrossRef]
+131. Shoufan, A. Exploring Students’ Perceptions of CHATGPT: Thematic Analysis and Follow-Up Survey. IEEE Access 2023, 11,
+38805–38818. [CrossRef]
+132. Gardner, D.E.; Giordano, A.N. The Challenges and Value of Undergraduate Oral Exams in the Physical Chemistry Classroom: A
+Useful Tool in the Assessment Toolbox. J. Chem. Educ. 2023, 100, 1705–1709. [CrossRef]
+133. Hemachandran, K.; Verma, P.; Pareek, P.; Arora, N.; Rajesh Kumar, K.V.; Ahanger, T.A.; Pise, A.A.; Ratna, R. Artiﬁcial Intelligence:
+A Universal Virtual Tool to Augment Tutoring in Higher Education. Comput. Intell. Neurosci. 2022, 2022, 1410448. [CrossRef]
+134. Limo, F.A.F.; Tiza, D.R.H.; Roque, M.M.; Herrera, E.E.; Murillo, J.P.M.; Huallpa, J.J.; Flores, V.A.A.; Castillo, A.G.R.; Peña, P.F.P.;
+Carranza, C.P.M.; et al. Personalized tutoring: ChatGPT as a virtual tutor for personalized learning experiences. Soc. Space 2023,
+23, 293–312.
+135. Alnaqbi, N.M.; Fouda, W. Exploring the Role of ChatGPT and social media in Enhancing Student Evaluation of Teaching Styles in
+Higher Education Using Neutrosophic Sets. Int. J. Neutrosophic Sci. 2023, 20, 181–190. [CrossRef]
+136. Jeon, J.; Lee, S. Large language models in education: A focus on the complementary relationship between human teachers and
+ChatGPT. Educ. Inf. Technol. 2023, 1–20. [CrossRef]
+137. Dijkstra, R.; Genç, Z.; Kayal, S.; Kamps, J. Reading Comprehension Quiz Generation Using Generative Pre-Trained Transformers.
+2022. Available online: https://intextbooks.science.uu.nl/workshop2022/ﬁles/itb22_p1_full5439.pdf (accessed on 16 July 2023).
+138. Pataranutaporn, P.; Leong, J.; Danry, V.; Lawson, A.P.; Maes, P.; Sra, M. AI-generated virtual instructors based on liked or admired
+people can improve motivation and foster positive emotions for learning. In Proceedings of the 2022 IEEE Frontiers in Education
+Conference (FIE), Uppsala, Sweden, 8–11 October 2022. [CrossRef]
+139. Shu, D.; Doss, C.; Mondschein, J.; Kopecky, D.; Fitton-Kane, V.; Bush, L.; Tucker, C. A pilot study investigating STEM learners’
+ability to decipher AI-generated video. In Proceedings of the 2021 ASEE Virtual Annual Conference, Virtual Event, 13–15
+September 2021.
+140. Wardat, Y.; Tashtoush, M.A.; AlAli, R.; Jarrah, A.M. ChatGPT: A revolutionary tool for teaching and learning mathematics. Eurasia
+J. Math. Sci. Technol. Educ. 2023, 19, em2286. [CrossRef] [PubMed]
+141. Halaweh, M. ChatGPT in education: Strategies for responsible implementation. Contemp. Educ. Technol. 2023, 15, ep421.
+[CrossRef] [PubMed]
+142. Lim, W.M.; Gunasekara, A.; Pallant, J.L.; Pallant, J.I.; Pechenkina, E. Generative AI and the future of education: Ragnarök or
+reformation? A paradoxical perspective from management educators. Int. J. Manag. Educ. 2023, 21, 100790. [CrossRef]
+143. Hwang, G.; Chen, N. Editorial Position Paper. Educ. Technol. Soc. 2023, 26, xviii. [CrossRef]
+144. Yu, H.; Guo, Y. Generative artiﬁcial intelligence empowers educational reform: Current status, issues, and prospects. Front. Educ.
+2023, 8, 1183162. [CrossRef]
+145. Dwivedi, Y.K.; Kshetri, N.; Hughes, L.; Slade, E.L.; Jeyaraj, A.; Kar, A.K.; Baabdullah, A.M.; Koohang, A.; Raghavan, V.; Ahuja, M.;
+et al. “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative
+conversational AI for research, practice and policy. Int. J. Inf. Manag. 2023, 71, 102642. [CrossRef]
+146. Javed, R.T.; Nasir, O.; Borit, M.; Vanhée, L.; Zea, E.; Gupta, S.; Vinuesa, R.; Qadir, J. Get out of the BAG! Silos in AI ethics education:
+Unsupervised topic modeling analysis of global AI curricula. J. Artif. Intell. Res. 2022, 73, 933–965. [CrossRef]
+147. Karaali, G. Artiﬁcial Intelligence, Basic Skills, and Quantitative Literacy. Numeracy 2023, 16, 9. [CrossRef]
+148. Lawrie, G. Establishing a delicate balance in the relationship between artiﬁcial intelligence and authentic assessment in student
+learning. Chem. Educ. Res. Pract. 2023, 24, 392–393. [CrossRef]
+149. Robertson, L.; Muirhead, B. Where do we go from here? An interdisciplinary exploration of leveraging new technologies in
+education. In Proceedings of the International Conference on Society and Information Technologies (ICSIT0), Orlando, FL, USA,
+8–11 March 2022. [CrossRef]
+150. Álvarez-Álvarez, C.; Falcon, S. Students’ preferences with university teaching practices: Analysis of testimonials with artiﬁcial
+intelligence. Educ. Technol. Res. Dev. 2023, 1–16. [CrossRef]
+151. Van Eck, N.J.; Waltman, L. VOSviewer Manual: Manual for VOSviewer Version 1.6.15; Centre for Science and Technology Studies
+(CWTS) of Leiden University: Leiden, The Netherlands, 2020.
+
+Sustainability 2023, 15, 12983
+40 of 40
+
+152. Januszewski, A.; ˙Zółtowski, D. Emerging ICT for Sustainable Development. Research Concept of Literature Analysis. In
+Proceedings of the Americas Conference on Information Systems (AMCIS) 2023, Panama City, Panama, 10–12 August 2023.
+153. Van Eck, N.J.; Waltman, L. Text mining and visualization using VOSviewer. arXiv 2011, arXiv:1109.2058.
+154. OpenAI Codex. Available online: https://openai.com/blog/openai-codex (accessed on 28 July 2023).
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

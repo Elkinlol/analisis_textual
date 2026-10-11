@@ -1,0 +1,1949 @@
+Received: 9 January 2024  |  Revised: 23 March 2024  |  Accepted: 5 April 2024
+
+DOI: 10.1111/ejed.12663
+
+R E V I E W A R T I C L E
+
+A comprehensive exploration of artificial 
+intelligence competence frameworks for 
+educators: A critical review
+
+Tamar Mikeladze1,2
+ |   Paulien C. Meijer1 |   Roald P. Verhoeff1
+
+1Radboud Teacher Academy, Radboud 
+University, Nijmegen, the Netherlands
+
+Abstract
+
+Recent literature underscores the need for teachers to
+
+develop AI competencies with a recognition of the cur-
+
+2Faculty of Education Sciences, Iakob 
+Gogebashvili Telavi State University, Telavi, 
+Georgia
+
+rent lack of well-­defined competence frameworks. This
+
+critical review investigates teachers' Artificial Intelligence
+
+(AI) competence frameworks (AI CFTs), analysing their
+
+strengths, weaknesses and practical applications for re-
+
+Correspondence
+Tamar Mikeladze, Radboud Teacher 
+Academy, Radboud University, 
+Erasmusplein 1, Nijmegen 6525 HT, 
+the Netherlands.
+Email: tamar.miqeladze@tesau.edu.ge
+
+searchers, educators and policymakers. It identifies five
+
+distinct types of AI CFTs within Competence Construct
+
+Claims (Child, S., & Shaw, S. 2023). A conceptual approach
+
+Funding information
+EU; European Union, Grant/Award Number: 
+NEAR/TBS/2021/EA-­RP/0086
+
+to validating competence frameworks. Research Matters:
+
+A Cambridge University Press & Assessment publication, 35,
+
+27–40.), each addressing the complexities of AI in its early
+
+stages. Notably, frameworks derived from empirical data
+
+offer detailed descriptions of competencies, while those
+
+based on conceptual models provide broader overviews.
+
+Highlighting the need for further empirical research, this
+
+review helps identify and understand existing approaches
+
+to teacher AI competence development and paves the way
+
+for integrating AI CFTs into teacher education, ultimately
+
+enhancing educators' preparedness to harness AI in their
+
+teaching practices.
+
+K E Y W O R D S
+AI competence frameworks for teachers, AI competencies for 
+educators, AI in education, competence models
+
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and 
+reproduction in any medium, provided the original work is properly cited.
+© 2024 The Authors. European Journal of Education published by John Wiley & Sons Ltd.
+
+wileyonlinelibrary.com/journal/ejed
+
+Eur J Educ. 2024;59:e12663.	
+﻿	
+  | 1 of 21
+https://doi.org/10.1111/ejed.12663
+
+2 of 21 |   
+MIKELADZE et al.
+
+1 | INTRODUCTION
+
+Artificial Intelligence (AI) has brought transformative changes in education, offering innovative tools and ap-
+
+proaches that can enhance teaching and learning (Chakravorti, 2022; Gill et al., 2023; Grubaugh & Levitt, 2023).
+
+AI in education promises to support students with special needs, reduce school dropout, personalise learning,
+
+support decision-­making, generate feedback, assess new skills, etc. (Bentley et al., 2018; Brundage, 2019; Vincent-­
+
+Lancrin & van der Vlies, 2020). Additionally, AI in education (AIED) brings a fresh set of competencies that edu-
+
+cators should cultivate. The rapid advancement of AI technologies requires an understanding of AI capabilities
+
+and limitations. This entails more than just basic digital literacy; it encompasses data literacy, algorithm literacy,
+
+computational thinking and design thinking. Notably, the ethical use of AI in educational settings becomes a
+
+paramount concern, making AI and data ethics a crucial aspect of teacher competence (Berendt et al., 2020; U.S.
+
+Department of Education, Office of Educational Technology, 2023; European Commission, 2022).
+
+Even as schools increasingly embrace AI tools, teacher preparation is not prioritised and is experiencing delays.
+
+A recent UNESCO global survey, which included over 450 schools and universities, revealed that fewer than 10%
+
+of them have established institutional policies or formal guidance regarding the use of generative AI applications
+
+(UNESCO survey, 2023).
+
+The rise of AI in education has provided food for discussion on teachers' AI competencies in recent litera-
+
+ture.2020 Trujillo-­Cabezas (2020) proposed AI digital competencies for educators, including the utilisation of
+
+applications, adept information management, content creation for learning and facilitating student connections
+
+through technology. Teachers require both knowledge and tools to evaluate the appropriateness of AI-­supported
+
+activities in achieving their educational objectives and transform their way of teaching (Flogie & Krabonja, 2023).
+
+Liu and Li (2022) defined teacher human capital for AI in education through three facets: expertise and proficiency
+
+in AI in education, emotional disposition and attitudes relevant to AI in education, and ethical considerations for
+
+using AI in education. Xu (2020) underscores educators developing AI competency for transformative roles, while
+
+Markauskaite et al. (2022) support integrating digital technologies and gaining hands-­on AI experience.
+
+Despite the growing interest in AI competencies, the existing literature highlights a significant gap in well-­
+
+defined frameworks for educators to acquire competencies essential for using AI to the benefit of their learners.
+
+Ng et al. (2021a) emphasise the limited exploration within current studies of enhancing teachers' AI digital com-
+
+petency through teacher education programmes. Polak et al. (2022) conclude that, while examining various AI
+
+frameworks, the development of AI competencies involves a broad spectrum of skills, knowledge and attitudes.
+
+While some are specific to AI, others are adapted versions of digital competencies or essential competencies
+
+irrespective of technology use (such as problem-­solving and contextual consideration). Ng et al. (2022) reflect on
+
+three educational theories; Bloom's taxonomy to view cognition levels of AI literacy education, the TPACK model
+
+to understand how educators should learn to equip their students with AI literacy (Ng et al., 2021b), and the P21's
+
+Framework to identify the four types of digital competencies in the 21st century. AI digital competencies, as out-
+
+lined by the P21's Framework for 21st Century Learning (National Research Council, 2012), recognise AI literacy
+
+as a vital skill within a comprehensive framework. This perspective emphasises its role in fostering non-­technical,
+
+critical and complex literacies. Regardless of these early attempts to analyse the AI CFTs, the emergence of new AI
+
+frameworks highlights challenges in understanding their purpose and utilising and adapting them for professional
+
+development programmes.
+
+Currently, there are several critical issues related to AI CFTs that have been not addressed by previous study
+
+of Ng et al. (2022) (see, Table 1). First, there might be a scattered landscape of various AI CFTs, making it difficult
+
+for educators, researchers and policymakers to find and compare them efficiently. Second, different AI CFTs
+
+might exhibit varying levels of quality and effectiveness in preparing educators to utilise AI. Third, there might
+
+be a need for a deeper understanding of how AI CFTs are designed and how they can practically be incorporated
+
+into teacher education programmes. Finally, educators might not feel adequately prepared to leverage AI in their
+
+teaching practices due to a limited understanding of relevant frameworks.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 3 of 21
+MIKELADZE et al.
+
+frameworks are not
+
+analysed
+
+framework with the
+
+evolving nature of AI
+
+technologies
+
+frameworks may
+
+emerge
+
+•	 Limited scope: 
+Other conceptual
+
+•	 Evolving field: ongoing 
+revisions to the
+
+•	 Limited scope: 
+Other conceptual
+
+•	 Subjectivity in analysis
+
+and practical integration
+
+methods for AI literacy
+
+selection and adaptation
+
+of AI CFTs
+
+frameworks
+
+•	 Holistic understanding of 
+different learning levels
+
+•	 Advocating for AI literacy 
+for everyone
+
+•	 Facilitation of broader 
+understanding, informed
+
+•	 Exploration of the 
+characteristics of various
+
+should be implemented
+
+levels
+
+broaden AI Literacy to 21st-­
+
+century skill
+
+frameworks
+
+directions
+
+together various AI CFTs
+
+•	 Formulated theoretical basis 
+to investigate how AI literacy
+
+•	 Conceptual Framework 
+mapping different cognitive
+
+•	 Integration Strategy to bring 
+AI literacy into schools and
+
+•	 Compilation and categorisation 
+of AI CFTs
+
+•	 Enhanced understanding 
+and practical application of
+
+•	 Identifying gaps in existing 
+frameworks and future
+
+•	 Facilitating discussion and 
+collaboration by bringing
+
+frameworks
+
+for using AI
+
+•	 Lack of Established 
+Frameworks
+
+•	 Challenges for 
+Educators
+
+•	 Lack of understanding 
+of AI CFTs
+
+•	 Difficulty in choosing 
+and adapting
+
+•	 Limited understanding 
+in preparing educators
+
+theories (AI included in Bloom's
+
+taxonomy, TPACK, P21's Framework)
+
+in recent literature Higuera (2019),
+
+Holstein et al. (2020), Molenaar (2022),
+
+Carolus et al. (2023), Su and Yang (2023),
+
+Sattelmaier and Pawlowski (2023), Ng
+
+et al. (2023)
+
+Kim and Kwon (2023), Lorenz and
+
+Romeike (2023), Ethical Guidelines
+
+on the Use of AI, 2022 Olari and
+
+Romeike (2021), UNESCO (2023),
+
+Ng et al. (2022)
+
+Inclusion of AI literacy in educational
+
+Our study analysis of available AI CFTs
+
+Studies discussing several AI competence/
+
+literacy frameworks for teachers
+Problems addressed
+Contribution
+Advantages
+Disadvantages
+
+TA B LE 1 Comparison of studies on AI CFTs.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4 of 21 |   
+MIKELADZE et al.
+
+Therefore, this critical review addresses problematic issues related to the effective integration of AI in ed-
+
+ucation. The review represents the initial effort to compile teachers' AI competence frameworks, analyse their
+
+strengths and weaknesses, and categorise them to enhance their practicality for researchers, educators and pol-
+
+icymakers. Exploring various AI CFTs may help to understand their design and characteristics, and facilitate their
+
+integration into teacher education enhancing the preparedness of educators in harnessing AI potential within their
+
+teaching practices.
+
+The paper explores the new AI CFTs that emerged in the recent educational literature, analyses them within
+
+the Competence Construct Claim (Child & Shaw, 2023), and classifies groups of AI CFTs into five distinct types: (1)
+
+Existing competence model-­oriented; (2) Competence areas/domains-­oriented; (3) process-­driven (process com-
+
+petency model); (4) AI systems-­driven (specific work/job model); and (5) Competence level-­driven (multidimen-
+
+sional). Each type of CFT reflects a specific underlying approach to modelling teachers' competencies and how
+
+these models could effectively be applied to prepare teachers for AI in education. The paper highlights several
+
+pertinent questions and challenges educators face when they want to embrace AI in their practices; it considers
+
+the importance of theoretical models in the successful integration of AI in education and the interplay between
+
+subject-­specific knowledge and AI proficiency.
+
+1.1 | Research objective of the review
+
+•	 To explore and classify AI CFTs into distinct types or approaches within Competence Construct Claims cat-
+
+egory (Child & Shaw, 2023). This objective seeks to provide a structured framework for understanding the
+
+definitions, labels and rationale of different AI CFTs.
+
+The research questions
+
+The following questions guided the literature review:
+
+RQ 1: Which AI CFTs are available in recent educational literature?
+
+RQ 2: How can AI CFTs be classified within Competence Construct Claims? What are underlying approaches,
+
+focus areas and characteristics of these AI CFTs?
+
+To address the research objectives and research questions, we searched for the AI CFTs in scientific litera-
+
+ture online in Scopus and Web of Science with the key words ‘Artificial Intelligence’, ‘Competence framework’ or
+
+‘Competence models’, ‘for teachers’ or ‘for educators’. Next, the papers were screened to check their suitability
+
+for the topic and analysed according to the Construct Claim (Child & Shaw, 2023).
+
+By addressing these research objectives and research questions, this study aimed to provide a classified over-
+
+view of AI competence frameworks that are designed to equip teachers with essential skills. Furthermore, it high-
+
+lights the existing challenges in these frameworks, thereby contributing to the ongoing dialogue on how educators
+
+can best prepare for AI in education.
+
+2 | EDUCATORS HAVE CHALLENGES IN INTEGRATION AI 
+IN EDUCATION
+
+Educators are one of the key actors in the integration of AI in education in the present revolutionary era of
+
+Industry 4.0 (Felix, 2020). This era is marked by ‘connecting everything to everything everywhere’ – a vast inter-
+
+connected network of devices, autonomous vehicles, smartphones and smart systems designed for sensing, pre-
+
+dicting, decision-­making and interaction with the physical world (Rothman & Gulli, 2022, p. 12). Teachers, being
+
+pivotal in preparing the next generation for an AI-­integrated future, play a crucial role in fostering willingness and
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 5 of 21
+MIKELADZE et al.
+
+readiness for AI implementation in schools, ultimately equipping students for a collaborative human-­AI future
+
+(Ayanwale et al., 2022). The success of AI education depends on teacher readiness, as the teaching and learning
+
+process requires their central involvement (Trotsko et al., 2019). According to ethical guidelines developed by
+
+(European Commission, 2022), it is important for educators to understand the basic mechanisms and limitations of
+
+AI systems and how AI systems can be used to support teaching and learning in a safe and ethical way.
+
+AI has the potential to support teachers and improve the educational experience for students. It encompasses var-
+
+ious areas such as AI instruction, intelligent systems, adaptive learning and gamification (Hwang et al., 2022; Zawacki-­
+
+Richter et al., 2019; Zhai et al., 2021). Bryant et al. (2020) suggested that 20 to 40 percent of current teacher time spent
+
+on activities could be automated using existing technology to save teacher time. For example, AI real-­time analytics
+
+tools can help teachers monitor and assist students using AI-­based tutoring software for self-­paced learning (Aleven
+
+et al., 2022). Additionally, AI systems can assist teachers by automatically tracking and recognising students' motions and
+
+behaviours, providing valuable insights for personalised guidance (Felix, 2020). AI technologies can also tailor education
+
+to students' needs and automate routine tasks, allowing teachers more time for creativity (Chikobava & Romeike, 2021).
+
+AI systems can do automated, repetitive task and design, that empower learning experiences, creativity, thinking, solu-
+
+tions of problems, collaboration and they will augment teachers' roles. Supporters of AI in education stress that AI will
+
+perform repetitive tasks and pattern recognition, which are constantly done by teachers (Arora, 2021).
+
+The integration of AI technologies into educational contexts requires not only teachers' digital skills but AI
+
+competencies as well (Sostero & Tolan, 2022; Williamson & Eynon, 2020). Educators' AI competencies include a
+
+range of skills that empower teachers to critically evaluate AI technologies, effectively engage with AI, and employ
+
+AI tools in diverse settings. According to Edwards et al. (2018), educators need the competence to choose and
+
+create instructions aligned with machine learning, track students' advancement and offer emotional and cognitive
+
+assistance through robotics powered by artificial intelligence.
+
+However, equipping teachers with AI competencies seems to lag behind the optimism around the use of AI in daily
+
+educational practice. Many teachers feel overwhelmed by the pressure to integrate AI into their teaching without
+
+fully understanding its workings and impact (especially with recent rapid developments in the field of Large Language
+
+Models). AI concepts (Computer vision, machine learning, deep learning, natural language processing, etc.) tend to
+
+be abstract and complex and are hard to understand for teachers (Kim & Kwon, 2023; Long & Magerko, 2020); there
+
+are scarce AI professional development opportunities for teachers, very few institutional policies or formal guidance
+
+on the use of generative AI applications and inadequate guidance on the necessary competencies for educators in
+
+academic literature and existing educational policies (Ayanwale et al., 2022; UNESCO, 2023).
+
+To empower educators with AI competencies, it is essential to delineate a targeted set of knowledge domains
+
+and skills, systematically arranged within a competency framework or model. The goal of this AI competency
+
+framework for educators is to articulate fundamental proficiencies (Knowledge, skills and abilities) essential for
+
+teachers. This competency framework can serve as a tool for program developers, and learning coordinators
+
+involved in the program development process, from developing early ideas to implementation (Blok et al., 2021).
+
+For successful integration of AI in education, teachers, as primary stakeholders in education and in continuous
+
+interaction with their learners, should be engaged in an early phase. As practical guidance on how to equip teach-
+
+ers with AI competencies is lacking, a first step may be to develop a framework or model that aligns AI competen-
+
+cies necessary to use AI to the benefit of learners.
+
+3 | AI COMPETENCE FRAMEWORKS FOR EDUCATORS ARE CLASSIFIED
+
+In this section, we will define competencies, competence frameworks and the approach to framework design.
+
+Then we will discuss AI CFTs classified according to five categories: (1) Existing competence model-­oriented; (2)
+
+Competence areas/domains-­oriented; (3) process-­driven (process competency model); (4) AI systems-­driven (spe-
+
+cific work/job model) and (5) a competence level-­driven (multidimensional).
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+6 of 21 |   
+MIKELADZE et al.
+
+The educational approach to defining competencies focuses on skill development, achieving standards and
+
+obtaining credentials. A competence can be narrowly defined as an action, behaviour, demonstrated outcome or
+
+minimum standard, with varying levels of mastery articulated through different statements (Bourke et al., 1975
+
+cited in Markus et al., 2005). The OECD defines competencies more broadly and beyond mere knowledge and
+
+skills: ‘[Competence] involves the ability to proficiently tackle complex challenges by utilising and deploying psy-
+
+chosocial resources, encompassing both skills and attitudes, within a particular context’ (OECD,2005 , p. 4). In this
+
+paper, we refer to OECD’ definition of ‘competence’.
+
+Competencies in education, like in industrial enterprises, are often grouped under a competence framework or
+
+model, which outlines essential skills and behaviours needed for effective performance in specific roles or educa-
+
+tional contexts. Competency modelling is the activity of determining specific competencies that are characteristic
+
+of high performance and success in a given job. Organisations adopting a competency approach create or utilise
+
+a competency model, which at minimum consists of a simple list or catalogue specifying desirable competencies
+
+(Markus et al., 2005).
+
+Organisational competency models come in different types and structures, depending on the institutions'
+
+objectives, values and belief system (Chouhan & Srivastava, 2014; Krajcovicova et al., 2012). Frameworks include
+
+descriptions of competencies organised into tiers, making it easier for educators and professionals to understand
+
+and apply them to their work. Various competency models have been created with diverse categorisation of com-
+
+petencies: personal, social/interpersonal, action-­related and domain-­related, or grouping competencies into meta,
+
+domain, method and social competencies. Additionally, there are competency models specifically designed for
+
+leadership and management, as well as for particular tasks or job profiles (Prifti et al., 2017). Additionally, the mod-
+
+els can be designed with two approaches: top-­down (by experts – competency modelling), bottom-­up (suggested
+
+skills by people working in the field – job analysis). Competency modelling emphasises future roles aligned with
+
+a strategic plan and defines optimal performance through worker attributes. In contrast, job analysis primarily
+
+describes current work activities and establishes typical performance without addressing alignment issues within
+
+the organisation (Stevens, 2013).
+
+A competence framework makes a claim about its interrelated purpose, creating a position that requires vali-
+
+dation. Experts examine claims by questioning them and gathering evidence (Child & Shaw, 2023). From an anal-
+
+ysis of the competence framework literature, Child and Shaw (2023) identified four categories of claims in the
+
+competence framework: Construct Claims, utility claims, audience claims and impact claims. In this review, we
+
+focus on Competence Construct Claims of the competence frameworks, which are related to the definitions of
+
+competencies ‘how elements are defined and labeled; how they combine to constitute overall competence; the
+
+rational for defining and organizing things in this way rather than some other way’ (p. 31).
+
+We searched for AI CFTs, studied them and noted the similarities among frameworks. Next, we categorised
+
+them in a classification scheme within a Competence Construct Claims to provide a structured approach for un-
+
+derstanding the definitions, labels and rationale of different AI CFTs: (1) Existing competence model-­oriented; (2)
+
+Competence areas/domains-­oriented; (3) Process-­driven (process competency model); (4) AI systems-­driven (spe-
+
+cific work/job model); and (5) Competence level-­driven (multidimensional). The framework categories N2, 3, 4 and
+
+5 were found in the scientific literature (Klieme et al., 2003; Prifti et al., 2017; Rothwell & Lindholm, 1999). Below,
+
+we will examine each of these types of AI CFT. First, we will explain the claim and the definition of the framework,
+
+then, we will provide an example of the framework that falls into this category; and finally, we will summarise the
+
+characteristics and strengths of each model.
+
+3.1 | Integrating AI competencies in existing CFTs
+
+The development of an AI competence framework finds strong support in established theoretical models and com-
+
+petence frameworks for teachers, with notable applicability observed in the Technological Pedagogical Content
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 7 of 21
+MIKELADZE et al.
+
+Knowledge model (TPACK) and existing competence frameworks for teachers, such as the Digital Competence
+
+Framework for Educators (Mishra & Koehler, 2006; Punie, 2017), or the Information Communication Technology
+
+Competence Framework for Teachers (ICT CFT) (UNESCO, 2018). These competence models have already been
+
+implemented and validated in practice (Hooker et al., 2011; Schmidt et al., 2009). Thus, they offer structured
+
+approaches to incorporating competencies into education. The following questions help us examine these frame-
+
+works: How can new AI competencies be included in the earlier frameworks? What links can be identified be-
+
+tween existing competencies and the new ones?
+
+In this category, we included Higuera's (2019) framework, who proposed five pillars or competencies that
+
+should be added to teacher training in AI:
+
+• Uncertainty and randomness – The acknowledgement of data inconsistency and the non-­causal nature of
+
+AI-­generated forecasts in education. It underscores that AI predictions are estimations rather than absolute
+
+truths. Embracing uncertainty implies teaching without assuming omniscience and accepting the reality that
+
+mistakes can occur.
+
+• Coding and computational thinking – The justification for including these lies in their prevalence in curricula
+
+in many countries. Coding involves utilising programming language libraries, emphasising the importance of
+
+coding skills. The argument is made that proficient AI users must comprehend algorithms to discern when it is
+
+necessary not to rely blindly on machine learning decisions.
+
+• Data awareness – Data and computing are at the centre of computing. Most effort will concern data
+
+collection, visualisation, manipulation and analysis.
+
+• Critical thinking – Achieving true technological literacy involves a fusion of comprehending digital concepts
+
+and utilising algorithms to form informed opinions. The goal is to teach not just the use of technology but also to
+
+impart the ability to understand its impacts, assess risks and cultivate a historical perspective on media.
+
+• Post AI humanism – Impact on non-­technological attitudes, reconsider some ground truth: Truth, experience,
+
+creativity and intelligence.
+
+Higuera (2019) combined these five pillars with six aspects of the UNESCO ICT competence framework for
+
+teachers (ICT-­CFT, UNESCO, 2018) by assessing the effectiveness of the ICT-­CFT as a framework for training
+
+teachers in AI and measures that ICT-­CFT would benefit from the impact of AI. The relationship between pillars
+
+and aspects is described in three ways: mutual impact, the impact of the pillar on the aspect and the influence of
+
+an aspect on the pillar (see Table 2). The primary goal of the ICT CFT is to equip educators with hands-­on exper-
+
+tise in effectively using and developing educational materials through ICT, which serves as the basis to integrate
+
+understanding of computers, algorithms and data within AI.
+
+Another important model, the Digital Competence Framework for Educators (2017), undergoes changes with
+
+regard to AI. The EU Commission has added a new pivotal competence within this European framework: the eth-
+
+ical utilisation of AI and data. For ethically employing AI systems, educators are required to understand essential
+
+aspects such as human agency and oversight, transparency, diversity, non-­discrimination, fairness, societal and envi-
+
+ronmental well-­being, privacy, data governance, technical robustness, safety and accountability. These elements are
+
+included within the framework of digital competencies in the context of the European Framework for the Digital
+
+Competence of Educators (Ethical Guidelines, 2021).
+
+Kim and Kwon (2023) began with the creation of a prototype of an AI competency framework for elemen-
+
+tary school teachers through a literature review. This prototype was refined with empirical data on teachers'
+
+experiences, specifically focused on AI teaching practices. The final result included a list of 22 AI competencies
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+8 of 21 |   
+MIKELADZE et al.
+
+TA B LE 2 Integration of AI pillars in UNESCO ICT-­CFT adapted from Higuera (2019).
+
+Mutual impact of aspects and pillars
+Impact of pillars on the aspects
+Influence of aspects on pillars
+
+Coding and Computer thinking
+A1. Understand ICT in Education
+
+A1. Understand ICT in Education
+Post AI Humanism
+
+A4. Application of digital skills
+Randomness
+Data awareness
+
+Computer thinking and coding
+A3. Pedagogy
+
+A2. Curriculum and assessment
+Post AI Humanism
+
+Randomness
+A4. Application of digital skills
+
+A2. Curriculum and assessment
+Critical thinking for AI
+
+Coding and Computer thinking
+A5. Organisation and
+
+A3. Pedagogy
+Data awareness
+
+administration
+
+A6. Teacher professional learning
+Post AI Humanism
+
+TA B LE 3 AI competencies included in TPACK framework adapted from Kim and Kwon (2023).
+
+Content knowledge (CK)
+
+•	 Understanding the basic foundations of CS and STEM
+•	 Understanding the basic concepts of AI
+•	 Understanding AI ethics
+•	 Understanding the copyright while using open educational resources (OER)
+•	 Understanding knowledge related to the AI workforce
+
+Pedagogical knowledge (PK)
+
+•	 Managing the classroom in an online and in-­line class
+•	 Facilitating project-­based learning or inquiry-­based learning
+•	 Providing timely feedback and encouraging peer-­review
+•	 Overcoming the fear of failure and trial and error during the class
+
+Technological knowledge (TK)
+
+•	 Searching for AI learning tools or materials and using them in the class
+•	 Using AI learning tools or learning materials in the class
+•	 Openness to AI and new technologies
+
+Pedagogical Content knowledge (PCK)
+
+•	 Designing the AI curriculum with core subjects
+•	 Organising AJ tools and learning resources according to students' developmental stage
+•	 Motivating students with daily topics or problems that they are interested in
+
+Technological Content knowledge (TCK)
+
+•	 Literacy in code and data
+•	 Literacy of AI technologies in daily life
+•	 Training AI models using literacy in a dataset
+•	 Being sensitive to social impacts or problems from AI
+
+Technological Pedagogical knowledge (TPK)
+
+•	 Using AI tools for the assessment
+•	 Organising students' AI artefacts and learning outcomes using online platforms and digitisation techniques for 
+portfolios
+•	 Demonstrating AI-­related practices using learning tools and materials.
+
+tailored for teachers in elementary school settings, categorised as sub-­competencies within the Technological
+
+Pedagogical Content Knowledge (TPACK) framework (Mishra & Koehler, 2006). The AI competencies for teachers
+
+included competencies categorised as CK, PK, TK, PCK, TCK and TPK (see Table 3). Teachers' Content Knowledge
+
+(CK) in AI and computer science principles is meant to alleviate anxiety and enhance confidence in teaching AI
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 9 of 21
+MIKELADZE et al.
+
+concepts, and the integration of Pedagogical Knowledge (PK) and Technological Knowledge (TK) in teacher pro-
+
+fessional development programmes is likely to improve instructional design and the incorporation of AI education
+
+into classrooms.
+
+Lorenz and Romeike (2023) have systematically characterised teaching-­related AI competence areas by adapt-
+
+ing the Digital Pedagogical and Content Knowledge (DPACK) model. They justify the incorporation of AI-­related
+
+digital competencies within this framework, replacing the traditional ‘T’ for Technology with ‘D’ for Digital and
+
+situating AI competencies within the Technology/Digital domain. The framework introduces three key compe-
+
+tencies: AI-­K (Knowledge), AI-­PK (Pedagogical Knowledge), AI-­CK (Content Knowledge) and AI-­PCK (AI Related
+
+Pedagogical Content Knowledge). AI-­K involves the ability to recognise, understand, reflect and shape AI phe-
+
+nomena from technological, socio-­cultural, and user-­oriented perspectives. AI-­PK focuses on recognising and
+
+reflecting on the potentials, limitations and risks of AI in teaching-­learning processes, facilitating the design of
+
+contemporary educational settings. AI-­CK pertains to recognising and reflecting on the implications of increased
+
+AI use in one's discipline, affecting the scientific field, professional domain and subject matter. AI-­PCK involves
+
+recognising and reflecting on the subject-­specific influence, potentials and limitations of AI in teaching and learn-
+
+ing processes and learners, guiding the design of modern educational settings. Based on the DPACK model, the
+
+framework provides a structured description of AI education requirements.
+
+While existing theoretical models such as TPACK and ICT CFT serve as valuable foundations for new com-
+
+petence frameworks, it is essential to acknowledge that they may have certain rigidities that can limit the inte-
+
+gration of innovative elements unless they are modified. Nevertheless, they provide a solid starting point for
+
+researchers, educators and policymakers to develop comprehensive AI competence frameworks for educators.
+
+3.2 | Competence areas/domains-­oriented (competency structured models)
+
+Another common approach to developing a competence framework is to delineate the framework's areas by for-
+
+mulating key questions or defining specific knowledge domains: What are the new knowledge areas? What are the
+
+essential new skills or attitudes that educators need? These areas encompass mandatory skills for teachers and
+
+various facets of education, ranging from classroom management to the ethical utilisation of AI, and they serve as
+
+the primary focal points for policymakers and educators.
+
+Olari and Romeike (2021) examined the relationship between AI and data literacy competence areas in ex-
+
+isting educational frameworks and proposed a preliminary approach that utilises the data lifecycle to reflect on
+
+data literacy competencies relevant to AI. They found that the available AI competence frameworks developed
+
+for teacher education and schools do not include data literacy. To include data literacy, they proposed a novel
+
+approach comprising eight primary competencies: (1) Extracting information from datasets and processing with
+
+AI tools (Acquisition stage); (2) Conducting effective data cleaning and mitigating biases in datasets (Cleansing
+
+stage); (3) Integrating learning processes and data management systems into practical tasks grounded in AI con-
+
+cepts (Implementation stage); (4) Enhancing data through the application of AI techniques (Optimisation stage);
+
+(5) Utilising AI algorithms to visualise data (Visualisation stage); (6) Generating new insights from data through
+
+AI-­based analyses (Analysis stage); (7) Explaining results, including identifying errors and addressing them through
+
+questioning (Evaluation stage); and (8) Employing AI-­driven procedures to enhance data archiving, deletion, or
+
+sharing processes (Sharing, erasing and archiving stages).
+
+Another significant document related to AI CFT is an ongoing draft document by UNESCO. The organisation
+
+develops education from pre-­school to higher education and beyond, strengthens education systems worldwide
+
+and responds to contemporary global challenges through education. The UNESCO AI CFT has been designed to
+
+complement and align with UNESCO's ICT Competency Framework for Teachers (ICT CFT) since 2018, draft-
+
+ing a separate framework to address the challenges and opportunities presented by AI systems. The aim of this
+
+framework is to guide teachers, educational communities and global teacher education systems in harnessing
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+10 of 21 |   
+MIKELADZE et al.
+
+the educational benefits of AI. It encourages the cultivation of essential agency, knowledge, skills, attitudes and
+
+values necessary for addressing the risks and challenges linked with AI. The framework supports the responsible,
+
+ethical, fair and inclusive application of AI in education. The UNESCO AI CFT recognises the significant change in
+
+the knowledge, competencies, mindsets and principles that educators require to interact effectively and ethically
+
+with evolving AI tools, technologies and systems in the field of education. The draft document consists of 15
+
+competencies with three broadly defined levels: Acquisition, Deepening and Creation and five competence areas.
+
+Human-­Centered Mindset; Ethics of AI; AI Foundation & Applications; AI Pedagogy; AI for Professional Development.
+
+(https://​www.​unesco.​org/​sites/​defau​lt/​files/​medias/​fichi​ers/​2023/​12/​UNESC​O-­​Draft​-­​AI-­​compe​tency​-­​frame​
+
+works​-­​for-­​teach​ers-­​and-­​schoo​l-­​stude​nts_0.​pdf).
+
+Developing AI competence frameworks based on competence areas provides a flexible approach. New areas,
+
+such as human-­centred mindset or maker-­oriented competencies, can be incorporated, although clear explana-
+
+tions of terms and communication are crucial to ensuring understanding of the competence area. The domains in
+
+the framework may also overlap or possess fuzzy boundaries, making it imperative to establish precise definitions
+
+and delineations where needed. This type of framework allows for the adaptability and responsiveness of evolving
+
+AI in education.
+
+3.3 | Process-­driven (process competency model) frameworks
+
+The next group of frameworks are process-­driven or process competency models, which represent processes and
+
+corresponding roles in a job. The representation of these models may have a complex design in relation to AIED.
+
+To examine these frameworks, one could ask: What processes characterise AI application in the classroom? How
+
+can these processes be translated into competencies? Or how can AI competencies attend to these processes?
+
+Two conceptual frameworks on human-­AI hybrid approaches related to teachers' AI competencies are dis-
+
+cussed in this section. The significance of conceptual frameworks is underscored by Antonenko (2015)), who
+
+views them as practical tools for structuring inquiries. Conceptual frameworks are defined as a synthesis of be-
+
+liefs, assumptions, theories and concepts that provide guidance throughout the inquiry process. Unlike relying
+
+on existing theories or readily available models, a conceptual framework is meticulously constructed by the re-
+
+searcher. Serving as a tool for integrating practical contexts, theoretical aspects and inquiry methods, it plays a
+
+significant role in shaping the focus of inquiries or programmes. Importantly, conceptual frameworks are not rigid
+
+formulas but rather offer guidance for curriculum and program design tailored to specific contexts (Falloon, 2020).
+
+The field of AIED introduces new responsibilities for both learners and teachers, necessitating teachers’ at-
+
+tention, decision-­making, action and observation. Holstein et al. (2020) explored a conceptual framework for the
+
+process of human-­AI hybrid adaptivity in education. They investigated a set of essential components, including
+
+goals/targets, perception, action, decision policies and granularity/timing. These components examine how hu-
+
+mans and AI systems can complement each other in distinctive ways:
+
+1.	 Goal Augmentation: In this aspect, both the teacher and AI system collaborate to enhance their respective
+
+objectives, striving to achieve superior outcomes
+
+2.	 Perceptual Augmentation: This component focuses on enhancing perceptual abilities. Both the human teacher
+
+and AI system work to improve their capacity to sense and understand information
+
+3.	 Action Augmentation: Here, both the teacher and AI system strengthen their capabilities to take action or ex-
+
+ecute tasks more effectively
+
+4.	 Decision Augmentation: This part concentrates on refining the decision-­making process. The teacher and AI
+
+system collaborate to make better decisions by sharing their insights and expertise.
+
+5.	 Granularity and Timing: The frequency or granularity at which the perception-­action cycle is performed varies,
+
+ranging from once per task/step to once per conversation turn/ design iteration.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 11 of 21
+MIKELADZE et al.
+
+Within each category, the teacher and AI systems enhance each other's abilities in real-­time (Holstein
+
+et al., 2020). This framework offers a structured approach to understanding and facilitating collaboration between
+
+human and AI elements in the classroom (Table 4).
+
+Molenaar (2022) further develops the automation model of teachers’ adaptivity. Inspired by similar models
+
+used in the automotive and medical fields, this conceptual framework outlines the progression of control among
+
+the teacher, learner and technology across six distinct levels of automation. Teachers play a pivotal role in de-
+
+termining what specific organisational tasks they hand over the control to AI, fostering reciprocal relationships
+
+and facilitating communication between humans and artificial intelligence. This model emphasises the signifi-
+
+cance of two-­way interaction between AI and teachers, as teachers possess valuable insights and knowledge to
+
+decide what tasks to hand over to AI technology and what tasks they consider beyond the reach of AI, such as
+
+providing elaborate feedback or additional instruction. This interaction is fundamental to the augmentation per-
+
+spective on AI in education. This suggests that teachers require a platform to share their professional knowledge
+
+with AI, contributing to the vision of enhancing learning and teaching through hybrid human-­AI systems (NOLAI
+
+Referentiekader, 2022). Based on the model, we developed a set of AI competencies for educators (see Table 5).
+
+TA B LE 4 Process-­driven competencies adapted from Holstein et al. (2020) AI-­Human hybrid adaptivity 
+framework.
+
+The process goes both ways and teachers should have competencies to enable reciprocal actions with AI system
+
+← Educator
+
+AI →
+↔
+1.	 Inform Instructional goals;
+2.	 Perceive relevant information;
+3.	 Distribute attention;
+4.	 Interpret the information;
+5.	 Perform instructional action;
+6.	 Expand the range of actions available;
+7.	 Enhance scalability and capacity for action;
+8.	 Make more effective pedagogical decisions;
+9.	 Adapt instruction
+(per task/step/turn/design iteration – prior/in the midst/afterwards of the
+
+activity).
+
+TA B LE 5 Teachers' AI competencies adapted from Molenaar (2022) conceptual model ‘The six levels of 
+automation’.
+
+Teacher knows:
+•	 When/Why/How/to have full/partial control over the task.
+•	 When/How/Why/Where/What to monitor.
+•	 When/Why/How to cede/reclaim control over technology.
+•	 When/Why/How technology provides supportive information.
+•	 When/why/how technology controls specific tasks.
+•	 Which tasks are controlled by technology.
+Teacher Recognises:
+•	 Technology signals.
+•	 Supportive information.
+Teacher is able to:
+•	 Respond appropriately to technology signals.
+•	 Have full/partial control over the task.
+•	 Cede/reclaim control over technology.
+•	 Interpret supportive information and respond appropriately.
+•	 Monitor the technology and the process.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+12 of 21 |   
+MIKELADZE et al.
+
+An AI competence framework can be developed around fundamental processes or behavioural competen-
+
+cies that describe the adaptivity or relationship between AI, teachers and learners. These process competency
+
+frameworks, often utilised in industries such as automotive processes, can be adapted for educational use with
+
+some modifications. AI CFTs based on the process-­driven/behavioural competencies developed by conceptual
+
+frameworks can have intricate designs. They demonstrate the dynamic relationships between AI, teachers and
+
+learners. Due to the difference between the nature of processes in the industrial and educational fields, the imple-
+
+mentation of such competency models in the educational context should be careful when inspired by automation
+
+models while accommodating the unique processes within the field of education.
+
+3.4 | AI-­systems (specific job/work model) frameworks
+
+Another approach to organise essential AI competencies for teachers involves grouping them around a job/work
+
+model (AI systems). Recent research has explored machine working frameworks that suggest categorising skills
+
+based on the specific AI models in use. These frameworks typically comprise three key components: machine
+
+operational competencies, user competencies and utilisation competencies. Correspondingly, the questions to
+
+analyse such frameworks are the following: What knowledge is necessary for the AI system operation? How this
+
+knowledge be applied in practice? Who are the users of this system? How should this system operation adhere to
+
+regulations of data safety, privacy and protection?
+
+For instance, Carolus et al. (2023) conducted a study aimed at defining competencies for effective interac-
+
+tions with voice-­based AI systems, addressing a notable gap in AI-­related literacy models. Developers, designers
+
+and similar profession experts who self-­reportedly developed or designed language-­based AI systems in their
+
+work and have gained relevant experience in this area were interviewed. The answers resulted in the creation
+
+of a comprehensive Digital Interaction Literacy (DIL) competency model, which encompasses both universal
+
+and specific skills tailored to different user groups, including parents, teachers and developers. The DIL Model
+
+places a strong emphasis on enhancing user proficiency by fostering a foundational understanding of AI systems,
+
+including their operations and natural language processing capabilities. This, in turn, empowers users to make
+
+well-­informed decisions and optimise their interactions with these systems. The primary objective of the DIL
+
+Model is to encourage conscientious engagement with AI systems by promoting awareness of both their benefits
+
+and challenges. This model equips practitioners with a guide for considering the perspectives of diverse users,
+
+allowing them to align their expectations with reality, extract more significant benefits from their interactions
+
+with AI systems and adapt their behaviour, such as by providing instructions for formulating appropriate re-
+
+quests (Table 6).
+
+AI competence frameworks tailored to specific AI systems can be particularly beneficial for educators at
+
+the early stages of AI introduction to schools and for those who are seeking to master narrow AI competen-
+
+cies. The introduction of AI into education is a gradual process that depends on country and school policy,
+
+and such frameworks can be highly effective when educators work with specific AI models (e.g., application of
+
+ChatGPT in Su & Yang, 2023) introduced in their schools. Such AI competence frameworks can complement
+
+TA B LE 6 Digital Interaction Literacy (DIL) competency model adapted from Carolus et al. (2023).
+
+Understanding functional 
+principles
+
+User group dependent  
+competencies
+Mindful usage
+
+Development Communication and
+
+teaching
+
+General functional knowledge
+Device and system handling
+Algorithm awareness
+AI-­learning
+
+Privacy literacy
+Persuasion literacy
+Device and system handling
+Reflection
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 13 of 21
+MIKELADZE et al.
+
+the broader Digital Competence Framework for teachers and will likely require a more specialised focus on AI
+
+proficiency.
+
+3.5 | Competence level-­driven frameworks
+
+As AI continues to gain prominence in educational settings, the development of new AI competence frameworks
+
+becomes an evolving effort. To meet the emerging needs of AI integration in schools, an innovative competence-­
+
+level-­driven approach is being adopted. This approach is designed to seamlessly weave together various levels of
+
+competencies. It forges a comprehensive link between AI models, tools, applications, implications and attitudes,
+
+thus creating a multidimensional framework for AI competence and answering the following questions: What
+
+levels does this model consist of? Are there sub-­competencies? Are AI competencies divided into components?
+
+Sattelmaier and Pawlowski (2023) have introduced a Generative AI (GAI) competence framework tailored
+
+for K-­12 schools, with a primary focus on equipping both teachers and students. This framework unfolds across
+
+multiple tiers, beginning with general, digital and domain-­specific competencies, which include fundamental skills
+
+like critical thinking and data literacy. It progresses into more advanced AI competencies, comprising algorithms,
+
+programming, data literacy, AI techniques, AI technologies, AI development, application of AI, ethics of AI and so-
+
+cial implications. Moreover, this framework introduces emerging competencies focusing on the art of effectively
+
+prompting large language models. This involves an understanding of different GAI model types, responsible util-
+
+isation of GAI tools and applications for content generation, thorough exploration of GAI implications, including
+
+risk assessment and problem-­solving, and the development of AI attitudes, linked to the broader implications of
+
+AI (Figure 1).
+
+Another example of competence level-­driven framework is Ng et al. (2023) framework. The framework in-
+
+cludes: technical and non-­technical skills, and meaningful strategies to enhance students' AI competencies. The
+
+model suggests that proficiency in AI should extend beyond technical aspects (e.g., attitudes, skills and knowl-
+
+edge). It advocates for a comprehensive understanding that acknowledges a non-­technical, critical competence
+
+that young people should acquire to ethically, safely and wisely navigate AI technologies. Taking a broader per-
+
+spective, teachers are encouraged not to perceive AI competence as solely a distinct technological area but as
+
+an opportunity to cultivate other non-­technical skills, including life and career skills, multidisciplinary skills and
+
+learning and innovation skills. Additionally, it presents a revised model for teachers to implement meaningful
+
+strategies for enhancing their students' AI competencies through four key processes: (1) teachers' professional
+
+engagement; (2) instructional support; (3) content choices across disciplines; and (4) students' learning competen-
+
+cies (Ng et al., 2023).
+
+The competence level-­driven approach is a systematic endeavour, providing depth, clarity and hierarchy to
+
+the relationships and connections within the framework, which might pose questions about its implementa-
+
+tion in practice. As authors claim, such models are not complete because they cannot include all evolving tools
+
+(Sattelmaier & Pawlowski, 2023). It portrays the construction of competencies as blocks, layers or levels, offering
+
+an illustration of the complex nature of teacher education in the age of AI. With such a profound representation of
+
+competencies, prioritisation of competencies and consultations with experts could be important.
+
+FI G U R E 1 Generative AI (GAI) competence framework adapted from Sattelmaier and Pawlowski (2023).
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+14 of 21 |   
+MIKELADZE et al.
+
+4 | DISCUSSION
+
+The objective of this paper was to explore AI Competence Frameworks for Teachers (AI CFTs) and classify them
+
+within Competence Construct Claims. We provided a structured classification of available AI CFTs to under-
+
+stand their foci and characteristics, including AI competencies and the rationale behind their grouping to promote
+
+teacher professional development in AI (Table 7).
+
+In our critical review on AI CFTs, we distinguished the following types of frameworks: (1) Existing competence
+
+model-­oriented; (2) Competence areas/domains-­oriented; (3) Process-­driven (process competency model); () AI
+
+systems-­driven (specific work/job model) and (5) Competence level-­driven (multidimensional). All the frameworks
+
+under discussion were at the initial stage of their development. Due to the diverse and complex nature of arti-
+
+ficial intelligence, the models were inherently intricate and required thoughtful consideration. It is remarkable
+
+that the frameworks that were devised from empirical data – bottom-­up approach (Carolus et al., 2023; Kim &
+
+Kwon, 2023) – are more detailed and include descriptions of competencies at the micro level, and the frameworks
+
+produced from conceptual models are more general with broader areas (Higuera, 2019; Lorenz & Romeike, 2023).
+
+Nevertheless, all the frameworks need validation and real-­life application, including investigation and the collec-
+
+tion of evidence (Table 7).
+
+Our classification of AI Competence Frameworks (CFTs) can be instrumental for researchers and policymakers
+
+in comprehending approaches to teacher competence development. Defining teachers' AI competence necessi-
+
+tates a comprehensive mapping, considering both top-­down and bottom-­up perspectives.
+
+While policy-­makers, researchers and app designers may contribute to a top-­down approach in delineating
+
+teachers' AI competencies, the empirical and design-­based nature of AIED requires a solid theoretical foundation.
+
+The adoption of theoretical frameworks serves as a unifying force, fostering shared concepts and terminology
+
+among researchers and designers, facilitating more efficient communication and innovation (Graziani et al., 2023).
+
+Holstein et al. (2020) emphasise the significant influence of theory in guiding the formulation of hypotheses, pre-
+
+dictions, comprehension and design strategies within AIED. However, a notable disparity arises, as most AI com-
+
+petencies are derived from instructional theories or literature reviews rather than teachers' actual experiences.
+
+Consequently, teachers often perceive these proposed competencies as irrelevant to enhancing their teaching
+
+practice, leading to diminished motivation (Kim & Kwon, 2023).
+
+On the other hand, it is essential that, through empirical studies, AI teachers' competencies are defined (bot-
+
+tom-­up): what components/elements they comprise, which cognitive, action-­related or motivational attributes
+
+they embrace. With the wide range of AI-­tools, it is important to understand what kind of problems AI teachers'
+
+competencies will solve and what kind of solutions AI teachers' competencies convey. Another important ques-
+
+tion is how these competencies are developed, assessed or measured (Klieme et al., 2003). Further research is
+
+vital to assess the practical application of AI tools and techniques. Without first-­hand experience of these tools
+
+and systems in action, it is challenging to predict the precise processes and skills needed for their smooth opera-
+
+tion. By blending top-­down expertise with bottom-­up input, AI competency models can become more dynamic,
+
+relevant and adaptable to the evolving realities of the field.
+
+As the field of AIED continues to evolve, several concerns should be addressed regarding the development
+
+of AI CFTs. First, it is imperative to acknowledge that AI extends beyond the realm of traditional digital technol-
+
+ogy. Educators' competencies should be well-­coordinated to prevent redundancy and minimise potential confu-
+
+sion if AI competencies are infused in Digital Competence Frameworks for Educators. Additionally, the Digital
+
+Competence Frameworks establish specific target levels that educators are expected to attain. This raises a per-
+
+tinent question: should AI CFTs also encompass prerequisites, mastery levels and a successive progression of
+
+proficiency or competency benchmarks to ensure educators' proficiency aligns with the demands of AI-­enhanced
+
+education? Furthermore, understanding how educators are assessed for their AI competencies and how they can
+
+assess their students' AI literacy is crucial.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 15 of 21
+MIKELADZE et al.
+
+(Continues)
+
+Kwon (2023), Lorenz
+
+and Romeike (2023),
+
+Ethical Guidelines on
+
+the Use of AI, 2022
+
+UNESCO (2023)
+
+Molenaar (2022)
+
+Higuera (2019), Kim and
+
+Olari and Romeike (2021),
+
+Holstein et al. (2020),
+
+elements.
+
+features of the educational process
+
+The frameworks are:
+
+•	 Built on the existing frameworks 
+which are validated and structured;
+
+•	 Connecting AI competencies to 
+existing domains;
+
+•	 Likely to have some rigidity, that 
+can limit integration of innovative
+
+•	 Integrating new specific areas related 
+to AIED;
+
+•	 Flexible;
+•	 Defining emergent areas;
+•	 Likely to be easily modified.
+
+The frameworks:
+
+•	 Represent automation process 
+parsing;
+
+•	 Can represent complex processes;
+•	 Have intricate design;
+•	 Should be implemented carefully 
+in education, due to the distinctive
+
+theoretical models, general
+
+reference frameworks
+
+Content Knowledge (TPACK)
+
+Mishra and Koehler (2006),
+
+Punie (2017), ICT CFT
+
+(UNESCO, 2018)
+
+knowledge/skills/attitudes
+The Frameworks are:
+
+frameworks on Human-­AI
+
+hybrid approach)
+
+Integration into already known
+
+Technological Pedagogical
+
+New themes/domains,
+
+Relationships between actors,
+
+Augmentation (Conceptual
+
+competencies attend to
+
+these processes?
+
+included in the earlier
+
+frameworks?
+
+existing competencies
+
+and the new ones?
+
+educators need?
+
+application in the
+
+classroom?
+
+competencies?
+
+framework
+Focus
+Characteristics and strengths
+Papers
+
+•	 How can new AI 
+competencies be
+
+•	 What kind of links can 
+be identified between
+
+•	 What are new knowledge 
+areas?
+
+•	 What are essential new 
+skills or attitudes that
+
+•	 What processes 
+characterize AI
+
+•	 How can these processes 
+be translated into
+
+Or how can AI
+
+competencies in
+
+existing teacher
+
+competence
+
+frameworks or
+
+theoretical models
+
+knowledge areas/
+
+domains (Klieme
+
+et al., 2003)
+
+competency
+
+model) (Rothwell &
+
+Lindholm, 1999)
+
+CFTs
+Questions for the
+
+N
+Construct claims of AI
+
+1
+Integrating AI
+
+2
+Modelling new AI
+
+3
+Process-­driven (Process
+
+TA B LE 7 Classification scheme of AI CFTs (summary).
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+16 of 21 |   
+MIKELADZE et al.
+
+Yang (2023)
+
+Pawlowski (2023), Ng
+
+et al. (2023)
+
+Carolus et al. (2023), Su and
+
+Sattelmaier and
+
+education;
+
+systems.
+
+The frameworks:
+
+•	 Present AI systems operation 
+principles and users' involvement;
+
+•	 Help master narrow AI system;
+•	 Are applicable in countries and 
+schools with gradual AI integration in
+
+•	 Can be complementary to other 
+general reference frameworks;
+
+•	 Can provide AI proficiency in certain 
+AI systems;
+
+•	 Can hinder broader understanding 
+of AI and deter the use of other AI
+
+•	 Are multidimensional for more than 
+one user's groups
+
+•	 Have profound representations of the 
+competences;
+
+•	 Can be complicated to implement
+•	 Can be incomplete
+
+operational competencies,
+
+user competencies and
+
+utilisation competencies
+
+User manual approach: machine
+
+Holistic, systematic approach
+The frameworks:
+
+operation?
+
+practice?
+
+regulations of data
+
+safety, privacy and
+
+protection?
+
+framework
+Focus
+Characteristics and strengths
+Papers
+
+•	 How this knowledge 
+should be applied in
+
+•	 Who are the users of this 
+system?
+
+•	 How should this system 
+operation adhere
+
+•	 What levels does this 
+model consist of?
+
+•	 Are there 
+sub-­competencies?
+
+•	 Are AI competences 
+divided into components?
+
+et al., 2017)
+•	 What knowledge is 
+necessary for the system
+
+driven (Klieme
+
+et al., 2003)
+
+CFTs
+Questions for the
+
+N
+Construct claims of AI
+
+4
+AI systems-­driven (Prifti
+
+5
+Competence level-­
+
+TA B LE 7 (Continued)
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 17 of 21
+MIKELADZE et al.
+
+Second, the intersection of AI and subject didactics needs a thoughtful examination. Presently, AI competen-
+
+cies are often framed as cross-­curricular, transcending specific subjects. However, an evolving discourse proposes
+
+the inclusion of subject-­specific AI competencies. This prompts a reflection on the necessity for these compe-
+
+tency models to be underpinned by the theoretical framework of subject didactics. Educators must possess deep
+
+subject knowledge in addition to digital and AI competencies to effectively guide their students in domain specific
+
+learning. Knowledge on the integration of AI in teaching and learning is generally limited within the industry
+
+(Havinga & Clary, 2023). In a curriculum landscape often dominated by large publishers and app designers, en-
+
+gagement of educators in curriculum development is therefore vital. The right balance between subject expertise
+
+and AI proficiency is a challenge that must be addressed in AI CFTs.
+
+Third, AI CFTs should include a specific implementation model which will ensure the stages of AI adoption,
+
+adaptation, appropriation, transformation, mastery and optimisation depending on the specific technology, con-
+
+text and educational objectives. Furthermore, resources required to implement AI competence frameworks in
+
+educational institutions is essential. This includes considerations of funding, infrastructure, teacher training and
+
+ongoing support.
+
+Finally, it is essential to recognise that there is no perfect AI CFT. As these frameworks evolve, their effec-
+
+tiveness depends on the extent of AI knowledge considered necessary for teachers to acquire for the application
+
+of AI in education. The ongoing quest for the ideal AI competence framework should be driven by the vision of
+
+educators' AI proficiency. As AI competence areas continue to evolve, it is imperative to facilitate interdisciplinary
+
+discussions involving experts and subject teachers. AI CFTs should be improved and implemented to ensure that
+
+educators are equipped with a versatile combination of pedagogy, subject expertise, digital literacy and AI profi-
+
+ciency, ultimately empowering them to provide technologically enriched education for their students.
+
+5 | CONCLUSION
+
+This paper explored AI Competence Frameworks for Teachers (AI CFTs) and classified them within the Competence
+
+Construct Claims. While this classification into five distinct types reveals the diverse nature of existing frame-
+
+works, it also underscores the early stage of AI CFT development and the complexity of addressing the multi-
+
+faceted aspects of AI. Future research is recommended to focus on the validation of frameworks, longitudinal
+
+analyses and assessments of AI CFTs to gauge the real-­life impact, sustained effectiveness and global applicability
+
+of the frameworks. Additionally, investigating specific implementation models and including stages of AI adoption
+
+will contribute to refining and effectively implementing AI CFTs.
+
+The review covers AI CFTs in scientific papers between 2019 and 2023 and may not reflect the most recent
+
+developments or perspectives, especially in the rapidly changing AI field. We acknowledge that information and
+
+understanding of a topic can evolve over time and we may unintentionally bring our own biases or preconceived
+
+notions to the review process, influencing the interpretation of the material.
+
+ACKNOWLEDGEMENTS
+
+We would like to thank Georgia's Researchers Mobility programme funded by EU for the opportunity to collabo-
+
+rate in Radboud Teacher Academy, Radboud University, the Netherlands.
+
+FUNDING INFORMATION
+
+Georgia's Researchers' Mobility Programme (EU fellowships for Georgian researchers).
+
+CONFLICT OF INTEREST STATEMENT
+
+None declared.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+18 of 21 |   
+MIKELADZE et al.
+
+DATA AVAILABILITY STATEMENT
+
+Data sharing not applicable to this article as no datasets were generated or analysed during the current study.
+
+ORCID
+
+Tamar Mikeladze 
+ https://orcid.org/0009-0007-8116-8903
+
+REFERENCES
+
+Aleven, V., Blankestijn, J., Lawrence, L., Nagashima, T., & Taatgen, N. (2022). A dashboard to support teachers during
+
+Students' self-­paced AI-­supported problem-­solving practice. In I. Hilliger, P. J. Muñoz-­Merino, T. De Laet, A. Ortega-­
+Araya, & W. Scheidel (Eds.).
+Antonenko, P. D. (2015). The instrumental value of conceptual frameworks in educational technology research.
+
+Educational Technology Research and Development, 63, 53–71. https://​doi.​org/​10.​1007/​s1142​3-­​014-­​9363-­​4
+Arora, V. (2021). Artificial intelligence in schools: A guide for teachers, administrators, and technology leaders. Routledge.
+Ayanwale, M. A., Sanusi, I. T., Adelana, O. P., Aruleba, K., & Oyelere, S. S. (2022). Teachers' readiness and intention to
+
+teach artificial intelligence in schools. Computers and Education: Artificial Intelligence, 3, 100099. https://​doi.​org/​10.​
+1016/j.​caeai.​2022.​100099
+Bentley, P. J., Brundage, M., Häggström, O., & Metzinger, T. (2018). Should we fear artificial intelligence? In-­depth analysis.
+
+STOA, European Parliamentary Research Service.
+Berendt, B., Littlejohn, A., & Blakemore, M. (2020). AI in education: Learner choice and fundamental rights. Learning,
+
+Media and Technology, 45(3), 312–324. https://​doi.​org/​10.​1080/​17439​884.​2020.​1786399
+Blok, S., Trudeau, J., & Cassidy, R. (2021). Artificial intelligence competency framework table of contents. Technical
+
+Report 
+https://​www.​dawso​ncoll​ege.​qc.​ca/​ai/​wp-­​conte​nt/​uploa​ds/​sites/​180/​Corre​cted-­​FINAL_​PIA_​Conco​rdiaD​
+awson_​AICom​peten​cyFra​mework.​pdf
+Brundage, M. (2019). Responsible governance of artificial intelligence: An assessment, theoretical framework, and exploration.
+
+Arizona State University.
+Bryant, J., Heitz, C., Sanghvi, S., & Wagle, D. (2020). How artificial intelligence will impact K-­12 teachers. McKinsey. https://​
+
+www.​mckin​sey.​com/​indus​tries/​educa​tion/​our-​insig​hts/​how-​artif​icial-​intel​ligen​ce-​will-​impact-k-​12-​teachers
+Carolus, A., Augustin, Y., Markus, A., & Wienrich, C. (2023). Digital interaction literacy model – Conceptualizing com-
+
+petencies for literate interactions with voice-­based AI systems. Computers and Education: Artificial Intelligence, 4, 
+100114. https://​doi.​org/​10.​1016/j.​caeai.​2022.​100114
+Chakravorti, N. (2022). Digital transformation: A strategic structure for implementation (1st ed.). Productivity Press. https://​
+
+doi.​org/​10.​4324/​97810​03270904
+Chikobava, M., & Romeike, R. (2021). Towards an operationalization of AI acceptance among pre-­service teachers. In
+
+Proceedings of the 16th Workshop in Primary and Secondary Computing Education (WiPSCE'21). Association for 
+Computing Machinery. https://​doi.​org/​10.​1145/​34813​12.​3481349
+Child, S., & Shaw, S. (2023). A conceptual approach to validating competence frameworks. Research Matters: A Cambridge
+
+University Press & Assessment Publication, 35, 27–40.
+Chouhan, V. S., & Srivastava, S. (2014). Understanding competencies and competency modeling―A literature survey.
+
+IOSR Journal of Business and Management, 16(1), 14–22.
+Edwards, C., Edwards, A., Spence, P. R., & Lin, X. (2018). I, teacher: Using artificial intelligence (AI) and social robots in
+
+communication and instruction. Communication Education, 67(4), 473–480. https://​doi.​org/​10.​1080/​03634​523.​2018.​
+1502459
+European Commission. (2022). Directorate-­general for education, youth, sport and culture, ethical guidelines on the use of
+
+artificial intelligence (AI) and data in teaching and learning for educators. Publications Office of the European Union. 
+https://data.europa.eu/doi/10.2766/153756
+Falloon, G. (2020). From digital literacy to digital competence: The teacher digital competency (TDC) framework.
+
+Educational Technology Research and Development, 68, 2449–2472. https://​doi.​org/​10.​1007/​s1142​3-­​020-­​09767​-­​4
+Felix, C. V. (2020). The role of the teacher and AI in education. In E. Sengupta, P. Blessinger, & M. S. Makhanya (Eds.),
+
+International perspectives on the role of technology in humanizing higher education (Innovations in Higher Education 
+Teaching and Learning) (Vol. 33, pp. 33–48). Emerald Publishing Limited. https://​doi.​org/​10.​1108/​S2055​-­​36412​02000​
+00033003
+Flogie, A., & Krabonja, M. V. (2023). Artificial intelligence in education: Developing competencies and supporting teachers
+
+in implementing AI in school learning environments. 2023 12th Mediterranean Conference on Embedded Computing 
+(MECO) https://​doi.​org/​10.​1109/​meco5​8584.​2023.​10155054
+Gill, S. S., Xu, M., Patros, P., Wu, H., Kaur, R., Kaur, K., Fuller, S., Singh, M., Arora, P., Parlikad, A. K., Stankovski, V.,
+
+Abraham, A., Ghosh, S. K., Lutfiyya, H., Kanhere, S. S., Bahsoon, R., Rana, O., Dustdar, S., Sakellariou, R., & Buyya, R.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 19 of 21
+MIKELADZE et al.
+
+(2023). Transformative effects of ChatGPT on modern education: Emerging era of AI Chatbots. Internet of Things and 
+Cyber-­Physical Systems, 4, 19–23. https://​doi.​org/​10.​1016/j.​iotcps.​2023.​06.​002
+Graziani, M., Dutkiewicz, L., Calvaresi, D., Amorim, J. P., Yordanova, K., Vered, M., Nair, R., Abreu, P. H., Blanke, T.,
+
+Pulignano, V., Prior, J. O., Lauwaert, L., Reijers, W., Depeursinge, A., Andrearczyk, V., & Müller, H. (2023). A global 
+taxonomy of interpretable AI: Unifying the terminology for the technical and social sciences. Artificial Intelligence 
+Review, 56(4), 3473–3504. https://​doi.​org/​10.​1007/​s1046​2-­​022-­​10256​-­​8
+Grubaugh, S., & Levitt, G. (2023). Artificial intelligence and the paradigm shift: Reshaping education to equip students
+
+for future careers. International Journal of Social Sciences and Humanities Invention, 10(6), 7931–7941. https://​doi.​org/​
+10.​18535/​ijsshi/​v10i06.​02
+Havinga, B., & Clary, A. (2023). State of play of EdTech & the European EdTech ecosystem. EmpowerEd Project
+
+https://​files.​eun.​org/​empow​erED/​deliv​erabl​es/​Empow​erED_​D2.4_​Year1​-­​Repor​t-­​State​ofPlay_​EdTec​h-­​and-­​Ecosy​
+stem.​pdf
+Higuera, C. D. L. (2019). A report about education, training teachers and learning artificial intelligence: Overview of key
+
+issues. https://​www.​k4all.​org/​wp-­​conte​nt/​uploa​ds/​2019/​11/​Teach​ing_​AI-­​report_​09072​019.​pdf
+Holstein, K., Aleven, V., & Rummel, N. (2020). A conceptual framework for human-­AI hybrid adaptivity in education. In
+
+I. Bittencourt, M. Cukurova, K. Muldner, R. Luckin, & E. Millán (Eds.), Artificial intelligence in education. AIED 2020. 
+Lecture notes in computer science (Vol. 12163). Springer. https://​doi.​org/​10.​1007/​978-­​3-­​030-­​52237​-­​7_​20
+Hooker, M., Mwiyeria, E., & Verma, A. (2011). ICT competency framework for teachers (ICT-­CFT) contextualization and
+
+piloting in Nigeria and Tanzania. Synthesis Report https://​unevoc.​unesco.​org/​e-­​forum/​Synth​esis_​Report_​ICT-­​CFT_​
+Draft_​Final_​191011.​pdf
+Hwang, G. J., Tu, Y. F., & Tang, K. Y. (2022). AI in online-­learning research: Visualizing and interpreting the journal publica-
+
+tions from 1997 to 2019. The International Review of Research in Open and Distance Learning, 23(1), 104–130.
+Kim, K., & Kwon, K. (2023). Exploring the AI competencies of elementary school teachers in South Korea. Computers and
+
+Education: Artificial Intelligence, 4, 100137. https://​doi.​org/​10.​1016/j.​caeai.​2023.​100137
+Klieme, E., Avenarius, H., Blum, W., Döbrich, P., Gruber, H., Prenzel, M., Reiss, K., Riquarts, K., Rost, J., Tenorth, H.-­E., &
+
+Vollmer, H. J. (2003). The development of national educational standards. An expertise. Federal Ministry of Education 
+and Research.
+Krajcovicova, K., Caganova, D., & Cambal, M. (2012). Key managerial competencies and competency models in industrial
+
+enterprises. In Annals of DAAAM for 2012 & proceedings of the 23rd international DAAAM symposium (Vol. 23(1), 
+pp. 1119–1122).
+Liu, X., & Li, Y. (2022). Redefining teacher qualification in the artificial intelligence era: A professional capital per-
+
+spective. 5th International Conference on Big Data and Education (ICBDE'22) https://​doi.​org/​10.​1145/​35243​83.​
+3524405
+Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In Proceedings of the 2020
+
+CHI conference on human factors in computing systems (CHI'20) (pp. 1–16). Association for Computing Machinery. 
+https://​doi.​org/​10.​1145/​33138​31.​3376727
+Lorenz, U., & Romeike, R. (2023). What is AI-­PACK? – Outline of AI competencies for teaching with DPACK. In J. P. Pellet &
+
+G. Parriaux (Eds.), Informatics in schools. Beyond bits and bytes: Nurturing informatics intelligence in education. ISSEP 2023. 
+Lecture notes in computer science (Vol. 14296). Springer. https://​doi.​org/​10.​1007/​978-­​3-­​031-­​44900​-­​0_​2
+Markauskaite, L., Marrone, R., Poquet, O., Knight, S., Martinez-­Maldonado, R., Howard, S., Tondeur, J., De Laat, M.,
+
+Buckingham Shum, S., Gašević, D., & Siemens, G. (2022). Rethinking the entwinement between artificial intel-
+ligence and human learning: What capabilities do learners need for a world with AI? Computers and Education: 
+Artificial Intelligence, 3, 100056. https://​doi.​org/​10.​1016/j.​caeai.​2022.​100056
+Markus, L. H., Cooper–Thomas, H. D., & Allpress, K. N. (2005). Confounded by competencies? An evaluation of the evo-
+
+lution and use of competency models. New Zealand Journal of Psychology, 34(2), 117. https://​psycn​et.​apa.​org/​record/​
+2005-­​12109​-­​007
+Mishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge.
+
+Teachers College Record, 108(6), 1017–1054.
+Molenaar, I. (2022). Towards hybrid human-­AI learning technologies. European Journal of Education, 57, 632–645. https://​
+
+doi.​org/​10.​1111/​ejed.​12527​
+National Research Council. (2012). Education for life and work: Developing transferable knowledge and skills in the 21st cen-
+
+tury. National Academies Press.
+Ng, D. T., Leung, J. K., Chu, S. K., & Qiao, M. S. (2021a). Conceptualizing AI literacy: An exploratory review. Computers and
+
+Education: Artificial Intelligence, 2, 100041.
+Ng, D. T., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021b). AI literacy: Definition, teaching, evaluation and ethical issues.
+
+Proceedings of the Association for Information Science and Technology, 58(1), 504–509.
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+20 of 21 |   
+MIKELADZE et al.
+
+Ng, D. T. K., Leung, J. K. L., Su, J., Ng, R. C. W., & Chu, S. K. W. (2023). Teachers' AI digital competencies and twenty-­first
+
+century skills in the post-­pandemic world. Educational Technology Research and Development, 71, 137–161. https://​doi.​
+org/​10.​1007/​s1142​3-­​023-­​10203​-­​6
+Ng, D. T. K., Leung, J. K. L., Su, M. J., Yim, I. H. Y., Qiao, M. S., & Chu, S. K. W. (2022). AI literacy in K-­16 classrooms. Springer
+
+eBooks. https://​doi.​org/​10.​1007/​978-­​3-­​031-­​18880​-­​0
+NOLAI Referentiekader. 2022. https://​www.​ru.​nl/​nolai/​kenni​s-­​over-­​ai-­​in-­​onder​wijs/​refer​entie​kader​
+Olari, V., & Romeike, R. (2021). Addressing AI and data literacy in teacher education: A review of existing educational
+
+frameworks. In M. Berges, A. Mühling, & M. Armoni (Eds.), Proceedings of the 16th workshop in primary and sec-
+ondary computing education (pp. 1–2). Association for Computing Machinery. https://​compu​tinge​ducat​ion.​de/​pub/​
+2021_​Olari​-­​Romei​ke_​WIPSC​E21.​pdf
+Organisation for Economic Co-­operation and Development. (2005). Definition and selection of key competencies: Executive
+
+summary. OECD. http://​www.​oecd.​org/​datao​ecd/​47/​61/​35070​367.​pdf
+Polak, S., Schiavo, G., & Zancanaro, M. (2022). Teachers' perspective on artificial intelligence education: An initial inves-
+
+tigation. CHI Conference on Human Factors in Computing Systems Extended Abstracts https://​doi.​org/​10.​1145/​
+34911​01.​3519866
+Prifti, L., Knigge, M., Kienegger, H., & Krcmar, H. (2017). A competency model for “Industrie 4.0” employees.
+
+Wirtschaftsinformatik und Angewandte Informatik.
+Punie, Y., editor(s), Redecker, C., European framework for the digital competence of educators: DigCompEdu, EUR 28775
+
+EN. Publications Office of the European Union, Luxembourg, 2017. ISBN 978-92-79-73718-3 (print),978-92-79-
+73494-6 (pdf). https://​doi.​org/​10.​2760/​178382.
+Rothman, D., & Gulli, A. (2022). Transformers for natural language processing: Build, train, and fine-­tune deep neural network
+
+architectures for nlp with python, pytorch, tensorflow, bert, and gpt-­3. Packt Publishing.
+Rothwell, W. J., & Lindholm, J. E. (1999). Competency identification, modelling and assessment in the USA. International
+
+Journal of Training and Development, 3, 90–105. https://​doi.​org/​10.​1111/​1468-­​2419.​00069​
+Sattelmaier, L., & Pawlowski, J. M. (2023). Towards a generative artificial intelligence competence framework for schools.
+
+2023 International Conference on Enterprise and Industrial Systems (ICOEINS 2023), 4-5 October 2023, Bali, 
+Indonesia.
+Schmidt, D., Baran, E., Thompson, A. D., Mishra, P., Koehler, M. J., & Shin, T. R. (2009). Technological pedagogical content
+
+knowledge (TPACK). Journal of Research on Technology in Education, 42(2), 123–149. https://​doi.​org/​10.​1080/​15391​
+523.​2009.​10782544
+Sostero, M., & Tolan, S. (2022). Digital skills for all? From computer literacy to AI skills in online job advertisements JRC
+
+working papers on labour. JRC Working Papers on Labour, Education and Technology N7, European Commission, 
+Seville, JRC130291.
+Stevens, G. W. (2013). A critical review of the science and practice of competency modeling. Human Resource Development
+
+Review, 12(1), 86–107. https://​doi.​org/​10.​1177/​15344​84312​456690
+Su, J., & Yang, W. (2023). Unlocking the power of ChatGPT: A framework for applying generative AI in education. ECNU
+
+Review of Education, 6(3), 355–366. https://​doi.​org/​10.​1177/​20965​31123​1168423
+Trotsko, A. V., Rybalko, L. S., Kіrіlenko, O. G., & Trush, H. O. (2019). Teachers' professional self-­improvement in the condi-
+
+tions of distance learning implementation in higher education institutions. Information Technologies and Learning Tools, 
+72(4), 258–272. https://doi.org/10.33407/itlt.v72i4.3088
+Trujillo-­Cabezas, R. (2020). Towards the development of future trend scenarios through dynamic analysis: A proposal of
+
+integration of Artificial Intelligence, Data Sciences and the field of Futures Studies to adapt to new environments. In 
+2020 15th Iberian Conference on Information Systems and Technologies (CISTI) (pp. 1–6). IEEE.
+UNESCO. (2018). UNESCO ICT competency framework for teachers. https://​unesd​oc.​unesco.​org/​ark:/​48223/​pf000​
+
+02657​21/​PDF/​26572​1eng.​pdf.​multi​
+UNESCO. (2023). AI competency framework for teachers and school students. UNESCO AI competency framework for teach-
+
+ers. AI Pioneers Partners. https://​aipio​neers.​org/​unesc​o-­​ai-­​compe​tency​-­​frame​work-­​for-­​teach​ers/​
+U.S. Department of Education, Office of Educational Technology (2023). Artificial intelligence and future of teaching and
+
+learning: Insights and recommendations. https://​tech.​ed.​gov/​files/​2023/​05/​ai-​future-​of-​teach​ing-​and-​learn​ing-​report.​
+pdf
+Vincent-­Lancrin, S., & R. van der Vlies (2020). Trustworthy artificial intelligence (AI) in education: Promises and chal-
+
+lenges, OECD education working papers, No. 218. OECD Publishing. https://​doi.​org/​10.​1787/​a6c90​fa9-­​en.
+Williamson, B., & Eynon, R. (2020). Historical threads, missing links, and future directions in AI in education. Learning,
+
+Media and Technology, 45(3), 223–235.
+Xu, L. (2020). The dilemma and countermeasures of AI in educational application. In 2020 4th International Conference
+
+on Computer Science and Artificial Intelligence (pp. 289–294).
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 21 of 21
+MIKELADZE et al.
+
+Zawacki-­Richter, O., Marín, V. I., Bond, M., & Gouverneur, F. (2019). Systematic review of research on artificial intelligence
+
+applications in higher education–where are the educators? International Journal of Educational Technology in Higher 
+Education, 16(1), 1–27.
+Zhai, X., Chu, X., Chai, C. C., Jong, M. S. Y., Istenic, A., Spector, M., Liu, J., Yuan, J., & Li, J. (2021). A Review of Artificial
+
+Intelligence (AI) in Education from 2010 to 2020, Complexity, vol. 2021. https://​doi.​org/​10.​1155/​2021/​8812542
+
+How to cite this article: Mikeladze, T., Meijer, P. C., & Verhoeff, R. P. (2024). A comprehensive exploration
+
+of artificial intelligence competence frameworks for educators: A critical review. European Journal of
+
+Education, 59, e12663. https://doi.org/10.1111/ejed.12663
+
+14653435, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ejed.12663 by Readcube (Labtiva Inc.), Wiley Online Library on [18/10/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

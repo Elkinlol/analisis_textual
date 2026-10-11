@@ -1,0 +1,1638 @@
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Contents lists available at ScienceDirect
+
+Computers and Education: Artificial Intelligence
+
+journal homepage: www.sciencedirect.com/journal/computers-and-education-artificial-intelligence
+
+AI technologies for education: Recent research & future directions
+
+Ke Zhang a,*, Ayse Begum Aslan b
+
+a 385Education, Wayne State University, Detroit, MI, 48202, USA 
+b 203Boone Hall, Eastern Michigan University, Ypsilanti, MI, 48197, USA
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords: 
+Artificial intelligence 
+AI 
+AI in Education
+
+From unique educational perspectives, this article reports a comprehensive review of selected empirical studies 
+on artificial intelligence in education (AIEd) published in 1993–2020, as collected in the Web of Sciences 
+database and selected AIEd-specialized journals. A total of 40 empirical studies met all selection criteria, and 
+were fully reviewed using multiple methods, including selected bibliometrics, content analysis and categorical 
+meta-trends analysis. This article reports the current state of AIEd research, highlights selected AIEd technologies 
+and applications, reviews their proven and potential benefits for education, bridges the gaps between AI tech­
+nological innovations and their educational applications, and generates practical examples and inspirations for 
+both technological experts that create AIEd technologies and educators who spearhead AI innovations in edu­
+cation. It also provides rich discussions on practical implications and future research directions from multiple 
+perspectives. The advancement of AIEd calls for critical initiatives to address AI ethics and privacy concerns, and 
+requires interdisciplinary and transdisciplinary collaborations in large-scaled, longitudinal research and devel­
+opment efforts.
+
+Hwang, 2020; Hinojo-Lucena, Aznar-Díaz, C´aceres-Reche, & Romer­
+o-Rodríguez, 2019; Zawacki-Richter, Marín, Bond, & Gouverneur, 
+2019). In addition, researchers have voiced concerns about the absence 
+of educational theories and models, as found in AI-enabled e-learning 
+research published in the past two decades (Tang, Chang, & Hwang, 
+2021). It is also worth noting that AIEd innovations remain at the early, 
+experimental stage, and there is few collaboration with educational in­
+stitutions in related interventions such as AI enabled adaptive systems 
+(Kabudi, Pappas, & Olsen, 2021). As a result, there has been a critical 
+gap between what AIEd technologies could do and how they are actually 
+implemented in authentic educational settings (Bates et al., 2020; 
+Kabudi et al., 2021).
+
+Since Alan Turing first articulated the promising vision of “thinking 
+machines” in 1950, artificial intelligence (AI) research has been 
+advanced in many different fields and generated an increasing body of 
+literature (e.g., Andriessen and Sandberg, 1999; Beck et al., 1996; Bur­
+leson & Lewis, 2016; Clancey et al., 1979; Kaplan & Haenlein, 2019; 
+Kurzweil, 1985; Kurzweil & Kapor, 2002; Kurzweil, 2002; Legg & Hut­
+ter, 2007; Simmons & Chappell, 1988; Zdenek, 2003). In education, 
+emerging technologies have also been transforming ways of teaching 
+and learning. The AI market in US Education Sector is expected to grow 
+by 48% in 2018–2022 (BusinessWire.com, 2018). With the thrive of AI 
+technology, its applications in education have been increasing, with 
+promising potentials to provide customized learning, to offer dynamic 
+assessments, and to facilitate meaningful interactions in online, mobile 
+or blended learning experiences. More provocatively, in response to the 
+teacher shortage in USA, for example, scholars (Edwards & Cheok, 
+2018) have proposed to replace some roles of teachers with robots with 
+AI.
+
+As an effort to further advance AI technologies for education, this 
+article intends to help the broader AIEd community, including educa­
+tors, educational researchers, AI technology creators and other stake­
+holders to build a deeper understanding in AIEd, including its current 
+state, potentials, challenges and future directions. Specifically, this 
+comprehensive review of related literature aims to achieve the following 
+goals through multiple analysis methods:
+
+The increasing applications of AI in education (AIEd) demand 
+interdisciplinary approaches, while most AI research is carried out only 
+in STEM fields (Zawacki-Richter, Marin, Bond & Gouverneur, 2019). 
+Consistently, a few recent literature reviews have highlighted the lack of 
+educational perspectives in AIEd research (e.g., Chen, Xie, Zou, &
+
+• to map the landscape of AIEd research publications in recent 
+decades,
+
+* Corresponding author. 
+E-mail addresses: Ke.zhang@wayne.edu (K. Zhang), aaydinol@emich.edu (A.B. Aslan).
+
+https://doi.org/10.1016/j.caeai.2021.100025 
+Received 10 December 2020; Received in revised form 3 May 2021; Accepted 30 May 2021
+
+Available online 9 June 2021
+2666-920X/©
+2021
+The
+Authors.
+Published
+by
+Elsevier
+Ltd.
+This
+is
+an
+open
+access
+article
+under
+the
+CC
+BY-NC-ND
+license
+
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+As newer journals may not be included in Web of Science database, 
+additional search efforts were made to locate more, recent publications 
+on AIEd-specialized journals. The following three specialized journals 
+were selected as additional source databases, International Journal of 
+Artificial Intelligence in Education, International Journal of Learning Ana­
+lytics and Artificial Intelligence for Education and Computers & Education: 
+Artificial Intelligence.
+
+1.2. Searches and selections
+
+• to identify AI technologies and their educational applications and 
+benefits, as reported in empirical research,  
+• to generate practical guidelines, examples, inspirations and other 
+takeaways for both educators and AI technological experts, 
+• to facilitate communications and collaborations amongst stake­
+holders with different areas of expertise (e.g., technological skills vs. 
+learning theories and pedagogies), 
+• to understand AIEd research and development from different per­
+spectives (e.g., technology advancement, teaching and learning, 
+administrations of educational systems, educational research, etc.)  
+• to shape fruitful collaborations in AIEd research, development, 
+implementation and evaluation.
+
+Multiple rounds of searches were conducted on the source database 
+using different combinations of key words and search strategies, such as 
+“AI”, “artificial intelligence”, and “education”. Three rounds of searches 
+on Web of Science yielded a total of 507 articles initially, from which 27 
+duplicates, one conference paper, and two non-English articles were 
+excluded in the initial screening. In addition, searches were conducted 
+on the three selected journals’ websites for research articles published 
+till 2020, using the same search strategies.
+
+Thus, with a unique focus on education, this article reports a 
+comprehensive review of eligible empirical studies on AIEd, applying 
+mixed methods, including selected bibliometrics (Okubo, 1997; Thel­
+wall, 2008), a categorical meta-trends analysis (e.g., Hung & Zhang, 
+2012; Thelwall, 2008) and inductive content analysis (Gao, Luo, & 
+Zhang, 2012; Mogil, Simmonds, & Simmonds, 2009). This study in­
+vestigates the longitudinal growth of empirical studies on AIEd, gener­
+ates the macro, as well as micro viewpoints on AIEd research. Through a 
+broad overview on the current state of AIEd research, this review also 
+creates a solid foundation for historical or meta analyses of the 
+increasing body of research literature on AIEd. More importantly, this 
+article provides practical takeaways for varied AIEd stakeholders and 
+identifies new directions for AIEd practice, research, development, 
+implementation and evaluations. From educational perspectives, this 
+study stands out from many other related reviews with the following 
+differences:
+
+1.2.1. Selection criteria and results 
+In order to achieve the specified research goals, a set of selection 
+criteria were established and applied for inclusion and exclusion. Only 
+English, refereed journal articles reporting empirical, evidence-based 
+studies were selected for further analyses. The following were 
+excluded: (a) non-English publications, (b) conference proceedings or 
+presentations, (c) theoretical or conceptual articles, (d) reports of per­
+sonal user experiences, (e) articles reporting no data or without enough 
+data, (f) research without human participants, (g) studies not related to 
+education or artificial intelligence, and (h) quantitative studies with less 
+than 20 participants.
+
+(a) the scope, as defined by the research questions and inclusion and
+
+exclusion criteria,  
+(b) the selected mixed methods for varied analyses,
+
+(c) highly focused analyses as related to education, and  
+(d) the implications and discussions from multiple perspectives.
+
+The following research questions guided the multi-phased search, 
+review and analyses of AIEd research publications in this study:
+
+1. What is the landscape of research publications on AIEd in the Web of 
+Science Database and selected AIEd specialized journals?  
+2. What are the AIEd Technology applications and their educational 
+benefits, as reported in eligible research publications?  
+3. What implications does current research have on future research and 
+practice of AIEd?
+
+In addition, the following criteria were followed strictly in the 
+screening and selection process: 1. Research must focus on AI in 
+educational settings. Published research on AI in the consumer market, 
+engineering, health care systems and other non-educational settings was 
+thus excluded; 2. Research must be data-supported empirical studies. 
+Articles that were solely based on personal opinions or anecdotal ex­
+periences were excluded; 3. Research must have investigated educa­
+tional effects of AI by reporting relevant qualitative or quantitative data. 
+Papers that did not provide any evidence on learning were excluded; 4. 
+Research must have sufficient participants with a large enough sample 
+size. Experimental or quasi experimental studies or survey research with 
+less than 20 participants were thus excluded; 5. Theoretical, conceptual 
+and literature review papers were also excluded for full analyses, but 
+they were carefully read to strengthen our background knowledge and 
+to broaden the theoretical foundation for developing a general under­
+standing of AI in education.
+
+1. Research methods and process
+
+This multi-phase study critically examines refereed research publi­
+cations on AI in education. Multi-phase searches and selections were 
+conducted to identify eligible publications for full analyses.
+
+The researchers reviewed all search results together and reached 
+consensus on inclusion or exclusion of each article. After careful 
+screenings and initial analyses, a total of 40 research articles were 
+selected for full analyses, including 34 articles from Web of Science, five 
+from International Journal of Artificial Intelligence in Education, and one 
+from Computers & Education: Artificial Intelligence. No eligible articles 
+were identified from the International Journal of Learning Analytics and 
+Artificial Intelligence for Education.
+
+1.1. Source databases
+
+1.3. Analysis methods
+
+With the surge of online publications and open access resources, it is 
+virtually impossible to conduct an exhaustive search even with well- 
+defined criteria. This investigation was carefully designed to focus on 
+research publications collected in one of the most widely used web- 
+based databases, the Web of Science (SCI/SSCI). Web of Science (SCI/ 
+SSCI) was chosen as the source database for the following reasons: (1) it 
+collects journals in both Science Citation Index (SCI) and Social Science 
+Citation Index (SSCI); (2) the database is highly selective, including 
+regarded journals in both sciences and social sciences; and (3) it is one of 
+the few comprehensive web-based databases that allow detailed bib­
+liometric analysis (Okubo, 1997).
+
+Bibliometrics have been widely applied to evaluate research publi­
+cations through quantitative analyses to measure varied indicators (e.g., 
+Keshaval & Gowda 2008; Okubo, 1997; Thelwall, 2008). More recently, 
+researchers have also conducted content analysis to address the 
+disparity between quantitative and qualitative approaches in reviewing 
+research publications (e.g., Gao et al., 2012; Hung & Zhang, 2012; Mogil 
+et al., 2009). Thus, in this study, selected bibliometrics (Okubo, 1997), 
+categorical meta-trend analysis (Hung & Zhang, 2012; Thelwall, 2008) 
+and inductive content analysis (Gao et al., 2012; Mogil et al., 2009) were
+
+2
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+conducted.
+
+Table 1 
+A summary of countries and participants of AIEd research.
+
+n 
+Article 
+Participants
+
+Country/ 
+Place of Study
+
+60 undergraduate students
+
+Australia 
+1 
+Ijaz, Bogdanovych, and 
+Trescak (2017)
+
+21 volunteers
+
+Brazil 
+1 
+Santos and Notargiacomo 
+(2018)
+
+20 elementary students
+
+Canada 
+1 
+a. Xiao and Hu (2019) 
+203 primary school ESL 
+students (177 high-achieving 
+and 36 low-achieving 
+students) 
+China 
+7 
+1. a. Wei et al. (2018) 
+169 undergraduate students 
+in School of International 
+Studies majoring in English 
+2. b. Xie et al. (2017) 
+7341 students in 
+engineering, medical 
+science, and business science 
+3. Zheng, Zhang, Xu, Peng, 
+and Wu (2018)
+
+The researchers reviewed each eligible article and analyzed them to 
+identify the followings: bibliometrics, setting of the study, participants 
+profile, sample size, country of the study, AI technology applications and 
+effects in education, and implications on AIEd. The researchers collab­
+oratively developed a coding system for this review. Major codes 
+included bibliometrics of the publication (e.g., year of publication, name 
+of the journal, etc.), countries where studies were carried out, educa­
+tional setting of the study, (e.g., K-12 or higher education), subject area 
+in which a particular AI technology was implemented and researched (e. 
+g., engineering, psychology, etc.), participants profile (e.g., grade level, 
+age, demographics, etc.), number of participants, specific AI technology 
+applications and their educational benefits as reported in the study. Both 
+researchers discussed on the coding, categorization and themes emerged 
+in the process and resolved any disagreements through discussions to 
+build shared understandings. The collaborative approach throughout 
+multiple analyses ensured a high reliability and trustworthiness of the 
+review.
+
+4. b. Cheung et al. (2003) 
+(Hong Kong)
+
+2. Results
+
+2.1. The landscape of AIEd research publications
+
+40 university students for 
+initial evaluation; & 1300 
+students for full scale 
+evaluation 
+5. a. Xu and Wang (2006) 
+(Hong Kong)
+
+Bibliometric analyses (e.g. Keshaval & Gowda 2008; Okubo, 1997; 
+Thelwall, 2008), categorical meta-trend analysis (Hung & Zhang, 2012; 
+Thelwall, 2008) and inductive content analysis were conducted on all 
+eligible research articles. The following summarizes the AIEd research 
+analyzed in this study.
+
+228 online undergraduate 
+students taking the 
+“Introduction to the Oracle 
+Database” course 
+6. Shih et al. (2012) (Taiwan) 
+49 sixth grade students from 
+a school with lower 
+socioeconomic status 
+compared to other schools in 
+the region 
+7. a. Hwang et al. (2020) 
+(Taiwan)
+
+162 5th graders (53 (26 
+male, 27 female) in the 
+experimental group, 53 (26 
+male, 27 female) and 56 (26 
+male, 30 female) in the other 
+two groups 
+Europe
+
+153 high school students
+
+1 
+a. Moridis and Economides 
+(2009)
+
+(country 
+not 
+specified)
+
+France 
+1 
+Loup-Escande et al. (2017) 
+76 participants learning 
+calligraphy 
+Greece 
+2 
+1. Samarakou, Fylladitakis, 
+Fruh, Hatziapostolou, & 
+Gelengenis (2015)
+
+2.1 Prolific countries. Artificial intelligence in education (AIEd) 
+research has been conducted in many countries around the world. The 
+40 articles reported AIEd research studies in 16 countries (See Table 1). 
+USA was so far the most prolific, with nine articles meeting all criteria 
+applied in this study, and noticeably seven of them were conducted in K- 
+12. Followed was China with seven AIEd articles. Two of them were 
+conducted in Hong Kong Special Administrative Region in the early 
+2000s (i.e., Cheung, Hui, Zhang, & Yiu, 2003; Xu & Wang, 2006), and 
+two took place in Taiwan (Hwang, Sung, Chang, & Huang, 2020; Shih, 
+Chang, Chen, Chen, & Liang, 2012), including one study in 2012, a few 
+years before the global research community caught up with the surge of 
+AIEd publications in 2015. More recently, scholars in mainland China 
+also conducted large-scaled AIEd research in 2017 (Xie, Zheng, Zhang, & 
+Qu, 2017) and 2018 (Wei, Yang, Chen, & Hu, 2018).
+
+60 postgraduate students 
+pursuing a master’s degree 
+on Energy Technology 
+2. Samarakou, Tsaganou, 
+and Papadakis (2018)
+
+28 undergraduate students 
+studying Informatics (16 
+from third grade, 12 from 
+second grade) 
+Japan 
+1 
+a. Fryer, Ainley, Thompson, 
+Gibson, and Sherlock (2017)
+
+122 first and second-year 
+university students 
+Pakistan 
+1 
+a. Munawar, Toor, Aslam, 
+and Hamid (2018)
+
+Turkey and Spain tied as the third most prolific countries, each with 
+five AIEd studies, and they were all in the recent years. Interestingly to 
+note, while UK had the first AIEd study (Kelly, Sleeman, & Gilhooly, 
+1993) in 1993, that was also the only one from UK. Other countries 
+contributing to the increasing body of AIEd research included Australia, 
+Brazil, Canada, France, Greece, Japan, Korea, Pakistan, Slovenia, Swe­
+den, UAE and UK. Remarkably, the Global South is well represented in 
+AIEd research publications. In addition, there was one multinational 
+study that took place in United Arab Emirates and Spain (Rapanta & 
+Walton, 2016). One AIEd study was executed at a high school in Europe, 
+but it did not specify which country (Moridis & Economides, 2009).
+
+161 postgraduate and 
+undergraduate students 
+Slovenia 
+1 
+b. Flogie and Abersek (2015) 
+4473 students in 7th-9th 
+grades in total: (4373 in the 
+control group and 100 in the 
+experimental group) & 20 
+teachers in the qualitative 
+research 
+Spain 
+5 
+1. Griol, Molina, and Callejas 
+(2014)
+
+2.2. Educational settings
+
+56 undergraduate students in 
+computer science 
+2. a. Leony, Munoz-Merino, 
+Pardo, & Kloos (2013)
+
+334 s-year undergraduate 
+engineering students in a 
+programming course 
+3. a. Mas-Sanso and 
+Manresa-Yee (2016)
+
+160 undergraduate 
+engineering students 
+4. a. Montalvo, Palomo, and 
+de la Orden (2018)
+
+The reviewed articles reported various empirical studies in both K-12 
+(n = 17) and higher education systems (n = 21). Articles did not specify 
+the educational settings in which they were carried out were not 
+included in Table 2.
+
+138 undergraduate students 
+in Business Administration 
+program 
+5. a. Rapanta and Walton 
+(2016) (UAE & Spain)
+
+2.3. Subject areas
+
+205 university students – 112 
+were undergraduates in 
+Dubai, UAE and 93 were 
+undergraduates in Barcelona, 
+Spain
+
+(continued on next page)
+
+AI was implemented and examined in a wide variety of subject areas, 
+such as science, medicine, arts, sports, engineering, mathematics, 
+technologies, foreign language, business, history and more (See
+
+3
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Table 1 (continued)
+
+Table 2 
+AIEd research articles by setting.
+
+n 
+Article 
+Participants
+
+Country/ 
+Place of Study
+
+n 
+Articles
+
+Educational 
+Setting
+
+166 students – ages 10-11
+
+Sweden 
+2 
+1. a. Tarning, Silvervarg, 
+Gulz, & Haake (2019)
+
+Higher
+
+education
+
+2. Gulz, Londos, and Haake 
+(2020)
+
+36 children – ages 4–6 years 
+old from three different 
+preschools 
+Turkey 
+5 
+1. a. Arpaci (2019) 
+308 undergraduate students 
+in IT classes 
+2. a. Bahçeci and Gürol 
+(2016)
+
+300 9th grade students
+
+162 undergraduate software 
+engineering students 
+3. a. K¨ose and Arslan (2016) 
+110 undergraduate students 
+in computer technologies 
+4. a. K¨ose (2017) 
+453 university students 
+5. a. Peker, Guruler, Sen, and 
+Istanbullu (2017)
+
+UAE 
+1 
+a. Rapanta and Walton 
+(2016) (UAE & Portugal)
+
+205 university students – 112 
+were undergraduates in 
+Dubai, UAE and 93 were 
+undergraduates in Barcelona, 
+Spain 
+UK 
+1 
+Kelly et al. (1993) 
+38 first year undergraduate 
+psychology students
+
+USA 
+9 
+1. a. Chin et al. (2010) 
+First study: 28 and 30 
+students in 6th grade; 
+Second study: 104 Fifth 
+Grade students 
+2. a. Chin, Dohmen, and 
+Schwartz (2013)
+
+153 fourth-grade students in 
+a small public school 
+3. Gonzalez, Hollister, 
+DeMara, Leigh, Lanman, Lee, 
+Parker, Walls, Parker, Wong, 
+Barham, & Wilder (2017)
+
+234 high school students and 
+recent high school graduates
+
+Middle school students who 
+visited the museum; 
+Responses to survey 
+questions vary: 48 responses 
+to Q11, and 56 responses to 
+Q12 
+4. a. McCarthy, Likens, 
+Johnson, Guerrero, and 
+McNamara (2018)
+
+5. a. McLaren, DeLeeuw, & 
+Mayer (2011)
+
+21 adults and children with 
+autism
+
+132 urban high school 
+students in five chemistry 
+classes 
+6.Keshav, Salisbury, 
+Vahabzadeh, and Sahin 
+(2017)
+
+21 
+1. Arpaci (2019) 
+2. Atilola et al. (2014) 
+3. Bahçeci and Gürol (2016) 
+4. Cheung et al. (2003) 
+5. Dias, Hadjileontiadou, Hadjileontiadis, and Diniz 
+(2015) 
+6. Fryer et al. (2017) 
+7. Griol et al. (2014) 
+8. Ijaz et al. (2017) 
+9. Kelly et al. (1993) 
+10. K¨ose and Arslan (2016) 
+11. K¨ose (2017) 
+12. Leony, Munoz-Merino, Pardo, & Kloos (2013) 
+13. Mas-Sanso and Manresa-Yee (2016) 
+14. Montalvo et al. (2018) 
+15. Munawar et al. (2018) 
+16. Rapanta and Walton (2016) 
+17. Samarakou, Fylladitakis, Fruh, Hatziapostolou, & 
+Gelengenis (2015) 
+18. Samarakou et al. (2018) 
+19. Wei et al. (2018) 
+20. Xie et al. (2017) 
+21. Xu and Wang (2006) 
+K-12 education 
+17 
+1. Chin et al. (2013) 
+2. Chin et al. (2010) 
+3. Flogie and Abersek (2015) 
+4. Gonzalez, Hollister, DeMara, Leigh, Lanman, Lee, 
+Parker, Walls, Parker, Wong, Barham, & Wilder (2017) 
+5. Gulz et al. (2020) 
+6. Keshav et al. (2017) 
+7. Matsuda et al. (2020) 
+8. McCarthy, Likens, Johnson, Guerrero, & McNamara 
+(2018) 
+9. McLaren, DeLeeuw, & Mayer (2011) 
+10. Moridis and Economides (2009) 
+11. Peker et al. (2017) 
+12. Shih et al. (2012) 
+13. Tarning, Silvervarg, Gulz, & Haake (2019) 
+14. Walkington & Bernacki (2019) 
+15. Xiao and Hu (2019) 
+16. Zheng et al. (2018) 
+17. Hwang et al. (2020)
+
+106 high school students
+
+7. a. Atilola et al. (2014) 
+Freshmen engineering 
+students: Spring 2011 
+semester n = 64, Fall 2011 
+semester: Honors section n =
+36 & Regular section n = 86, 
+Fall 2012 semester n = 49 
+8. a. Walkington & Bernacki 
+(2019)
+
+work with two or more authors. Among the 40 research articles 
+reviewed in this study, only two empirical studies were single authored 
+(Arpaci, 2019; K¨ose, 2017). Collaborative research on AIEd involved not 
+only multiple authors but also multiple disciplines (e.g., Cheung et al., 
+2003; Dias et al., 2015; Xie et al., 2017), and sometimes in multiple 
+countries (e.g., Rapanta & Walton, 2016) as well.
+
+9. a. Matsuda, Weng, and 
+Wall (2020)
+
+208 6th, 7th and 8th grade 
+students
+
+Note.
+
+2.5. Participants and sample sizes
+
+a study with a sample size larger than 100 but smaller than 1000.
+
+b study with a sample size larger than 1000.
+
+Table 3). The largest number of AIEd research studies (n = 14) were in 
+engineering, computer science, information technology (IT), or infor­
+matics, followed by mathematics (n = 8), foreign language (n = 4), 
+science (n = 3), and business (n = 3). In total, 25 of the 40 research 
+studies were conducted in STEM fields. Three studies investigated AIEd 
+in multiple disciplines (i.e., Cheung et al., 2003; Dias et al., 2015; Xie 
+et al., 2017). Articles did not specify the subject areas addressed in the 
+study were not in Table 3.
+
+2.4. Collaborations in AIEd research
+
+The sample sizes of the AIED research varied greatly, ranging from 
+20 (Zheng, Zhang Xu, Peng, & Wu, 2018) to 7341 (Xie et al., 2017), as 
+noted in Table 1. Most of the studies had a sample size of 100–500 (n =
+24), and three studies had sample sizes larger than 1000 (i.e., Dias et al., 
+2015, Flogie & Abersek, 2015; Xie et al., 2017). 
+Participants profiles also varied by study. AIEd research involved 
+participants from K-12 schools or higher education institutions (see 
+Table 2), from different countries (see Table 1), in distinct academic 
+programs or courses (Table 3), and of various social economic states 
+(Table 1). Participants in a study were from different grade levels (e.g., 
+Chin et al., 2010; Flogie & Abersek, 2015; Samarakou et al., 2018), from 
+multiple disciplines (e.g., Cheung et al., 2003; Dias et al., 2015; Xie 
+et al., 2017), in different countries (e.g., Rapanta & Walton, 2016), 
+included both adults and children (e.g., Keshav et al., 2017), or involved 
+both faculty and students (e.g., Cheung et al., 2003).
+
+Most of the AIEd research articles were outcomes of collaborative
+
+Student diversity was also examined in some AIEd research studies.
+
+4
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Table 3 
+A Summary of subject areas addressed in AIEd research articles.
+
+Subject Area(s) 
+n 
+Articles
+
+Engineering/computer
+
+science/IT/Informatics
+
+•Personalized learning systems or environments (PLS/E) (Bahçeci & 
+Gürol, 2016; Griol et al., 2014; K¨ose, 2017; Montalvo et al., 2018; 
+Samarakou et al., 2018; Santos & Notargiacomo, 2018; Xu & Wang, 
+2006; Walkington & Bernacki, 2019); 
+•Visualizations (Keshav et al., 2017; Leony, Munoz-Merino, Pardo, & 
+Kloos, 2013; Lou-Escande, Frenoy, Poplimont, Thouvenin Gapenne, & 
+Megalakaki, 2017)
+
+3.1. Chatbot
+
+Only one study focused solely on chatbot in education and it was not 
+directly linked to learning outcomes. Through a twelve-week experi­
+ment, researchers tested the effects of chatbot partners, compared to 
+human partners, on students’ course interest in foreign language classes 
+with 122 students (Fryer et al., 2017). The study found that students’ 
+interests dropped after one week with chatbot, and the Structural 
+Equation Modelling indicated that task interest predicted future course 
+interest in human partner conditions, while under Chatbot partner 
+conditions it did not. While researchers attributed the decrease in in­
+terest to a novelty effect (Fryer et al.), it calls for more empirical studies 
+to examine effects of chatbot in education.
+
+3.2. Expert system
+
+14 
+1. Arpaci (2019) 
+2. Atilola et al. (2014) 
+3. Bahçeci and Gürol (2016) 
+4. Griol et al. (2014) 
+5. K¨ose and Arslan (2016) 
+6. K¨ose (2017) 
+7. Leony, Munoz-Merino, Pardo, & Kloos 
+(2013) 
+8. Mas-Sanso and Manresa-Yee (2016) 
+9. Moridis and Economides (2009) 
+10. Munawar et al. (2018) 
+11. Samarakou, Fylladitakis, Fruh, 
+Hatziapostolou, & Gelengenis (2015) 
+12. Samarakou et al. (2018) 
+13. Xie et al. (2017) 
+14. Xu and Wang (2006) 
+Mathematics 
+8 
+1. Gulz, Londos, & Haake (2020) 
+2. Kelly et al. (1993) 
+3. Matsuda et al. (2020) 
+4. Shih et al. (2012) 
+5. Tarning, Silvervarg, Gulz, & Haake (2019) 
+6. Walkington & Bernacki (2019) 
+7. Hwang et al. (2020) 
+8. Xie et al. (2017) 
+Foreign Language/ESL 
+4 
+1. Fryer et al. (2017) 
+2. Wei et al. (2018) 
+3. Xiao and Hu (2019) 
+4. Zheng et al. (2018) 
+Sciences 
+3 
+1. Chin et al. (2013) 
+2. Chin et al. (2010) 
+3. McLaren, DeLeeuw, & Mayer (2011) 
+Business/economics 
+3 
+1. Montalvo et al. (2018) 
+2. Rapanta and Walton (2016) 
+3. Xie et al. (2017) 
+Calligraphy 
+1 
+Loup-Escande et al. (2017) 
+History 
+1 
+Ijaz et al. (2017) 
+Health Assessment 
+1 
+Xie et al. (2017) 
+Reading 
+1 
+McCarthy, Likens, Johnson, Guerrero, & 
+McNamara (2018) 
+Multiple disciplines 
+3 
+1. Dias et al. (2015) 
+2. Xie et al. (2017) 
+3. Cheung et al., 2003
+
+AIEd research suggested that dynamic, holistic expert systems can 
+help with pedagogical planning and fully unleash the potentials of 
+learning management systems (LMS) for teaching and learning (Dias 
+et al., 2015). For example, Dias and colleagues researched on the quality 
+of interactions in a blended learning environment with 1037 students 
+and 75 professors in an LMS through multiple courses in an academic 
+year (Dias et al., 2015). Their study proved that the structural charac­
+teristics of an expert system can model how LMS users interact with it 
+(Dias et al., 2015), and thus to facilitate and improve the teaching and 
+learning experiences on the LMS. In a recent study (Hwang et al., 2020), 
+researchers investigated the effects of a fussy expert system on 
+elementary students’ math learning outcomes in Taiwan. In this study, 
+students in the experimental group outperformed those in the other two 
+groups in mathematics learning achievement. In addition, the adaptive 
+learning model with affective and cognitive performance analysis was 
+found effective in reducing math anxiety amongst the fifth graders in 
+Taiwan (Hwang et al., 2020).
+
+3.3. Intelligent tutors or agents
+
+For instance, in a recent study in Canada (Xiao & Hu, 2019), researchers 
+analyzed possible differences between high achieving and low achieving 
+students. In an earlier study in Taiwan, Shih and colleagues (Shih et al., 
+2012) studied sixth graders from a school with lower socioeconomic 
+status, in comparison to other schools in the same region. Also, in some 
+research, both teachers and students were studied. For example, in a 
+study in Slovenia, the researchers examined the effects of a trans­
+disciplinary cognitive neuro-educational model on the attitudes of both 
+students and teachers toward school (Flogie & Abersek, 2015). In sum, 
+AIEd research was conducted with participants representing diverse 
+populations in different countries, in various educational settings and in 
+an array of subject areas.
+
+3. AIEd technology applications & educational benefits
+
+AI technology brings virtually unlimited possibilities to education. 
+The 40 articles investigated a wide variety of AI applications in educa­
+tion, including the following types of learning technology:
+
+•Chatbot (Fryer et al., 2017); 
+•Expert systems (Dias et al., 2015; Hwang et al., 2020); 
+•Intelligent tutors or agents (Cheung et al., 2003; Chin et al., 2010; 
+Chin et al., 2013; Cung, Xu, Eichhorn, & Warschauer, 2019; Gulz et al., 
+2020; K¨ose & Arslan, 2016; Matsuda et al., 2020; McCarthy et al., 2018; 
+McLaren, DeLeeuw, & Mayer, 2011; T¨arning, Silvervarg, Gulz, & Haake, 
+2019); 
+•Machine learning (Arpaci, 2019; Wei, et a., 2018);
+
+Intelligent tutors or agents provide customized, timely, and appro­
+priate materials, guidance, and feedback to learners. With great poten­
+tials, research indicates mixed implications regarding its effects on 
+learning. For example, a few studies examined the effects of Teachable 
+Agent (TA) (Chin et al, 2010, 2013; Matsuda et al., 2020; T¨arning et al., 
+2019). Research indicated that TA promoted learning for elementary 
+students in different grades (Chin et al, 2010, 2013; Matsuda et al., 
+2020) and prepared students to learn new science content from their 
+regular lessons, even when they were not using the AI software (Chin 
+et al., 2010). More recently, researchers in Sweden (Gulz et al., 2020) 
+studied preschoolers’ understanding of a TA-based math game as re­
+flected in their gaze behaviors. The study indicated that young children 
+perceived the TA as an independent entity, and researchers thus sug­
+gested that TA was promising in facilitating metacognitive scaffolding 
+(Gulz et al., 2020). In another study, researchers examined the effects of 
+metacognitive scaffolding by teaching a TA on 7th & 8th graders’ 
+learning outcomes (Matsuda et al., 2020). They found that students’ 
+ability to solve problems increased with the three TA interventions, but 
+there was no difference amongst the three different conditions (Matsuda 
+et al., 2020). Research also suggested that TA with a similar level of 
+self-efficacy with target students may help improve learners’ perfor­
+mance in math (T¨arning et al., 2019). McCarthy and colleagues (2018)
+
+5
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+4. Discussions
+
+4.1. AI in education: technologies & benefits
+
+found that metacognitive prompts provided by an intelligent tutoring 
+system did not improve student performance, but practice and action­
+able feedback were essential in the intelligent tutoring system for 
+improving reading comprehension. In another study, McLaren and col­
+leagues (McLaren et al., 2011) found that for students with low prior 
+knowledge, a polite web-based tutor led to more learning as compared to 
+the regular web-based tutor.
+
+3.4. Machine learning
+
+As early as 1991, Garito has stressed that AI is changing the tradi­
+tional role of a teacher (Garito, 1991). Lately, more scholars point out 
+that AI empowers educators with better ways to teaching and learning 
+(Cope, Kalantzis, & Searsmith, 2020). With scalable applications, AI is 
+transforming educational practices with profound impacts across the 
+world, including the Global South and in emergent forms of education 
+like MOOCs, blended learning, flipped classrooms and more (e.g., Al 
+Braiki, Harous, Zaki, & Alnajjar, 2020; Reynolds, Reeves, Bonk, & 
+Zhang, 2020; Roschelle, Lester, & Fusco, 2020; Zhang, Bonk, Reeves, & 
+Reynolds, 2020).
+
+Despite the wide applications of machine learning, a small number of 
+research studies met all criteria for full analyses in this study. This 
+important AI technology was effective in assessing the changes of 
+learning styles in ESL/EFL in multiple grades (Wei et al., 2018). In 
+another study, machine learning algorithms were used to predict un­
+dergraduate students’ attitudes toward educational applications of 
+cloud-based mobile computing services by their information manage­
+ment behaviors with 74% accuracy (Arpaci, 2019).
+
+3.5. Personalized learning systems or environments (PLS/E)
+
+A recent review (Zawacki-Richter et al., 2019) summarizes an array 
+of AIEd applications for varied purposes, such as learner profiling, 
+performance prediction, assessment, evaluation, personalization, adap­
+tive learning and more. Evidently, AI systems can analyze student input 
+and provide corrective feedback instantly (Mirzaeian, Kohzadi, & 
+Azizmohammadi, 2016; Roschelle, Lester, & Fusco, 2020), generate 
+automatic scoring and formative assessments (Zhu, Liu, & Lee, 2020), 
+and help students with revisions during in the learning process (Lee 
+et al., 2019). Intelligent tutoring systems can help identify learners’ 
+strengths and gaps in their current knowledge base (Zawacki-Richter, 
+Marin, Bond, & Gouverneur, 2019). More importantly, intelligent 
+feedback systems can also measure how people learn, in addition to 
+what is learned (Cutumisu, Chin, & Schwartz, 2019). Machine learning 
+for example, can predict at-risk or marginal college students (Chui, 
+Fung, Lytras, & Lam, 2020) as well as gifted students (Hodges & Mohan, 
+2019) with high accuracy, which then empowers educators to intervene 
+accordingly for student successes.
+
+AIEd advancement calls for more empirical studies with a particular 
+focus on AI technologies in real teaching and learning settings (Kabudi 
+et al., 2021), serving educational needs and purposes. As researchers 
+point out in a recent literature review, there has been a severe 
+discrepancy between the potentials of AIEd and their actual imple­
+mentations in education (Kabudi et al., 2021). To illustrate how AI 
+technologies are currently leveraged for various teaching and learning 
+purposes, Fig. 1 highlights some practical examples of AIEd applications 
+from the research articles reviewed in this study. It may also serve as a 
+snapshot of the current practice of AIEd with educational aspirations, 
+which in turn may also stimulate more research on AIEd.
+
+Personalized learning systems or environments (PLS/E) were found 
+effective in facilitating interactions (Xu & Wang, 2006) and improving 
+e-learning experiences (Cheung et al., 2003; K¨ose, 2017; K¨ose & Arslan, 
+2016; Xu & Wang, 2006). Turkish researchers, K¨ose and Arslan (2016) 
+studied the effects of PLS, with 110 undergraduate students through two 
+semesters in computer programming courses. They found the PLS system 
+helped learners to achieve desirable learning outcomes and reportedly 
+improved their learning experiences as well. In another study, K¨ose 
+(2017) also found that personalized mobile learning, via AI and 
+Augmented Reality (AR), improved learning experiences as well as 
+learning outcomes in open computer education. A study with over 1300 
+participants in Hong Kong investigated an AI-enhanced e-learning sys­
+tem called SmartTutor (Cheung et al., 2003). And, it was found that 
+customized learning materials and resources were well received and 
+both students and faculty confirmed that they were helpful in the 
+teaching/learning process (Cheung et al., 2003). A study with high 
+school students in USA (Walkington & Bernacki, 2019) found that 
+connecting math to students’ personal interests that were not 
+school-related would increase learning in an intelligent tutoring system, 
+and thus highly customized personalization could promote learning and 
+thus may lead to student success.
+
+With educational goals and objectives in mind, the examples in Fig. 1 
+showcase how students and educators may benefit from AI-enhanced 
+learning systems or experiences.
+
+3.6. Visualizations and virtual learning environments (VLE)
+
+4.2. Practical implications for AIEd
+
+With a wide range of technologies, features and functions, the 
+advancement of AI brings exciting opportunities to education. To realize 
+its full potential for education, it is critical to bridge the gaps between AI 
+technological innovations and its educational applications. Fig. 2 sum­
+marizes some of the most widely applied AIEd technologies and their 
+proven or potential benefits for education. For learners, AIEd may 
+facilitate varied interactions, increase learner engagement, generate 
+adaptive learning materials, offer meta-cognitive prompts, provide 
+enriched learning environments, and improve learning outcomes. For 
+educators and administrators, AIEd may provide predictive models, 
+identify gifted or at-risk students, monitor the learning progress, create 
+personalized learning materials, assessments and feedback, and analyze 
+scaled data instantly for evaluation or administrative purposes. AI- 
+enhanced learning environments may improve the LMS for both in­
+structors and students through expert systems, generate visual feedback, 
+and enrich the learning experience with visualization and immersive 
+technologies.
+
+Together with the surge of virtual reality (VR) technologies, research 
+has started exploring the potential benefits of visualizations and VLE 
+with AI in education. Evidently, students enjoyed the learning experi­
+ence in VLE and reported that it facilitated learning and collaborations 
+(Griol et al., 2014). Similarly, teachers also noted that students were 
+better engaged in learning (Griol, Molina, & Callejas). A technology 
+combining both AI and virtual reality (VR) was found effective in 
+improving the learning experience and engaging the young generation 
+of learners in Australia (Ijaz et al., 2017). Undergraduate students 
+learning with AI and VR also performed better in comprehensions as 
+measured in this study (Ijaz et al., 2017). A study on a smart glass system 
+also confirmed that AI technology with visualizations helped both 
+children and adults with autism, by serving as a social communication 
+aid (Keshav et al., 2017). However, supplementary visual feedback in a 
+mixed reality (MR) environment led to a cognitive load for participants 
+when learning calligraphy, yet without effect on user experience (Lou­
+p-Escande et al., 2017). The inconsistent research results call for im­
+provements in this type of AI technology and demand more research on 
+AI visualizations and VLE.
+
+With highlighted practical takeaways, Fig. 2 can serve in multiple
+
+6
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Fig. 1. Practical Examples of AIEd applications.
+
+collaborations in AIEd research, development, implementation and 
+evaluation.
+
+ways to guide both technological experts that create AI technologies for 
+education as well as educators and educational researchers, who 
+spearhead AI innovations in educational systems through practice, 
+evaluation and research. AI technology inventers, for instance may note 
+its educational benefits and collaborate with educators to leverage AI 
+technologies with specific goals to improve learning and teaching on a 
+large scale. Likewise, educators, or educational institutions, may iden­
+tify appropriate AI technologies from the figure for varied educational 
+needs or goals, without being overwhelmed by the technical details.
+
+Recent research has found that students’ task engagement and per­
+formance increased when AI-supported systems also attended to their 
+affective status in addition to cognitive aspects (Hwang et al., 2020). The 
+study demonstrates the potential of AI in addressing learners’ affective 
+or emotional needs, which in turn may improve learning. It also suggests 
+the need for more inclusive designs of AIEd technologies to address 
+students’ varied needs and preferences.
+
+Also highlighted in Fig. 2 are some key challenges in promoting 
+AIEd, such as costs & scalability, ethics & privacy, the lack of actionable 
+guidelines for educators, and limited AI expertise among educators. The 
+figure may further facilitate meaningful communications amongst 
+stakeholders with different areas of expertise (e.g., technological skills 
+vs. learning theories and pedagogies), from different perspectives (e.g., 
+technology advancement, teaching and learning, administrations of 
+educational systems, educational research, etc.) and thus lead to fruitful
+
+Recent reviews on AIEd related research have consistently empha­
+sized the lack of educational perspectives in AIEd research, development 
+or implementations (Chen et al., 2020; Hinojo-Lucena et al., 2019; 
+Kabudi et al., 2021; Tang et al., 2021, ; Zawacki-Richter et al., 2019). 
+Thus, to further advance AI technologies for education, perhaps the most 
+important initiative is to invite educators and educational researchers to 
+fully participate in the technological innovation process, to proactively 
+seek input from the educational communities, and to integrate
+
+7
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Fig. 2. Proven and potential educational benefits of AI technologies.
+
+theoretical, conceptual, practical and empirical support from educa­
+tional literature.
+
+education, collaborative research focusing on AI technology applica­
+tions that may result in direct or indirect effects on learning outcomes in 
+real educational settings is particularly vital.
+
+4.3. Directions for future research on AIEd
+
+Research also needs to scale up to examine AIEd on the institutional, 
+regional and national levels, and for longer time durations. In addition, 
+emerging methods like educational data mining, text mining, learning 
+analytics, data visualizations are also imperative to advance AIEd 
+research. In particular, emerging educational research methods, such as 
+educational design research (EDR) (McKenney & Reeves, 2018), is 
+highly recommended for research on innovative technologies like AIEd, 
+because it empowers educators to incorporate their research inquiries as 
+part of the technology development and implementation cycle in 
+authentic settings. EDR can be particularly powerful when educators 
+participate during the stages of AI technology creation, development or 
+evaluations for educational purposes.
+
+Amongst the range of AIEd technologies, some have been studied 
+more frequently than others. For example, a lot of research focused on
+
+The booming of AI technology in 2016 highlighted with tech com­
+panies bringing AI home and the famous AlphaGo with an over­
+whelming win over a professional world champion in the Go game (Dee 
+pmind.com, n. d.). AIEd research has yet to catch up with the rapid 
+advancement of AI technology to provide evidence-based guidelines and 
+support for AI applications in education. Despite the advancement of 
+AIEd technologies, there is still a lack of educational perspectives in 
+AIEd research, as recent literature reviews have stressed (e.g., Chen 
+et al., 2020; Hinojo-Lucena et al., 2019; Zawacki-Richter et al., 2019). 
+Interdisciplinary research with educators and educational researchers 
+will more likely result in feasible practical guidelines and good examples 
+for fellow educators. In addition, to reach the full potentials of AI in
+
+8
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+exploring conference proceedings in addition to peer-reviewed journal 
+articles. Given the integrations of emerging technologies like VR, AR and 
+MR (Zhang & Aslan, 2020) and AI (e.g., Keshav et al., 2017; Ijaz et al., 
+2017), future reviews may also explore both of them together.
+
+intelligent tutors or personalized learning systems/environments, while 
+only a very limited number of research publications examined the effect 
+of chatbot or machine learning in education, as found in this review. 
+Thus, future research should cover more AIEd technologies, especially 
+those have not received much attention in research.
+
+5. Conclusion
+
+As emerging technologies such as VR, AR or MR being integrated 
+with AI for various learning supports (e.g., K¨ose, 2017; Ijaz et al., 2017; 
+Loup-Escande et al., 2017), it is also vital to conduct research through 
+interdisciplinary and transdisciplinary collaborations as researchers 
+have suggested (Zhang & Aslan, 2020) for successful AIEd development, 
+implementation and research.
+
+4.4. AIEd ethics & privacy
+
+AI technology is rapidly advancing and its application in education is 
+expected to grow rapidly in the near future. In the USA, for example, 
+education sectors are predicted with an approximate 48% of growth in 
+AI market in the near future, from 2018 to 2022 (BusinessWire.com, 
+2018). AI technologies have great potentials in education, in particular, 
+to increase access to learning opportunities, to scale up personally 
+customized learning experiences, and to optimize methods and strate­
+gies for desired learning outcomes (Reynolds et al., 2020; Roschelle 
+et al., 2020; Zawacki-Richter et al., 2019). Some scholars have publicly 
+proposed to replace teachers or certain roles of teachers with AI robots 
+((Edwards & Cheok, 2018). While their article, Why Not Robot Teachers: 
+Artificial Intelligence for Addressing Teacher Shortage (Edwards & Cheok, 
+2018) may cause some uneasiness, discomfort or even fear for many 
+people; it is gradually becoming a reality. In addition to the intelligent 
+tutors and teachable agents in online or blended learning as reported in 
+AIEd studies (e.g., Cheung et al., 2003; Chin et al., 2010, 2013; Cung 
+et al., 2019; K¨ose & Arslan, 2016; Mclaren et al., 2011), the first AI 
+teaching assistant robots, named Happy Numbers have been working in 
+the classrooms in USA already.
+
+As educational systems experiment with AI in traditional classrooms, 
+online or via mobile learning management systems (e.g., Roschelle et al., 
+2020; Zhang et al., 2020), it is imperative to balance efficiency, benefits, 
+security and many more (Hagendorff, 2019; Etzioni and Etzioni, 2017; 
+Abrams, Abrams, Cullen, & Goldstein, 2019). About 20 years ago, 
+scholars have already started conversations about AIEd ethics (Aiken 
+and Epstein, 2000), and giant tech companies are forming their own AI 
+ethics panels (Lee, 2019). But new educational AI technology requires 
+specific AI ethics for education. Likewise, privacy is a critical issue yet to 
+be carefully addressed in AIEd. A recent semi-systematic evaluation of 
+22 AI ethics guidelines has revealed that current guidelines have severe 
+flaws and a range of AI ethics that are critical for AI research, devel­
+opment and implementation are actually missing or overlooked in such 
+guidelines (Hagendroff, 2020). The critical and urgent needs for AIEd 
+ethics also call for collaborative efforts from all stakeholders, including 
+educators, administrators, researchers, technology innovators and all 
+societal members.
+
+4.5. Limitation of this review
+
+As Finn has emphasized back in the 1960s, technology is “more than 
+an invention – more than machines. It is a process and a way of thinking” 
+(Fin, 1960, p. 6). The integration of AIEd calls for critical awareness of 
+AI ethics and requires interdisciplinary and transdisciplinary collabo­
+rations in large-scaled, longitudinal research. The growing AIEd 
+research would result in more practical guidelines and examples for 
+educators, together with new ways of teaching and learning. Despite 
+skepticism, doubts or fears, AIEd continues to open up new possibilities 
+for innovations in education.
+
+Statements on open data and ethics
+
+This literature review article collected all data (i.e., eligible publi­
+cations) from selected databases from the internet. The datasets created 
+for the current study (the bibliography of included studies) are available 
+from the corresponding author upon request.
+
+As typical with any search engines or strategies, a methodological 
+limitation of this review is tied to the selection of source database and 
+journals, as well as the specific identifiers used in the search efforts, such 
+as “artificial intelligence” or “AI”. Research publications that do not 
+include AI or “artificial intelligence” as a descriptor in its title, abstract, 
+summary or keyword list, as well as those not indexed in the source 
+database thus can be excluded in this review. While conference pro­
+ceedings may include more recent or even ongoing research projects, 
+considering their very different selection criteria and review processes, 
+conference proceedings are also excluded in this review. Thus, this re­
+view is limited in its scope.
+
+As the research does not involve human participants, there is no need 
+to seek ethical approval from a research review committee in the au­
+thors’ affiliations.
+
+4.6. Suggestions for future reviews
+
+Declaration of competing interest
+
+None.
+
+References
+
+Abram, M., Abram, J., Cullen, P., & Goldstein, L. (2019). Artificial intelligence, ethics,
+
+and enhanced data stewardship. IEEE Security & Privacy, 17(2), 17–30. https://doi- 
+org.proxy.lib.wayne.edu/10.1109/MSEC.2018.2888778. 
+Aiken, R. M., & Epstein, R. G. (2000). Ethical guidelines for AI in education: Starting a
+
+conversation. International Journal of Artificial Intelligence in Education, 11, 163–176. 
+Al Braiki, B, Harous, S., Zaki, N., & Alnajjar, F. (2020). Artificial intelligence in education
+
+and assessment methods. Bulletin of Electrical Engineering and Informatics, 9(5), 
+1998–2007. 
+Andriessen, J., & Sandberg, J. (1999). Where is education heading and how about AI.
+
+Future reviews may extend the search scope to include other repu­
+table databases, specialized journals, or peer-reviewed conference pro­
+ceedings. Additional key words, such as specific AI technology (e.g., 
+machine learning) or its educational applications may retrieve more 
+relevant publications. However, future reviews should also be mindful 
+of the search results, as sometimes publications on other topics, such as 
+game-based learning also appear in the search results (e.g., Yoon & Kim, 
+2015), even though they are not AI-related. Another important consid­
+eration is to carefully differentiate AIEd studies without human subjects 
+(e.g., Liu, Rus, & Liu, 2017) or otherwise focus on system development 
+or model testing from research with teachers, students or other human 
+participants involved, as such in this review.
+
+International Journal of Artificial Intelligence in Education, 10(2), 130–150. 
+Arpaci, I. (2019). A hybrid modeling approach for predicting the educational use of
+
+mobile cloud computing services in higher education. Computers in Human Behavior, 
+90, 181–187. https://doi.org/10.1016/j.chb.2018.09.005. 
+Atilola, O., Valentine, S., Kim, H.-H., Turner, D., Mctigue, E., Hammond, T., et al. (2014).
+
+Mechanix: A natural sketch interface tool for teaching truss analysis and free-body 
+diagrams. Artificial Intelligence for Engineering Design, Analysis and Manufacturing, 28 
+(2), 169–192. https://doi.org/10.1017/s0890060414000079.
+
+As an interdisciplinary field, AIEd has overlaps with a few emerging 
+sub-fields, such as educational data mining, learning analytics and 
+computer-based education (Chen et al., 2020; Romero & Ventura, 2013 
+). Future reviews may also choose to alter the scope by focusing on 
+specific AI technologies or their applications in education, or a sub-field 
+of AIEd, or applying different search strategies and selection criteria, or
+
+9
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Bahçeci, F., & Gürol, M. (2016). The effect of individualized instruction system on the
+
+considering affective and cognitive factors. Computers and Education: Artificial 
+Intelligence, 1(1), 100003. https://doi.org/10.1016/j.caeai.2020.100003. 
+Ijaz, K., Bogdanovych, A., & Trescak, T. (2017). Virtual worlds vs books and videos in
+
+academic achievement scores of students. Educational Research International, 1–9. 
+https://doi.org/10.1155/2016/7392125, 2016. 
+Bates, T., Cobo, C., Mari˜no, O., & Wheeler, S. (2020). Can artificial intelligence transform
+
+history education. Interactive Learning Environments, 25(7), 904–929. https://doi. 
+org/10.1080/10494820.2016.1225099. 
+Kabudi, T., Pappas, I., & Olsen, D. H. (2021). AI-enabled adaptive learning systems: A
+
+higher education? International Journal of Educational Technology in Higher Education, 
+17(42). https://doi.org/10.1186/s41239-020-00218-x. 
+Beck, J., Stern, M., & Haugsjaa, E. (1996). Applications of AI in education. Crossroads, 3
+
+(1), 11–15. 
+Burleson, W., & Lewis, A. (2016). Optimists’ creed: Brave new cyberlearning, evolving
+
+systematic mapping of the literature. In Computers and education: Artificial intelligence 
+(p. 100017). 
+Kaplan, A., & Haenlein, M. (2019). Siri, siri, in my hand: Who’s the fairest in the land?
+
+utopias (Circa 2041). International Journal of Artificial Intelligence in Education, 26(2), 
+796–808. https://doi.org/10.1007/s40593-016-0096-x. 
+Chen, X., Xie, H., Zou, D., & Hwang, G. J. (2020). Application and theory gaps during the
+
+On the interpretations, illustrations, and implications of artificial intelligence. 
+Business Horizons, 62, 15–25. https://doi.org/10.1016/j.bushor.2018.08.004. 
+Kelly, A. E., Sleeman, D., & Gilhooly, K. J. (1993). Artificial intelligence in education:
+
+rise of artificial intelligence in education. Computers and Education: Artificial 
+Intelligence, 1, 100002. 
+Cheung, B., Hui, L., Zhang, J., & Yiu, S. (2003). SmartTutor: An intelligent tutoring
+
+Using state space search and heuristics in mathematics instruction. International 
+Journal of Man-Machine Studies, 38(4), 725–746. https://doi.org/10.1006/ 
+imms.1993.1034. 
+Keshav, N. U., Salisbury, J. P., Vahabzadeh, A., & Sahin, N. T. (2017). Social
+
+system in web-based adult education. Journal of Systems and Software, 68(1), 11–25. 
+https://doi.org/10.1016/s0164-1212(02)00133-4. 
+Chin, D. B., Dohmen, I. M., Cheng, B. H., Oppezzo, M. A., Chase, C. C., & Schwartz, D. L.
+
+communication coaching smartglasses: Well tolerated in a diverse sample of children 
+and adults with autism. JMIR MHealth and UHealth, 5(9). https://doi.org/10.2196/ 
+mhealth.8534. 
+K¨ose, U. (2017). An augmented-reality-based intelligent mobile application for open
+
+(2010). Preparing students for future learning with Teachable Agents. Educational 
+Technology Research & Development, 58(6), 649–669. https://doi.org/10.1007/ 
+s11423-010-9154-5. 
+Chin, D. B., Dohmen, I. M., & Schwartz, D. L. (2013). Young children can learn scientific
+
+computer education. Mobile Technologies and Augmented Reality in Open Education 
+Advances in Educational Technologies and Instructional Design, 154–174. https://doi. 
+org/10.4018/978-1-5225-2110-5.ch008. 
+K¨ose, U., & Arslan, A. (2016). Intelligent e-learning system for improving students’
+
+reasoning with teachable agents. IEEE Transactions on Learning Technologies, 6(3), 
+248–257. https://doi.org/10.1109/tlt.2013.24. 
+Chui, K. T., Fung, D. C. L., Lytras, M. D., & Lam, T. M. (2020). Predicting at-risk
+
+academic achievements in computer programming courses. International Journal of 
+Engineering Education, 32, 185–198. 
+Kurzweil, R. (1985). What is artificial intelligence anyway? As the techniques of
+
+university students in a virtual learning environment via a machine learning 
+algorithm. Computers in Human Behavior, 107, 105584. https://doi.org/10.1016/j. 
+chb.2018.06.032. 
+Clancey, W. J., Bennett, J. S., & Cohen, P. R. (1979). Applications-oriented AI research:
+
+computing grow more sophisticated, machines are beginning to appear intelligent - 
+but can they actually think? American Scientist, 73(3), 258–264. 
+Lee, D. (2019, March 26). Google announces AI ethics panel. Retrieved from. https
+
+Education (No. STAN-CS-79-749). Stanford university, department of computer science. 
+Cung, B., Xu, D., Eichhorn, S., & Warschauer, M. (2019). Getting academically
+
+://www.bbc.com/news/technology-47714921. 
+Lee, H. S., Pallant, A., Pryputniewicz, S., Lord, T., Mulholland, M., & Liu, O. L. (2019).
+
+underprepared students ready through college developmental education: Does the 
+course delivery format matter? American Journal of Distance Education, 33(3), 
+178–194. 
+Cutumisu, M., Chin, D. B., & Schwartz, D. L. (2019). A digital game-based assessment of
+
+Automated text scoring and real-time adjustable feedback: Supporting revision of 
+scientific arguments involving uncertainty. Science Education, 103(3), 590–622. 
+https://doi.org/10.1002/sce.21504. 
+Legg, S., & Hutter, M. (2007). A collection of definitions of intelligence. Frontiers in
+
+Artificial Intelligence and Applications, 157, 17–24. 
+Leony, D., Mu˜noz-Merino, P. J., Pardo, A., & Kloos, C. D. (2013). Provision of awareness
+
+middle-school and college students’ choices to seek critical feedback and to revise. 
+British Journal of Educational Technology, 50(6), 2977–3003. https://doi.org/ 
+10.1111/bjet.12796. 
+Dias, S. B., Hadjileontiadou, S. J., Hadjileontiadis, L. J., & Diniz, J. A. (2015). Fuzzy
+
+of learners’ emotions through visualizations in a computer interaction-based 
+environment. Expert Systems with Applications, 40(13), 5093–5100. https://doi.org/ 
+10.1016/j.eswa.2013.03.030. 
+Liu, M., Rus, V., & Liu, L. (2017). Automatic Chinese factual question generation. IEEE
+
+cognitive mapping of LMS users’ Quality of interaction within higher education 
+blended-learning environment. Expert Systems with Applications, 42(21), 7399–7423. 
+https://doi.org/10.1016/j.eswa.2015.05.048. 
+Edwards, B. I., & Cheok, A. D. (2018). Why not robot teachers: Artificial intelligence for
+
+addressing teacher shortage. Applied Artificial Intelligence, 32(4), 345–360. 
+Etzioni, A., & Etzioni, O. (2017). Incorporating ethics into artificial intelligence. The
+
+Transactions on Learning Technologies, 10(2), 194–204. https://doi.org/10.1109/ 
+tlt.2016.2565477. 
+Loup-Escande, E., Frenoy, R., Poplimont, G., Thouvenin, I., Gapenne, O., &
+
+Journal of Ethics, 21(4), 403–418. https://doi.org/10.1007/s10892-017-9252-2. 
+Finn, J. (1960). Automation and education: III. Technology and the instructional process.
+
+Audio Visual Communication Review, 8(1), 5–26. 
+Flogie, A., & Abersek, B. (2015). Transdisciplinary approach of science, technology,
+
+Megalakaki, O. (2017). Contributions of mixed reality in a calligraphy learning task: 
+Effects of supplementary visual feedback and expertise on cognitive load, user 
+experience and gestural performance. Computers in Human Behavior, 75, 42–49. 
+https://doi.org/10.1016/j.chb.2017.05.006. 
+Mas-Sanso, R., & Manresa-Yee, C. (2016). Gamifying an artificial intelligence course in
+
+engineering and mathematics education. Journal of Baltic Science Education, 14(6), 
+779–790. 
+Fryer, L. K., Ainley, M., Thompson, A., Gibson, A., & Sherlock, Z. (2017). Stimulating and
+
+engineering education. International Journal of Engineering Education, 32, 513–520. 
+Matsuda, N., Weng, W., & Wall, N. (2020). The effect of metacognitive scaffolding for
+
+learning by teaching a teachable agent. International Journal of Artificial Intelligence in 
+Education, 1–37. 
+McCarthy, K. S., Likens, A. D., Johnson, A. M., Guerrero, T. A., & McNamara, D. S.
+
+sustaining interest in a language course: An experimental comparison of Chatbot and 
+Human task partners. Computers in Human Behavior, 75, 461–468. https://doi.org/ 
+10.1016/j.chb.2017.05.045. 
+Gao, F., Luo, T., & Zhang, K. (2012). Tweeting for learning: A critical analysis of current
+
+research on microblogging in education published in 2008-2011. British Journal of 
+Educational Technology, 43(5), 783–801. 
+Garito, M. A. (1991). Artificial intelligence in education: Evolution of the teaching-
+
+(2018). Metacognitive overload!: Positive and negative effects of metacognitive 
+prompts in an intelligent tutoring system.  International Journal of Artificial 
+Intelligence in Education, 28(3), 420–438. 
+McKenney, S., & Reeves, T. C. (2018). Conducting educational design research. NYC:
+
+Routledge.  
+Mclaren, B. M., Deleeuw, K. E., & Mayer, R. E. (2011). Polite web-based intelligent
+
+learning relationship. British Journal of Educational Technology, 22(1), 41–47. 
+https://doi.org/10.1111/j.1467-8535.1991.tb00050.x. 
+Gonzalez, A. J., Hollister, J. R., Demara, R. F., Leigh, J., Lanman, B., Lee, S.-Y., et al.
+
+tutors: Can they improve learning in classrooms? Computers & Education, 56(3), 
+574–584. https://doi.org/10.1016/j.compedu.2010.09.019. 
+Mirzaeian, V. R., Kohzadi, H., & Azizmohammadi, F. (2016). Learning Persian grammar
+
+(2017). AI in informal science education: Bringing Turing back to life to perform the 
+Turing test. International Journal of Artificial Intelligence in Education, 27(2), 353–384. 
+https://doi.org/10.1007/s40593-017-0144-1. 
+Griol, D., Molina, J. M., & Callejas, Z. (2014). An approach to develop intelligent learning
+
+with the aid of an intelligent feedback generator. Engineering Applications of Artificial 
+Intelligence, 49, 167–175. https://doi.org/10.1016/j.engappai.2015.09.012. 
+Mogil, S. J., Simmonds, K., & Simmonds, J. M. (2009). Pain research from 1975 to 2007:
+
+environments by means of immersive virtual worlds. Journal of Ambient Intelligence 
+and Smart Environments, 6(2), 237–255. 
+Gulz, A., Londos, L., & Haake, M. (2020). Preschoolers’ understanding of a teachable
+
+A categorical and bibliometric meta-tend analysis of every research paper published 
+in the journal, pain. Pain, 142, 48–58. 
+Montalvo, S., Palomo, J., & de la Orden, C. (2018). Building an educational platform
+
+agent-based game in early mathematics as reflected in their gaze behaviors–an 
+experimental study. International Journal of Artificial Intelligence in Education, 1–36. 
+Hagendorff, T. (2019). From privacy to anti-discrimination in times of machine learning.
+
+using nlp: A case study in teaching finance. Journal of Universal Computer Science, 24 
+(10), 1403–1423. 
+Moridis, C. N., & Economides, A. A. (2009). Prediction of student’s mood during an
+
+Ethics and Information Technology, 1–13. https://doi-org.proxy.lib.wayne.edu/10.1 
+007/s10676-019-09510-5. 
+Hagendorff, T. (2020). The ethics of AI ethics: An evaluation of guidelines. Minds and
+
+online test using formula-based and neural network-based method. Computers & 
+Education, 53(3), 644–652. https://doi.org/10.1016/j.compedu.2009.04.002. 
+Munawar, S., Toor, S. K., Aslam, M., & Hamid, M. (2018). Move to smart learning
+
+Machines, 99–120. https://doi.org/10.1007/s11023-020-09517-8. 
+Hinojo-Lucena, F. J., Aznar-Díaz, I., C´aceres-Reche, M. P., & Romero-Rodríguez, J. M.
+
+(2019). Artificial intelligence in higher education: A bibliometric study on its impact 
+in the scientific literature. Education Sciences, 9(1), 51. 
+Hodges, J., & Mohan, S. (2019). Machine learning in gifted education: A demonstration
+
+environment: Exploratory research of challenges in computer laboratory and design 
+intelligent virtual laboratory for elearning technology. Eurasia Journal of 
+Mathematics, Science and Technology Education, 14(5), 1645–1662. https://doi.org/ 
+10.29333/ejmste/85036. 
+Okubo, Y. (1997). Bibliometric indicators and analysis of research systems: Methods and
+
+using neural networks. Gifted Child Quarterly, 63(4), 243–252. 
+Hung, J., & Zhang, K. (2012). Examining mobile learning trends 2003-2008: A
+
+examples, STI working papers 1997/1. Paris: OECD Science.  
+Peker, M., Guruler, H., Sen, B., & Istanbullu, A. (2017). A new fuzzy logic based career
+
+categorical meta-trend analysis using text mining techniques. Journal of Computing in 
+Higher Education, 24(1), 1–17. 
+Hwang, G., Sung, H., Chang, S., & Huang, X. (2020). A fuzzy expert system-based
+
+guidance system: WEB-CGS. Tehnicki Vjesnik - Technical Gazette, 24(6). https://doi. 
+org/10.17559/tv-20151105201325.
+
+adaptive learning approach to improving students’ learning performances by
+
+10
+
+K. Zhang and A.B. Aslan
+
+Computers and Education: Artificial Intelligence 2 (2021) 100025
+
+Rapanta, C., & Walton, D. (2016). The use of argument maps as an assessment tool in
+
+Xiao, Y., & Hu, J. (2019). Assessment of optimal pedagogical factors for canadian esl
+
+higher education. International Journal of Educational Research, 79, 211–221. https:// 
+doi.org/10.1016/j.ijer.2016.03.002. 
+Reynolds, T., Reeves, T., Bonk, C., & Zhang, K. (2020). MOOCs and open education:
+
+learners’ reading literacy through artificial intelligence algorithms. International 
+Journal of English Linguistics, 9(4), 1–14. https://doi.org/10.5539/ijel.v9n4p1. 
+Xie, T., Zheng, Q., Zhang, W., & Qu, H. (2017). Modeling and predicting the active video-
+
+viewing time in a large-scale e-learning system. IEEE Access, 5, 11490–11504. 
+https://doi.org/10.1109/access.2017.2717858. 
+Xu, D., & Wang, H. (2006). Intelligent agent supported personalization for virtual
+
+Future opportunities. In K. Zhang, C. J. Bonk, T. Reeves, & T. Reynolds (Eds.), 
+MOOCs and open education in the Global South: Challenges, successes, and opportunities 
+(pp. 342–350). NY: Routledge, 2020. 
+Romero, C., & Ventura, S. (2013). In Data mining in education. Wiley interdisciplinary
+
+reviews: Data mining and knowledge discovery (Vol. 3, pp. 12–27), 1. 
+Roschelle, J., Lester, J., & Fusco, J. (Eds.). (2020). AI and the future of learning: Expert
+
+learning environments. Decision Support Systems, 42(2), 825–843. https://doi.org/ 
+10.1016/j.dss.2005.05.033. 
+Yoon, D.-M., & Kim, K.-J. (2015). Challenges and opportunities in game artificial
+
+panel report [Report]. Digital Promise. https://circls.org/reports/ai-report. 
+Samarakou, M., Fylladitakis, E. D., Früh, W. G., Hatziapostolou, A., & Gelegenis, J. J.
+
+intelligence education using angry birds. IEEE Access, 3, 793–804. https://doi.org/ 
+10.1109/access.2015.2442680. 
+Zawacki-Richter, O., Marín, V. I., Bond, M., & Gouverneur, F. (2019). Systematic review
+
+(2015). An advanced elearning environment developed for engineering learners. 
+International Journal of Emerging Technologies in Learning (IJET), 10(3), 22–33. 
+https://doi.org/10.3991/ijet.v10i3.4484. 
+Samarakou, M., Tsaganou, G., & Papadakis, A. (2018). An e-learning system for
+
+of research on artificial intelligence applications in higher education – where are the 
+educators? International Journal of Educational Technology in Higher Education, 16(1). 
+https://doi.org/10.1186/s41239-019-0171-0. 
+Zdenek, S. (2003). Artificial intelligence as a discursive practice: The case of embodied
+
+extracting text comprehension and learning style characteristics. Educational 
+Technology & Society, 21(1), 126–136. 
+Santos, F. R. D., & Notargiacomo, P. (2018). Intelligent educational assistant based on
+
+software agent systems. AI & Society, 17(3–4), 340–363. https://doi.org/10.1007/ 
+s00146-003-0284-8. 
+Zhang, K., & Aslan, A. B. (2020). Preparing industry-ready engineers with virtual reality:
+
+multiagent system and context-aware computing. International Journal of Advanced 
+Computer Science and Applications, 9(4), 236–243. https://doi.org/10.14569/ 
+ijacsa.2018.090437. 
+Shih, B.-Y., Chang, C.-J., Chen, Y.-H., Chen, C.-Y., & Liang, Y.-D. (2012). Lego NXT
+
+Recent research and future directions. International Journal of Smart Technology and 
+Learning, 2(2–3), 136–150. https://doi.org/10.1504/IJSMARTTL.2020.112130. 
+Zhang, K., Bonk, C., Reeves, T., & Reynolds, T. (2020). MOOCs and open education in the
+
+information on test dimensionality using Kolb’s innovative learning cycle. Natural 
+Hazards, 64(2), 1527–1548. https://doi.org/10.1007/s11069-012-0318-y. 
+Simmons, A. B., & Chappell, S. G. (1988). Artificial intelligence-definition and practice.
+
+Global South: Successes and challenges. In K. Zhang, C. J. Bonk, T. Reeves, & 
+T. Reynolds (Eds.), MOOCs and open education in the Global South: Challenges, 
+successes, and opportunities (pp. 1–14). NY: Routledge, 2020. 
+Zheng, J., Zhang, Q., Xu, S., Peng, H., & Wu, Q. (2018). Cognition-based context-aware
+
+IEEE Journal of Oceanic Engineering, 13(2), 14–42. https://doi.org/10.1109/48.551. 
+Tang, K. Y., Chang, C. Y., & Hwang, G. J. (2021). Trends in artificial intelligence-
+
+cloud computing for intelligent robotic systems in mobile education. IEEE Access, 6, 
+49103–49111. https://doi.org/10.1109/ACCESS.2018.286788. 
+Zhu, M., Liu, O. L., & Lee, H.-S. (2020). The effect of automated feedback on revision
+
+supported e-learning: A systematic review and co-citation network analysis 
+(1998–2019). Interactive learning environments, 1–19. 
+T¨arning, B., Silvervarg, A., Gulz, A., & Haake, M. (2019). Instructing a teachable agent
+
+behavior and learning gains in formative assessment of scientific argument writing. 
+Computers & Education, 143, 103668. https://doi.org/10.1016/j. 
+compedu.2019.103668.
+
+with low or high self-efficacy–does similarity attract? International Journal of 
+Artificial Intelligence in Education, 29(1), 89–121. 
+Thelwall, M. (2008). Bibliometrics to webometrics. Journal of Information Science, 34(4),
+
+605–621. 
+Walkington, C., & Bernacki, M. L. (2019). Personalizing algebra to students’ individual
+
+Ke Zhang is Professor in Learning Design and Technology Program at Wayne State Uni­
+versity in Detroit, Michigan, USA. Inquiries are welcome by email: bb2145@wayne.edu
+
+interests in an intelligent tutoring system: Moderators of impact. International Journal 
+of Artificial Intelligence in Education, 29(1), 58–88. 
+Wei, Y., Yang, Q., Chen, J., & Hu, J. (2018). The exploration of a machine learning
+
+Ayse Begum Aslan is a Project Management and Grant Support Consultant at Enga­
+ge@EMU (Eastern Michigan University) in Ypsilanti, Michigan, USA. Dr. Aslan may be 
+reached by email: aaydinol@emich.edu
+
+approach for the assessment of learning styles changes. Mechatronic Systems and 
+Control (Formerly Control and Intelligent Systems), 46(3), 121–126. https://doi.org/ 
+10.2316/journal.201.2018.3.201-2979.
+
+11

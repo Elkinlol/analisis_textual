@@ -1,0 +1,3205 @@
+The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/0040-0912.htm
+
+Artificial intelligence for education
+
+AI for
+education
+
+and its emphasis on assessment
+and adversity quotient: a review
+
+609
+
+Jyoti Mudkanna Gavhane and Reena Pagare
+MIT Art Design and Technology University, Pune, India
+
+Received 5 April 2023
+Revised 31 August 2023
+
+26 November 2023
+30 January 2024
+Accepted 3 March 2024
+
+Abstract
+Purpose – The purpose of this study was to analyze importance of artificial intelligence (AI) in education and
+its emphasis on assessment and adversity quotient (AQ).
+Design/methodology/approach – The study utilizes a systematic literature review of over 141 journal
+papers and psychometric tests to evaluate AQ. Thematic analysis of quantitative and qualitative studies
+explores domains of AI in education.
+Findings – Results suggest that assessing the AQ of students with the help of AI techniques is necessary.
+Education is a vital tool to develop and improve natural intelligence, and this survey presents the discourse use
+of AI techniques and behavioral strategies in the education sector of the recent era. The study proposes a
+conceptual framework of AQ with the help of assessment style for higher education undergraduates.
+Originality/value – Research on AQ evaluation in the Indian context is still emerging, presenting a potential
+avenue for future research. Investigating the relationship between AQ and academic performance among
+Indian students is a crucial area of research. This can provide insights into the role of AQ in academic
+motivation, persistence and success in different academic disciplines and levels of education. AQ evaluation
+offers valuable insights into how individuals deal with and overcome challenges. The findings of this study
+have implications for higher education institutions to prepare for future challenges and better equip students
+with necessary skills for success. The papers reviewed related to AI for education opens research opportunities
+in the field of psychometrics, educational assessment and the evaluation of AQ.
+Keywords Education, Artificial intelligence, Teaching-learning analytics, Assessment, Adversity Quotient
+Paper type Literature review
+
+1. Introduction
+Modern technology is conquering “artificial intelligence” (AI) (Chen et al., 2020a), which is the
+center of significant computer research, design and application. Humans are trying hard to
+embed AI in a machine by making use of natural intelligence. Why? Because it has been
+proved by earlier researchers, the need for time competes with smart systems (Carbonell,
+1970; Sarker, 2022; Spector and Ma, 2019), which take less effort to operate, work
+automatically, efficiently, etc. The field is in demand in the 21st century characterized by
+many varied and independent efforts. Intelligence (Atrizka and Pratama, 2022) means the
+capability to attain and apply information, knowledge and skills. AI does not exactly work
+like human cognitive intelligence, and it is closer to the realm on which this research review
+focuses. AI is spanning the education sector speedily. Education is multidimensional
+(Ouyang and Jiao, 2021). Education accommodates administration, academic monitoring,
+counseling, teaching-learning, assessments, exams and feedback. Some policies help to
+improve quality of education. Recently Indian education System devised New Education
+Policy in 2020 (NEP) (Aktar, 2021). It is introduced as NEP 2020. It signifies skill-based
+assessment. NEP 2020 talks about the 360-degree development of a student which is
+incorporated in the following section. NEP focuses on talent, capabilities and life skills. This
+literature discusses about AI-based assessment framework to evaluate the adversity quotient
+
+Education þ Training
+
+Vol. 66 No. 6, 2024
+
+pp. 609-645
+© Emerald Publishing Limited
+
+Funding: This research received no external funding.
+
+0040-0912
+DOI 10.1108/ET-04-2023-0117
+
+Conflicts of interest: The authors declare no conflict of interest.
+
+(AQ) of a student with the help of technology. Table 1 consists of abbreviations used in the
+paper to understand the term’s meaning.
+
+ET
+66,6
+
+A. Motivation
+
+I. In Goal 4 [Sustainable Development Goal (SDG) 4] of the 2030 Agenda (Zhang et al., 2020;
+
+610
+
+Cf, O. D. D. S., 2015), the worldwide education expansion agenda is reflected for
+sustainable development, embraced by India in 2015 – in pursuit of “guaranteeing all-
+encompassing and impartial quality education and promote learning opportunities for
+all which are lifelong” by the year 2030 (Vinuesa et al., 2020). In effect, all of the critical
+goals and objectives (SDGs) for sustainable development could be accomplished by 2030
+(Morrow-Gorton, 2022).
+
+It is an urge of qualitative, multidimensional, multidisciplinary education, which must focus
+on modernizing, acclimating and fascinating new significant viewpoints in unique and
+varying arenas.
+
+II. Education: Education is the most approachable aspect used to develop and improve
+
+natural intelligence. Many scientists (Pathak, 2007) have interpreted the term
+Education from their perspective.
+
+Table 2 gives different definitions that articulate the meaning of “Education”. After
+proceeding with the summarized meaning of these definitions, it can be outlined as
+“Education is a continuous process of learning with the aim of cultivating knowledge and
+imbibe life-skills to become an ideal citizen.”
+
+III. Role of National Education Policy [NEP] 2020 in current education:
+
+National Education Policy (2020), Aktar (2021) is the primary education strategic program of
+the current century. Its objective is to address the many growing developmental certainties of
+India in the first and foremost place. This policy recommends the amendment and renovating
+
+Abbreviation
+Meaning
+
+NEP 2020
+National/New Education Policy 2020 (India)
+SDG
+Sustainable development goal
+AI
+Artificial intelligence
+NLP
+Natural language processing
+NN
+Neural network
+ML
+Machine learning
+DL
+Deep learning
+GA
+Genetic algorithm
+ASM
+Advanced statistical model
+IEEE
+Institute of Electrical and Electronics Engineers
+DARPA
+Defense Advanced Research Projects Agency
+AQ
+Adversity quotient
+MPSC
+Maharashtra Public Service Commission
+ICAI
+Intelligent Computer-Aided Instruction
+GALA
+Genetic Algorithm Learning Application
+RACE
+Reading comprehension dataset from examinations
+BLEU
+Bilingual evaluation understudy
+GRE
+Graduate record examinations
+CET
+Common entrance test
+AIED
+Artificial intelligence in education
+HE
+Higher education
+Table 1.
+List of abbreviations
+
+AI for
+education
+
+Sr.
+No.
+Scientist
+Education
+
+1
+Aristotle (384–322 BC)
+“Education is the method of training a person to fulfill his intention by
+exercising all the abilities to the fullest extent as a member of society.”
+2
+Martinus J. Langeveld
+(1905–1989)
+
+611
+
+“Education is every interaction that happens is every association that
+occurs between adults with children is a field or a state where the
+educational work in progress (Standish and Saito, 2012)”
+3
+Prof. H. Mahmud Yunus
+(1899–1982)
+
+Table 2.
+Various definitions of
+
+“In order for the child to live a happy and all what he did be beneficial to
+himself and society (Srimulyani, 2011)”
+4
+Socrates ((469–399 BC)
+“Education means bringing out the ideas of universal validity which are
+latent in the mind of every man”
+5
+Mahatma Gandhi (1869–
+1948)
+“By education I mean an all-round drawing out of the best in child and
+man-body, mind and spirit”
+
+“Education”
+
+of all characteristics of the education structure as shown in Table 3. NEP 2020 is based on the
+trust that education must develop:
+
+(1)
+Cognitive abilities
+
+(2)
+Communal, moral and emotional (expressive) capacities and temperaments.
+
+This structure consists of guidelines and governance, to create a novel system that is
+affiliated with the aspirational goals of existing education, including SDG4.
+
+A. Objectives
+
+The fundamental research objectives:
+
+•
+To elaborate AI techniques used in the education sector.
+
+•
+To study the significance of the assessment strategies in teaching-learning.
+
+•
+To establish the relationship between assessment and AQ with the help of AI.
+
+B. Prior Research
+
+1. In education, intelligent quotient (IQ) has been considered an important factor for
+success in life. There is a new quotient called AQ which is an indicator to measure
+
+National education policy
+year 1968
+
+National educational policy 1986
+(Revised in the year 1992)
+National educational policy year 2020
+
+1.
+The “Education to all”
+vision
+2.
+Focused on
+differently abled
+students and Girl’s
+education
+
+1.
+This policy is motivated by Early
+Childhood Care and Education
+(ECCE) through a child-centered
+approach (CCA)
+2.
+Setting up autonomous colleges
+and countryside universities in
+rural India followed by Gandhian
+ideology
+
+1.
+It is designed to enable complete
+essential learning
+2.
+Universal right of entry to education
+which leads towards the 100%
+Gross Enrollment Ratio (GER)
+3.
+Fundamental principles are
+3.1. Distinguish, categorize and foster
+the exceptional capabilities of each
+student
+3.2 Life skills- communication skills,
+collaboration skills, cooperative in a
+team, supportive skills and
+flexibility
+
+Table 3.
+National educational
+policies analysis (India)
+
+ET
+66,6
+
+resilience. There is a connection between AQ and problem-solving skills (Oliveros,
+2014), resilience (Matore et al., 2021), critical thinking (Spector and Ma, 2019) and
+adaptive behavior (Tomaszewski et al., 2018). With the help of assessments, life skills
+can be measured. With the help of AI techniques, it is possible to evaluate the AQ
+(Naimnule et al., 2020; Wang et al., 2021) of a student. The purpose of this research was
+to exemplify a wide-ranging vital effort of AI techniques used to perform a specific task
+in the education segment.
+
+612
+
+AI techniques, assessment patterns and adversity skills deliberated and summarized over
+twenty multidisciplinary published available research work from 2013 to 2023. The study
+provides a literature review on techniques for systematically teaching-learning analytics.
+The effort aims in categorizing several methodologies, wide applications and assessment
+processes as listed in Table 4.
+
+C. Research Goal
+
+2. Study emphases on multiple domains such as education, the role of AI in education
+(Chen et al., 2020a), the Significance of assessment (Halachev, 2013; Jin, 2022; Luckin
+et al., 2017; Zhu et al., 2020), the relationship of AQ with IQ (Widodo et al., 2022), EQ and
+SQ (Singh et al., 2021; Pong and Lam, 2023) and how the AI is useful to evaluate the AQ
+of a student. The proposed research questions are quantified in Table 5.
+
+D. Contribution of work
+
+Compiled study of 141 bibliography articles were engrossed in classifying evidence which
+was required to answer mentioned research questions vis-a-vis the six methodological
+components. These components of AI constitute adopted deep learning (DL), machine
+learning (ML), neural network (NN), natural language processing (NLP), genetics algorithm
+(GA) and Fuzzy techniques. Assessment types practiced in higher education and the facet of
+academic assessment in teaching learning; and AQ and its role in frequent educational
+activities. It yields the contemporary practice and findings from the 141 papers and
+accomplishes the analysis through numeral references for AI technique development, for
+evaluating AQ. Literary surveys highlight important areas for supplementary research. This
+survey covers current AI trends, application-oriented techniques and the classification of AI
+methodologies which shows a proper knowledge-based framework for evaluating AQ with
+suitable techniques.
+
+E. Organization of paper
+
+This paper describes the significance of AI in teaching learning and the categorization of
+techniques. Different algorithms are developed based on applications, input data, expected
+output, etc. This paper emphasizes the general AI framework used in teaching-learning and
+assessment techniques developed in detail. Subsequently, it is a significant undertaking to
+assess the student to evaluate the AQ. It will help the researcher to decide on appropriate
+assessment technique and metric used for evaluating the performance of the student. Figure 1
+reveals the paper systematized into miscellaneous sections.
+
+2. Review strategy
+
+A. Materials and Methods
+
+The “education” word is common all over the world, the educational policies are different
+countrywide. Leading from the NEP draft, it is well understood that AI is the imminent key
+player in education. The documents were carefully chosen for the investigation of AI
+techniques which cater to Journals, research articles and conference papers of publication
+
+AI for
+education
+
+Paper
+Applied methodology
+Limitations
+
+Inferences for the future
+upgradation
+
+Indian NEP Final draft
+(2021)
+
+613
+
+The focus is given on
+consistent formative
+assessment for
+educational learning that
+inspires today’s
+‘coaching culture’
+
+Faculty will not have the
+independence to
+modernize the
+curriculum and
+assessments within a
+narrow framework of
+higher education
+
+Learning Analytics (LA)
+conveys immense
+potential in monitoring,
+prediction, tutoring,
+comment-based
+feedback, adaptation,
+personalization, approval
+and reflection
+
+Accredited bodies and
+agencies will design and
+implement assessment
+frameworks
+encompassing the
+design of rubrics,
+proficiencies, portfolios,
+standardized
+assessments and
+assessment analytics
+Yan et al. (2020).
+Including learning
+analytics in the loop of
+self-paced online course
+learning design.
+International Journal of
+Artificial Intelligence in
+Education, 31, 878–895
+
+The lack of LA
+consideration in
+designing the current
+course can bring
+challenges to LA
+implementation due to
+the data collection and
+pedagogical connection
+requirements
+
+Characteristics of Edtech
+that are concerned with
+personalization,
+adaptation, or other
+categories of intelligent
+behavior
+
+Some student-specific
+personal data and state
+estimates will be
+naturally used by a
+learning system to
+achieve personalization
+
+Learning Models also
+predict future
+performance frequently
+and these predictions are
+used to evaluate and
+compare analysis
+studies
+
+The questions in the
+formative assessment
+required to be auto-
+graded for appraising
+diverse cognitive skills, so
+that the high-tech
+adaptive testing
+instrument can be
+exploited
+Pelanek (2022). Adaptive,
+intelligent and
+personalized: Navigating
+the terminological maze
+behind educational
+technology. International
+Journal of Artificial
+Intelligence in Education,
+32(1), 151–173
+
+Artificial Neural
+Network (ANN)
+epitomizes that in terms
+of error tolerance, parallel
+function, flexibility and
+stability
+
+A greater number of
+individuals are opposed
+to familiarizing
+themselves with
+upcoming industries and
+occupations that promise
+new career prospects in
+addition to employment
+opportunities
+
+Mehraj and Baba (2019).
+Scrutinizing artificial
+intelligence-based career
+guidance and counseling
+systems: an appraisal.
+International Journal of
+Interdisciplinary
+Research and
+Innovations, 7(1), 402–
+411
+
+Solutions established on
+deep learning can be
+developed in such expert
+systems to make them
+smarter and more
+efficient. Appropriate
+data should be selected
+and analyzed which can
+construct a customized
+standard data set
+Holmes et al. (2019).
+Artificial intelligence in
+education. Globethics
+Publications
+
+There is a major impact
+of artificial intelligence
+on assessment,
+contributing some
+tempting glimpses into
+the future
+
+Table 4.
+Survey of the education
+
+Rapid advances in AI
+products and services
+will outperform
+education systems’ is a
+real risk. Appropriate
+measurements to
+understand, achieve,
+manage and integrate the
+products and services
+are required
+
+Computer researchers,
+educational scientists,
+AI engineers and big
+tech companies have to
+decide how artificial
+intelligence unfolds the
+petals in education, or
+they can engage
+themselves in
+productive dialog
+
+system and its future
+inferences from diverse
+
+(continued)
+
+author’s outlook
+
+ET
+66,6
+
+Paper
+Applied methodology
+Limitations
+
+Inferences for the future
+upgradation
+
+The recommended
+algorithm permits a more
+accurate assessment of
+students’ knowledge
+
+Halachev, P. NEURAL
+NETWORK MODEL
+FOR ASSESSMENT
+COMPUTER-BASED
+TEST
+
+614
+
+To increase the objectivity
+of the study, numerous
+values of these criteria
+were required to be
+synchronized between
+teachers teaching
+identical subjects
+
+ANNs are largely used in
+innumerable arenas
+(robotics, research,
+automobile,
+manufacturing, etc.). But
+still have limited and
+restricted applications in
+the education sector
+Vincent-Lancrin and Van
+der Vlies (2020).
+Trustworthy artificial
+intelligence (AI) in
+education: promises and
+challenges. 2020
+
+Artificial Intelligence-
+based solutions try to
+assess how individuals
+think and answer to a
+learning situation. AI
+tries to adapt to the
+student’s needs and
+skills
+
+Presently, the
+deployment of AI in
+education remains
+incomplete at the system
+level. Employed AI could
+lead to involuntary
+decisions or suggestions
+which are expected
+
+It is challenging to
+prepare teachers and
+learners as revolutionary
+agents of work and
+society, particularly by
+developing their
+multilayered thinking
+skills such as original or
+critical thinking
+Chen et al. (2020a).
+Artificial intelligence in
+education: A review. Ieee
+Access, 8, 75,264–75278
+
+The study seeks to judge
+by what means AI has
+affected teaching-
+learning, governance,
+tracking and
+management areas of
+education
+
+Learning analytics
+prepares us to transfer
+from our comfort zone
+towards a broader scope
+including inter- and
+intra-personal skills, arts
+and literature
+
+The distinct pattern of
+relative strengths and
+trials in adaptive actions
+and Executive Function
+(EF)
+
+Precise facets of the
+Down Syndrome
+cognitive outline may
+have an imperative
+influence on
+employment positions in
+mainly young adults
+
+A small sample of
+primarily young adults.
+Individuals establish
+complications with
+aspects of executive
+function (EF) and
+adaptive behavior across
+the life expectancy
+
+AI Systems thrive on all
+features of students, i.e.
+personal skills,
+command of knowledge
+and expertise, learning
+aptitude and
+professional expansion
+Tomaszewski et al.
+(2018). Adaptive
+behavior, executive
+function and
+employment in adults
+with Down syndrome.
+Journal of Intellectual
+Disability Research, 62(1),
+41–52
+
+Table 4.
+
+year 2013–2023. The co-occurrence analysis of keywords used for reviewing the papers using
+VOS Viewer (Wong, 2018) is shown in Figure 2. Keywords existing more than 5 times are
+considered for the primary analysis One of the important dimensions of education is
+teaching-learning. Teaching learning constitutes assessment and assessment should be to
+quantify the AQ, which represents lifelong learning skills.
+
+The AI does not depict the teacher’s role is compromised; it articulates the manual work
+done so far by the teacher has to be reduced by technology. It is a suitable to evaluate the
+impact of AI on contributing factors of education that are popular in teaching-learning.
+
+B. Search Strategy: Inclusive- Search continued with Keywords (AI, education, teaching-
+
+learning) on different platforms comprising IEEE, ScienceDirect, Scopus, Web of
+Science, popular journals in the education domain, Google Scholar till 2023 and the
+number of survey papers referred results are shown in Figures 3 and 4 below.
+
+C. Search Strategy: Exclusive-
+
+The journals which have an H-Index of less than 10 are excluded from the study. A higher
+H-Index indicates more reputable journals and well-known authors worldwide. After an
+
+AI for
+education
+
+Sr.
+No.
+Research question (RQ)
+Discussion
+
+RQ1
+How does artificial intelligence benefit the
+education domain?
+
+615
+
+It is essential to study AI perspectives (what, why
+and how) in education. Each AI technique is
+elaborated to determine its significance specific to
+teaching-learning
+RQ2
+What are the multimodal assessments
+conducted in higher education?
+
+For effective assessments, it is essential to examine
+and explore the type of assessment, parameters used
+and objective of the assessment
+RQ3
+What are the diverse measurement metrics to
+affect adversity in education?
+
+Country-wide surveys and articles have been
+studied to conclude similarities and differences
+
+A review was conducted systematically with a
+metric characteristic and context in the current
+education system
+RQ4
+What is the relevance of the Adversity
+Quotient in the Indian context and Western
+contexts?
+
+RQ5
+Mapping assessments with adversity quotient
+would be a good step in higher education?
+
+There is a substantial relationship between
+academic performance and adversity quotient.
+Academic performance and skills are measured
+through various assessments
+RQ6
+Which is the various artificial intelligence-
+based approaches to evaluating adversity
+quotient?
+
+The quotient is defined as a degree or amount of a
+specified characteristic. It is a measurement of
+intelligence. It is possible to measure natural
+intelligence with the help of artificial intelligence
+
+Table 5.
+Literature based on
+Research Questions
+
+Figure 1.
+Systematic structure of
+
+literature review
+
+elimination process, more than eighty reviewed journals, research articles, books, blogs,
+professional publications and government and institutional reports were selected.
+
+ET
+66,6
+
+616
+
+Figure 2.
+Keyword co-
+occurrence: artificial
+intelligence, education
+and learning
+
+Figure 3.
+Publication-wide
+reviewed journals
+
+Survey Papers: 2013-2023
+
+ArƟﬁcial Intelligence
+
+20%
+
+EducaƟon
+
+46%
+
+34%
+
+ArƟﬁcial Intelligence
++ EducaƟon
+
+Figure 4.
+Investigation of survey
+papers
+
+D. Cross-section: Teaching-learning criteria
+
+AI for
+education
+
+617
+
+Teaching learning came along a long way and AI came into the picture in 1956 (John
+McCarthy) that’s why, reviewed documents with the published years 2013–2023 are
+preferred on an aforesaid criterion. It is observed that AI made successful imprint on
+education, composed with teaching-learning, narrowing down the number of articles for
+analysis to eighty. A sample size considered for the literature study is sufficient to inform
+conclusions and inferences about the impact of AI techniques in teaching-learning,
+captivating an open approach. Figure 5 presents cross-section statistics of AI concerning
+education and teaching-learning analytics. A further analysis-oriented review focused on all
+cognitive quotients. Figure 6 classify articles from the popular journals and concludes there is
+too less research carried out with respect to AQ.
+
+Figure 7 depicts AQ infusing an AI to analyze assessment data and mine information
+from it.
+
+3. Systematic literature review: AI in higher education
+
+A. History of AI: AI was invented by American computer scientist John McCarthy in 1956.
+
+The primary employment of AI techniques in computer-aided instruction is frequently
+attributed to Jaime Carbonell, who introduced a system called SCHOLAR in his 1970 Ph.D.
+thesis (Carbonell, 1970). It is the first Intelligent Tutoring System. In this system, AI models
+are highly simplified computational representations (in semantic networks, as interpreted by
+SCHOLAR, by using ontologies or knowledge graphs).
+
+B. Role of AI
+
+AI is appropriately admired in accounting and finance, the stock market, agriculture,
+healthcare, supply chain management and education. Teaching-learning is the most crucial
+process to handle. Teaching includes the creation of course material, teaching, attendance,
+defaulter list, notifying the parents about the wards’ attendance, creating summative and
+formative tests, conducting tests, displaying results, at last marks entry in the system for
+
+ML
+
+Deep learning
+
+ML+DL
+
+Neural Network
+
+NLP
+
+Data Mining
+
+ASM
+
+GA
+
+Fuzzy Logic
+
+0
+200
+400
+600
+800
+
+AI in Teaching Learning
+AI in EducaƟon
+
+Figure 5.
+Statistics of AI
+techniques for teaching
+learning and education
+
+ET
+66,6
+
+618
+
+Figure 6.
+Research scrutiny: Iq
+EQ SQ and AQ
+
+Figure 7.
+Intersection of AQ
+related recent
+research areas
+
+result generation. While learning, the student should get course material on time, continuous
+assessment tests, teacher feedback, subject feedback, survey, etc. If you think of a single step
+in a teaching-learning process, data is the fundamental aspect. Gathered data can be
+structured or unstructured.
+
+Looking at the flow of Figure 8, the journey from data gathering to wisdom is possible
+through intelligence and embedded intelligence in computing machines could be depicted
+by AI.
+
+C. Multidimensional AI-driven Higher Education
+
+New notions for AI collection, processing, storing, analyzing, handling, visualizing and, most
+importantly, conventional practices, are emerging with data-driven business models
+currently being created around them.
+
+How is it possible without the help of technology?
+
+AI for
+education
+
+1. Extensive use of technology is used in the teaching-learning process. AI-based software
+has to be established (Ouyang and Jiao, 2021) and used by teachers and students.
+
+2. Technology-based system will guide students with valuable information and supports
+them in making optimal career choices. But the question arises what is AI and how does
+it work (Chassignol et al., 2018)?
+
+619
+
+3. AI (one of the domains of Computer Science) refers to the thinking style of human
+intelligence that is programmed in machines to ponder like humans and mimic their
+actions. AI is a broad domain that can be used to assess knowledge, skills and attitudes.
+
+AI-based software to track the progress of students to empower various teaching-learning
+stages is shown in Figure 9. It’s one of the technological challenges to integrate “AI” with
+Education. Though it seems to be easy, it is quite difficult to measure human intelligence with
+the help of AI.
+
+To strengthen the idea, numerous national as well as international papers have been
+surveyed to represent the challenges towards technology as well as education point of view.
+
+D. Tactics of AI towards Education:
+
+If a question strikes “What is the secret of animal intelligence?” People are trying hard to
+identify the answer to this question but no one has succeeded in finding the “secret!” How to
+
+Figure 8.
+Journey from data to
+
+wisdom
+
+Figure 9.
+AI-empowered
+
+education
+
+learn about intelligence from animals is to study their behavior, predominantly problem-
+solving behavior.
+
+ET
+66,6
+
+Problem-solving agendas claim heavy training in puzzles and games to refine the techniques.
+Table 3 discusses education policies which are facing challenges and needed to apply on
+problem-solving strategies. If this study solves some of the problems faced by today’s
+education system (Srimani and Patil, 2014), definitely the study is contributing not a flower
+but a petal towards society.
+
+620
+
+E. AI Perspective in the field of education:
+
+There are three concerns in education that need to focus on:
+
+1. What is the importance of AI in education?
+
+2. Why does it make more sense to use AI for education?
+
+3. How AI would help to support education?
+
+1. What:
+
+1.1 Chatbots Based Learning (Mondal et al., 2018).
+
+1.2 Recommendation System for Personalized Learning (Pelanek, 2022).
+
+1.3 E-Learning and Distance learning (Sharma et al., 2019).
+
+1.4 Adaptive learning and Assessments depend on the learner’s level of
+understanding.
+
+There are 3 types of learners: fast, medium and slow. According to the learner, the
+pacing system has to adapt the assessment strategy (Jin, 2022; Luckin et al., 2017).
+
+1.5 Exam Invigilation (Thampan and Arumugam, 2022).
+
+1.6 Exam Conduction in a fair way to avoid copy cases.
+
+1.7 Feedback through an expert system for improvement and progress
+(Zhu et al., 2020).
+
+2. Why:
+
+2.1 AI is convenient to use and adapt: It is the era of data and technology.
+Everywhere there is apps usage on fingertips or mouse-clicks. e.g. Alexa,
+Siri, Global Positioning System (GPS) tracking system and translators.
+
+2.2 It reduces manual work: Not only AI, any technology helps to lessen the
+burden on humans.
+
+2.3 Err-free: Humans can make mistakes sometimes but a trained model of AI is
+error-free.
+
+It has been quite convincing what and why. In many cases, a human fail to justify how?
+Unless the aim and objective are known it’s difficult to justify how.
+
+3. How: The answer to how lies in technology.
+
+Earlier, some researchers built Intelligent Tutoring Systems (ITSs). Some of them are ACT
+Programming Tutor (Anderson et al., 1990) based on ACT (Acceptance and Commitment
+Therapy) theory; an experiential system for learning probability named Stat Lady (Shute,
+1995) was designed based on AI statistical relational techniques. Dialog-based Tutoring
+
+AI for
+education
+
+Systems (DTSs) for Research Methods Tutors (RMT). Exploratory Learning Environments
+(ELEs) and an exploratory environment QUerying the Expert (QUE) (Metzler and Martincic,
+1998) were created using Natural language processing, Bayesian network and Markov
+decision trees. The human-computer interface with collaboration, brain-computer interface,
+personalized/adaptive learning and real-time MOOC predictive modeling (Le et al., 2018)
+attained by machine learning and deep learning.
+
+621
+
+3. Giant companies like Amazon, Google and Facebook (Holmes et al., 2019) have financed
+to develop AIED products. Artificial Intelligence in Education (AIED) Society is an
+interdisciplinary community at the frontiers which encompasses computer science,
+education and psychology domains. Between AIED companies such as Knewton and
+Carnegie Learning, Global Learning XPrize is entitled to firm software which permits
+children to take control of their learning. AI has been developed as fundamental,
+persistent and inevitable, even if frequently hidden. Every so often email spam filtering
+is known as an advanced computer program, Cortona as a personal assistant, Netflix as
+a recommendation system and Duolingo as a language learning app. After studying the
+perspective, it is understandable that the magic lies in AI; it is useful to study every
+aspect of AI from basic concepts to understand the education applications thoroughly.
+Figure 10 elaborates the working of each AI technique and its analysis in education.
+
+F. AI Techniques used in teaching-learning
+
+i. Machine Learning:
+Machine learning is neither a database problem nor a simple computer program; it is a part
+of AI. A system that can learn in a changing environment is called an intelligent system. It
+incorporates various learning styles as shown in Figure 11. Though the ML term was
+invented in 1959, it started to embellish in the 1990s.
+
+Figure 10.
+AI cutting-edge
+education sector
+
+ET
+66,6
+
+622
+
+Figure 11.
+Realm of Machine
+learning algorithms
+
+In recent times, a few revisions of transformer-based architectures (Devlin et al., 2018) based
+on Bidirectional Encoder Representations from Transformers (BERT) and neural network
+classifiers presented to realize short-answer grading assessment (Liu et al., 2019; Sung et al.,
+2017). Neural approaches have demonstrated across various domains and applications (NA)
+and masked language modeling (Camus and Filighera, 2020). If the dataset consists of
+approximately 1,000 training examples, we can adopt an embedded approach (classification
+with the neural network) to represent them using a non-neural classifier (Tassos and Natsis,
+2011). AI-embedded computer programs, aid tutors and students. Explicitly educational
+innovation forces advancements in cognitive science and AI for learning (e.g. Crow et al.,
+2018). There is a rational recommendation that validates the proficiency of numerous modern
+intelligent tutoring systems (Craig et al., 2018). Current efforts are taken to build and use
+intelligent tutoring with collaborative learning (Olsen et al., 2015); most intelligent tutoring
+systems focus on individual learning (student-centric education). For several years, research
+has shown gaming is harmful to students, especially teenagers, who spend more time with
+machines and less time with people (Oppenheimer, 2003). Online educational games have
+proven useful in some settings (Gonzalez-Gonzalez, 2014; Majdoub, 2016). AI as a routine has
+an artistic approach. On the other hand, getting completely rid of a human teacher from the
+process of student learning has risks. These are some of the educational strategies practiced
+in academics restricted to the purpose of education. Machine learning algorithms are listed in
+Table 6.
+
+(1)
+Teacher-Centric Education (Teacher supportive)
+
+(2)
+Small Group Education (Collaborative learning)
+
+(3)
+Student-Centric Education (Student supportive)
+
+(4)
+Active Learning
+
+(5)
+Problem-Based Learning
+
+(6)
+Project-Based Learning
+
+(7)
+Inquiry-Based Learning
+
+AI for
+education
+
+Parameter
+
+Supervised
+(administered)
+learning (SL)
+
+Unsupervised
+(unproven) learning
+(UL)
+
+Semi-supervised
+(managed till some
+certain level) learning
+(SSL)
+
+Reinforcement
+(supportive) learning
+(RL)
+
+623
+
+Advantages
+1. To build accurate
+predictive models 2.
+To unite the bulk
+data to understand
+similarities and
+differences in a short
+time
+
+1. Finding dissimilar
+groups or “clusters”
+within a data set is
+easy. 2. This
+requires fewer
+resources and faster
+computing
+
+1. As they learn, they
+can focus on the
+important parts of
+the space and ignore
+the rest; 2. Employ
+function
+approximation
+methods to simplify
+and learn faster
+
+1. Visualize the
+interaction of
+variables and have a
+better understanding
+of the process 2. Basic
+probabilistic
+procedures are
+efficiently
+represented and
+implemented
+
+Education
+Model
+
+Online educational
+games, chatbots and
+robotics
+(Pokrivcakova, 2019)
+
+Automatic
+Curriculum Learning
+(Tassos and Natsis,
+2011; Shuguang et al.,
+2021)
+Table 6.
+Usability of machine
+
+Adaptive tutoring
+systems and
+assessments,
+Learning analytics
+(Chassignol et al.,
+2018)
+
+Collaborative
+learning, Project-
+based learning
+model, MOOC
+context (Sharma
+et al., 2019)
+
+learning algorithms
+
+(8)
+Cooperative Learning
+
+(9)
+Flipped Classroom
+
+4. The Knewton application makes real-time recommendations for students. It customizes
+course materials or content according to the learners’ needs (Chassignol et al., 2018).
+Chatbots (Mondal et al., 2018) also improve the learning experiences of students because
+they leverage machine learning algorithms. Virtual Reality, 3-D technology in learning,
+includes usability, enjoyment, learner enthusiasm and motivation, to intensify interests
+in students (Tassos and Natsis, 2011, p. 773). Components of Adaptive and Intelligent
+Web-Based Educational Systems (AIWBES) are becoming popular among students
+(Srinivasan, 2022, p. 160). TurnItIn tools, (used for plagiarism check and revision
+assistance) and Pearson’s Write-to-Learn tools help students in research and innovation
+(Halachev, 2013).
+
+There exist some smart tutoring systems such as Carnegie Learning that rely on student’s
+specific data to give personalized feedback to the student to directly work with.
+
+ii. Data Mining: Knowledge discovery is the term used for data mining. The technique of
+
+applying machine learning methods to big data is called data mining.
+
+• Data Mining: It is the process to build a suitable model or to develop an algorithm
+which is listed in Table 7 to extract knowledge by using the methods narrated in the
+above table. MOOT- Massive Open Online Text (MOOT) and Massive Open Online
+Courses(MOOC) use extensive dataminingfor knowledge interpretation.Theexample
+of whether a student gets university admission or not is portrayed in Figure 12.
+
+iii. NLP is the accepted acronym for Neuro-Linguistic Programming (Bandler, 2020). It was
+
+the united idea of a mathematician and computer scientist, Richard Bandler and a
+professor in linguistics, John Grinder (Bandler and Grinder, 1975). Basic structure to
+process the language is depicted in Figure 13. Text Mining (Allahyari et al., 2017) in
+
+ET
+66,6
+
+Sr.
+No.
+Data mining method
+Techniques
+Purpose of application
+
+Slow, moderate and fast learners
+
+1
+Clustering
+K-means, C-means, hierarchical
+clustering, decision trees, Markov models
+(Dutt et al., 2015)
+
+Results and grade analysis
+
+624
+
+2
+Classification
+Random forest, J48, Simple Cart, decision
+tree, Naı€ve Bays, SMO and Simple
+logistic (Dol, 2021)
+
+3
+Outlier Detection,
+Regression
+
+Linear, polynomial, logistic, ridge, Lasso
+regression (Srimani and Patil, 2014)
+
+Predictive analysis: Failure and
+retention of students
+4
+Association Rule
+Mining
+
+Self-assessment and collaborative
+Learning- think-pair-share
+
+Apriori algorithm, FP (Frequent Pattern)-
+growth algorithm for the association
+rules mining (Ougiaroglou and Paschalis,
+2012) multirelational association rule,
+generalized rule (Lei, 2022)
+
+Student performance-based
+system
+
+5
+Pattern recognition,
+pattern matching
+
+Feature selection, SVM, Matrix
+factorization, collaborative filtering
+(Zhang et al., 2022)
+
+6
+Text mining/Concept
+mining/Web mining
+
+Information retrieval, text
+summarization, ontologies (Ferreira-
+Mello et al., 2019; Ahadi et al., 2022)
+
+Content analysis, educational
+research, automatically interact
+with students in forums
+
+Table 7.
+Strategic data mining
+techniques used in
+educational
+applications
+
+Data Mining
+
+Data selection
+
+Data Sources
+
+& 
+Preprocessing
+
+Apply
+algorithm to
+
+Evaluation
+
+Data 
+Collection
+
+predict
+whether the 
+student will
+
+Candidate fills
+
+YES/
+
+System
+selects 
+educational
+
+Personal
+information
+
+Store Data in
+
+some data is
+
+get the
+admission or 
+not depending
+on the rank of
+
+NO/
+MAY BE
+
+college 
+Database
+
+and 
+educational
+information
+
+student and
+availability of
+
+Figure 12.
+Form filling process for
+admission
+
+missing fill
+the data with
+suitable values
+
+the seat
+
+Figure 13.
+Steps involved in
+natural language
+processing
+
+AI for
+education
+
+Natural Language Processing (Sarker, 2022) is a process to extract meaningful
+information from various resources such as documents, articles, books, emails, reviews,
+blogs, comments, websites and podcasts.
+
+625
+
+Example: To study students’ performance in response to the teaching, feedback on essays-
+OpenAI platform (Balaha and Saafan, 2021), question generation models (see Mostow et al.,
+n.d.), example generation of math problems, generating sentences that show different usages
+of the same word, showing examples of how text can be summarized, etc. (Chen et al., 2020b;
+Srinivasan, 2022).
+
+iv. Neural Networks (NN)
+
+An excellent example of NN is DARPA Neural Network Study [DARP88] developed in 1988. It
+lists various neural network applications. It was launched through the adaptive channel
+equalizer in around 1984. This device is an owing commercial victory. It is the only neuron
+network used for long-distance telephone communication systems to stabilize voice signals
+(Martin et al., 2014). The primary objective of studying NN here is to determine the
+appropriate connections to solve particular problems in an educational context.
+
+v. Genetics Algorithms: [ GA]- John Hollard developed the GA concept in the year 1956
+
+inspired by Darwin’s Theory. It portrays real biological evolution.
+
+5. Genetic algorithms examples: Students result in a generation, predicting student
+academic performance, scheduling the timetables for the technical educational system,
+adaptive learning scheme generation for context-aware e-learning. The existing
+e-learning systems (Lee et al., 2017) adapt content, based on various subsets of context
+parameters and generate customized learning paths.
+
+The genetic algorithm is used for finding the optimal solution (Dang, 2022; Li and Song, 2022)
+which is based on a random probability distribution that may be analyzed statistically.
+GALA[GA3] educational system has been recognized to apply GA to dissimilar optimization
+problems. The system encodes a solution to the problem quickly and chooses the exact
+configuration of GA.
+
+In existing conditions, these algorithms merge with AI, ML, Data mining, etc. Quite a few
+enhancements are needed to make GA more applicable in an educational context.
+
+Figure 14 explains GA concept in a better and easy way. The foundation of GA is
+mathematical, which is illustrated with one of the methods, i.e. the Maximization method. The
+maximization method is demonstrated to understand the working principle of GA.
+
+vi. Fuzzy Logic
+
+Fuzzy set theory is invented by Zadeh (1965) to represent notions of the set in a better way.
+According to the Bezdek, computational intelligence depends on the numerical data provided
+by the manufacturers and not on the knowledge (Klement and Slany, 1993). Development of
+AI techniques plus cognitive science amplified the degree of “intelligence” in Computer-
+assisted Instruction (CAI) systems. They called as intelligent CAI (ICAI) and today these
+systems recognized as Intelligent Tutoring Systems.
+
+There is the scope to modify the problems assessment model to work by means of varied
+areas or topics, besides field of linear programming.
+
+1. Education should focus on value addition towards life; meaning quality education is
+needed. Fuzzy Logic is suitable for providing quality education (Alam and Pandey,
+2017).
+
+ET
+66,6
+
+626
+
+Figure 14.
+Genetic algorithm
+flowchart
+
+2. Computer Science and Engineering (CSE) characterizes the amalgamation of evolving
+problem resolving skills like fuzzy logic, genetic algorithms, statistical modeling, neural
+networks and evolutionary systems. Fuzzy logic-based model is capable to handle such
+uncertainties more vigorously as depicted in Figure 15.
+
+Understanding the importance of the fuzzy logic, Garcia-Honrado (Salaki et al., 2015), claims
+teaching of Fuzzy Logic in schools and high schools allows to see classical logic is a
+degenerative case of Fuzzy Logic.
+
+By studying the application models, it is concluded that designated experimentations
+have a significant role in student performance. In the realm of ‘AI in Education,’ the
+integration of AI in assessment directly correlates with the cultivation of an enhanced
+learning styles, fostering a more resilient and flexible approach to acquiring and applying
+knowledge. It is supported by the literature demonstrating AI’s ability to dynamically tailor
+assessments and evaluation strategies.
+
+AI for
+education
+
+627
+
+Figure 15.
+Fuzzy logic framework
+
+4. Conceptual framework: AI in HE assessment and its association with
+students’ adversity quotient
+Student is an inevitable component of education and assessment is a tool to measure student
+intelligence and intelligence has various dimensions. This section gives an overview of
+framework development steps.
+
+A. AI-embedded education tools:
+
+6. Education comprises of various models (Ouyang and Jiao, 2021), such as Domain Model,
+Pedagogy model, Learner model and Open learner model. Some tools are designed for
+specific purposes, for which users have to pay the fees or purchase. In Table 8 some of
+the popular AI-based educational tools are listed. These tools are not limited to the
+higher education but for different classes and age-groups.
+
+B. Assessment: Assessment is an integral part of the education system, with a specific
+
+pattern as shown in Figure 16. Attention of the study depicts assessment types in
+Table 9. These types are in accordance with the program standards for undergraduate
+students which may vary depending on the specific outcomes.
+
+Evaluation based research openings: After studying assessment evaluation and adversity as
+a skill, identified some of the research gaps as follows:
+
+a. Education system is lacking in real-time adaptations in teaching and learning (Ferreira-
+
+Mello et al., 2019)
+
+b. Assessment and feedback practices can enhance students learning outcomes using AI
+
+(Lei, 2022).
+
+Keeping these limitations in mind, the research focuses on bridging these gaps by relating AQ
+to the assessment patterns.
+
+5. Adversity quotient
+AQ is an individual’s ability to overcome adversity and adapt to challenging situations
+(Matore et al., 2021). It is a crucial skill for success in the modern world, where the ability to
+adapt to changing circumstances is essential. AQ (Wang et al., 2022a, b) is defined by
+Stoltz (1997) as one’s capability to fight with an approaching challenge, trouble, or problem, in
+
+ET
+66,6
+
+(continued)
+
+Not effective for
+
+developing higher-level
+
+writing skills, such as
+
+critical thinking and
+
+creativity
+
+Issues with data
+
+accuracy and reliability
+
+May not be suitable for
+
+all types of learners
+
+Not be suitable for
+
+complex interactions or
+
+specialized knowledge,
+
+cost is relatively high
+
+628
+
+An online platform that
+
+focuses on enhancing
+
+writing abilities and
+
+improving reading
+
+comprehension
+
+Provide institutions with
+
+data-driven insights into
+
+student engagement and
+
+performance
+
+Humanoid robots provide
+
+information and
+
+assistance in a user-
+
+friendly manner
+
+Adaptive learning
+
+platform to provide
+
+instructors with real-time
+
+data and analytics to
+
+track student progress
+
+Essay writing
+
+PowerBI Dashboards
+
+Cheating restriction
+
+Pathways for Success
+
+Can be customized for
+
+institutes track progress
+
+Effective conversation
+
+in administration, the
+
+students with
+
+disabilities, listening
+
+and analytic tool
+
+Personalized content,
+
+high quality after-school
+
+subjects, Widely
+
+adopted in the U. S
+
+Text Only
+
+Administration
+
+Proctor Base
+
+Guide Students
+
+Predictive analytics
+
+tracks student
+
+engagement
+
+Query-based, for
+
+special education,
+
+influencer
+
+identification
+
+Math, Chinese,
+
+English, physics, all
+
+K-8 subjects
+
+[Knowledge Analysis
+
+Technologies (KAT)
+
+engine]
+
+learning and facial
+
+detection technology]
+
+jQuery and Google
+
+Analytics]
+
+infrastructure for AI]
+
+[Microsoft Dynamics
+
+365, machine learning
+and AI, Power BI.]
+
+driven adaptive
+
+learning technology]
+
+Skype and Zoom]
+
+humanoid robot]
+
+1)
+WriteToLearn
+
+2)
+Azure Cloud
+
+3)
+Proctorio [Machine
+
+1)
+CampusLabs [HTML5,
+
+2)
+Nuro [Google Cloud
+
+3)
+ampusNexus Succeed
+
+2)
+Squirrel [AI]
+
+3)
+MobyMax [G Suite,
+
+2)
+NAO [programmable
+
+3)
+Talkwalker [AI]
+
+and performance
+
+prediction
+
+and performance
+
+prediction
+
+Learning
+1)
+Alta- Knewton [AI-
+
+Table 8.
+Educational tools
+
+Sr.
+
+No.
+Purpose
+Tools/Technology
+Domain
+Features
+Advantages
+Limitations
+
+1.
+Grading, retention
+
+2.
+Retention, dropout
+
+3.
+Personalized
+
+4.
+Sentiment Analysis
+1)
+Pepper [Robotics, IoT]
+
+AI for
+education
+
+Support limited by the
+
+quality and complexity
+
+of the underlying
+
+algorithms and natural
+
+language processing
+
+(NLP) models
+
+Still a risk of false
+
+positives (when the
+
+system incorrectly
+
+identifies a user) or
+
+false negatives, Cost
+
+math, Paid Platform
+
+629
+
+Conversational agent
+
+reduces the workload of
+
+human customer service
+
+agents and improve
+
+customer satisfaction
+
+Technology is automated
+
+to identify and
+
+authenticate users
+
+quickly, without the need
+
+for manual review or
+
+verification
+
+Real-time feedback on
+
+students’ progress
+Focuses exclusively on
+
+Tags teachers and
+
+students to answer
+
+questions, help teachers
+
+in searching for jobs,
+
+assess teachers
+
+Tracks attendance with
+
+GPS, emotion
+
+recognition, allows
+
+entry in school after
+
+facial recognition
+
+and Spanish
+
+Mathematics specific,
+
+assessments and tests
+
+Content
+
+recommendation,
+
+talent recruitment,
+
+real-time analysis
+
+Attendance
+
+mechanism, school-
+
+specific, facial
+
+recognition
+
+Math, Generic
+Available in English
+
+infused technology]
+
+real-time analysis]
+
+face recognition
+
+technology]
+
+Reality]
+
+Accurate Facial
+
+Recognition)
+
+analytics]
+
+cognitive science]
+
+[evolutionary AI]
+
+2)
+MyEdMatch
+
+3)
+TeacherMatch [AI for
+
+2)
+Airclass [Augmented
+
+3)
+SAFR (Secure
+
+1)
+DreamBox [AI, data
+
+2)
+MATHia [AI and
+
+3)
+Cognizant
+
+System
+1)
+Qbot [world-first AI-
+
+Monitoring
+1)
+Jibble [advanced AI
+
+system (Rus et al.,
+
+2013)
+
+Table 8.
+
+Sr.
+
+No.
+Purpose
+Tools/Technology
+Domain
+Features
+Advantages
+Limitations
+
+5.
+Recommendation
+
+6.
+Classroom’s
+
+7.
+Intelligent Tutoring
+
+ET
+66,6
+
+630
+
+Figure 16.
+Multimodal
+assessments conducted
+in higher education
+
+Sr. No.
+
+Assessment for learning:
+Ongoing and actionable
+
+Assessment of
+learning: Grade-based
+
+Assessment as learning:
+Actively involves students
+
+Ipsative Assessments
+
+Type of assessment
+Formative Assessments
+Summative
+Assessments
+
+1.
+Exams
+2.
+Portfolios
+3.
+Final projects
+4.
+Standardized
+tests
+
+1.
+Intelligence Q. tests
+2.
+On paper assessments
+3.
+CET and GRE:
+Standardized college
+admissions tests
+
+Methods used
+1.
+Portfolios (work
+groups)
+2.
+Group ventures
+3.
+Improvement reports
+4.
+Lecture discussions
+5.
+Entry and exit
+tickets
+6.
+Quick, regular
+quizzes
+
+Table 9.
+Various types of
+Assessment
+
+addition turning it into a unique opportunity to get ahead successfully. In the current context
+of study, “AQ” is referred as an assessment of student’s ability to meet problems, challenges,
+overcome existing challenges and turn them into an opportunity to accomplish success.
+Success refers to all-rounder achievement in academic training.
+
+AQ is assessed in 3 categories based on scores as, less score 5 quitter, moderate
+score 5 climber and high score 5 camper as shown in Figure 17
+
+Figure 17.
+Conceptual framework
+of AQ
+
+AI for
+education
+
+To evaluate the academic performance, mapping of skill-based AQ assessment is the best
+tool. It is difficult to separate out AQ from IQ, EQ and SQ. Table 10 reveals the inter-
+relationship study to evaluate AQ with respect to other quotients. Concept of emotional
+intelligence (Salovey and Mayer, 1990), which includes the ability to perceive, understand and
+manage emotions. Zohar, D. and Marshall, I. discusses SQ as the ability to access higher
+meanings, values and purposes.
+
+Metrics to affect adversity in education are:
+
+631
+
+1. Change of city: For higher education generally, students have to change city. They have
+to adapt new friends, place, food, environment etc. (Home sickness problem may occur
+because most of the students stay away from home to pursue higher education)
+
+2. Medium of learning: Marathi to English, offline to online and online to hybrid, late time
+college schedules, attendance mandatory constraint, subjective to objective exams.
+
+Case Study:
+
+In Maharashtra (India) commission of competitive exams (MPSC) has decided to change
+the pattern of examination. i.e. from objective to subjective. MPSC candidates (aspiring
+students) protested against this decision and the commission had to withdraw its original
+decision (Pandey, 2013, Feb 23). Due to lack of resilience in students, the exam commission
+has to postpone the decision till 2025.
+
+3. Socioeconomic status (SES) (Pong and Lam, 2023): This is a measure of a family’s or
+individual’s economic and social position in relation to others. It includes factors such as
+
+IQ
+EQ
+SQ
+AQ
+
+Stoltz (1997), Li
+et al. (2019)
+
+Reference
+Gardner (1983),
+Kaur and Singh
+(2016)
+
+Zohar and Marshall
+(2000), Kaur and
+Singh (2016)
+
+Salovey and Mayer
+(1990), Mayer et al.
+(2008), Kaur and
+Singh (2016)
+
+Concept
+cognitive
+intelligence
+
+Emotional intelligence
+Spiritual
+intelligence
+
+Adversity
+intelligence
+Tools
+Wechsler Adult
+Intelligence Scale
+(WAIS) or the
+Stanford-Binet
+Intelligence Scale
+
+Adversity quotient
+profile, adversity
+response profile
+(ARP) and the
+resilience scale for
+adults (RSA)
+
+Mayer-Salovey-
+Caruso Emotional
+Intelligence Test
+(MSCEIT), Emotional
+Quotient Inventory
+(EQ-i) and Trait
+Emotional
+Intelligence
+Questionnaire
+(TEIQue)
+
+Spiritual
+Intelligence Self-
+Report Inventory
+(SISRI), the
+Spiritual
+Intelligence Scale
+(SIS) and the King
+Inventory of
+Spiritual
+Intelligence (KISI)
+
+80–90%
+70%–90%
+70%–85%
+
+Validity and
+Reliability
+
+ranging from 75%
+to 90%
+
+Yes
+Yes
+Yes
+Yes
+
+Relationship
+with academic
+and professional
+success
+
+individual’s
+adversity quotient
+
+Cultural and
+contextual
+factors
+
+higher meanings of
+life, values and
+purposes
+
+self-awareness,
+empathy and
+relationship
+management
+
+Table 10.
+AQ beyond IQ, EQ
+
+cognitive abilities,
+including verbal
+and nonverbal
+reasoning,
+problem-solving
+and memory
+
+and SQ
+
+ET
+66,6
+
+income, education and occupation and race and ethnicity. These are measures of a
+student’s racial and ethnic background. This can be important as certain groups may
+face systemic barriers that impact their education.
+
+4. English Language Learners (ELL): This is a measure of a student’s ability to speak and
+understand English. Students who are ELL may face additional challenges in accessing
+education.
+
+632
+
+5. Academic achievement: This is a measure of a student’s performance (Barat et al., 2018)
+academic subjects such as reading, writing and math. Low academic achievement can
+be an indicator of low adversity in education. School climate is a measure of the social
+and emotional environment in a school. A positive school climate can support student
+success, while a negative school climate can be a barrier to learning.
+
+6. Discussion
+
+RQ1.
+How AI benefits education domain?
+
+AI plays a significant role (Lee et al., 2017) in the creation of knowledge sources,
+knowledge material, online and virtual classes, assessment, administration, feedback
+personalized learning, adaptive systems used in education. Section of AI techniques
+discusses the literature, that Machine learning classified into four types (Matore and
+Khairani, 2016) and each type of learning is used depending on the application (Sharma
+et al., 2019; Chassignol et al., 2018; Shuguang et al., 2021). We have studied popular
+techniques such as ML, DM (Namoun and Alshanqiti, 2021), NN , 2014; Halachev, 2013),
+NLP (A. Mondal et al., 2018; Deng and Liu, 2018), GA (Wang, 2022; Julia et al., 2020) and
+Fuzzy logic (Salaki et al., 2015; Ilahi et al., 2018). Some of the studies (Wong, 2018; Balaha
+and Saafan, 2021; Deng and Liu, 2018; H€ohle and Klement, 2012) show, though every
+technique has its own advantages and disadvantages, they are interrelated or there is a
+thin boundary where the techniques use mixed methodology. ML is related with NN and
+deep learning (Martin et al., 2014). Some of the studies (Srinivasan, 2022; Zhang et al., 2022;
+Widodo et al., 2022) focus on intelligent and smart systems (Sarker, 2022). Few of the
+studies (Luckin et al., 2017; Zhu et al., 2020; Sharma, 2022) focus on assessment-based
+techniques used in education. Above investigations proved, that there has been
+expansion in the AI techniques which can be used for specific educational purpose. At
+the beginning of the lockdown due to COVID-19 pandemic, rise in technology usage seen,
+i.e. for online coaching (through Zoom, Google Meet) and remote data storage (Google
+Drive, Classroom). Significantly less work has been done in AI with teaching-learning to
+construct full proof systems.
+
+RQ2.
+What are the multimodal assessments conducted in higher education?
+
+Literature work in section 3 shows multimodal assessment, for example, viva, practical-
+program based, written-Multiple Choice Questions (MCQ), project implementation, seminar
+presentation. We cannot assess each type by using same parameters and rubric. There are
+diverse rubrics we need to consider while assessing a student. There are some research gaps
+(Zhang et al., 2022; Ferreira-Mello et al., 2019; Pokrivcakova, 2019) identified with respect to
+knowledge-based assessments and techniques used to make the process efficient lexicons
+(Aktar, 2021). AI-based approaches are used for formative as well as summative assessment.
+The recent literature work on new methods in interactive learning environments (Luckin
+et al., 2017), scientific argument writing (Zhu et al., 2020), AI-based summative and formative
+assessment (Swiecki et al., 2022; Gardner et al., 2021) employed in higher education together
+
+AI for
+education
+
+for better performance. In spite we are living in 21st century, the technology does not
+guarantee higher accuracies in assessment and academician take effort in manual validation
+of tests. The challenges are recognizing and utilizing appropriate AI technique for fair
+assessment.
+
+RQ3.
+What are the different metrics to affect adversity in education?
+
+633
+
+1. CO2RE model by Paul Stoltz is applicable for a professional, it is suggested that the
+parameters (Matore et al., 2021; Biswas, 2018) required to succeed in individual’s life e.g.
+student could be same. Control, ownership, origin, endurance, behavior, communication,
+adaptability (Menon, 2022), emotional intelligence, academic performance (Safi’i et al.,
+2021; NA) parameters are used to evaluate an individual’s overall AQ score, which can
+help them understand their strengths and weaknesses in dealing with adversity and
+identify areas where they can improve.
+
+RQ4.
+What is the relevance of AQ in Indian (eastern) context and western context?
+
+Some potential areas of research in this topic can include: Investigating the relationship
+between AQ and academic performance among Indian students.
+
+1. Examining the role of AQ in the career development and success of Indian professionals
+can include studying the impact of AQ on job performance (Virgana et al., 2022), career
+adaptability and entrepreneurship (Matore et al., 2021; Lee et al., 2017) among Indian
+workers. Figure 18 reveals AQ related research is negligible in India. It is important to
+investigate AQ relates to stress, anxiety, depression and other psychological outcomes
+(Pong and Lam, 2023) among Indian individuals. Investigating the cultural and
+contextual factors (Skrzypinska, 2021) that influence AQ in India supports cultural
+values, societal expectations, to respond to adversity and develop resilience.
+
+Overall, evaluating AQ in the Indian context (Rahayu, 2021; Andrade, 2019; Tiwari, 2021) can
+be a meaningful and important research topic. It can contribute to understanding how
+
+Figure 18.
+AQ research in India
+
+individuals in India respond to and cope with adversity and can have practical implications
+for improving education, mental health and career development outcomes.
+
+ET
+66,6
+
+RQ5.
+Mapping assessments with AQ would be a good step in higher education?
+
+634
+
+After discussing the above questions, literature revealed that there is a close relationship
+between academic performance (Safi’i et al., 2021; and AQ. Without assessment (Bhatia, 2015;
+Hooda et al., 2022)], academic performance cannot be evaluated. And academic performance
+refers not only to the academic grades. According to the NEP 2020, it is essential to assess not
+only the subject specific knowledge but also other factors affecting the student’s achievement
+and success. Apart from the academics, one can embed self-assessment (Meijuan and Kaili,
+2020; Yan et al., 2020; Gardner, 1983), peer assessment (Naimnule et al., 2020) and parent
+assessment to construct an AQ tool.
+
+RQ6.
+Which are the various AI-based approaches to evaluate AQ?
+
+In section 1, we reviewed various AI techniques contributing educational paradigm
+(Ougiaroglou and Paschalis, 2012). In section 4 and 5, study reveals assessments, AQ and
+CO2RE model. There are some statistical methods such as Exploratory Factor Analysis,
+Confirmatory Factor Analysis and Rasch (Biswas, 2018) used for constructing AQ
+development tool. Development of intelligent machines to perform tasks which require
+human intelligence, corresponding to visual perception, speech recognition, decision-making
+and language translation give notion of AI. AQ is a measure of an individual’s ability to cope
+with adversity and persevere through difficult situations.
+
+AI and AQ are two different concepts that are not directly related. AI is scientific
+whereas AQ is psychological trait. Though AI and AQ are distinct concepts, there is
+potential for AI to be used to improve AQ and help individuals better cope with adversity.
+Overall study of literature suggests the following research gaps that should be addressed
+by our system.
+
+Gap 1: Research collaboration Impact: Many researchers in psychology and education
+were unable to correlate AQ with IQ, EQ and SQ. Data should be generated by considering
+common factors which impact AQ.
+Gap 2: Pedagogical connection impact: Lack of connections between teaching-learning
+analytics and AQ theories. There are limitations to 360-degree assessments in current
+higher education system.
+Gap 3: “Competency based skills can’t always be measured as zero or one” AI is the strong
+tool to assess natural intelligence of human brain.
+
+7. Research areas to explore
+Research on AQ can be categorized into three clusters.
+
+a. Relationship of AQ with IQ, EQ and SQ: There is an established relationship between
+
+Adversity intelligence and other intelligences like cognitive, emotional and spiritual and
+explained in Table 10. The research focused on problem-solving skills, decision-making,
+critical thinking and adaptability i.e. ability to unlearn, accept the challenges and
+resilience.
+
+b. Paul Stoltz Theory of AQ
+
+AQ: Paul G. Stoltz has invented the AQ measurement depends on the CO2RE Model.
+
+According to the Stoltz, AQ is not matter of black and white, yes or no, successful or
+unsuccessful. It is matter of degree. There are 60 items in Stoltz questionnaire some are with
+
+þ sign and some items are with (minus) sign. The items (Stoltz, 1997) with minus sign should
+be considered to assess AQ.
+
+AI for
+education
+
+Instruments: Adversity Response Profile (ARP) developed by Paul G. Stoltz. It has 2
+potential weaknesses.
+
+1. It has western culture context.
+
+2. Designed for individuals in workplace environments (professionals).
+
+635
+
+c. AI methodology to evaluate AQ with the help of subject specific assessments and
+
+psychometric tests.
+
+AQ Measurement for Students: The research can be conducted for any segment of education.
+
+Table 11 trades of AQ assessment from general to specific target samples. Most of the AQ
+study focused on high school and college going students.
+
+The concept of AQ is relatively new, and there is limited research on the use of AI
+approaches for evaluating AQ. However, there are several potential AI-based approaches
+that can be used to evaluate AQ.
+
+8. Limitations
+The education sector is highly diverse worldwide, whereas the focus of the present study is
+Indian higher education. The research specific literature investigation is extensively done
+from 2013 to 2023. Use of AI techniques in education and that is for evaluating AQ is an
+evolving area. It is very difficult to map multiple domains with single literature review,
+i.e. Education, AI, Assessments (Psychometric þ Academics). Up-to-the-minute literary
+works were done in AI-based AQ evaluation for higher education students. Since it is an
+interdisciplinary emerging work, very less work is done in this area and therefore it is not
+possible to compare AI techniques based on AQ.
+
+9. Conclusion and future work
+The impact of AI techniques on teaching and learning has been the subject of analysis-
+oriented literature reviews, with sufficient sample sizes drawn from peer-reviewed journals
+and conference proceedings, resulting in statistics and conclusions on the use of AI in
+education. The papers reviewed related to AI for education open research opportunities in the
+field of psychometrics, educational assessment and AQ evaluation. This study highlights the
+potential for evaluating AQ for higher education students. However, research on AQ
+evaluation in the Indian context is still emerging, presenting a latent avenue for future
+
+Cluster 1
+Cluster 2
+Cluster 3
+
+1997 to 2003
+2004 to 2010
+2011 to the present
+AQ instrument
+experimented on the
+various category which
+play a role in Education
+sector mostly
+
+Principals at school
+level, university
+communal member
+group, leaders,
+students of junior
+high school
+
+students of junior high
+school, high school
+undergraduate, vocational
+elementary school
+teachers, principals, drug
+addicts, traders, leaders
+and employees
+
+Table 11.
+Participant samples for
+
+AQ measure
+
+blind schoolchildren,
+students of elementary,
+middle school, differently
+abled, principal of special
+needs students, autism
+spectrum (Ouyang and
+Jiao, 2021), leaders, school
+administrators, young
+mothers, nurses, special
+needs teachers
+
+(Historical)
+
+ET
+66,6
+
+636
+
+research. Investigating the relationship between AQ and academic performance among
+students is a crucial area of research. This can provide insights into the role of AQ in
+academic motivation, persistence and success in different academic disciplines and levels of
+education. AQ evaluation offers valuable insights into how individuals deal with and
+overcome challenges. The findings of this study have implications for higher education
+institutions to prepare for future challenges and better equip students with the necessary
+skills for success. Recent research suggests that there are numerous opportunities for using
+machine learning algorithms, such as sentiment analysis and transformer-based NLP
+approaches, to aid teachers in teaching literature, monitor student progress and assess
+personality measures.
+
+References
+
+Ahadi, A., Singh, A., Bower, M. and Garrett, M. (2022), “Text mining in education—a bibliometrics-
+
+based systematic review”, Education Sciences, Vol. 12 No. 3, p. 210, doi: 10.3390/
+educsci12030210.
+
+Aktar, S. and Kumar, A. (2021), “New education policy 2020 of India: a theoretical analysis”,
+
+International Journal of Business and Management Research, Vol. 9 No. 3, pp. 302-306, doi: 10.
+37391/ijbmr.090308.
+
+Alam, J. and Pandey, M.K. (2017), “A soft computing model for evaluating teachers’ overall
+
+performance using fuzzy logic”, Journal of Information Technology and Software Engineering,
+Vol. 7 No. 2, p. 199, doi: 10.4172/2165-7866.1000199.
+
+Allahyari, M., Pouriyeh, S., Assef, M., Safaei, S., Trippe, E.D., Gutierrez, J.B. and Kochut, K. (2017), “A
+
+brief survey of text mining: classifcation, clustering and extraction techniques”, arXiv:
+1707.02919, (arXiv preprint).
+
+Anderson, J.R., Boyle, C.F., Corbett, A.T. and Lewis, M.W. (1990), “Cognitive modeling and intelligent
+
+tutoring”.
+
+Andrade, H.L. (2019), “A critical review of research on student self-assessment”, Frontiers in
+
+Education, Vol. 4, doi: 10.3389/feduc.2019.00087, available at: https://www.frontiersin.org/
+articles/10.3389/feduc.2019.00087,10.3389/feduc.2019.00087
+
+Atrizka, D. and Pratama, I. (2022), “The influence of organizational leadership and coaches on
+
+Indonesian athletes’ adversity quotient (intelligence)”, Revista De Psicologıa Del Deporte (Journal
+of Sport Psychology), Vol. 31 No. 1, pp. 88-97, available at: https://www.rpd-online.com/index.
+php/rpd/article/view/649
+
+Balaha, H.M. and Saafan, M.M. (2021), “Automatic exam correction framework (AECF) for the MCQs,
+
+essays, and equations matching”, IEEE Access, Vol. 9, pp. 32368-32389, doi: 10.1109/ACCESS.
+2021.3060940.
+
+Bandler, R. (2020), Get the Life You Want: the Secrets to Quick and Lasting Life Change with Neuro-
+
+Linguistic Programming, Simon & Schuster.
+
+Bandler, R. and Grinder, J. (1975), The Structure of Magic I: A Book about Language and Therapy,
+
+Science and Behavior Books, Palo Alto, CA, ISBN 0-8314-0044-7.
+
+Barat, W.S., Afifah Hana Wahyuni, S., Irfiana Tiwi, S. and Devi Prihastuti, S., Psi1, Psi2, Psi3
+
+(2018), “1, 2, 3 Universitas Persada Indonesia YAI”, Professional Master’s Program of
+Psychology.
+
+Bhatia, S. (2015), “A test of situational strength on adaptability and implications for pre-employment
+
+assessments”, Michigan State University.
+
+Biswas, R. (2018), “Adversity quotient (A.Q): a review of related literature along with literature
+
+matrix”, IJRAR19D1277 International Journal of Research and Analytical Reviews, Vol. 5 No. 4,
+pp. 936-958, doi: 10.1729/Journal.23553.
+
+Camus, L. and Filighera, A. (2020), “Investigating transformers for automatic short answer grading”,
+
+AI for
+education
+
+Artificial Intelligence in Education: 21st International Conference, AIED 2020, Proceedings, Part
+II 21, Ifrane, July 6-10, 2020, Springer International Publishing, pp. 43-48.
+
+Carbonell, J.R. (1970), “AI in CAI: an artificial-intelligence approach to computer-assisted instruction”,
+
+IEEE Transactions on Man-Machine Systems, Vol. 11 No. 4, pp. 190-202, doi: 10.1109/TMMS.
+1970.299942.
+
+Cf, O.D.D.S. (2015), Transforming Our World: The 2030 Agenda for Sustainable Development, United
+
+637
+
+Nations, New York, NY.
+
+Chassignol, M., Khoroshavin, A., Klimova, A. and Anna, B. (2018), “Artificial Intelligence trends in
+
+education: a narrative overview”, Procedia Computer Science, Vol. 136, pp. 16-24, ISSN 1877-
+0509, doi: 10.1016/j.procs.2018.08.233.
+
+Chen, L., Chen, P. and Lin, Z. (2020a), “Artificial intelligence in education: a review”, IEEE Access,
+
+Vol. 8, pp. 75264-75278, doi: 10.1109/access.2020.2988510.
+
+Chen, X., Xie, H., Zou, D. and Hwang, G.-J. (2020b), “Application and theory gaps during the rise of
+
+artificial intelligence in education”, Computers and Education: Artificial Intelligence, Vol. 1,
+100002, ISSN 2666-920X, doi: 10.1016/j.caeai.2020.100002.
+
+Craig, S.D., Graesser, A.C. and Perez, R.S. (2018), “Advances from the office of naval research STEM
+
+grand challenge: expanding the boundaries of intelligent tutoring systems”, International
+Journal of STEM Education, Vol. 5, pp. 1-4, doi: 10.1186/s40594-018-0111-x.
+
+Crow, T., Luxton-Reilly, A. and Wuensche, B. (2018), “Intelligent tutoring systems for programming
+
+education: a systematic review”, Proceedings of the 20th Australasian Computing Education
+Conference, pp. 53-62.
+
+Dang, Y. (2022), “Mobile education system based on genetic algorithm”, Mobile Information Systems,
+
+Vol. 2022, p. 7, 8549357, doi: 10.1155/2022/8549357.
+
+Deng, L. and Liu, Y. (2018), Deep Learning in Natural Language Processing, Springer, Berlin.
+
+Devlin, J., Chang, M.W., Lee, K. and Toutanova, K. (2018), “Bert: pre-training of deep bidirectional
+
+transformers for language understanding”, arXiv preprint arXiv:1810.04805.
+
+Dol, S.M. (2021), “Use of classification technique in educational data mining”, 2021 4th Biennial
+
+International Conference on Nascent Technologies in Engineering (ICNTE), Navi Mumbai,
+pp. 1-7, doi: 10.1109/ICNTE51185.2021.9487739.
+
+Dutt, A., Aghabozrgi, S., Ismail, M.A. and Mahroeian, H. (2015), “Clustering algorithms applied in
+
+educational data mining”, International Journal of Information and Electronics Engineering
+(IJIEE), Vol. 5 No. 4, doi: 10.7763/IJIEE.2015.V5.513.
+
+Ferreira-Mello, R., Andre, M., Pinheiro, A., Costa, E. and Romero, C. (2019), “Text mining in education”,
+
+Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, Vol. 9 No. 6, p. e1332,
+doi: 10.1002/widm.1332.
+
+Gardner, H. (1983), Frames of Mind: the Theory of Multiple Intelligences, Basic Books, New York.
+
+Gardner, J., O’Leary, M. and Yuan, L. (2021), “Artificial intelligence in educational assessment:
+
+‘Breakthrough? Or buncombe and ballyhoo?’”, Journal of Computer Assisted Learning, Vol. 37
+No. 5, pp. 1207-1216, doi: 10.1111/jcal.12577.
+
+Gonzalez-Gonzalez, C., Toledo-Delgado, P., Collazos-Ordo~nez, C. and Gonzalez-Sanchez, J.L. (2014),
+
+“Design and analysis of collaborative interactions in social educational videogames”,
+Computers in Human Behavior, Vol. 31, pp. 602-611, doi: 10.1016/j.chb.2013.06.039.
+
+Halachev, P. (2013), “Neural network model for assessment computer-based test”.
+
+H€ohle, U. andKlement, E.P. (Eds) (2012), Non-classical Logics and Their Applications to Fuzzy Subsets:
+
+A Handbook of the Mathematical Foundations of Fuzzy Set Theory, Springer Science &
+Business Media, Vol. 32.
+
+Holmes, W., Bialik, M., Fadel, C., (2019), “Artificial intelligence in education promises and implications
+
+ET
+66,6
+
+for teaching and learning the centre for curriculum redesign”, Boston, MA, available at: http://
+bit.ly/AIED
+
+Hooda, M., Rana, C., Dahiya, O., Ali, R. and Hossain, Md.S. (2022), “Artificial intelligence for
+
+assessment and feedback to enhance student success in higher education”, Mathematical
+Problems in Engineering, Vol. 2022, p. 19, 5215722, doi: 10.1155/2022/5215722.
+
+Ilahi, R., Widiaty, I. and Abdullah, A.G. (2018), “Fuzzy system application in education”, IOP
+
+638
+
+Conference Series: Materials Science and Engineering, Vol. 434, 012308, doi: 10.1088/1757-899X/
+434/1/012308.
+
+Jin, Y. (2022), “Sentiment analysis in British and American literature teaching under formative
+
+assessment and machine learning”, Wireless Communications and Mobile Computing, Vol. 2022,
+p. 9, 7954166, doi: 10.1155/2022/7954166.
+
+Kaur, S. and Singh, S. (2016), “Exploring relationship among spiritual quotient, personal competence
+
+and job satisfaction of employees: an empirical study”, Journal of Management Research,
+Vol. 16 No. 4, pp. 187-200.
+
+Klement, E.P. and Slany, W. (1993), Fuzzy logic in artificial intelligence 8th Austrian artificial
+
+intelligence conference, FLAI’93, Proceedings, Linz, Heidelberg, June 28-30, Springer Berlin, doi:
+10.1007/3-540-56920-0.
+
+Le, C.V., Pardos, Z.A., Meyer, S.D. and Thorp, R. (2018), “Communication at scale in a MOOC using
+
+predictive engagement analytics”, Artificial Intelligence in Education: 19th International
+Conference, AIED 2018, London, June 27-30, 2018, Springer International Publishing,
+pp. 239-252, Proceedings, Part I 19.
+
+Lee, M.F., Nawi, N.F.M. and Lai, C.S. (2017), “Engineering students’ job performance prediction model
+
+based on adversity quotient and career interest”, 2017 7th World Engineering Education Forum
+(WEEF), Kuala Lumpur, pp. 132-135, doi: 10.1109/WEEF.2017.8467175.
+
+Lei, J. (2022), “Association rule mining algorithm in college students’ quality evaluation system”,
+
+Journal of Electrical and Computer Engineering, Vol. 2022, p. 9, 6721504, doi: 10.1155/2022/
+6721504.
+
+Li, Y. and Song, W. (2022), “Improved genetic algorithm for English information education and
+
+teaching quality impact analysis”, Advances in Multimedia, Vol. 2022, p. 10, 6839165, doi: 10.
+1155/2022/6839165.
+
+Li, S., Lu, S., Ni, S. and Peng, K. (2019), “Identifying psychological resilience in Chinese migrant youth
+
+through multidisciplinary language pattern decoding”, Children and Youth Services Review,
+Vol. 107, 104506, doi: 10.1016/j.childyouth.2019.104506.
+
+Liu, T., Ding, W., Wang, Z., Tang, J., Huang, G.Y. and Liu, Z. (2019), “Automatic short answer grading
+
+via multiway attention networks”, Artificial Intelligence in Education: 20th International
+Conference, AIED 2019, Chicago, IL, USA, June 25-29, 2019, Springer International Publishing,
+pp. 169-173, Proceedings, Part II 20.
+
+Luckin, R., Clark, W., Avramides, K., Hunter, J. and Oliver, M. (2017), “Using teacher inquiry to support
+
+technology-enhanced formative assessment: a review of the literature to inform a new method”,
+Interactive Learning Environments, Vol. 25 No. 1, pp. 85-97, doi: 10.1080/10494820.2015.1121152.
+
+Majdoub, M. (2016), “Promoting high school ESL learners’ motivation and engagement through the
+
+use of gamified instructional design”, (Doctoral dissertation, Concordia University).
+
+Matore, M.E.E.M. and Khairani, A. (2016), “Correlation between adversity quotient (AQ) with IQ, EQ
+
+and SQ among polytechnic students using Rasch model (SCOPUS)”, Indian Journal of Science
+and Technology, Vol. 9, doi: 10.17485/ijst/2015/v8i1/108695.
+
+Matore, M.E.E.M., Zainal, M.A., Mohd Noh, M.F., Khairani, A.Z. and Abd Razak, N. (2021), “The
+
+development and psychometric assessment of Malaysian youth adversity quotient instrument
+(MY-AQi) by combining Rasch model and confirmatory factor analysis”, IEEE Access, Vol. 9,
+pp. 13314-13329, doi: 10.1109/ACCESS.2021.3050311.
+
+Mayer, J.D., Roberts, R.D. and Barsade, S.G. (2008), “Human abilities: emotional intelligence”, Annual
+
+Review of Psychology, Vol. 59 No. 1, pp. 507-536, doi: 10.1146/annurev.psych.59.103006.093646.
+
+AI for
+education
+
+Mehraj, T. and Baba, A. (2019), “Scrutinising artificial intelligence based career guidance and
+
+counselling systems: an appraisal”, available at: https://www.researchgate.net/publication/
+331594194_Scrutinising_Artificial_Intelligence_based_Career_Guidance_and_Counselling_
+Systems_an_Appraisal
+
+Meijuan, S. and Kaili, Y. (2020), “Design and development of self-adaptive learning system based on
+
+639
+
+data analysis”, 2020 IEEE International Conference on Artificial Intelligence and Computer
+Applications (ICAICA), pp. 709-711, doi: 10.1109/ICAICA50127.2020.9182621.
+
+Menon, R. (2022), Leverage Your Adversity Quotient, Times of India, available at: https://timesofindia.
+
+indiatimes.com/blogs/voices/leverage-your-adversity-quotient/
+
+Metzler, D.P. and Martincic, C.J. (1998), “QUE: explanation through exploration”, Expert Systems with
+
+Applications, Vol. 15 Nos 3-4, pp. 253-263, doi: 10.1016/s0957-4174(98)00035-9.
+
+Mondal, A., Dey, M., Das, D., Nagpal, S. and Garda, K. (2018), “Chatbot: an automated conversation
+
+system for the educational domain”, 2018 International Joint Symposium on Artificial
+Intelligence and Natural Language Processing (iSAI-NLP), Pattaya, pp. 1-5, doi: 10.1109/iSAI-
+NLP.2018.8692927.
+
+Morrow-Gorton, J. (2022), “The world approach to disability-inclusive disaster management”,
+
+Integrating Mental Health and Disability Into Public Health Disaster Preparedness and Response,
+Vol. 55, pp. 55-72, doi: 10.1016/b978-0-12-814009-3.00008-8, available at: https://www.un.org/
+development/desa/disabilities/envision2030.html
+
+Naimnule, M., Kartono, K. and Asikin, M. (2020), “Mathematics problem solving ability in terms of
+
+adversity quotient in problem based learning model with peer feedback”, Unnes Journal of
+Mathematics Education Research, Vol. 9 No. 2, pp. 222-228, available at: https://journal.unnes.ac.
+id/sju/index.php/ujmer/article/view/33859
+
+Namoun, A. and Alshanqiti, A. (2021), “Predicting student performance using data mining and
+
+learning analytics techniques: a systematic literature review”, Applied Sciences, Vol. 11 No. 1,
+p. 237, doi: 10.3390/app11010237.
+
+Oliveros, J. (2014), “Adversity quotient and problem-solving skills in advanced algebra”, JPAIR
+
+Multidisciplinary Research, Vol. 17 No. 1, pp. 65-75, doi: 10.7719/jpair.v17i1.282.
+
+Olsen, J.K., Aleven, V. and Rummel, N. (2015), Predicting Student Performance in a Collaborative
+
+Learning Environment, International Educational Data Mining Society.
+
+Oppenheimer, D.M. (2003), “Not so fast!(and not so frugal!): rethinking the recognition heuristic”,
+
+Cognition, Vol. 90 No. 1, pp. B1-B9, doi: 10.1016/s0010-0277(03)00141-0.
+
+Ougiaroglou, S. and Paschalis, G. (2012), “Association rules mining from the educational data of ESOG
+
+web-based application”, in Iliadis, L., Maglogiannis, I., Papadopoulos, H., Karatzas, K. and
+Sioutas, S. (Eds), Artificial Intelligence Applications and Innovations. AIAI 2012. IFIP Advances
+in Information and Communication Technology, Springer, Berlin, Heidelberg, Vol. 382, doi: 10.
+1007/978-3-642-33412-2_11.
+
+Ouyang, F. and Jiao, P. (2021), “Artificial intelligence in education: the three paradigms”, Computers
+
+and Education: Artificial Intelligence, Vol. 2, 100020, ISSN 2666-920X, doi: 10.1016/j.caeai.2021.
+100020.
+
+Pelanek, R. (2022), “Adaptive, intelligent, and personalized: navigating the terminological maze behind
+
+educational technology”, International Journal of Artificial Intelligence in Education, Vol. 32
+No. 1, pp. 151-173, doi: 10.1007/s40593-021-00251-51.
+
+Pandey, N. (2013), “MPSC aspirants continue protest to seek delay of a new exam pattern till 2025,
+
+here’s what has happened so far”, CNBCTV18, available at: https://www.cnbctv18.com/
+education/mpsc-aspirants-protest-seek-delay-of-new-rajyaseva-exam-pattern-till-2025-details-
+16013531.htm
+
+Pathak, R.P. (2007), Philosophical and Sociological Perspectives of Education, Atlantic Publishers
+
+& Dist.
+
+ET
+66,6
+
+Pokrivcakova, S. (2019), “Preparing teachers for the application of AI-powered technologies in foreign
+
+language education”, Journal of Language and Cultural Education, Vol. 7 No. 3, pp. 135-153,
+doi: 10.2478/jolace-2019-0025.
+
+Pong, H.K. and Lam, P. (2023), “The effect of service learning on the development of trait emotional
+
+640
+
+intelligence and adversity quotient in youths: an experimental study”, International
+Journal of Environmental Research and Public Health, Vol. 20 No. 6, p. 4677, doi: 10.3390/
+ijerph20064677.
+
+Rahayu, A.P. (2021), “Research result adversity quotient and self adaptation ability: adversity
+
+quotient and student’s self adaptation ability in the pandemic time COVID-19”, Pendas
+Mahakam: Jurnal Pendidikan Dan Pembelajaran Sekolah Dasar, Vol. 6 No. 1, pp. 1-7, doi: 10.
+24903/pm.v6i1.674.
+
+Rus, V., D’Mello, S., Hu, X. and Graesser, A. (2013), “Recent advances in conversational intelligent
+
+tutoring systems”, AI Magazine, Vol. 34 No. 3, pp. 42-54, doi: 10.1609/aimag.v34i3.2485.
+
+Safi’i, A., Muttaqin, I., Sukino, H.N., Chotimah, C., Junaris, I. and Rifa’i, M.K. (2021), “The effect of the
+
+adversity quotient on student performance, student learning autonomy and student
+achievement in the COVID-19 pandemic era: evidence from Indonesia”, Heliyon, Vol. 7
+No. 12, e08510, PMID: 34934834; PMCID: PMC8654637, doi: 10.1016/j.heliyon.2021.e08510.
+
+Salaki, R.J., Kawet, C.R., Manoppo, R. and Tumimomor, F. (2015), “Decision support systems major
+
+selection vocational high school in using fuzzy logic android-based”, International Conference
+on Electrical Engineering, Informatics, and Its Education.
+
+Salovey, P. and Mayer, J.D. (1990), “Emotional intelligence. Imagination, cognition and personality”,
+
+Imagination, Cognition and Personality, Vol. 9 No. 3, pp. 185-211, doi: 10.2190/DUGG-P24E-
+52WK-6CDG.
+
+Sarker, I.H. (2022), “AI-based modeling: techniques, applications and research issues towards
+
+automation, intelligent and smart systems”, SN Computer Science, Vol. 3 No. 2, p. 158, doi: 10.
+1007/s42979-022-01043-x.
+
+Sharma, Y.K. (2022), Co-Founder and CPO, KOMPANIONS, Blog: March 15, 2022, available at: https://
+
+www.highereducationdigest.com/assessment-tools-essential-for-filling-the-learning-gap-for-
+students-in-india-during-the-pandemic/
+
+Sharma, R.C., Kawachi, P. and Bozkurt, A. (2019), “The landscape of artificial intelligence in open,
+
+online and distance education: promises and concerns”, Asian Journal of Distance Education,
+Vol. 14 No. 2, pp. 1-2, available at: https://www.asianjde.com/ojs/index.php/AsianJDE/article/
+view/432
+
+Shuguang, L., Xingxing, Z., Wuyang, C. and Wenpu, Z. (2021), “Construction of intelligent adaptive
+
+learning platform in ubiquitous environment”, 2021 10th International Conference on
+Educational and Information Technology (ICEIT), pp. 56-60, doi: 10.1109/ICEIT51700.2021.
+9375613.
+
+Shute, V.J. (1995), “SMART: student modeling approach for responsive tutoring”, User Modeling and
+
+User-Adapted Interaction, Vol. 5, pp. 1-44, doi: 10.1007/bf01101800.
+
+Singh, S. and Sharma, T. (2018, September), “Affect of emotional intelligence on adversity quotient of
+
+Indian managers”, AIP Conference Proceedings, AIP Publishing, Vol. 2016 No. 1.
+
+Singh, S., Sharma, C., Sharma, S. and Verma, N.K. (2021), “Re-learning emotional intelligence through
+
+artificial intelligence”, 2021 9th International Conference on Reliability, Infocom Technologies
+and Optimization (Trends and Future Directions) (ICRITO), Noida, pp. 1-5, doi: 10.1109/
+ICRITO51393.2021.9596091.
+
+Skrzypinska, K. (2021), “Does spiritual intelligence (SI) exist? A theoretical investigation of a tool
+
+useful for finding the meaning of life”, Journal of Religion and Health, Vol. 60 No. 1, pp. 500-516,
+doi: 10.1007/s10943-020-01005-8.
+
+Spector, J.M. and Ma, S. (2019), “Inquiry and critical thinking skills for the next generation: from
+
+AI for
+education
+
+artificial intelligence back to human intelligence”, Smart Learning Environments, Vol. 6 No. 1,
+p. 8, doi: 10.1186/s40561-019-0088-z.
+
+Srimani, P.K. and Patil, M.M. (2014),“Regression model for edu-data in technical education system: a
+
+linear approach”, in Satapathy, S., Avadhani, P., Udgata, S. and Lakshminarayana, S. (Eds), ICT
+and Critical Infrastructure.Proceedings of the 48th Annual Convention of Computer Society of
+India- Vol II. Advances in Intelligent Systems and Computing, Cham, Vol. 249, Springer, doi: 10.
+1007/978-3-319-03095-1_85.
+
+641
+
+Srimulyani, E. (2011), “The idea of Mahmud Yunus to reform Arabic teaching”, JURNAL ILMIAH
+
+DIDAKTIKA: Media Ilmiah Pendidikan dan Pengajaran, Vol. 12 No. 1, pp. 1-17, doi: 10.22373/
+jid.v12i1.434.
+
+Srinivasan, V. (2022), “AI and learning: a preferred future”, Computers and Education: Artificial
+
+Intelligence, Vol. 3, 100062, ISSN 2666-920X, doi: 10.1016/j.caeai.2022.100062.
+
+Standish, P. and Saito, N. (Eds) (2012), Education and the Kyoto School of Philosophy: Pedagogy for
+
+Human Transformation, Springer Science & Business Media, Vol. 1.
+
+Stoltz, P.G. (1997), Adversity Quotient: Turning Obstacles into Opportunities, John Wiley & Sons.
+
+Sung, K.H., Noh, E.H. and Chon, K.H. (2017), “Multivariate generalizability analysis of automated
+
+scoring for short answer items of social studies in large-scale assessment”, Asia Pacific
+Education Review, Vol. 18 No. 3, pp. 425-437, doi: 10.1007/s12564-017-9498-1.
+
+Swiecki, Z., Hassan, K., Chen, G., Martinez-Maldonado, R., Lodge, J.M., Milligan, S., Neil, S. and
+
+Gasevic, D. (2022), “Assessment in the age of artificial intelligence”, Computers and Education:
+Artificial Intelligence, Vol. 3, 100075, ISSN 2666-920X, doi: 10.1016/j.caeai.2022.100075.
+
+Tassos, A.M. and Natsis, A. (2011), “Educational virtual environments: a ten-year review of empirical
+
+research (1999-2009)”, Computers and Education, Vol. 56 No. 3, pp. 769-780, ISSN 0360-1315, doi:
+10.1016/j.compedu.2010.10.020.
+
+Thampan, N. and Arumugam, S. (2022), “Smart online exam invigilation using AI based facial
+
+detection and recognition algorithms”, 2022 2nd Asian Conference on Innovation in Technology
+(ASIANCON), Ravet, pp. 1-6, doi: 10.1109/ASIANCON55314.2022.9908748.
+
+Tiwari, S. (2021), “Juxtaposition of adversity quotient and emotional quotient”, ISME Management
+
+Jourrnal Xplore, available at: https://www.isme.in/juxtaposition-of-adversity-quotient-and-
+emotional-quotient-prof-shurlly-tiwari/
+
+Tomaszewski, B., Fidler, D., Talapatra, D. and Riley, K. (2018), “Adaptive behaviour, executive
+
+function and employment in adults with Down syndrome”, Journal of Intellectual Disability
+Research, Vol. 62 No. 1, pp. 41-52, doi: 10.1111/jir.12450.
+
+Verdon, G., Broughton, M., McClean, J.R., Sung, K.J., Babbush, R., Jiang, Z., Neven, H. and Mohseni, M.
+
+(2019), “Learning to learn with quantum neural networks via classical neural networks”, arXiv
+preprint, arXiv:1907.05415.
+
+Vincent-Lancrin, S. and Van der Vlies, R. (2020), “Trustworthy artificial intelligence (AI) in education:
+
+promises and challenges”.
+
+Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S. and Nerini, F.F. (2020), “The
+
+role of artificial intelligence in achieving the sustainable development goals, the role of artificial
+intelligence in achieving the sustainable development goals”, Nature Communications, Vol. 11,
+233, doi: 10.1038/s41467-019-14108-y.
+
+Virgana, V., Suendarti, M., Lapasau, M. and Hasbullah, H. (2022), “Measuring the effects of adversity
+
+quotient, organizational culture and job satisfaction on special school teachers’ organizational
+commitment”, International Journal of Educational Management and Development Studies,
+Vol. 3 No. 2, pp. 21-44, doi: 10.53378/352886.
+
+Wang, H. (2022), “Research on the application of genetic algorithm in physical education”, Journal of
+
+Mathematics, Vol. 2022, p. 8, 8477945, doi: 10.1155/2022/8477945.
+
+Wang, X., Liu, M., Tee, S. and Dai, H. (2021), “Analysis of adversity quotient of nursing students in
+
+ET
+66,6
+
+Macao: a cross-section and correlation study”, International Journal of Nursing Sciences, Vol. 8
+No. 2, pp. 204-209, doi: 10.1016/j.ijnss.2021.02.003, ISSN 2352-0132.
+
+Wang, X., Yan, Z., Huang, Y., Tang, A. and Chen, J. (2022a), “Re-developing the adversity response
+
+profile for Chinese university students”, International Journal of Environmental Research and
+Public Health, Vol. 19 No. 11, p. 6389, doi: 10.3390/ijerph19116389.
+
+Wang, X., Chen, Y. and Zhu, W. (2022b), “A survey on curriculum learning”, IEEE Transactions on
+
+642
+
+Pattern Analysis and Machine Intelligence, Vol. 44 No. 9, pp. 4555-4576, doi: 10.1109/TPAMI.
+2021.3069908.
+
+Widodo, W., Gustari, I. and Chandrawaty, C. (2022), “Adversity quotient promotes teachers’
+
+professional competence more strongly than emotional intelligence: evidence from Indonesia”,
+Journal of Intelligence, Vol. 10 No. 3, p. 44, PMCID: PMC9326609, doi: 10.3390/
+jintelligence10030044.PMID:35893275.
+
+Wong, D. (2018), “VOSviewer”, Technical Services Quarterly, Vol. 35 No. 2, pp. 219-220, doi: 10.1080/
+
+07317131.2018.1425352, available at: https://www.vosviewer.com/ (accessed January 2022).
+
+Yan, H., Lin, F. and Kinshuk (2020), “Including learning analytics in the loop of self-paced online
+
+course learning design”, International Journal of Artificial Intelligence in Education, Vol. 31
+No. 4, pp. 878-895, doi: 10.1007/s40593-020-00225-.
+
+Zadeh, L.A. (1965), “Fuzzy sets”, Information and Control, Vol. 8 No. 3, pp. 338-353, doi: 10.1016/s0019-
+
+9958(65)90241-x, available at: https://www-liphy.univ-grenoble-lpes.fr/pagesperso/bahram/
+biblio/Zadeh_FuzzySetTheory_1965.pdf
+
+Zhang, T., Shaikh, Z.A., Yumashev, A.V. and Chła˛d, M. (2020), “Applied model of E-learning in the
+
+framework of education for sustainable development”, Sustainability, Vol. 12 No. 16, p. 6420,
+doi: 10.3390/su12166420.
+
+Zhang, Y., Yun, Y., An, R., Cui, J., Dai, H. and Shang, X. (2022), “Corrigendum: educational data mining
+
+techniques for student performance prediction: method review and comparison analysis”,
+Frontiers in Psychology, Vol. 12, 842357, doi: 10.3389/fpsyg.2021.842357.
+
+Zhu, M., Liu, Ou L. and Lee, H.-S. (2020), “The effect of automated feedback on revision behavior and
+
+learning gains in formative assessment of scientific argument writing”, Computers and
+Education, Vol. 143, 103668, ISSN 0360-1315, doi: 10.1016/j.compedu.2019.103668.
+
+Zohar, D. and Marshall, I.S.Q. (2000), Connecting with Our Spiritual Intelligence, Bloomsbury
+
+Publishing, London.
+
+Further reading
+
+Alambo, A., Gaur, M., Lokala, U., Kursuncu, U., Thirunarayan, K., Gyrard, A., Sheth, A., Welton, R.S.
+
+and Pathak, J. (2019), “Question answering for suicide risk assessment using reddit”, 2019
+IEEE 13th International Conference on Semantic Computing (ICSC), IEEE, pp. 468-473.
+
+Albayrak, A., Albayrak, M. and Bayir, R. (2015), “Design of Matlab/Simulink based development
+
+board for fuzzy logic education”, 2015 IEEE International Conference on Fuzzy Systems (FUZZ-
+IEEE), Istanbul, pp. 1-7, doi: 10.1109/FUZZ-IEEE.2015.7337840.
+
+Assunç~ao, G., Patr~ao, B., Castelo-Branco, M. and Menezes, P. (2022), “An overview of emotion
+
+in artificial intelligence”, IEEE Transactions on Artificial Intelligence, Vol. 3 No. 6, pp. 867-886,
+doi: 10.1109/TAI.2022.3159614.
+
+Author 1 (n.d.), available at: http://www.egyankosh.ac.in/bitstream/123456789/8515/1/Unit-11.pdf
+
+Author 2 (n.d.), available at: https://cbse.nic.in/cce/cce-manual/chapter_3.pdf
+
+Besimi, N., Besimi, A. and Çiço, B. (2022), “Artificial intelligence in education and learning (AI in
+
+research)”, 2022 11th Mediterranean Conference on Embedded Computing (MECO), Budva,
+pp. 1-6, doi: 10.1109/MECO55406.2022.9797216.
+
+Bharti, P. (2013), “Spiritual quotient (SQ): going beyond IQ and EQ”.
+
+Boddice, R. (2020), “History looks forward: interdisciplinarity and critical emotion research”, Emotion
+
+Review, Vol. 12 No. 3, pp. 131-134, doi: 10.1177/1754073920930786.
+
+AI for
+education
+
+Chan, J.W.Y. (2019), “A narrative inquiry exploring Hong Kong millennial students’ perspectives on
+
+parental involvements in their academic trajectories”, Doctoral theses, Northeastern University,
+Boston, Massachusetts, doi: 10.17760/D20316493.
+
+Chiu, T.K.F., Meng, H., Chai, C.-S., King, I., Wong, S. and Yam, Y. (2022), “Creation and evaluation of a
+
+643
+
+pretertiary artificial intelligence (AI) curriculum”, IEEE Transactions on Education, Vol. 65
+No. 1, pp. 30-39, doi: 10.1109/TE.2021.3085878.
+
+Chua, S.C., Lim, H.S. and Oh, T.H. (2010), “On the possibility of fuzzy application in learning outcome
+
+evaluation”, 2010 2nd International Congress on Engineering Education, Kuala Lumpur,
+pp. 37-42, doi: 10.1109/ICEED.2010.5940760.
+
+Cui, W., Xue, Z. and Thai, K.-P. (2018), “Performance comparison of an AI-based adaptive learning
+
+system in China”, 2018 Chinese Automation Congress (CAC), pp. 3170-3175, doi: 10.1109/CAC.
+2018.8623327.
+
+Diamond, K.E., Justice, L.M., Siegler, R.S. and Snyder, P.A. (2013), “Synthesis of IES research on early
+
+intervention and early childhood education”, NCSER 2013-3001, National Center for Special
+Education Research.
+
+Gokmen, G., Akinci, T.Ç., Tektas¸, M., Onat, N., Kocyigit, G. and Tektas¸, N. (2010), “Evaluation of
+
+student performance in laboratory applications using fuzzy logic”, Procedia - Social and
+Behavioral Sciences, Vol. 2 No. 2, pp. 902-909, ISSN 1877-0428, doi: 10.1016/j.sbspro.2010.03.124.
+
+Gonzalez-Calatayud, V., Prendes-Espinosa, P. and Roig-Vila, R. (2021), “Artificial intelligence for
+
+student assessment: a systematic review”, Applied Sciences, Vol. 11 No. 12, p. 5467, doi: 10.3390/
+app11125467.
+
+Hagan, M.T., Demuth, H.B., Beale, M.H. and De Jesus, O. (2014), Neural Network Design, 2, ISBN
+
+0971732116, 9780971732117, p. 800, Martin Hagan, available at: https://hagan.okstate.edu/
+NNDesign.pdf
+
+Hameed, I.A. (2017), “Enhanced fuzzy system for student’s academic evaluation using linguistic
+
+hedges”, 2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE), Naples, pp. 1-6,
+doi: 10.1109/FUZZ-IEEE.2017.8015462.
+
+Haykin, S. (2009), Neural Networks and Learning Machines, 3rd ed., Pearson Education India,
+
+available at: https://cours.etsmtl.ca/sys843/REFS/Books/ebook_Haykin09.pdf
+
+Jung, Y., Mills, T. and Thabet, W. (2020), “A framework for a construction intelligence quotient”,
+
+eWork and eBusiness in Architecture, Engineering and Construction. ECPPM, Vol. 2006, CRC
+Press, pp. 631-636.
+
+Lo, F., Su, F., Chen, S., Qiu, J. and Du, J. (2021), “Artificial intelligence aided innovation education based
+
+on multiple intelligence”, 2021 IEEE International Conference on Artificial Intelligence, Robotics,
+and Communication (ICAIRC), pp. 12-15, doi: 10.1109/ICAIRC52191.2021.9544874.
+
+Luckin, R. (2017), “Towards artificial intelligence-based assessment systems”, Nature Human
+
+Behaviour, Vol. 1 No. 3, p. 0028, doi: 10.1038/s41562-016-0028.
+
+Machado, M.A.S., Moreira, T.D.R.G., Gomes, L.F.A.M., Caldeira, A.M. and Santos, D.J. (2016), “A fuzzy
+
+logic application in virtual education”, Procedia Computer Science, Vol. 91, pp. 19-26, ISSN 1877-
+0509, doi: 10.1016/j.procs.2016.07.037.
+
+Matore, M.E.E.M., Idris, H., Rahman, N.A., Khairani, A. and Hapiz, N. (2020), “Is adversity quotient
+
+(AQ) able to predict the academic performance of polytechnic students? (SCOPUS)”, Vol. 7,
+doi: 10.31838/jcr.07.03.75.
+
+natalie_fratto (2019), available at: https://www.ted.com/talks/3_ways_to_measure_your_adaptability_
+
+and_how_to_improve_it/transcript?language5en
+
+OECD (2019), PISA 2018 Assessment and Analytical Framework, OECD Publishing, PISA, Paris,
+
+doi: 10.1787/b25efab8-en.
+
+Parvathy, U. and Praseeda, M.K. (2014), “Relationship between adversity quotient and academic
+
+ET
+66,6
+
+problems among student teachers”, IOSR Journal of Humanities and Social Science, Vol. 19
+No. 11, pp. 23-26, doi: 10.9790/0837-191172326.
+
+Pelanek, R. (2020), “A classification framework for practice exercises in adaptive learning systems”,
+
+IEEE Transactions on Learning Technologies, Vol. 13 No. 4, pp. 734-747, doi: 10.1109/tlt.2020.
+3027050.
+
+Pesek, I., Nosovic, N. and Krasna, M. (2022), “The role of AI in the education and for the education”,
+
+644
+
+2022 11th Mediterranean Conference on Embedded Computing (MECO), pp. 1-4, doi: 10.1109/
+MECO55406.2022.9797189.
+
+Protopopova, J. and Kulik, S. (2020), “Educational intelligent system using genetic algorithm”,
+
+Procedia Computer Science, Vol. 169, pp. 168-172, ISSN 1877-0509, doi: 10.1016/j.procs.2020.
+02.130.
+
+Qin, H. and Wang, G. (2022), “Benefits, challenges and solutions of artificial intelligence applied in
+
+education”, 2022 11th International Conference on Educational and Information Technology
+(ICEIT), pp. 62-66, doi: 10.1109/ICEIT54416.2022.9690739.
+
+Kale, M.R.A. and Rawat, M. (2022), “A novel prediction model for improving quality of learning using
+
+4QS machine learning approach”, Vol. 2, pp. 1777-1788.
+
+Sahyar, R.Y.F. (2017), “The effect of problem-based learning model (PBL) and adversity quotient (AQ)
+
+on problem-solving ability”, American Journal of Educational Research, Vol. 5 No. 2,
+pp. 179-183, available at: http://pubs.sciepub.com/education/5/2/11
+
+Skowronek, M., Gilberti, R.M., Petro, M., Sancomb, C., Maddern, S. and Jankovic, J. (2022), “Inclusive
+
+STEAM education in diverse disciplines of sustainable energy and AI”, Energy and AI, Vol. 7,
+100124, ISSN 2666-5468, doi: 10.1016/j.egyai.2021.100124.
+
+Sobrino, A. (2013), “Fuzzy logic and education: teaching the basics of fuzzy logic through an example
+
+(by way of cycling)”, Education Sciences, Vol. 3 No. 2, pp. 75-97, doi: 10.3390/educsci3020075.
+
+Sowndarya, A. and Elavarasan, R. (2022), “Spiritual quotient as the predictor of emotional intelligence
+
+among the faculty members working in Chennai”, Journal of Positive School Psychology, Vol. 6
+No. 4, pp. 303-312.
+
+Start, H. (2015), WWC Intervention Report, Early Childhood Education.
+
+Syahri, A. (2022), “Rasch model-based adversity quotient, a potential instrument for assessing
+
+madrasah students literacy”, Proceedings of the International Conference on Madrasah
+Reform 2021 (ICMR 2021), 13 January 2022, Atlantis Press, Springer, doi: 10.2991/assehr.k.
+220104.032.
+
+Taguma, M., Feron, E. and Lim, M.H. (2018), Education and AI: Preparing for the Future and AI,
+
+Attitudes and Values, Organisation for Economic Co-operation and Development.
+
+Talreja, V., Krishnamurthy, K., Sanchez, D.J.W. and Bhat, V. (2018), “Mapping life skills in India:
+
+research, policy and practice. Dream a dream”, available at: http://www.dreamadream.org/
+reports/mappinglifeskillsinindia.pdf (accessed October 2018).
+
+Tyng, C.M., Amin, H.U., Saad, M.N.M. and Malik, A.S. (2017), “The influences of emotion on learning
+
+and memory”, Frontiers in Psychology, Vol. 8, p. 1454, doi: 10.3389/fpsyg.2017.01454.
+
+Vasileva, T., Trajkovic, V. and Davcev, D. (2001), “Experimental data about knowledge evaluation in a
+
+distance learning system”, Proceedings Joint 9th IFSA World Congress and 20th NAFIPS
+International Conference (Cat. No. 01TH8569), Vancouver, BC, Vol. 2, pp. 791-796, doi: 10.1109/
+NAFIPS.2001.944704.
+
+Vittorini, P., Menini, S. and Tonelli, S. (2021), “An AI-based system for formative and summative
+
+assessment in data science courses”, Int J Artif Intell Educ, Vol. 31 No. 2, pp. 159-185, doi: 10.
+1007/s40593-020-00230-2.
+
+Xiao, L., Stephen, J.M., Wilson, T.W., Calhoun, V.D. and Wang, Y.-P. (2020), “A manifold regularized
+
+multi-task learning model for IQ prediction from two fMRI paradigms”, IEEE Transactions on
+Biomedical Engineering, Vol. 67 No. 3, pp. 796-806, doi: 10.1109/TBME.2019.2921207.
+
+Xu, J. and Zhang, G. (2012), “The construction of enterpreneurship education evaluation index system
+
+AI for
+education
+
+based on dynamic fuzzy logic theory”, 2012 IEEE Symposium on Robotics and Applications
+(ISRA), Supp. IEEE, pp. 166-170, doi: 10.1109/ISRA.2012.6219149.
+
+Yakoh, M., Chongrukasa, D. and Prinyapol, P. (2015), “Parenting styles and adversity quotient of
+
+youth at Pattani foster home”, Procedia - Social and Behavioral Sciences, Vol. 205, pp. 282-286,
+ISSN 1877-0428, doi: 10.1016/j.sbspro.2015.09.078.
+
+Yousuf, M. and Wahid, A. (2021), “The role of artificial intelligence in education: current trends and
+
+645
+
+future prospects”, 2021 International Conference on Information Science and Communications
+Technologies (ICISCT), pp. 1-7, doi: 10.1109/ICISCT52966.2021.9670009.
+
+Zafari, M., Bazargani, J.S., Sadeghi-Niaraki, A. and Choi, S.-M. (2022), “Artificial intelligence
+
+applications in K-12 education: a systematic literature review”, IEEE Access, Vol. 10,
+pp. 61905-61921, doi: 10.1109/ACCESS.2022.3179356.
+
+Corresponding author
+Jyoti Mudkanna Gavhane can be contacted at: jmudkanna@gmail.com
+
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Or contact us for further details: permissions@emeraldinsight.com

@@ -1,0 +1,1443 @@
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+Contents lists available at ScienceDirect
+
+Computers and Education: Artificial Intelligence
+
+journal homepage: www.sciencedirect.com/journal/computers-and-education-artificial-intelligence
+
+Opportunities of artificial intelligence for supporting complex 
+problem-solving: Findings from a scoping review
+
+Srecko Joksimovic a,b,*, Dirk Ifenthaler c,d, Rebecca Marrone a,b, Maarten De Laat a,b, 
+George Siemens a,b
+
+a Education Futures, University of South Australia, Australia 
+b Centre for Change and Complexity in Learning, University of South Australia, Australia 
+c Business School, University of Mannheim, Germany 
+d UNESCO Deputy Chair on Data Science in Higher Education Learning and Teaching, Curtin University, Australia
+
+A B S T R A C T
+
+The research objective of this paper is to advance knowledge about the role of artificial intelligence (AI) in complex problem-solving. A problem is complex due to the 
+large number of highly inter-connected variables affecting the problem state. Complex problem-solving situations often change decremental or worsen, forcing a 
+problem solver to act immediately, under considerable time pressure. While research findings support the assumption that (1) affective, (2) (meta-)cognitive, and (3) 
+social processes support complex problem-solving, opportunities of AI for supporting complex problem-solving need to be further investigated. This article presents a 
+scoping review of relevant literature from the last five years. The study included, N = 38 studies for coding and analysis. Our findings show that in addition to the 
+increased number of publications, the current trend suggests increased quality of published work. Human-AI collaboration in complex problem-solving has been 
+explored across a broad variety of AI application domains. However, the four dimensions of complex problem – namely, cognitive, metacognitive, social and affective 
+- have been augmented by AI to a different extent. Although most of the work has been done in the cognitive domain, it is encouraging to see progress across social 
+and affective dimensions as well. Implications for future research and practice are being discussed.
+
+1. Introduction
+
+Complex problem-solving involves engaging with problems that are 
+dynamic, could have multiple solutions, and usually require multidis­
+ciplinary teamwork (D¨orner, 1980). These are “problems that resemble 
+real-life situations” (Kunze et al., 2018, p. 3). As society has become 
+more globalized and interconnected, the problems generated have 
+become more complex and intractable, raising the need for skills to 
+engage with new challenges and also a nuanced understanding of how to 
+approach them. Fortunately, the nature of solving complex problems has 
+changed over the last several decades, due to advances in computer 
+science, artificial intelligence (AI), and cognitive psychology. Specif­
+ically, unprecedented amounts of data, advanced algorithms, and 
+significantly improved computation and distributed infrastructure (such 
+as managed data lakes) now support collaboration across diverse teams.
+
+address complex, real-world problems (Joksimovi´c et al., 2020, 2022; 
+Microsoft, 2020). In order to successfully solve complex problems, the 
+individuals or teams involved must be able to view and simulate the 
+dynamic problem system in its entirety, imagining the events that would 
+take place if a particular action were to be performed (de Laat et al., 
+2020). 
+Solving complex problems, therefore, depends on the ability of in­
+dividuals to integrate diverse background knowledge and expertise into 
+a dynamic collaborative process (Van Den Bossche et al., 2011). 
+Research on collaborative and cooperative learning and work demon­
+strates the importance of social and cognitive processes in creating a 
+common understanding and shared conception of the problem and 
+possible solutions (Van Den Bossche et al., 2011). Group work and 
+complex problem-solving are not detached from emotions and depend 
+on each individual’s motivation and abilities to plan and monitor their 
+activities (Hermes & Stelling, 2016). The research in group and collab­
+orative problem-solving details the importance of understanding the 
+interplay of factors that influence how individuals and groups regulate 
+affective and motivational processes (Hermes & Stelling, 2016).
+
+Working collaboratively and using technology such as an active 
+agent to make sense of an abundance of information is a critical skill for 
+successful learning, work, and life in general. Today’s learners and 
+workers also require the ability to navigate and astutely employ a range 
+of social, affective, and cognitive capabilities to make sense of and
+
+Recent developments in AI have the potential to support the
+
+* Corresponding author. Education Futures, University of South Australia, Australia. 
+E-mail address: srecko.joksimovic@unisa.edu.au (S. Joksimovic).
+
+https://doi.org/10.1016/j.caeai.2023.100138 
+Received 1 February 2023; Received in revised form 17 April 2023; Accepted 18 April 2023
+
+Available online 1 May 2023
+2666-920X/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+integration of human and artificial intelligence and impact human and 
+machine collaboration during group and teamwork (de Laat et al., 2020; 
+Seeber et al., 2020; Yang et al., 2021; Siemens et al., 2022). The utili­
+zation of AI in the classroom, workplace, and life in general, has shifted 
+from being narrowly focused on automation-based labour cost savings to 
+augmentation of human capabilities, as exemplified by generative AI 
+tools such as ChatGPT,1 increasing the prospect that AI can play an 
+active role in solving complex problems.
+
+immediately, under considerable time pressure, such as determining the 
+causes of overpopulation, hunger, and pollution. Therefore, complex 
+problem-solving situations bear multiple goals, some of which could be 
+contradictory requiring a reasonable trade-off. A complex problem is 
+ill-structured because such problems “cannot be described with a high 
+degree of completeness or solved with a high degree of certainty” (King 
+et al., 1994, p. 10). All of these factors make ill-structured problem-­
+solving very challenging (Funke, 1991).
+
+One of the most developed areas of research in AI is centred around 
+supporting various processes involved in complex problem-solving. As 
+such, contemporary research spans various domains, from healthcare 
+and augmenting medical decision-making, supply chain optimization, to 
+environmental monitoring analysing various sources of data, including 
+various sensors and satellite images to disaster response. One common 
+characteristic, despite the domain of complex problems, is that AI is 
+primarily used to support human capabilities. Current research and 
+practice in AI mainly focuses cognitive support by processing large 
+amounts of data and summarizing information from various sources, 
+helping humans to identify emerging patterns, and make decisions. 
+However, complex problem-solving is a multidimensional construct that 
+also involves affective and social processes (D¨oppner et al., 2019; 
+Eseryel et al., 2014; Hermes & Stelling, 2016). This study is therefor 
+aimed at reviewing literature to understand how AI support human 
+complex problem-solving at the level of affective, (meta-)cognitive and 
+social processes.
+
+AI systems are capable of analysing large datasets, including un­
+structured data, in real-time, and detecting patterns or structures that 
+can be used to support human decision-making and team-based prob­
+lem-solving. In the context of education, AI has the potential to trans­
+form the way that learners and educators approach complex problems, 
+by providing personalized insights and data-driven recommendations. 
+When AI is used in complex problem solving, the patterns of interaction 
+become more sophisticated, since AI teammates augment human con­
+tributions and can influence the resulting actions by humans. This in­
+fluence of human-AI teaming increases the importance of social, 
+affective, cognitive, and metacognitive aspects to problem-solving. Un­
+fortunately, a substantial gap exists in the literature regarding how these 
+attributes are expressed in joint human-AI teams in complex settings. 
+This paper presents the findings of a scoping literature review focusing 
+on empirical evidence on how artificial intelligence supports human 
+complex problem-solving and the nature of human-AI collaboration in 
+complex problem-solving at the level of (meta-)cognitive and social 
+practices, as well as affective processes.
+
+2. Research on problem-solving
+
+3. Opportunities of artificial intelligence for complex problem- 
+solving
+
+Research on problem-solving has a long tradition in both psychology 
+and education. Jonassen (1997) classifies problems on a continuum 
+from well-structured to ill-structured. Well-structured problems have a 
+well-defined initial state, a known goal state or solution, and a con­
+strained set of known procedures for solving a class of problems. In 
+contrast, the solutions to ill-structured problems are neither predictable 
+nor convergent because they often possess unknown aspects. Addition­
+ally, they possess multiple solutions or solution strategies or often no 
+solutions at all (Funke, 2012). Jonassen (2010) reiterates that the 
+structure of a problem often overlaps with complexity: Ill-structured 
+problems tend to be more complex, especially those emerging from 
+everyday practice, whereas most well-structured problems tend to be 
+less complex. The complexity of a problem is determined by the number 
+of functions or variables involved; the degree of connectivity among 
+these variables; the type of functional relationships between these 
+properties; and the stability of the properties of the problem over time 
+(Mainert et al., 2019). Simple problems are composed of a few variables, 
+while ill-structured (complex) problems may include many variables 
+that may interact in unpredictable ways. When the conditions of a 
+problem change, a person must continuously adapt his or her under­
+standing of the problem while searching for new solutions, because the 
+old solutions may no longer be viable. Static problems are those in which 
+the factors are stable over time while ill-structured problems tend to be 
+more dynamic (Seel et al., 2009).
+
+Building on the previous work by Andrews-Todd and Forsyth (2020), 
+Salas et al. (2008), Barth and Funke (2010), D¨orner and Funke (2017), 
+and Spering et al. (2005), among others, we posit that complex problem 
+solving encompasses three interrelated domains of (meta-)cognitive, 
+affective, and social processes. Although there is an abundance of 
+research 
+around 
+supporting 
+cognitive 
+processes 
+of 
+complex 
+problem-solving using AI, such as decision-making, there is a lack of 
+evidence linking AI and other domains of complex problem-solving, 
+namely social and affective (Osbeck & Nersessian, 2011). Specifically, 
+the existing research on augmenting human capabilities using AI pre­
+dominantly discusses the division of cognitive tasks between humans 
+and machines, using machines in recognition of human affective states, 
+or exploring how machines support social activities, such as co-creation 
+(Fu & Zhou, 2020). Such division of roles between humans and ma­
+chines is rather static and is usually performed on arbitrary assumptions 
+about the expected performance and the notion of who does what better 
+in the context of mixed human-AI partnership (Seeber et al., 2020). In 
+the 
+context 
+of 
+supporting 
+cognitive 
+processes 
+of 
+complex 
+problem-solving, it is crucial to observe this domain as an emerging, 
+rather than static (de Laat et al., 2020). That is, the cognitive dimension 
+of human engagement unfolds in various ways across the phases of 
+complex problem-solving (e.g., brainstorming, data collection, 
+decision-making). Therefore, it is critical to establish roles, actions, and 
+capabilities needed for an AI partner to coordinate complex 
+problem-solving practices. This is, however, equally important for 
+metacognitive, social and affective domains that seem underdeveloped 
+in contemporary research.
+
+Accordingly, a problem is complex due to the large number of highly 
+inter-connected variables affecting the problem state (Eseryel et al., 
+2013). This means that changes in one variable influence the status of 
+many other related variables; therefore, it is difficult to anticipate all 
+possible consequences of any action. Not all of the variables lend 
+themselves to direct observation. Dealing with the intransparency of the 
+problem variables and the interrelationships among them is often 
+difficult due to time-delayed effects, i.e., not every action shows im­
+mediate consequences. Complex problem-solving situations often 
+change decrementally or worsen, forcing a problem solver to act
+
+A growing body of empirical studies shows that complex problem- 
+solving is highly related to affective states (Pekrun et al., 2014; Sper­
+ing et al., 2005). In Berlyne’s (1971, p. 336) terms, the novelty and 
+complexity of a problem-solving situation can induce a cognitive 
+dissonance that in turns increases arousal mediating an affective reac­
+tion, for instance, curiosity or anxiety. Complex, novel, or incongruous 
+objects have in common that they resist immediate assimilation and 
+evoke emotions that interact reciprocally with cognitive appraisals 
+(Kuhl, 2000), and thus, create a basis for goal-directed actions (Gross, 
+1998). Findings of experimental research show consistently that positive 
+1 https://chat.openai.com/chat.
+
+2
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+4. Method
+
+4.1. Data collection
+
+state emotions are more likely associated with the use of heuristic pro­
+cessing strategies that are characterized by the productive use of sche­
+mas, discussed in terms of generic knowledge structures, and related 
+top-down processing (Ifenthaler, 2015; Spering et al., 2005). In 
+contrast, negative state emotions are more likely associated with 
+bottom-up processing and a more systematic gathering of information as 
+well as with paying more attention to the details of the problems to be 
+mastered (Fiedler, 2001). This further suggests considerable opportu­
+nities for the use of AI in the context of emotional-driven adaptive sys­
+tems for decision-making support or using NLP to identify patterns and 
+trends in the relationship between emotions and language use (Tillman 
+& Louwerse, 2018).
+
+Given the rather heterogenous nature (i.e., draws on various fields 
+and disciplined) of the research on human-machine collaboration and 
+complex problem-solving, we opted for a scoping review, instead of a 
+more precise systematic literature review. In so doing, we still followed 
+the guidelines for a scientifically rigorous literature review, except that 
+we searched only one digital database – i.e., Scopus, following an 
+approach similar to Cetindamar et al. (2022). In general, scoping re­
+views are commonly used for “reconnaissance” - to clarify working 
+definitions and conceptual boundaries of a topic or field. Scoping re­
+views are therefore particularly useful when a body of literature has not 
+yet been comprehensively reviewed or exhibits a complex or heteroge­
+neous nature not amenable to a more precise systematic review of the 
+evidence. Moreover, compared to other databases, such as Web of Sci­
+ence, Scopus also includes conference papers that are crucial for 
+emerging fields such as human-AI collaboration. Compared to Google 
+Scholar, on the other hand, Scopus includes less grey literature, and it 
+has been widely used in bibliometric studies (Caputo & Kargina, 2022; 
+Tiban´a-Herrera et al., 2018).
+
+Given our focus on understanding the dimensions of human-AI 
+collaboration in complex problem-solving, we defined the following 
+search query in Scopus:
+
+TITLE-ABS-KEY ((“problem solv*“) AND (“artificial intelligence” OR 
+“machine learning”))
+
+A general assumption in problem-solving research is that the first 
+thing a person does when confronted with a problem is to try to 
+construct a mental representation of its relevant features (Seel et al., 
+2009). This internal representation of a problem is termed a problem 
+space – and if its construction has been successful the problem space will 
+consist of information about the initial and goal state of the problem as 
+well as information about the operators which can be applied to solve it. 
+More specifically, Rumelhart et al. (1986) argue that these internal 
+functions during problem-solving are dependent on two interacting 
+modules or sets of units: (1) schemata and (2) mental models. The 
+resulting cognitive architecture corresponds to a great extent with Pia­
+get’s epistemology (Piaget, 1976) and its basic mechanisms of assimi­
+lation and accommodation (Ifenthaler & Seel, 2011). Assimilation is 
+dependent on the availability and activation of schemata, which allow 
+new information to be integrated immediately into pre-existing cogni­
+tive structures. If a schema does not fit immediately with the re­
+quirements of a new task it can be adjusted to meet them using 
+accretion, tuning, or reorganization (Seel et al., 2009). Accordingly, if a 
+schema for any problem type is available, the schema is mapped onto the 
+problem to be solved promptly (Jonassen, 2000). If assimilation is not 
+successful, accommodation must take place to reorganise or restructure 
+an individual’s knowledge. However, when no schema is available or its 
+reorganization fails, the human mind switches to the construction of a 
+mental model which is defined as a dynamic ad hoc representation of a 
+phenomenon or problem that aims at creating subjective plausibility 
+through simplifying and envisioning the situation, or through analogical 
+reasoning. From a meta-cognitive perspective, the above-mentioned 
+processes may be monitored and reflected for advancing these func­
+tions for future events (Azevedo et al., 2013).
+
+Finally, shared mental models are regarded as a significant factor for 
+successful problem-solving (Cannon-Bowers & Salas, 2001). However, 
+the concept of shared mental model is used and interpreted differently 
+by various disciplines, for example, industrial and organisational psy­
+chology, human factors, social psychology, or system dynamics (Bad­
+ke-Schaub et al., 2011). Previous research on social processing in 
+complex problem-solving shows that if humans share similar individual 
+mental models they are more effective in their problem-solving perfor­
+mance (Van Den Bossche et al., 2011). For example, Lim and Klein 
+(2006) found that shared task knowledge and shared team knowledge 
+were valid predictors for problem-solving performance. Similar findings 
+regarding the influence of shared task and team knowledge on 
+problem-solving performance were found in a series of studies using 
+flight simulators in laboratory settings (Mathieu et al., 2005).
+
+We intentionally opted for “problem-solving” as a basis for our 
+search, rather than “complex problem-solving”, to capture a broader set 
+of studies, as there might be a difference in conceptualisations between 
+ill-defined and well-defined problems across diverse fields of research. 
+We limited our search to include studies published over a five year 
+period, starting in 2017 resulting in 2607 studies. After removing du­
+plicates, we obtained 2597 studies considered for screening. The 
+screening process was conducted by two researchers who read the title 
+and the abstract for each of the studies, resulting in 809 studies 
+considered for inclusion. Both researchers have been actively exploring 
+the domain of human-AI collaboration with previous work being done in 
+developing models for complex skills assessment, such as creativity, 
+critital chinking or problem solving. Given the complexity of the topic, 
+two researchers skimmed all 809 studies and reviewed them for inclu­
+sion or exclusion, discussing every decision until a common agreement 
+was met. The inclusion criteria was defined around the following prin­
+ciples: only studies that are relevant to the research question and pub­
+lished as peer-reviewed journal articles, conference proceedings, books, 
+or reports will be included; only studies published in English will be 
+included in this scoping review; studies published from 2017 to 2021 
+were considered for inclusion; studies must include human participants, 
+regardless of age, gender, ethnicity, or geographical location. The level 
+of agreement between coders was generally high, with an accuracy rate 
+exceeding 95%. However, there were some instances where the coders 
+disagreed, particularly in cases where the studies employed different 
+tools or simulations to facilitate teamwork. All disagreements were 
+resolved through discussion and consensus among the coders. The ma­
+jority of the studies that were excluded were either focused on devel­
+oping an AI algorithm, rather than human-machine teaming, were not 
+focusing on supporting humans in complex problem-solving, or were not 
+empirical studies (e.g., an opinion paper discussing the nature of human- 
+AI collaboration in complex problem solving). The final dataset included 
+38 studies selected for coding and analysis. The list of selected papers 
+has been explicitly specifically marked in the reference list.
+
+4.2. Analysis
+
+While research findings support the assumption that (1) affective, (2) 
+(meta-)cognitive, and (3) social processes support complex problem- 
+solving, opportunities of AI for supporting complex problem-solving 
+need to be further investigated [18]. Thus, the central research objec­
+tive of this paper is to advance knowledge about the role of AI in com­
+plex problem-solving. To guide the scoping review, the following 
+research question was formulated: How may AI complement humans 
+during complex problem-solving through the functions of (1) affective 
+processing, (2) cognitive and meta-cognitive processing, as well as (3) 
+social processing?
+
+To address our research questions, two coders, also authors of this 
+paper, coded all 38 studies based on the following dimensions.
+
+3
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+- General information: publication year, document type (e.g., confer­
+
+ence or journal paper), country.  
+- Author information: author subject area (e.g., computer science,
+
+phycology, education), author research interests (e.g., computer 
+vision, human-computer interaction). Information about the au­
+thor’s subject area was collected from Scopus whereas the research 
+interests were obtained from authors’ public pages (e.g., their insti­
+tutional profile page).  
+- Study design details: sample size, context (e.g., higher education,
+
+workplace), data sources (e.g., multimodal, click stream), research 
+questions, the context for problem-solving (e.g., healthcare, military 
+teams), research type (i.e., research, conceptualisation, evaluation, 
+or implementation), method (e.g., experimental, exploratory anal­
+ysis), limitations reported (yes or no).  
+- Domains of human-AI collaboration: cognitive (e.g., cognition,
+
+AI application domains. Healthcare represents arguably the most com­
+mon domain of study of human-machine collaboration (Fig. 3). In this 
+context, human-AI collaboration is primarily considered within clinical 
+decision-making, such as rehabilitation assessment or skin cancer 
+recognition, and healthcare assistance, such as using social robots for in- 
+patient care (e.g., Cobianchi et al., 2023; Tschandl et al., 2020). The use 
+of social robots is not unique to healthcare sector, as shown in Fig. 3. 
+Specifically, social robots are also being used in educational context, as 
+teaching assistants or voice assistance in K-12 settings (Guggemos et al., 
+2022). Another large domain of exploration of human-AI collaboration 
+is in supporting design creativity across primary, secondary, and lifelong 
+learning settings. For instance, AI has been used in co-creating interac­
+tive arts or supporting K-12 students in creative writing exercises 
+(Sharples, 2022). Likewise, the adoption of AI in workplace and 
+human-AI collaboration have also been explored in the context of sup­
+porting criminal investigations or supporting decision making in air 
+cargo industry. Finally, the advanced human-machine symbiosis and 
+successful behaviours of hybrid human-AI teams have been dominant 
+areas of research in the military domain.2
+
+exploration), social (e.g., collaboration), affective (e.g., trust, confi­
+dence), and metacognitive. The four domains were determined by 
+analyzing the existing literature on complex problem solving, as 
+described in Section 3. Two coders used inductive coding to identify 
+concepts mentioned in the studies included in the review and cate­
+gorized them into the four domains – cognitive, social, affective and 
+metacognitive. After both coders identified relevant terms, all the 
+terms were combined and discussed with the larger group of authors. 
+This approach was chosen because the field of human-AI partnership 
+is constantly evolving, and there is no established taxonomy.
+
+The exploration of human-machine collaboration is interdisciplinary 
+by nature. As further shown in Fig. 3, the wide variety of application 
+domains necessities multidisciplinary and interdisciplinary efforts to 
+understand and address the challenges of successful human-machine 
+collaboration. Therefore, it is important to highlight that authors 
+currently publishing in the domain come with subject area expertise that 
+spans across a variety of disciplines, ranging from social and environ­
+mental sciences to computer science and mathematics (Fig. 4). Specif­
+ically, besides a considerable number of authors with computer science 
+(each publication in this review included at least one author with 
+computer science expertise) and engineering background, 17 authors 
+have expertise in social sciences (Fig. 4). Finally, given the emergence of 
+AI in healthcare, it seems expected that more than 20 authors are coming 
+from medicine, neuroscience, or psychology background (Fig. 3).
+
+We used this data to provide a quantitative overview of the current 
+state of research, discussing the number of publications across different 
+research fields or industries, the count of publications per year, 
+including the sample size overview, as well as the nature of the studies, 
+following the same categorisation as the one introduced in Dawson et al. 
+(2014) (i.e., research or theory development). Finally, we provided a 
+qualitative summary of the four main domains of human-AI collabora­
+tion, namely cognitive, metacognitive, affective and social.
+
+5. Results and discussion
+
+5.1. Summary of key publications
+
+Although research interests in AI, Human-Computer Interaction 
+(HCI), and machine learning represent the dominant focus of authors of 
+included publications, only nine studies included collaboration between 
+authors who explicitly labelled their research interest in at least two out 
+of those three research areas (Fig. 5). On the other hand, 18 publications 
+had at least one author with research interests in AI, HCI or machine 
+learning, whereas 11 publications had no authors with expertise in these 
+three areas (Fig. 5). Other dominant research domains include computer 
+vision, engineering design and human-robot interaction, whereas 
+several authors explicitly stated their research interests in neuroscience, 
+robotics and social robotics (Fig. 5). Finally, at least one publication 
+included authors with research interests in research domains such as 
+education, explanation-aware computing, innovation and arts, legal 
+psychology, ethics, management, sport, tourism or immunology, to 
+name a few.
+
+5.2. Dimensions of human-AI collaboration
+
+Although the number of publications in the area of human-AI 
+collaboration dropped in 2018 and 2019, it seems that over the last 
+two years, this topic continued to receive considerable attention (Fig. 1, 
+left side). In addition to the increased number of publications, the cur­
+rent trend suggests increased quality of published work. Specifically, 
+Fig. 1 (left side) shows a sustained increase in the number of journal 
+publications since 2018. Moreover, it is also noteworthy that recent 
+publications tend to utilize a considerably larger sample size (Fig. 1, 
+right side). While early publications in this domain either did not report 
+sample size (or it was not relevant – e.g., conceptual papers), over the 
+last two years, it seems that recent contributions tend to be research 
+focused with large numbers of participants.
+
+Despite the obvious diversity in disciplinary domains addressing the 
+problem of human-AI collaboration in complex problem-solving, much 
+of the work in examining human-machine partnership, and the domi­
+nant conceptions surrounding AI, remains rooted in the processes and 
+developments of the automation of routine tasks or the augmentation of 
+the cognitive or physical capabilities of individuals (Ekbia & Nardi, 
+2017; L´opez-Gonz´alez, 2020). Most studies included in this review focus 
+on understanding and explaining a cognitive dimension of human-AI 
+partnership. The affective domain seems to be well represented in 
+contemporary literature, as well. This line of research builds on the 
+emergence of affective computing (Caruelle et al., 2022) and Emotion AI 
+(Monteith et al., 2022). Social processing, on the other hand, remains at
+
+This is also well supported by the trend presented in Fig. 2 which 
+shows an increase in the number of empirical research published on the 
+topic. Given the novelty of the field, a higher ratio of conceptual papers 
+is expected. This type of publication invites broader discussion on the 
+topic of human-AI collaboration and introduces various perspectives. 
+Empirical research is needed to further evaluate those assumptions in 
+practice. The lack of theory development work, however, is concerning. 
+To advance the field of human-AI teaming, it is necessary to develop a 
+theory that will provide a common language, shape the key objects of 
+study and units of analysis, and highlight relevant issues (Dams¸a & 
+Jornet, 2021; Kaptelinin & Nardi, 2006). Nevertheless, over the last five 
+years, only two attempts were recognised that aimed at contributing to 
+developing a theory of human-AI collaboration in the context of complex 
+problem-solving (Fig. 2).
+
+2 https://airpower.airforce.gov.au/videos/human-machine-teaming.
+
+Human-AI collaboration has been explored across a broad variety of
+
+4
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+Fig. 1. Distribution of documents per year, where the left side of the figure shows the count per document type (i.e., journal article, conference paper, book chapter, 
+or review), and right side shows the count per sample size.
+
+activities that machines do well from those that are implicitly human, 
+Kozlova et al. (2021) posit that, in the decision-making process, fore­
+casting should be offloaded to machines whereas judgment needs to 
+remain exclusively human activity. Kozlova et al. (2021) continue with a 
+claim that judgments “require an understanding of the outcome of any 
+interaction” (Kozlova et al., 2021, p. 615). However, humans are not 
+able to match machines in activities such as speech recognition, aggre­
+gation of information from sensors, computer vision, gesture, biometric, 
+and character recognition (Kozlova et al., 2021, Hayashi & Wakabaya­
+shi, 2017, February).
+
+Fig. 2. Count of publications for each of the publication types (i.e., conceptual, 
+implementation & evaluation, research, and theory development) across years.
+
+Introducing the notion of hybrid-augmented intelligence, Zheng 
+et al. (2017) define human intelligence as creative, complex and dy­
+namic. In that sense, human intelligence is unmatched in abstract 
+thinking (cognition dimension, as outlined above), reasoning (decision-­
+making), innovation and creating new knowledge (action), as well as 
+making associations (recognition). Machines, and AI specifically, have 
+the features of normalization, repeatability, and logicality (recognition 
+and action). Likewise, Cesta et al. (2018) presented an AI-based cogni­
+tive architecture for assisting older persons in their daily routines. The 
+proposed architecture utilised AI in integrating sensor data, knowledge 
+representation (cognition), and automated planning techniques 
+(recognition).
+
+a very shallow level of exploration, whereas the metacognitive dimen­
+sion has not been explored in the current literature.
+
+5.2.1. Cognitive 
+Coding 38 studies included in this review, we identified the 
+following cognitive tasks/dimensions as being commonly supported (or 
+fully automated) by AI.
+
+- Recognition, such as pattern recognition or search and profile.  
+- Action, such as knowledge consumption or talk.  
+- Cognition, including knowledge representation, shared mental
+
+models, and statistical reasoning.  
+- Exploration, such as knowledge structuring.  
+- Control, including control over task performance or supporting
+
+Although contemporary research argues that creativity is a funda­
+mental dimension of human intelligence (Boden, 1998; Zheng et al., 
+2017), this cognitive dimension has attracted considerable attention in 
+human-machine collaboration research. From augmenting design crea­
+tivity (Chan & Lee, 2020; McCormack et al., 2020; Zeng et al., 2019; 
+Zhang et al., 2021; Zhou et al., 2020), creating interactive arts with AI 
+support (Chen et al., 2020), to the development of the art therapy robots 
+(Cooney & Menezes, 2018) and utilizing robots in co-creative writing 
+exercises (Kantosalo & Riihiaho, 2019), AI has been perceived as a 
+valuable team member in fostering human creativity. As such, current 
+research covers all three approaches in using AI in creating new ideas, as 
+posited by Boden (1998): “by producing novel combinations of familiar 
+ideas; by exploring the potential of conceptual spaces; and by making 
+transformations that enable the generation of previously impossible 
+ideas” (Boden, 1998, p. 347).
+
+humans’ goals and intentions.  
+- Decision-making, across a variety of domains.  
+- Recommendation/Forecast, and  
+- Creativity.
+
+5.2.2. Affective 
+Within the affective domain, the following dimensions have been 
+considered as being crucial for successful human-AI collaboration.
+
+- Emotion, including variables such as social anxiety, fun, and
+
+emotional states in general,
+
+The cognitive tasks outlined above (e.g., recognition or action) have 
+not been observed in isolation. In fact, the majority of studies observed a 
+combination of cognitive activities, mostly in the context of supporting 
+human decision-making. For instance, in an attempt to differentiate
+
+5
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+Fig. 3. Domains of AI applications that served as use case scenarios for the exploration of human-AI collaboration.
+
+- Attitudes, mainly focusing on sense of relaxation, usability, or
+
+outcome satisfaction, among other dimensions, 
+- Trust, including transparency and interpretability, as well as di­
+
+mensions such as distrust and mistrust,  
+- Confidence, such as confidence in AI or performance expectancy,  
+- Saliency, and  
+- Moral.
+
+robot capable of expressing emotions through colour, composition and 
+textures. Despite an ongoing debate about whether robots are capable of 
+sensing different emotional states (e.g., Chuah & Yu, 2021), this line of 
+research showed promising results in enabling machines to “convey” 
+complex emotions. The majority of work in this area, however, focuses 
+on developing AI-enhanced systems for sensing human emotional states 
+in order to provide the necessary support.
+
+The role of human emotions in developing a partnership with AI has 
+been observed from several aspects. For instance, Zhu and Deng (2021) 
+explore the association between social anxiety and the adoption of a 
+robotic training partner, showing a tendency for students with higher 
+social anxiety to choose a robotic trainer partner over human partners. 
+Designing an art therapy robot, Cooney and Menezes (2018) developed a
+
+To understand humans’ attitudes that shape their interactions with 
+AI, authors explored a variety of variables, mostly framed around gen­
+eral usability and outcome satisfaction. For instance, Zhu and Deng 
+(2021) explored to what extent a human’s intention to adopt a robotic 
+training partner is associated with a sense of relaxation. Lee et al. 
+(2021), on the other hand, collected data about therapists’ attitudes 
+towards the usefulness, intention to use, workload (e.g., how difficult it
+
+6
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+Fig. 4. Count of publications including authors from a given subject area.
+
+was to accomplish a task in collaboration with an AI partner) and 
+richness (in functional capabilities) when collaborating with an AI 
+partner in clinical decision making (Moreno et al., 2017; Nothdurft 
+et al., 2017; Van Baalen et al., 2021). Outcome satisfaction, ownership 
+and expressiveness were explored in the context of co-creative writing 
+exercises (Kantosalo & Riihiaho, 2019). Finally, aesthetic feeling and the 
+notion of increased fun were explored across diverse workplace settings, 
+such as design and video gaming (Chan & Lee, 2020; Pfau et al., 2020).
+
+humans and AI collaborate in a neurosurgical intervention. For instance, 
+in the context of human-AI collaboration in clinical decision-making on 
+rehabilitation assessment, Lee et al. (2021) showed that therapists tend 
+not to trust AI systems that are not interactive (i.e. black-box solutions). 
+Arora et al. (2021) further unpack the notion of trust and discuss 
+generalization, explainability, interpretability, risk mitigation, fairness, 
+and inclusiveness as key pillars in making “AI-based decisions in medical 
+and public health settings” (ibid., p.11). Whereas Van der Waa and 
+colleagues (2021) focus on the morally salient tasks, arguing for the 
+importance that human partners still need to exert meaningful control 
+over the artificial teammate.
+
+5.2.3. Social 
+In the studies included in this review, human-machine relationship 
+has been commonly described as.
+
+- Collaboration in decision-making or creative work, for example,  
+- Cooperation, such as co-creation in design and creative work and
+
+learning, or  
+- Assistance, such as in-patient care or daily home support.
+
+The notion of trust has been identified as one of the driving mech­
+anisms of successful human-machine collaboration. Similar to human 
+collaboration, effective partnership with machines also requires trust 
+and accountability (Grigsby, 2018; Hepenstal et al., 2021; McCormack 
+et al., 2020). Dubey et al. (2020) differentiate calibrated trust from 
+interpretability. Calibrated trust is defined as the extent to which humans 
+trust machines and in which particular situations. Interpretability, on 
+the other hand, represents humans’ ability to interpret the behaviour of 
+an AI assistant (Dubey et al., 2020). Such differentiation has potentially 
+immense implications for research and practice as it clearly points to the 
+importance of contextualizing AI (Vercauteren et al., 2020). That is, 
+having confidence (or trust) that AI will reliably find a route from one 
+location to another is substantially different from the situation where
+
+7
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+Fig. 5. Count of publications including authors with a given research interest.
+
+Therefore, it comes as no surprise that most of the recent development in 
+AI has been evidenced in DALL-E 2,3 GPT-3,4 and BERT.5 This discussion 
+took another turn when a Google employee recently claimed that he was 
+convinced that an AI chatbot was sentient.6 Although AI is still relatively 
+far from reaching singularity (Wood, 2022), it seems highly unlikely that 
+another AI Winter is coming any time soon as well. Second, to become a 
+collaborative partner, AI needs to react adequately to human emotions 
+(Bortnikov & Samsonovich, 2018). As our findings suggest, this seems to 
+be one of the most challenging domains in the further development of 
+human-AI collaboration in complex problem-solving.
+
+Cooperation represents one of the main principles of human 
+communication and interaction with other humans (Canan et al., 2017; 
+Kohn, 1992; Lemaignan et al., 2017; Lindenfors, 2017). Human
+
+Collaboration has been primarily observed in the context of sup­
+porting human decision-making using AI. Zheng et al. (2017) provide a 
+comprehensive overview of relevant use cases that depict human-AI 
+collaboration in managing industrial complexities and risks, collabora­
+tive driving, or healthcare, among others. Vercanteren and colleagues 
+(2020) extend the discussion on the use of AI in healthcare settings by 
+observing collaboration between humans and machines, as well as be­
+tween machines (robots). It is noteworthy various aspects of collabo­
+rative creativity. For instance, Chen et al. (2020) define collaboration 
+and coordination and synchronization. To produce quality interactive 
+and collaborative artworks, humans and machines need to maintain 
+coordination and synchronization (Chen et al., 2020). Finally, Kantosalo 
+and Riihiaho (2019) showed that the quality of creative ideas was higher 
+when these assumed input from both humans and machines, rather than 
+machines only.
+
+3 https://openai.com/dall-e-2/.  
+4 https://openai.com/blog/gpt-3-apps/.  
+5 https://towardsdatascience.com/bert-explained-state-of-the-art-language- 
+model-for-nlp-f8b21a9b6270.
+
+Nevertheless, productive collaboration between humans and ma­
+chines depends heavily on the cognitive and affective capabilities of AI. 
+As Bortnikov and Samsonovich (2018) argue, for a machine to engage in 
+productive collaboration, two necessary preconditions need to be met. 
+First, machines need to be able to understand the “developing narrative 
+in which they participate” (Bortnikov & Samsonovich, 2018, p. 17).
+
+6 https://www.scientificamerican.com/article/google-engineer-claims-ai- 
+chatbot-is-sentient-why-that-matters/.
+
+8
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+and machines. The prominence of AI is growing exponentially and is 
+increasingly influencing how we learn and how we undertake our work 
+(de Laat et al., 2020; Siemens et al., 2022; Yang et al., 2021). Globally, 
+investments and research funding are targeted at developing smart 
+automated solutions, but attention to how artificial systems are inte­
+grated with human groups is largely overlooked. For example, national 
+AI strategies around the world focus on important topics such as bias, 
+ethics, policy, and increasing capacity through skill development. 
+Lacking, however, is a focus on how basic human-AI interactions are 
+coordinated when engaged in knowledge work such as solving complex 
+problems.
+
+cooperation is commonly perceived as a multidimensional construct 
+comprised of both “social-cognitive skills for creating the joint intention 
+and attention needed in verbal communication and the prosocial moti­
+vations needed in social interactions to help and share with others” 
+(Aeschlimann et al., 2020, p. 2). Aeschlimann et al. (2020) further show 
+that communication with artificial agents (such as voice assistants) is 
+drastically different from communication and cooperation with humans. 
+Specifically, children tend to share less with a voice assistant, than with 
+their peers, regardless of whether this AI assistant has human-like fea­
+tures or not. Huber and Weiss (2017), however, show that such a finding 
+does not hold in a factory (industry) environment. Opposite to the 
+findings in the K-12 settings, industry employees were more engaged 
+with a robot featuring physical human-robot interaction (Huber & 
+Weiss, 2017, Lawless, 2021).
+
+In that sense, MIT Sloan recently proposed a comprehensive frame­
+work that describes five human-AI interaction modes, namely: i) auto­
+mator, ii) decider, iii) recommender, iv) illuminator, and v) evaluator 
+(Ransbotham et al., 2020). Such division perfectly reflects the current 
+state of AI and aligns with previous work that focuses on supporting 
+human cognitive capabilities. In this scoping review, however, we posit 
+that as AI further evolves towards General AI, other dimensions of 
+human-AI collaboration will require significantly more attention.
+
+The application of AI in healthcare and other industries (such as 
+tourism) has been primarily framed around the assistance to in-patient 
+care, daily-home support, and clinical care (Cesta et al., 2018, pp. 3–15; 
+Conti et al., 2020; Kriegel et al., 2019; Peri´c & Vitezi´c, 2021). For 
+instance, Cesta et al. (2018) and Kriegel et al. (2019) explore the 
+application of AI for the support of older people, showing that socially 
+assistive robots have a wide range of applications from cleaning and 
+transporting food cart to helping with food selection and assist with 
+biography work. Conti et al. (2020) further show that children with ASD 
+tend to prefer to interact with robots rather than non-robotic in­
+struments or humans. Likewise, recent research also shows that humans 
+tend to have more trust in human-like AI (Oksanen et al., 2020). Such 
+findings have strong implications for designing AI-enhanced interfaces 
+whether those being robots or simple chatbots.
+
+Fig. 6 outlines the main findings of our scoping review, showing the 
+extent to which each of the four dimensions of complex problem solving 
+has been augmented by AI. It is important to note that the four di­
+mensions are not independent of each other. Those four domains need to 
+be observed interchangeably, as interconnected dimensions, which is 
+usually the case when studying human collaboration in complex 
+problem-solving. Likewise, a comprehensive model of human-AI 
+collaboration is necessary to provide a common language, shape the 
+key objects of study and units of analysis, and highlight relevant issues in 
+the domain.
+
+5.3. General discussion
+
+Contemporary research in human collaboration, group work and 
+teamwork domains, also shows that metacognition and affect precede 
+the observable cognitive and social changes (Hutchins, 2006). To our
+
+AI is rapidly reshaping the relationship that exists between humans
+
+Fig. 6. Domains of Human-AI collaboration, as evidenced in the contemporary literature. Note that in our scoping review, we failed to identify studies that would 
+explore human-AI interaction at the metacognitive level.
+
+9
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+understanding of who (humans or machines) performs which task bet­
+ter. This division of roles, while useful at the current level of AI devel­
+opment, does not provide a means for understanding a complex 
+symbiosis between humans and machines as they interact in complex 
+problem-solving. This approach, that involves fixed division of roles, 
+neglects the emergent character of interaction and the negotiation of 
+roles and tasks during complex problem solving. For effective augmen­
+tation of human intelligence by machines, the roles of each must emerge 
+through interaction.
+
+It is important to note that study of human-machine teams involves 
+studying interactions between two dynamic systems, that spans across 
+four domains – cognitive, metacognitive, affective, and social. That is, 
+humans will adapt what they do as they learn to make better use of what 
+the AI has to offer. Correspondingly, the AI will (over longer periods of 
+time) learn to do a better job of understanding and meeting the needs of 
+the human team members. In other words, the sheer complexity of 
+research on human-machine teaming stems from the fact that we are 
+observing two dynamic systems, because both parts (human and AI) will 
+be changing. We have no reason to believe that what either of the 
+partners in human-machine teams does – and therefore how they 
+interact – will stabilise. Future research needs to provide a compre­
+hensive description of relevant cognitive, social, and affective di­
+mensions, and how these unfold throughout the problem-solving 
+process. The outcomes of this potential work under this domain need to 
+identify patterns of human-AI interaction profiles in team problem- 
+solving interactions to inform the development of guidelines for the 
+effective use of AI in team problem-solving interactions.
+
+knowledge, no research in complex problem solving tackles the rela­
+tionship between these four constructs, let alone how this impacts joint 
+human-AI teams. Despite extensive literature around distributed 
+cognition, teamwork, and problem solving (Canan et al., 2017; D¨orner & 
+Funke, 2017; Hutchins, 2006), no study to date attempts to theorise the 
+interplay between human and artificial collaboration in complex 
+problem-solving at the level of (meta-)cognitive and social practices and 
+affect. This perhaps comes as no surprise, as AI research is yet to produce 
+technology that is capable of fully engaging in the cognitive (e.g., a 
+shared mental model), and social (e.g., trust and relational) processes 
+needed for sensemaking in solving real-world problems. As argued by 
+Klein et al. (2005), to become a “real” team player (on par with humans) 
+AI needs to be able to: i) engage in common ground activities; ii) be 
+reasonably predictable and able to predict actions of others; iii) engage 
+in goal negotiation; iv) coordinate activities with humans; v) interpret 
+and send intention signals; and vi) control the costs of coordinated ac­
+tivity. Although rapid progress is being made in computer science and 
+related fields towards these goals, a key deficit militating against such 
+advancements relates to the lack of research looking into how humans 
+collaborate with AI in sensemaking. For instance, in their recent study 
+Gyory et al. (2021) analysed discourse data to show that communication 
+in AI-assisted teams was richer, more diverse and more frequent, 
+compared to teams that did not have AI assistance. While this work 
+represents an important contribution to the development of science of 
+human-machine teaming, the study was conducted in a structured and 
+specifically designed environment that allows for a limited number of 
+team dynamics to be observed (Gyory et al., 2021). This proposal posits 
+that theory and a rigorous conceptual framework are necessary pre­
+cursors to technical development particularly in social domains, such as 
+human learning or complex problem-solving.
+
+To sum up, human-machine collaboration in complex problem- 
+solving is a rapidly growing area of research that has the potential to 
+significantly improve the efficiency and effectiveness of problem-solving 
+in a wide range of practical applications. Some key areas of focus for 
+research in this area include.
+
+When it comes to educational research and practice, a critical theme 
+going forward will be the design of assessment, which drives teacher and 
+student behaviour. More than 30 years ago, Salomon and his colleagues 
+(1991) raised the issue of whether to evaluate the performance of the 
+student/machine system as a whole or just the student after the AI is 
+removed. The emergence of generative AI has prompted educational 
+institutions to urgently review their assessment design, as AI writing 
+applications are now capable of producing polished writing that can 
+partially or fully answer writing assignments across various fields, 
+provided with the appropriate prompts. Although designing with 
+humans-in-the-loop is often praised as a principle, this assumes that 
+humans are competent. However, there is currently little evidence that 
+students are capable of engaging critically with generative AI applica­
+tions. To make effective use of generative, conversational AI, this 
+knowledge gap must be filled rapidly, building on prior research in 
+automated writing evaluation, conversational user interfaces, and 
+pedagogical agents.
+
+6. Conclusions and future research
+
+1. Developing more advanced machine learning and artificial intelli­
+gence techniques to enable machines to better understand and 
+interpret human inputs, and to more effectively collaborate with 
+humans in problem-solving tasks.  
+2. Investigating new forms of human-machine interaction, such as 
+natural language processing and gesture-based interfaces, to make it 
+easier for humans to interpret, communicate with and control 
+machines.  
+3. Developing new methods for evaluating the performance of human- 
+machine teams, in order to better understand the strengths and 
+weaknesses of different forms of collaboration and to identify areas 
+for improvement.  
+4. Exploring the ethical and social implications of human-machine 
+collaboration, in order to ensure that these systems are developed 
+and deployed in ways that are fair and beneficial to all stakeholders.  
+5. Applying human-machine collaboration to real-world complex 
+problems in fields such as healthcare, finance, transportation, and 
+environmental management, as well as education.
+
+Overall, human-machine collaboration in complex problem-solving 
+has the potential to rejuvenise how researchers and practicioners 
+approach and solve some of the most pressing challenges facing society 
+today.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Human interaction is a complex phenomenon that is dynamic and 
+multimodal by nature (Levinson, 2006). Team interactions are multi­
+modal as they include facial expression, speech, body orientation and 
+sometimes tool manipulation, depending on the context (Hutchins, 
+2006; Yang et al., 2021). As robots and AI become more ubiquitous in 
+our communication and interaction, novel theories and conceptual 
+models of human-AI collaboration are needed. As Levinson explains, 
+studying human interaction spans a variety of disciplines, including 
+education, anthropology, sociology, biology, and psychology. Adding 
+machines to the situation brings another layer of complexity that calls 
+for the utilization of methods and approaches emerging from 
+human-computer 
+interaction, 
+computer-supported 
+collaborative 
+learning and work, statistics, data science and related domains (Blasch 
+et al., 2019; de Laat et al., 2020; Gyory et al., 2021). Researching 
+human-AI teaming requires (re)framing the core object of investigation, 
+one that moves from the arbitrary division of roles based on the current
+
+10
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+D¨oppner, D. A., Derckx, P., & Schoder, D. (2019). Symbiotic co-evolution in collaborative
+
+References
+
+Aeschlimann, S., Bleiker, M., Wechner, M., & Gampe, A. (2020). Communicative and
+
+human-machine decision making: Exploration of a multi-year design science 
+research project in the Air Cargo Industry. In In the proceedings of the 52nd Hawaii 
+international conference on system sciences. http://hdl.handle.net/10125/59467. 
+D¨orner, D. (1980). On the difficulties people have in dealing with complexity. Simulation
+
+social consequences of interactions with voice assistants. Computers in Human 
+Behavior, 112, Article 106466. https://doi.org/10.1016/j.chb.2020.106466 
+Andrews-Todd, J., & Forsyth, C. M. (2020). Exploring social and cognitive dimensions of
+
+& Games, 11(1), 87–106. https://doi.org/10.1177/104687818001100108 
+D¨orner, D., & Funke, J. (2017). Complex problem solving: What it is and what it is not.
+
+Frontiers in Psychology, 8, 1153. https://doi.org/10.3389/fpsyg.2017.01153 
+Dubey, A., Abhinav, K., Jain, S., Arora, V., & Puttaveerana, A. (2020). HACO: A
+
+collaborative problem solving in an open online simulation-based task. Computers in 
+Human Behavior, 104(C). https://doi.org/10.1016/j.chb.2018.10.025 
+Arora, G., Joshi, J., Mandal, R. S., Shrivastava, N., Virmani, R., & Sethi, T. (2021).
+
+framework for developing human-AI teaming. In Proceedings of the 13th innovations in 
+software engineering conference on formerly known as India software engineering 
+conference. https://doi.org/10.1145/3385032.3385044 
+Ekbia, H. R., & Nardi, B. A. (2017). Heteromation, and other stories of computing and
+
+Artificial intelligence in surveillance, diagnosis, drug discovery and vaccine 
+development against COVID-19. Pathogens, 10(8). https://doi.org/10.3390/ 
+pathogens10081048 
+Azevedo, R., Harley, J., Trevors, G., Duffy, M., Feyzi-Behnagh, R., Bouchet, F., &
+
+capitalism. MIT Press.  
+Eseryel, D., Ifenthaler, D., & Ge, X. (2013). Towards innovation in complex problem
+
+solving research: An introduction to the special issue. Educational Technology 
+Research & Development, 61(3), 359–363 (JSTOR). 
+Eseryel, D., Law, V., Ifenthaler, D., Ge, X., & Miller, R. (2014). An investigation of the
+
+Landis, R. (2013). Using trace data to examine the complex roles of cognitive, 
+metacognitive, and emotional self-regulatory processes during learning with multi- 
+agent systems. In R. Azevedo, & V. Aleven (Eds.), International handbook of 
+metacognition and learning technologies (pp. 427–449). Springer New York. https:// 
+doi.org/10.1007/978-1-4419-5546-3_28.  
+Badke-Schaub, P., Neumann, A., & Lauche, K. (2011). An observation-based method for
+
+interrelationships between motivation, engagement, and complex problem solving in 
+game-based learning. Journal of Educational Technology & Society, 17(1), 42–53 
+(JSTOR). 
+Fiedler, K. (2001). Affective states trigger processes of assimilation and accommodation.
+
+Theories of Mood and Cognition: A User’s Guidebook., 85–98. 
+Funke, J. (1991). Solving complex problems: Exploration and control of complex
+
+measuring the sharedness of mental models in teams. In M. Boos, M. Kolbe, 
+P. M. Kappeler, & T. Ellwart (Eds.), Coordination in human and primate groups (pp. 
+177–197). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-15355- 
+6_10.  
+Barth, C. M., & Funke, J. (2010). Negative affective environments improve complex
+
+systems. Complex Problem Solving: Principles and Mechanisms, 185–222. 
+Funke, J. (2012). Complex problem solving. In N. M. Seel (Ed.), Encyclopedia of the
+
+solving performance. Cognition & Emotion, 24(7), 1259–1268. https://doi.org/ 
+10.1080/02699930903223766 
+Berlyne, D. E. (1971). Aesthetics and psychobiology. Aesthetics and Psychobiology., xiv,
+
+sciences of learning (pp. 682–685). Heidelberg: Springer. https://ssrn.com/abstract 
+=2233373.  
+Fu, Z., & Zhou, Y. (2020). Research on human–AI co-creation based on reflective design
+
+336–xiv. 
+Blasch, E., Cruise, R., Aved, A., Majumder, U., & Rovito, T. (2019). Methods of AI for
+
+practice. CCF Transactions on Pervasive Computing and Interaction, 2(1), 33–41. 
+https://doi.org/10.1007/s42486-020-00028-0 
+Grigsby, S. S. (2018). Artificial intelligence for advanced human-machine symbiosis. In
+
+multimodal sensing and action for complex situations. AI Magazine, 40(4), 50–65. 
+https://doi.org/10.1609/aimag.v40i4.4813 
+Boden, M. A. (1998). Creativity and artificial intelligence. Artificial Intelligence 40 Years
+
+Later, 103(1), 347–356. https://doi.org/10.1016/S0004-3702(98)00055-1 
+Bortnikov, P. A., & Samsonovich, A. V. (2018). A simple virtual actor model supporting
+
+D. D. Schmorrow, & C. M. Fidopiastis (Eds.), Augmented cognition: Intelligent 
+technologies (pp. 255–266). Springer International Publishing.  
+Gross, J. J. (1998). The emerging field of emotion regulation: An integrative review.
+
+Review of General Psychology, 2(3), 271–299. 
+Guggemos, J., Seufert, S., Sonderegger, S., & Burkhard, M. (2022). Social robots in
+
+believable character reasoning in virtual environments. In A. V. Samsonovich, & 
+V. V. Klimov (Eds.), Biologically inspired cognitive architectures (BICA) for young 
+scientists (pp. 17–26). Springer International Publishing.  
+Canan, M., Sousa-Poza, A., & Dean, A. (2017). Complex adaptive behavior of hybrid
+
+teams. Procedia Computer Science, 114, 139–148. 
+Cannon-Bowers, J. A., & Salas, E. (2001). Reflections on shared cognition. Journal of
+
+education: Conceptual overview and case study of use. In D. Ifenthaler, P. Isaías, & 
+D. G. Sampson (Eds.), Orchestration of learning environments in the digital world (pp. 
+173–195). Springer International Publishing. https://doi.org/10.1007/978-3-030- 
+90944-4_10.  
+Gyory, J. T., Song, B., Cagan, J., & McComb, C. (2021). Communication in ai-assisted
+
+Organizational Behavior, 22(2), 195–202. https://doi.org/10.1002/job.82 
+Caputo, A., & Kargina, M. (2022). A user-friendly method to merge Scopus and Web of
+
+teams during an interdisciplinary drone design problem. Proceedings of the Design 
+Society, 1, 651–660. https://doi.org/10.1017/pds.2021.65. Cambridge Core. 
+Hayashi, Y., & Wakabayashi, K. (2017). Can AI become reliable source to support human
+
+Science data during bibliometric analysis. Journal of Marketing Analytics, 10(1), 
+82–88. https://doi.org/10.1057/s41270-021-00142-7 
+Caruelle, D., Shams, P., Gustafsson, A., & Lervik-Olsen, L. (2022). Affective computing in
+
+decision making in a court scene?. In Companion of the 2017 ACM conference on 
+computer supported cooperative Work and social computing (pp. 195–198). 
+Hepenstal, S., Zhang, L., Kodagoda, N., & Wong, B. L. W. (2021). A granular computing
+
+marketing: Practical implications and research opportunities afforded by 
+emotionally intelligent machines. Marketing Letters, 33(1), 163–169. https://doi.org/ 
+10.1007/s11002-021-09609-0 
+Cesta, A., Cortellessa, G., Orlandini, A., & Umbrico, A. (2018). Towards flexible assistive
+
+robots using artificial intelligence. AI* AAL@ AI* IA.  
+Cetindamar, D., Kitto, K., Wu, M., Zhang, Y., Abedin, B., & Knight, S. (2022). Explicating
+
+approach to provide transparency of intelligent systems for criminal investigations. 
+In W. Pedrycz, & S.-M. Chen (Eds.), Interpretable artificial intelligence: A perspective of 
+granular computing (pp. 333–367). Springer International Publishing. https://doi. 
+org/10.1007/978-3-030-64949-4_11.  
+Hermes, M., & Stelling, D. (2016). Context matters, but how much? Latent state–trait
+
+AI literacy of employees at digital workplaces. IEEE Transactions on Engineering 
+Management, 1–14. https://doi.org/10.1109/TEM.2021.3138503 
+Chan, J.-H., & Lee, Y.-J. (2020). Artificial intelligence assists novice designer to improve
+
+analysis of cognitive ability assessments. International Journal of Selection and 
+Assessment, 24(3), 285–295. https://doi.org/10.1111/ijsa.12147 
+Huber, A., & Weiss, A. (2017). Developing human-robot interaction for an industry 4.0
+
+problem-solving ability of interior floor plan. In 2020 IEEE 2nd eurasia conference on 
+biomedical engineering, healthcare and sustainability (ECBIOS) (pp. 126–129). https:// 
+doi.org/10.1109/ECBIOS50299.2020.9203636 
+Chen, W., Shidujaman, M., Jin, J., & Ahmed, S. U. (2020). A methodological approach to
+
+robot: How industry workers helped to improve remote-HRI to physical-HRI. In 
+Proceedings of the companion of the 2017 ACM/IEEE international conference on human- 
+robot interaction (pp. 137–138). https://doi.org/10.1145/3029798.3038346 
+Hutchins, E. (2006). The distributed cognition perspective on human interaction. In
+
+N. J. Enfield, & S. C. Levinson (Eds.), Roots of human sociality (pp. 375–398). 
+Routledge. https://doi.org/10.4324/9781003135517.  
+Ifenthaler, D. (2015). Effects of experimentally induced emotions on model-based
+
+create interactive art in artificial intelligence. In C. Stephanidis, D. Harris, W.-C. Li, 
+D. D. Schmorrow, C. M. Fidopiastis, P. Zaphiris, A. Ioannou, X. Fang, R. A. Sottilare, 
+& J. Schwarz (Eds.), HCI international 2020 – late breaking papers: Cognition, learning 
+and games (pp. 13–31). Springer International Publishing.  
+Chuah, S. H.-W., & Yu, J. (2021). The future of service: The power of emotion in human-
+
+reasoning. Learning and Individual Differences, 43, 191–198. https://doi.org/ 
+10.1016/j.lindif.2015.09.003 
+Ifenthaler, D., & Seel, N. M. (2011). A longitudinal perspective on inductive reasoning
+
+robot interaction. Journal of Retailing and Consumer Services, 61, Article 102551. 
+https://doi.org/10.1016/j.jretconser.2021.102551 
+Cobianchi, L., Piccolo, D., Dal Mas, F., Agnoletti, V., Ansaloni, L., Balch, J., Biffl, W.,
+
+tasks. Illuminating the probability of change. Learning and Instruction, 21(4), 
+538–549. 
+Joksimovi´c, S., Dawson, S., Barthakur, A., Poquet, O., Wang, Y. E., Marmolejo-Ramos, F.,
+
+Butturini, G., Catena, F., Coccolini, F., Denicolai, S., De Simone, B., Frigerio, I., 
+Fugazzola, P., Marseglia, G., Marseglia, G. R., Martellucci, J., Modenese, M., 
+Previtali, P., … Loftus, T. J. (2023). Surgeons’ perspectives on artificial intelligence 
+to support clinical decision-making in trauma and emergency contexts: Results from 
+an international survey. World Journal of Emergency Surgery: WJES, 18(1), 1. https:// 
+doi.org/10.1186/s13017-022-00467-3 
+Conti, D., Trubia, G., Buono, S., Nuovo, S. D., & Nuovo, A. D. (2020). Social robots to
+
+& Siemens, G. (2022). Mapping the landscape of social and emotional learning 
+analytics. In Y. Elle Wang, S. Joksimovi´c, M. O. Z. San Pedro, J. D. Way, & 
+J. Whitmer (Eds.), Social and emotional learning and complex skills assessment: An 
+inclusive learning analytics perspective (pp. 27–47). Springer International Publishing. 
+https://doi.org/10.1007/978-3-031-06333-6_3.  
+Joksimovi´c, S., Siemens, G., Wang, Y. E., San Pedro, M. O. Z., & Way, J. (2020). Beyond
+
+support practitioners in the education and clinical care of children: The CARER-AID 
+project. Life Span and Disability, 23(1), 17–30. 
+Cooney, M. D., & Menezes, M. L. (2018). Design for an art therapy robot: An explorative
+
+cognitive ability. Journal of Learning Analytics, 7(1), 1–4. 
+Jonassen, D. H. (1997). Instructional design models for well-structured and III-structured
+
+problem-solving learning outcomes. Educational Technology Research & Development, 
+45(1), 65–94. https://doi.org/10.1007/BF02299613 
+Jonassen, D. H. (2000). Toward a design theory of problem solving. Educational
+
+review of the theoretical foundations for engaging in emotional and creative 
+painting with a robot. Multimodal Technologies and Interaction, 2(3). https://doi.org/ 
+10.3390/mti2030052 
+Dams¸a, C., & Jornet, A. (2021). The unit of analysis in learning research: Approaches for
+
+Technology Research & Development, 48(4), 63–85. https://doi.org/10.1007/ 
+BF02300500 
+Jonassen, D. H. (2010). Learning to solve problems: A handbook for designing problem-solving
+
+imagining a transformative agenda. SI: The Unit of Analysis in learning research: 
+Approaches for Imagining a transformative agenda. Learning, Culture and Social 
+Interaction, 31, Article 100407. https://doi.org/10.1016/j.lcsi.2020.100407 
+Dawson, S., Gaˇsevi´c, D., Siemens, G., & Joksimovic, S. (2014). Current state and future
+
+learning environments (1st ed.). Routledge.  
+Kantosalo, A., & Riihiaho, S. (2019). Quantifying co-creative writing experiences. Digital
+
+Creativity, 30(1), 23–38. https://doi.org/10.1080/14626268.2019.1575243
+
+trends: A citation network analysis of the learning analytics field. In Proceedings of 
+the fourth international conference on learning analytics and knowledge (pp. 231–240).
+
+11
+
+S. Joksimovic et al.
+
+Computers and Education: Artificial Intelligence 4 (2023) 100138
+
+Kaptelinin, V., & Nardi, B. A. (2006). Acting with technology: Activity theory and interaction
+
+Pekrun, R., Cusack, A., Murayama, K., Elliot, A. J., & Thomas, K. (2014). The power of
+
+design. MIT press.  
+King, P. M., Kitchener, K. S., & Wood, P. K. (1994). Research on the reflective judgment
+
+anticipated feedback: Effects on students’ achievement goals and achievement 
+emotions. Learning and Instruction, 29, 115–124. https://doi.org/10.1016/j. 
+learninstruc.2013.09.002 
+Peri´c, M., & Vitezi´c, V. (2021). Tourism getting back to life after COVID-19: Can artificial
+
+model. Developing Reflective Judgment: Understanding and Promoting Intellectual 
+Growth and Critical Thinking in Adolescents and Adults, 124–188. 
+Klein, G., Feltovich, P. J., Bradshaw, J. M., & Woods, D. D. (2005). Common ground and
+
+intelligence help? Societies, 11(4), 115. https://doi.org/10.3390/soc11040115. 
+MDPI AG. Retrieved from. 
+Pfau, J., Smeddinck, J. D., & Malaka, R. (2020). The case for useable AI: What industry
+
+coordination in joint activity. In Organizational simulation (pp. 139–184). John Wiley 
+& Sons, Ltd. https://doi.org/10.1002/0471739448.ch6.  
+Kohn, A. (1992). Resistance to cooperative learning: Making sense of its deletion and
+
+dilution. Journal of Education, 174(2), 38–56. https://doi.org/10.1177/ 
+002205749217400204 
+Kozlova, E. P., Morozova, G. A., Kuznetsov, V. P., Romanovskaya, E. V., &
+
+professionals make of academic AI in video games. In Extended abstracts of the 2020 
+annual symposium on computer-human interaction in play (pp. 330–334). https://doi. 
+org/10.1145/3383668.3419905 
+Piaget, J. (1976). Piaget’s theory. Springer.  
+Ransbotham, S., Khodabandeh, S., Kiron, D., Candelon, F., Chu, M., & LaFoundain, B.
+
+Andryashina, N. S. (2021). Interaction of human and smart technologies in modern 
+conditions. In E. G. Popkova, & B. S. Sergi (Eds.), Smart technologies” for society, State 
+and economy (pp. 609–618). Springer International Publishing.  
+Kriegel, J., Grabner, V., Tuttle Weidinger, L., & Ehrenmüller, I. (2019). Socially assistive
+
+(2020). Expanding AI’s impact with organisational learning (Research Report No. 
+62270). MIT Sloan Management Review and Boston Consulting Group. https://web- 
+assets.bcg.com/f1/79/cf4f7dce459686cfee20edf3117c/mit-bcg-expanding-ai-i 
+mpact-with-organizational-learning-oct-2020.pdf.  
+Rumelhart, D. E., Smolensky, P., McClelland, J. L., & Hinton, G. (1986). Sequential
+
+robots (SAR) in in-patient care for the elderly. In D. Hayn, A. Eggerth, & G. Schreier 
+(Eds.), DHealth 2019—from eHealth to dHealth—proceedings of the 13th health 
+informatics meets digital health conference (pp. 178–185). https://doi.org/10.3233/ 
+978-1-61499-971-3-178 
+Kuhl, J. (2000). Chapter 5—a functional-design approach to motivation and self-
+
+thought processes in PDP models. Parallel Distributed Processing: Explorations in the 
+Microstructures of Cognition, 2, 3–57. 
+Salas, E., Cooke, N. J., & Rosen, M. A. (2008). On teams, teamwork, and team
+
+performance: Discoveries and developments. Human Factors, 50(3), 540–547. 
+https://doi.org/10.1518/001872008X288457 
+Seeber, I., Bittner, E., Briggs, R. O., Vreede, T., Vreede, G.-J., Elkins, A., Maier, R.,
+
+regulation: The dynamics of personality systems interactions. In M. Boekaerts, 
+P. R. Pintrich, & M. Zeidner (Eds.), Handbook of self-regulation (pp. 111–169). 
+Academic Press. https://doi.org/10.1016/B978-012109890-2/50034-2.  
+Kunze, T., Stadler, M., & Greiff, S. (2018). A look at complex problem solving in the 21st
+
+century. Education: Future Frontiers, 11. 
+de Laat, M., Joksimovic, S., & Ifenthaler, D. (2020). Artificial intelligence, real-time
+
+Merz, A. B., Oeste-Reiß, S., Randrup, N., Schwabe, G., & S¨ollner, M. (2020). 
+Machines as teammates: A research agenda on AI in team collaboration. Information 
+& Management, 57(2), Article 103174. https://doi.org/10.1016/j.im.2019.103174 
+Seel, N. M., Ifenthaler, D., & Pirnay-Dummer, P. (2009). Mental models and problem
+
+feedback and workplace learning analytics to support in situ complex problem- 
+solving: A commentary. The International Journal of Information and Learning 
+Technology. https://doi.org/10.1108/IJILT-03-2020-0026 
+Lawless, W. F. (2021). Exploring the interdependence theory of complementarity with
+
+solving: Technological solutions for measurement and assessment of the 
+development of expertise. In Model-based approaches to learning (pp. 17–40). Brill.  
+Sharples, M. (2022). Automated essay writing: An AIED opinion. International Journal of
+
+case studies. Autonomous human–machine teams (A-HMTs). Informatics, 8(1), 14 
+(MDPI). 
+Lee, M. H., Siewiorek, D. P., Smailagic, A., Bernardino, A., & Bermúdez i Badia, S. (2021).
+
+Artificial Intelligence in Education, 32(4), 1119–1126. https://doi.org/10.1007/ 
+s40593-022-00300-7 
+Siemens, G., Marmolejo-Ramos, F., Gabriel, F., Medeiros, K., Marrone, R., Joksimovic, S.,
+
+A human-AI collaborative approach for clinical decision making on rehabilitation 
+assessment. In Proceedings of the 2021 CHI conference on human factors in computing 
+systems. https://doi.org/10.1145/3411764.3445472 
+Lemaignan, S., Warnier, M., Sisbot, E. A., Clodic, A., & Alami, R. (2017). Artificial
+
+& de Laat, M. (2022). Human and artificial cognition. Computers & Education: 
+Artificial Intelligence, 3, Article 100107. https://doi.org/10.1016/j. 
+caeai.2022.100107 
+Spering, M., Wagener, D., & Funke, J. (2005). The role of emotions in complex problem
+
+solving. 
+Tiban´a-Herrera, G., Fern´andez-Baj´on, M. T., & De Moya-Aneg´on, F. (2018).
+
+cognition for social human–robot interaction: An implementation. Artificial 
+Intelligence, 247, 45–69. 
+Levinson, S. C. (2006). On the human “interaction engine. In N. J. Enfield, S. C. Levinson,
+
+& L. C. Aiello (Eds.), Roots of human sociality: Culture, cognition and interaction (pp. 
+39–69) (Berg). 
+Lim, B.-C., & Klein, K. J. (2006). Team mental models and team performance: A field
+
+Categorization of E-learning as an emerging discipline in the world publication 
+system: A bibliometric study in SCOPUS. International Journal of Educational 
+Technology in Higher Education, 15(1), 21. https://doi.org/10.1186/s41239-018- 
+0103-4 
+Tillman, R., & Louwerse, M. (2018). Estimating emotions through language statistics and
+
+study of the effects of team mental model similarity and accuracy. Journal of 
+Organizational Behavior, 27(4), 403–418. https://doi.org/10.1002/job.387 
+Lindenfors, P. (2017). For whose benefit?: The biological and cultural evolution of human
+
+embodied cognition. Journal of Psycholinguistic Research, 47(1), 159–167. https:// 
+doi.org/10.1007/s10936-017-9522-y 
+Tschandl, P., Rinner, C., Apalla, Z., Argenziano, G., Codella, N., Halpern, A., … Kittler, H.
+
+cooperation. Springer International Publishing. https://books.google.com.au/books? 
+id=6yGKDgAAQBAJ.  
+L´opez-Gonz´alez, M. (2020). Regaining sight of humanity on the roadway towards
+
+(2020). Human–computer collaboration for skin cancer recognition. Nature Medicine, 
+26(8), 1229–1234. 
+Van Baalen, S., Boon, M., & Verhoef, P. (2021). From clinical decision support to clinical
+
+automation. IS&T Electronic Imaging. https://library.imaging.org/ei/articles/32/16 
+/art00010.  
+Mainert, J., Niepel, C., Murphy, K. R., & Greiff, S. (2019). The incremental contribution
+
+reasoning support systems. Journal of Evaluation in Clinical Practice, 27(3), 520–528. 
+https://doi.org/10.1111/jep.13541 
+Van Den Bossche, P., Gijselaers, W., Segers, M., Woltjer, G., & Kirschner, P. (2011). Team
+
+learning: Building shared mental models. Instructional Science, 39(3), 283–301. 
+Van der Waa, J., Verdult, S., van den Bosch, K., van Diggelen, J., Haije, T., van der
+
+of complex problem-solving skills to the prediction of job level, job complexity, and 
+salary. Journal of Business and Psychology, 34(6), 825–845. https://doi.org/10.1007/ 
+s10869-018-9561-x 
+Mathieu, J. E., Heffner, T. S., Goodwin, G. F., Cannon-Bowers, J. A., & Salas, E. (2005).
+
+Stigchel, B., & Cocu, I. (2021). Moral decision making in human-agent teams: Human 
+control and the role of explanations. Frontiers in Robotics and AI, 8, Article 640647. 
+Vercauteren, T., Unberath, M., Padoy, N., & Navab, N. (2020). CAI4CAI: The rise of
+
+Scaling the quality of teammates’ mental models: Equifinality and normative 
+comparisons. Journal of Organizational Behavior, 26(1), 37–56. https://doi.org/ 
+10.1002/job.296 
+McCormack, J., Hutchings, P., Gifford, T., Yee-King, M., Llano, M. T., & D’inverno, M.
+
+contextual artificial intelligence in computer assisted interventions. In Proceedings of 
+the IEEE. Institute of electrical and electronics engineers (Vol. 108, pp. 198–214). 
+https://doi.org/10.1109/JPROC.2019.2946993, 1. 
+Wood, D. (2022). The singularity principles: Anticipating and managing cataclysmically
+
+(2020). Design considerations for real-time collaboration with creative artificial 
+intelligence. Organised Sound, 25(1), 41–52. https://doi.org/10.1017/ 
+S1355771819000451. Cambridge Core. 
+Microsoft. (2020). The class of 2030 and life-ready learning: The technology imperative.
+
+disruptive technologies. Delta Wisdom. https://books.google.com.au/books?id=qCd 
+NzwEACAAJ.  
+Yang, S. J., Ogata, H., Matsui, T., & Chen, N. S. (2021). Human-centered artificial
+
+Microsoft. https://www.insight.com/en_US/content-and-resources/brands/micros 
+oft/the-class-of-2030-and-life-ready-learning-ac-mic0021.html.  
+Monteith, S., Glenn, T., Geddes, J., Whybrow, P. C., & Bauer, M. (2022). Commercial use
+
+intelligence in education: Seeing the invisible through the visible. Computers & 
+Education: Artificial Intelligence, 2, Article 100008. 
+Zeng, Z., Sun, X., & Liao, X. (2019). Artificial intelligence augments design creativity: A
+
+of emotion artificial intelligence (AI): Implications for psychiatry. Current Psychiatry 
+Reports, 24(3), 203–211. https://doi.org/10.1007/s11920-022-01330-7 
+Moreno, M. F., Brand˜ao, R., & Cerqueira, R. (2017). Challenges on multimedia for
+
+typeface family design experiment. In A. Marcus, & W. Wang (Eds.), Design, user 
+experience, and usability. User experience in advanced technological environments (pp. 
+400–411). Springer International Publishing.  
+Zhang, G., Raina, A., Cagan, J., & McComb, C. (2021). A cautionary tale about the impact
+
+decision-making in the era of cognitive computing. In 2016 IEEE international 
+symposium on multimedia (ISM) (pp. 673–678). IEEE.  
+Nothdurft, F., Bercher, P., Behnke, G., & Minker, W. (2017). User involvement in
+
+of AI on human design teams. Design Studies, 72, Article 100990. 
+Zheng, N., Liu, Z., Ren, P., Ma, Y., Chen, S., Yu, S., Xue, J., Chen, B., & Wang, F. (2017).
+
+collaborative decision-making dialog systems. In K. Jokinen, & G. Wilcock (Eds.), 
+Lecture notes in electrical engineering: Vol. 427. Dialogues with social robots. Singapore: 
+Springer. https://doi.org/10.1007/978-981-10-2585-3_10.  
+Oksanen, A., Savela, N., Latikka, R., & Koivula, A. (2020). Trust toward robots and
+
+Hybrid-augmented intelligence: Collaboration and cognition. Frontiers of Information 
+Technology & Electronic Engineering, 18(2), 153–179. https://doi.org/10.1631/ 
+FITEE.1700053 
+Zhou, C., Chai, C., Liao, J., Chen, Z., & Shi, J. (2020). Artificial intelligence augmented
+
+artificial intelligence: An experimental approach to human–technology interactions 
+online. Frontiers in Psychology, 11. https://www.frontiersin.org/articles/10.3389/f 
+psyg.2020.568256. 
+Osbeck, L. M., & Nersessian, N. J. (2011). Affective problem solving: Emotion in research
+
+design iteration support. In 2020 13th international Symposium on computational 
+Intelligence and design (ISCID) (pp. 354–358). IEEE.  
+Zhu, D. H., & Deng, Z. Z. (2021). Effect of social anxiety on the adoption of robotic
+
+practice. Mind & Society, 10(1), 57–78. https://doi.org/10.1007/s11299-010-0074-1
+
+training partner. Cyberpsychology, Behavior, and Social Networking, 24(5), 343–348. 
+https://doi.org/10.1089/cyber.2020.0179
+
+12

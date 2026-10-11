@@ -1,0 +1,2730 @@
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Contents lists available at ScienceDirect
+
+Computers and Education: Artiﬁcial Intelligence
+
+journal homepage: www.elsevier.com/locate/caeai
+
+A multi-perspective study on Artiﬁcial Intelligence in Education: grants,
+conferences, journals, software tools, institutions, and researchers
+
+Xieling Chen a, Haoran Xie b,*, Gwo-Jen Hwang c
+
+a Department of Mathematics and Information Technology, The Education University of Hong Kong, 10 Lo Ping Road, Tai Po, New Territories, Hong Kong Special
+Administrative Region
+b Department of Computing and Decision Sciences, Lingnan University, 8 Castle Peak Road, Tuen Mun, New Territories, Hong Kong Special Administrative Region
+c Graduate Institute of Digital Learning and Education, National Taiwan University of Science and Technology, Taipei, Taiwan
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Artiﬁcial intelligence in education
+Multiple perspectives
+Funding trend
+Major research issues
+
+With the rapid development of artiﬁcial intelligence (AI) technologies and a continuously growing interest in their
+application in educational contexts, there has been signiﬁcant growth in the scientiﬁc literature in relation to the
+application of AI in education (AIEd). This study aims to present multiple perspectives on the development of
+AIEd in terms of relevant grants, conferences, journals, software tools, article trends, top issues, institutions, and
+researchers to provide an overview of AIEd for its further development and implementation. With this study, we
+contribute to the research ﬁeld by enabling educators and scholars to understand the status and development of
+relevant grants and publications concerning AIEd. Also, ﬁndings concerning active actors can help educators and
+scholars identify the active researchers and institutions in the research on AIEd. Furthermore, researchers and
+educators are able to identify relevant journals and be more aware of major issues in AIEd studies. In addition, we
+also highlight the signiﬁcance and necessity of the launch of the new Elsevier journal AIEd-related journal named
+Computers & Education: Artiﬁcial Intelligence.
+
+to obtain ofﬁcial degrees from distinguished universities and institutes.
+
+1. Introduction
+
+Intrinsically, the future of education is, to a large degree, related to
+the advances in novel intelligent technologies and the rapid development
+of computational capacities. Hence, the educational community is facing
+the opportunity and challenge brought by the continuously developing
+artiﬁcial intelligence (AI) technologies, which can potentially and
+fundamentally change the structure, operation, and governance of
+educational institutes (Popenici & Kerr, 2017).
+
+Technologies have a signiﬁcant impact on today’s society and human
+beings. They have greatly changed the way we think, feel, act, and how
+we communicate and interact with each other. Meanwhile, technological
+advancements are rapidly and tremendously changing the ways in which
+we learn and teach. Consequently, the landscape of education is gradu-
+ally changing.
+
+The work in AI is dedicated to addressing cognitive problems that are
+commonly related to human intelligence. The educational sector is un-
+deniably signiﬁcantly inﬂuenced by AI. AI applications in education
+(AIEd) are widely used by learners and educators nowadays and involve
+various tools and applications, for example, intelligent tutoring systems,
+teaching robots, and adaptive learning systems. AIEd supports learning
+occurring in both traditional classes and workplaces by combining AI and
+various learning sciences, for example, education, psychology, linguis-
+tics, and neuroscience, aiming at stimulating and advancing the devel-
+opment of AI-driven educational applications featuring ﬂexibility,
+personalization, and effectiveness(Luckin, Holmes, Grifﬁths, & Forcier,
+2016).
+
+Especially in recent years, with the advance and prevalence of
+interactive technologies, their applications within and outside of classes
+are steadily gaining in popularity. Such technologies aim to adapt to
+learners’ diverse needs and situations, as well as to enhance competi-
+tiveness in the global education market. Students utilize tablets rather
+than copybooks, and teachers use various educational tools and appli-
+cations such as Google Classroom and Moodle. Also, a great number of
+Massive Open Online Course (MOOC) platforms like Class Central, EdX,
+and Coursera are increasingly available for online learning. The
+increasing number of active MOOC users indicates the wide acceptance
+and appreciation of digital and distance learning technologies. Addi-
+tionally, there are MOOCs that even provide learners with opportunities
+
+* Corresponding author.
+E-mail addresses: xielingchen0708@gmail.com (X. Chen), hrxie2@gmail.com (H. Xie), gjhwang.academic@gmail.com (G.-J. Hwang).
+
+https://doi.org/10.1016/j.caeai.2020.100005
+Received 14 August 2020; Received in revised form 12 October 2020; Accepted 12 October 2020
+2666-920X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+
+nc-nd/4.0/).
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 1
+Search query in Web of Science.
+
+TS
+((“artiﬁcial intelligence” OR “machine intelligence” OR “artiﬁcial
+neural network*” OR “machine learning” OR “deep learn*” OR
+“natural language process*” OR “robotic*” OR “thinking computer
+system*” OR “expert system*” OR “evolutionary computation” OR
+“hybrid intelligent system*“) AND (“education*” OR “teaching”))
+
+Language
+English
+Article
+
+“PROCEEDINGS PAPER” OR “ARTICLE”
+
+types
+
+Time span
+1999–2019
+Indexes
+SCI-EXPANDED, SSCI, A&HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH,
+ESCI
+
+funding data concerning educational technology funded by several well-
+known international funding bodies, including the National Science
+Foundation,1 the Australia Research Council,2 the European Union fp73
+
+and h2020 projects,4 as well as the National Natural Science Foundation
+of China.5 It should be noted that for the Australia Research Council,
+grants that are related to educational systems were considered. For each
+of the above funding bodies, the collected relevant grants were organized
+by funding year to calculate the annual number of grants, so as to depict
+how the number of grants evolved across time.
+
+To present a multi-perspective overview of the development of AIEd,
+this study examines relevant grants, conferences, journals, software tools,
+article trends, top issues, institutions, and researchers. Such an investi-
+gation is important for the following reasons. First, scholars and their
+projects largely depend on funding as the main research driver, and every
+year considerable ﬁnancial resources are invested in facilitating scientiﬁc
+activities. The trend analysis of funding in a particular ﬁeld is essential in
+terms of examining whether the ﬁeld is of great importance and research
+interest, and has great potential to make advances. Such analysis is also
+helpful for decision-makers in the determination of effective funding
+policies in (re)allocating resources to the most promising research ﬁelds
+and projects (Ebadi & Schiffauerova, 2016). Second, analysis of trends in
+scientiﬁc publications in a particular ﬁeld can reﬂect the evolution of
+production and interest, as well as global scientiﬁc progress and devel-
+opment tendency in the ﬁeld (Loonen et al., 2007; Ye et al., 2018).
+Generally, the growth in the number of publications usually reﬂects an
+expansion of the global science system concerning the ﬁeld (Aksnes et al.,
+2016). Third, analysis of conferences and journals helps researchers and
+students identify relevant publication sources with an international scope
+(Song, Chen, Hao, Liu, & Lan, 2019). Fourth, the analysis of institutions
+and researchers helps scholars identify major contributors to the ﬁeld
+with the most potential to develop and share research (Mair & Rei-
+schauer, 2017). Furthermore, analysis of research issues helps identify
+the foci of research-based publications in a particular ﬁeld in the past,
+current, and future (Snyder, 2011). In addition, a survey of relevant
+software and products provides a basic understanding of the market size
+concerning a particular ﬁeld, as well as what types of products have been
+commonly invested in and what can be further improved. Accordingly,
+there are six research questions we aim to answer:
+
+We collected data from the Web of Science (WoS) using the advanced
+search query provided in Table 1. We chose the WoS for the following
+reasons. First, WoS is the most popularly used database for bibliometric
+studies (Roemer & Borchardt, 2015). Second, the published studies in the
+WoS were generally subjected to the meticulous and peer-review process,
+ensuring high-quality publications. Additionally, in comparison to other
+databases, the bibliographic data collected from the WoS were more
+consistent and normative in expression. The search terms were deter-
+mined by referring to previous studies (e.g., Heradio et al., 2016;
+Martí-Parre~no et al., 2016; Tran et al., 2019, 2019a). The search was
+conducted on October 3, 2020. A total of 9560 records were collected.
+We analyzed the AIEd publication and citation trends and the major
+keywords being used, as well as the major publication sources, in-
+stitutions, and countries/regions to understand the research status of
+AIEd research (e.g., Chen & Xie, 2020, Chen et al., 2018).
+
+RQ1: What was the trend of grants in relation to AIEd?
+RQ2: What were the major conferences and journals related to AIEd?
+RQ3: What were the major software tools concerning AIEd?
+RQ4: What was the trend of AIEd publications?
+RQ5: What were the top frequently used keywords in AIEd
+publications?
+RQ6: What were the active institutions and researchers in the ﬁeld of
+AIEd?
+
+To identify the active researchers in the ﬁeld of AIEd, we used cita-
+tions provided by Google Scholar. Speciﬁcally, we included authors with
+a research interest in AIEd who had more than 1000 citations as of
+August 3, 2020.
+
+To identify the top frequently adopted keywords in the 9560 AIEd
+publications, we collected the author-deﬁned keywords as well as the
+keywords provided by the WoS (i.e., WoS Keywords Plus) for each
+publication and calculated their frequencies to determine those that were
+most commonly used.
+
+We additionally provided an overview of some relevant journals,
+conferences, and software tools related to AIEd.
+
+3. Results
+
+This study contributes to the research ﬁeld in several aspects. First, it
+enables educators and scholars to understand the status and development
+of relevant grants and publications concerning AIEd. Second, it helps
+educators and scholars identify the active researchers and institutions in
+the research on AIEd. Third, researchers and educators are able to
+identify relevant journals dealing with AIEd to ﬁnd channels to make
+contributions to the community. Fourth, it enables educators and
+scholars to be more aware of the top keywords being used in AIEd
+studies, which is especially helpful when they are making decisions about
+which types of issues to deal with. In addition, this research helps edu-
+cators and scholars identify relevant software tools concerning the
+application of AI for educational purposes.
+
+3.1. Article and citation trends
+
+The trend for publications from 1999 to 2019 is illustrated in Fig. 1. In
+general, the number of AIEd publications showed a growing trend over
+the studied years. The evolution of the published article output generally
+followed three stages. The ﬁrst stage was from 1999 to 2002, with a
+comparatively slow growth tendency. The second stage featured a steady
+
+The rest of this article is outlined as follows. The data collection and
+analyses related to characteristics concerning AIEd are described in
+"Material and methods" section. The "Results" section presents the results
+and ﬁndings concerning grants, conferences, journals, software tools,
+article trends, top keywords, institutions, and researchers in relation to
+AIEd. In addition, we also introduce a newly developed AIEd-related
+Elsevier journal named Computers & Education: Artiﬁcial Intelligence. In
+the "Discussion" section, we provide a discussion on the ﬁndings and
+highlight the signiﬁcance and necessity of the launch of the new journal.
+Finally, this study ends with a "Conclusion" section to summarize the
+major content and ﬁndings of our study.
+
+2. Material and methods
+
+1 https://www.nsf.gov/.
+2 https://www.arc.gov.au/.
+3 https://ec.europa.eu/research/fp7/index_en.cfm.
+4 https://ec.europa.eu/programmes/horizon2020/en/h2020-sections
+-projects.
+
+5 http://www.nsfc.gov.cn/english/site_1/index.html.
+
+To analyze the recent funding trends related to AIEd, we collected
+
+2
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 2
+Top WoS categories.
+
+WoS category
+A
+%
+
+Fig. 1. Publication trend of AI in education.
+
+growth tendency from 2003 to 2011. The third stage was a fast growth
+period from 2012 to 2019. The developmental trend of annual citations
+received by the studied publications (see Fig. 2) was quite similar, with a
+dramatic growing tendency during the past two decades. Figs. 1 and 2
+show that 2019 was the most proliﬁc year with the most publications and
+citations. Such results demonstrate that increased attention and interest
+in AI’s application in educational contexts around the world led to a
+boost in publications about AIEd, with more than 74% of the literature
+being published between 2012 and 2019, leading to the conclusion that
+this is a rapidly emerging ﬁeld of research.
+
+3.2. Top subjects
+
+EDUCATION EDUCATIONAL RESEARCH
+2128
+22.26%
+COMPUTER SCIENCE ARTIFICIAL INTELLIGENCE
+1813
+18.96%
+ENGINEERING ELECTRICAL ELECTRONIC
+1788
+18.70%
+COMPUTER SCIENCE THEORY METHODS
+1309
+13.69%
+EDUCATION SCIENTIFIC DISCIPLINES
+1290
+13.49%
+COMPUTER SCIENCE INTERDISCIPLINARY APPLICATIONS
+1265
+13.23%
+ROBOTICS
+1070
+11.19%
+COMPUTER SCIENCE INFORMATION SYSTEMS
+919
+9.61%
+AUTOMATION CONTROL SYSTEMS
+603
+6.31%
+ENGINEERING MULTIDISCIPLINARY
+560
+5.86%
+COMPUTER SCIENCE SOFTWARE ENGINEERING
+336
+3.52%
+SURGERY
+312
+3.26%
+TELECOMMUNICATIONS
+293
+3.07%
+COMPUTER SCIENCE CYBERNETICS
+290
+3.03%
+ENGINEERING MECHANICAL
+201
+2.10%
+HEALTH CARE SCIENCES SERVICES
+153
+1.60%
+MEDICAL INFORMATICS
+152
+1.59%
+SOCIAL SCIENCES INTERDISCIPLINARY
+138
+1.44%
+COMPUTER SCIENCE HARDWARE ARCHITECTURE
+137
+1.43%
+UROLOGY NEPHROLOGY
+123
+1.29%
+ENGINEERING BIOMEDICAL
+121
+1.27%
+ENGINEERING MANUFACTURING
+117
+1.22%
+OPERATIONS RESEARCH MANAGEMENT SCIENCE
+115
+1.20%
+ENGINEERING INDUSTRIAL
+114
+1.19%
+INFORMATION SCIENCE LIBRARY SCIENCE
+106
+1.11%
+EDUCATION EDUCATIONAL RESEARCH
+2128
+22.26%
+COMPUTER SCIENCE ARTIFICIAL INTELLIGENCE
+1813
+18.96%
+ENGINEERING ELECTRICAL ELECTRONIC
+1788
+18.70%
+COMPUTER SCIENCE THEORY METHODS
+1309
+13.69%
+EDUCATION SCIENTIFIC DISCIPLINES
+1290
+13.49%
+
+Note: A: publication count; %: the proportion of publications in the total corpus.
+
+Conference on Education and New Learning Technologies (196 publi-
+cations), and International Technology, Education and Development
+Conference (178 publications). It should be noted that 18 out of the 30
+listed sources, and all of the top nine, were proceedings. Furthermore,
+among the 2358 publications published by the 30 sources, about 75%
+were proceedings papers. This indicates that, currently, the major sources
+for researchers to make contributions to AIEd research are proceedings
+and conferences, which reﬂects the need to launch more international
+journals with a particular focus on AI in education, so as to increase the
+number of channels for scholars to make contributions to this ﬁeld.
+
+The sample documents covered a total of 209 WoS subject categories.
+The research on AIEd covered a wide variety of themes and disciplines.
+The top 30 subject categories are displayed in Table 2, which shows that
+EDUCATION EDUCATIONAL RESEARCH ranked ﬁrst with 2128 publi-
+cations, constituting 22.26%, followed by COMPUTER SCIENCE ARTI-
+FICIAL INTELLIGENCE with 1813 publications, and ENGINEERING
+ELECTRICAL ELECTRONIC with 1788 publications. COMPUTER SCI-
+ENCE THEORY METHODS, EDUCATION SCIENTIFIC DISCIPLINES,
+COMPUTER SCIENCE INTERDISCIPLINARY APPLICATIONS, and RO-
+BOTICS were also relevant subject categories. AIEd is a multi-disciplinary
+area with major coverage of computer science and education (Kandlhofer
+et al., 2016). Additionally, since AI is itself multi-disciplinary, it has close
+interaction with various disciplines such as psychology and neuroscience.
+
+2) Examples of other active journals and conferences in AIEd
+
+3.3. Conferences and journals
+
+1) Top publication sources
+
+The studied 9560 AIEd publications were distributed across a total of
+5240 sources, among which the top 30 are shown in Table 3. Among the
+listed sources, Lecture Notes in Computer Science published the most
+AIEd studies, with 222 publications (2.32%), followed by International
+
+We further list here examples of other very relevant journals and
+conferences to AIEd research. There are four Elsevier journals which
+publish research papers on various facets of technology-enhanced edu-
+cation, including Computers & Education, The Internet and Higher Ed-
+ucation, Computers and Composition, and System, as well as several non-
+Elsevier scholarly journals that have partially overlapping topic coverage
+with AIEd, as shown in Table 4.
+
+Additionally, the following conferences, ICWL, ICALT, SIGITE, TEEM,
+AIED, ITS, L@S, EDM are quite relevant to AIEd. The statistics of sub-
+missions and accepted full papers are shown in Table 5.
+
+3.4. Countries/regions, institutions, and researchers
+
+Fig. 2. Citation trend of AI in education.
+
+The major contributors, including countries/regions and institutions
+for the publication of the 9560 AIEd studies, were identiﬁed. The top 20
+countries/regions are presented in Table 6, and the top 30 institutions are
+listed in Table 7. The most proliﬁc country in the AIEd research was the
+USA with 2581 publications, constituting 27%, followed by China (751
+publications, 7.86%), and Spain (607 publications, 6.35%). In terms of
+proliﬁc institutions, the top was the University of California System with
+146 publications, constituting 1.53%, followed by the University System
+of Georgia (103 publications, 1.08%), and Pennsylvania Commonwealth
+
+3
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 3
+Top publication sources.
+
+Table 4
+Relevant journals in AIEd.
+
+Publication sources
+Type
+A
+%
+
+Names
+Established
+year
+
+IF
+(2019)
+
+Publication
+frequency (issues/
+year)
+
+Lecture Notes in Computer Science
+Proceedings
+222
+2.32%
+International Conference on Education and New
+
+Proceedings
+196
+2.05%
+
+Learning Technologies
+
+International Technology, Education and
+
+Proceedings
+178
+1.86%
+
+Computers & Education
+1976
+5.296
+10
+The Internet and Higher
+
+1998
+6.566
+4
+
+Development Conference
+
+Education
+
+Computers and Composition
+1983
+NA
+4
+System
+1973
+1.979
+4
+Educational Technology
+
+1953
+2.303
+6
+
+Advances in Intelligent Systems And Computing
+Proceedings
+166
+1.74%
+Lecture Notes in Artiﬁcial Intelligence
+Proceedings
+151
+1.58%
+Frontiers in Education Conference
+Proceedings
+147
+1.54%
+International Computing Education Research
+
+Proceedings
+110
+1.15%
+
+Research and Development
+
+conference
+
+International Journal of Artiﬁcial
+
+2013
+NA
+4
+
+Intelligence in Education
+
+ASEE Annual Conference & Exposition
+Proceedings
+89
+0.93%
+Communications in Computer and Information
+
+Proceedings
+88
+0.92%
+
+2006
+4.028
+4
+
+International Journal of
+
+Science
+
+Computer-Supported
+Collaborative Learning
+
+International Journal of STEM
+
+2014
+1.85
+1
+
+Education
+
+Journal of Computers in
+
+2014
+NA
+4
+
+Education
+
+Journal of Computing in Higher
+
+1989
+2.271
+2
+
+Education
+
+International Journal of Engineering Education
+Journal
+84
+0.88%
+IEEE Transactions on Education
+Journal
+72
+0.75%
+Computers & Education
+Journal
+63
+0.66%
+Procedia Social and Behavioral Sciences
+Proceedings
+63
+0.66%
+IEEE Global Engineering Education Conference
+Proceedings
+62
+0.65%
+Computer Applications in Engineering Education
+Journal
+57
+0.60%
+Advances in Social Science Education and
+
+Proceedings
+50
+0.52%
+
+Journal of Science Education and
+
+1992
+1.644
+6
+
+Humanities Research
+
+Technology
+
+The International Conference on Robotics and
+
+Proceedings
+50
+0.52%
+
+Automation
+
+Learning Environments Research
+1998
+NA
+2
+TechTrends
+1985
+NA
+6
+Technology, Knowledge and
+
+1996
+NA
+3
+
+Learning
+
+ACM Transactions on Computing
+
+2001
+1.721
+4
+
+Society of Photo-optical Instrumentation Engineers
+Proceedings
+50
+0.52%
+Frontiers in Artiﬁcial Intelligence and Applications
+Journal
+49
+0.51%
+eLearning and Software for Education
+Proceedings
+46
+0.48%
+Surgical Endoscopy and Other Interventional
+
+Journal
+45
+0.47%
+
+Education
+
+Techniques
+
+IEEE Transactions on Education
+1963
+1.855
+4
+IEEE Transactions on Learning
+
+2008
+2.714
+4
+
+Technologies
+
+Journal of Computer Assisted
+
+1985
+2.126
+6
+
+Procedia Computer Science
+Journal
+44
+0.46%
+Expert Systems With Applications
+Journal
+42
+0.44%
+IFAC-PapersOnLine
+Journal
+42
+0.44%
+IEEE Access
+Journal
+41
+0.43%
+International Conference on Advanced Learning
+
+Proceedings
+31
+0.32%
+
+Learning
+
+Technologies
+
+International Journal of Distance
+
+2003
+NA
+4
+
+Education Technologies
+
+Computers in Human Behavior
+Journal
+30
+0.31%
+Proceedings of IEEE International Conference on
+
+Proceedings
+30
+0.31%
+
+British Journal of Educational
+
+1970
+2.951
+6
+
+Systems, Man and Cybernetics
+
+Technology
+
+International Conference on Robot and Human
+
+Proceedings
+30
+0.31%
+
+2000
+2.297
+5
+
+The International Review of
+
+Interactive Communication
+
+International Journal of Emerging Technologies in
+
+Journal
+30
+0.31%
+
+Research in Open and
+Distributed Learning
+
+Learning
+
+Journal of Educational
+
+1998
+NA
+4
+
+Technology & Society
+
+Note: A: publication count; %: the proportion of publications in the total corpus.
+
+Education and Information
+
+1996
+NA
+6
+
+Technologies
+
+Educational Technology
+
+1953
+2.303
+6
+
+Research and Development
+
+System of Higher Education (101 publications, 1.06%). In addition, the
+active researchers in the ﬁeld of AIEd are listed in Table 8.
+
+Language Learning &
+
+1998
+2.473
+3
+
+Technology
+
+Interactive Learning
+
+1990
+1.938
+8
+
+3.5. Top keywords used in AIEd publications
+
+Environments
+
+Turkish Online Journal of
+
+2002
+NA
+4
+
+Educational Technology
+
+Australasian Journal of
+
+1985
+1.956
+6
+
+Educational Technology
+
+Learning, Media and Technology
+1975
+2.547
+4
+Computer Assisted Language
+
+1990
+2.642
+8
+
+Learning
+
+Journal of Educational Data
+
+2009
+NA
+3
+
+Mining
+
+The most frequently used keywords in the 9560 AIEd publications are
+listed in Table 9, including “education” (appearing in 1001 publications,
+constituting 10.47%), “machine learning” (80, 8.37%), “robotics” (737,
+7.71%), “artiﬁcial intelligence” (667, 6.98%), “deep learning” (359,
+3.76%), “system” (285, 2.98%), and “educational robotics” (277,
+2.90%). It is worth noting that AI technologies such as machine learning,
+neural network, and natural language processing (NLP) were frequently
+mentioned in the AIEd studies. This indicates a wide concern with the
+application of AI technologies to resolve issues related to teaching and
+learning among scholars.
+
+We further visualized the evolution of keywords used in AIEd studies,
+as shown in Fig. 3. From the results, it can be found that there were some
+keywords receiving increasing attention from AIEd scholars, for example,
+“classiﬁcation,” “stem,” “computational thinking,” “educational data
+mining,” “neural network,” “big data,” “moocs,” and “support vector
+machine (SVM)."
+
+3.6. Impactful studies
+
+Table 10, the study by Dautenhahn (2007) appeared in both ranking lists.
+In this study, the author addressed dimensions of HRI. For one thing, the
+author investigated how cognitive robots could be used as a companion
+to develop robot behavior rules acceptable to the human being. For
+another thing, the author discussed the potential use of robots for
+educational or therapeutic purposes among children with autism. The
+study by Lete et al. (2004) introduced MANULEX, a web-accessible
+database which provided grade-level word frequency lists. MANULEX
+had the potential to be used to study language development through
+stimuli selection with the basis of precise frequency norms and to serve as
+an information source on NLP to facilitate children’s writing. In the study
+by García et al. (2007), Bayesian networks was examined to identify
+
+We further identiﬁed impactful AIEd studies based on total citations
+and (TC) annual citations (C/Y) (Chen et al., 2018). As shown in
+
+4
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 7
+Top institutions.
+
+Table 5
+The statistics of submissions and accepted full papers of relevant conferences in
+AIEd.
+
+Institutions
+A
+%
+
+Conference names
+Abbrev.
+2016
+2017
+2018
+2019
+
+International Conference on Web-
+
+based Learning
+
+ICWL
+19/
+110
+13/
+56
+11/
+37
+15/
+60
+IEEE International Conference on
+
+ICALT
+72/
+259
+55/
+252
+52/
+231
+41/
+165
+
+Advanced Learning
+Technologies
+
+ACM Special Interest Group for
+
+SIGITE
+26/
+67
+23/
+58
+23/
+57
+23/
+57
+
+Information Technology
+Education Conference
+
+International Conference on
+
+LAK
+36/
+116
+36/
+114
+35/
+115
+42/
+115
+
+Learning Analytics and
+Knowledge
+
+International Conference on
+
+TEEM
+165/
+235
+83/
+109
+151/
+243
+N/A
+
+Technological Ecosystems for
+Enhancing Multiculturality
+
+International Conference on
+
+AIED
+NA
+36/
+121
+45/
+192
+45/
+177
+
+Artiﬁcial Intelligence in
+Education
+
+ACM Conference on Learning at
+
+University of California System
+146
+1.53%
+University System of Georgia
+103
+1.08%
+Pennsylvania Commonwealth System of Higher Education
+101
+1.06%
+Carnegie Mellon University
+100
+1.05%
+State University System of Florida
+95
+0.99%
+University of Texas System
+81
+0.85%
+Harvard University
+80
+0.84%
+University of London
+77
+0.81%
+Massachusetts Institute of Technology
+73
+0.76%
+Stanford University
+69
+0.72%
+University of Southern California
+64
+0.67%
+University of North Carolina
+55
+0.58%
+Universidad Nacional de Educacion a Distancia
+54
+0.57%
+Georgia Institute of Technology
+53
+0.55%
+Arizona State University
+50
+0.52%
+Polytechnic University of Bucharest
+50
+0.52%
+University of Patras
+50
+0.52%
+University of Pittsburgh
+50
+0.52%
+Johns Hopkins University
+49
+0.51%
+Institute for Systems and Computer Engineering, Technology and
+
+48
+0.50%
+
+Scale
+
+L@S
+18/
+79
+14/
+105
+N/A
+
+Science
+
+International Conference on
+
+Educational Data Mining
+
+EDM
+14/
+109
+18/
+72
+23/
+144
+22/
+105
+
+Table 6
+Top countries/regions.
+
+Country/Region
+A
+%
+
+Arizona State University Tempe
+47
+0.49%
+University of Pennsylvania
+46
+0.48%
+University of Toronto
+46
+0.48%
+United States Department of Defense
+45
+0.47%
+National Center for Scientiﬁc Research
+44
+0.46%
+Ecole Polytechnique Federale De Lausanne
+42
+0.44%
+University of Illinois System
+42
+0.44%
+University of Michigan System
+42
+0.44%
+Pennsylvania State University
+41
+0.43%
+University of Michigan
+41
+0.43%
+
+Note: A: publication count; %: the proportion of publications in the total corpus.
+
+USA
+2581
+27.00%
+China
+751
+7.86%
+Spain
+607
+6.35%
+England
+576
+6.03%
+Germany
+397
+4.15%
+Italy
+340
+3.56%
+Japan
+332
+3.47%
+Australia
+327
+3.42%
+Canada
+320
+3.35%
+India
+319
+3.34%
+Brazil
+250
+2.62%
+Romania
+228
+2.39%
+Greece
+213
+2.23%
+Russia
+213
+2.23%
+Turkey
+198
+2.07%
+France
+177
+1.85%
+Taiwan
+175
+1.83%
+Portugal
+174
+1.82%
+South Korea
+156
+1.63%
+Malaysia
+145
+1.52%
+
+Note: A: publication count; %: the proportion of publications in the total corpus.
+
+dropout. A comparative study was presented by Costa, Fonseca, Santana,
+de Araújo, and Rego (2017) to examine the potential of educational data
+mining techniques (i.e., SVMs, decision trees via J48, neural network,
+and Naive Bayes) for failing prediction in an introductory programming
+course. Results indicated that data mining techniques were effective for
+the task, and SVMs outperformed others with statistical signiﬁcance.
+Whitehill et al. (2014) developed a real-time automatic approach for
+engagement detection based on learners’ facial expressions with the use
+of GentleBoost with Box ﬁlter features, SVMs with Gabor features, and
+multinomial logistic regression with expression outputs from computer
+expression recognition toolbox (Littlewort et al., 2011). Results indicated
+that machine learning contributed to the effectiveness of real-time
+automated engagement detectors. With the basis of a temporal predic-
+tion mechanism, Xing and Du (2019) aimed at constructing a dropout
+prediction model by using deep learning techniques. In addition to
+achieving high accuracy in dropout prediction, their proposed model was
+capable of personalizing and prioritizing intervention for at-risk MOOCs
+learners based on individual dropout probabilities. Hussain et al. (2019)
+aimed at predicting what difﬁculties students would encounter in an
+e-learning system by analyzing logﬁles with the use of machine learning
+(i.e., artiﬁcial neural networks, SVMs, logistic regression, Naive Bayes,
+and decision trees). Through evaluation, it was found that artiﬁcial
+neural networks and SVMs outperformed others in difﬁculty prediction.
+
+3.7. Grants
+
+learners’ learning styles in an e-learning system. Speciﬁcally, the re-
+searchers modeled various aspects of learner behavior, based on which
+learning styles were inferred. Through evaluation, it was found that the
+proposed Bayesian model was promising in the detection of learners’
+learning styles. Thomaz and Breazeal (2008) experimentally examined
+the assumption that human-given rewards were compatible with rein-
+forcement learning reward signals by analyzing real-time human teach-
+ing behavior that happened while untrained subjects were teaching
+simulated reinforcement learning robots to conduct new tasks. Results
+demonstrated
+that
+it
+was
+essential
+to
+understand
+human-teacher/robot-learner partnerships so as to design algorithms
+supporting
+teaching
+and
+meanwhile
+improving
+robots’
+learning
+behavior. In the study by Lykourentzou et al. (2009), an innovative
+dropout prediction approach was proposed by using machine learning
+algorithms (i.e., feed-forward neural networks, SVMs, and probabilistic
+ensemble simpliﬁed fuzzy ARTMAP). Researchers conducted evaluation
+from the perspectives of accuracy, sensitivity, and precision, demon-
+strating the effectiveness of the proposed approach for predicting
+
+The number of grants, as well as the funding amount for educational
+technology from the National Science Foundation, the Australia Research
+Council (with educational system-related funding considered), the Eu-
+ropean Union fp7 and h2020 projects, as well as the National Natural
+Science Foundation of China, are shown in Fig. 4. In general, the funding
+of the educational technology area has enjoyed a growing tendency.
+
+5
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 8
+Active researchers in AIEd (listed in alphabetical order).
+
+Table 9
+Top keywords used in AIEd publications.
+
+Keywords
+A
+%
+Keywords
+A
+%
+
+Authors
+Institution
+Country/
+Region
+
+education
+1001
+10.47%
+behavior
+68
+0.71%
+machine learning
+800
+8.37%
+strategy
+67
+0.70%
+robotics
+737
+7.71%
+mechatronics
+67
+0.70%
+artiﬁcial
+
+667
+6.98%
+program
+67
+0.70%
+
+intelligence
+
+deep learning
+359
+3.76%
+achievement
+66
+0.69%
+system
+285
+2.98%
+feedback
+66
+0.69%
+educational
+
+277
+2.90%
+environment
+66
+0.69%
+
+robotics
+
+USA
+
+natural language
+
+268
+2.80%
+lego mindstorm
+66
+0.69%
+
+BARNES, Tiffany
+North Carolina State University
+USA
+BITTENCOURT, Ig Ibert
+Federal University of Alagoas
+Brazil
+BOUCHET, François
+Sorbonne Universite
+France
+BRUSILOVSKY, Peter
+University of Pittsburgh
+USA
+BULL, Susan
+University of Birmingham
+UK
+CHOU Chih-Yueh
+Yuan Ze University
+Taiwan
+DIMITROVA, Vania
+University of Leeds
+UK
+FOLTZ, Peter
+University of Cordoba
+Spain
+GOLDBERG, Benjamin S.
+Simulation and Training Technology
+Center
+
+processing
+
+Taiwan
+
+GOWDA, Sujith
+Alpha Data Labs, LLC
+USA
+HARLEY, Jason Matthew
+McGill University
+Canada
+HAYASHI, Yusuke
+Hiroshima University
+Japan
+HWANG, Gwo-Jen
+National Taiwan University of Science
+and Technology
+
+ISOTANI, Seiji
+University of Sao Paulo
+Brazil
+JEURING, Johan
+Utrecht University
+the
+Netherlands
+KOEDINGER, Ken
+Carnegie Mellon University
+USA
+KUMAR, Vivekanandan
+
+Athabasca University
+Canada
+
+Suresh
+
+expert system
+253
+2.65%
+algorithm
+64
+0.67%
+design
+241
+2.52%
+internet of things
+62
+0.65%
+performance
+234
+2.45%
+educational robot
+62
+0.65%
+e-learning
+233
+2.44%
+active learning
+61
+0.64%
+student
+229
+2.40%
+information
+61
+0.64%
+technology
+221
+2.31%
+educational technology
+61
+0.64%
+model
+200
+2.09%
+diagnosis
+61
+0.64%
+simulation
+190
+1.99%
+arduino
+60
+0.63%
+robot
+190
+1.99%
+quality
+60
+0.63%
+higher education
+180
+1.88%
+learning approach
+59
+0.62%
+classiﬁcation
+174
+1.82%
+teacher
+57
+0.60%
+science
+158
+1.65%
+tool
+57
+0.60%
+neural network
+154
+1.61%
+problem based learning
+57
+0.60%
+intelligent tutoring
+
+153
+1.60%
+collaborative learning
+56
+0.59%
+
+system
+
+surgery
+152
+1.59%
+fuzzy logic
+56
+0.59%
+skill
+150
+1.57%
+recognition
+55
+0.58%
+human-robot
+
+146
+1.53%
+augmented reality
+55
+0.58%
+
+interaction (HRI)
+
+Japan
+
+53
+0.55%
+
+LEE, Chien-I
+National University of Tainan
+Taiwan
+LESTER, James
+North Carolina State University
+USA
+LIN, Yen-Ting
+National Pingtung University
+Taiwan
+LITMAN, Diane
+University of Pittsburgh
+USA
+LUCKIN, Rose
+University College London
+UK
+MATSUDA, Noboru
+North Carolina State University
+USA
+MCCALLA, Gordon
+University of Saskatchewan
+Canada
+MCQUIGGAN, Scott
+SAS Institute, Inc.
+USA
+MILLAN, Eva
+Universidad de Malaga
+Spain
+MITROVIC, Antonija
+University of Canterbury
+New Zealand
+MIZOGUCHI, Riichiro
+Japan Advanced Institute of Science
+and Technology
+
+data mining
+140
+1.46%
+optimization
+54
+0.56%
+robotic surgery
+139
+1.45%
+mathematics
+53
+0.55%
+stem
+133
+1.39%
+computer science
+education
+
+educational data
+
+133
+1.39%
+stem education
+52
+0.54%
+
+mining
+
+engineering
+
+133
+1.39%
+mobile robotics
+52
+0.54%
+
+MOSTOW, Jack
+Carnegie Mellon University
+USA
+NKAMBOU, Roger
+Universite du Quebec a Montreal
+Canada
+PELANEK, Radek
+Masaryk university
+Czech
+REBOLLEDO-MENDEZ,
+
+Tec de Monterrey
+Mexico
+
+education
+
+Genaro
+
+50
+0.52%
+
+learning
+131
+1.37%
+intervention
+51
+0.53%
+children
+130
+1.36%
+pedagogy
+51
+0.53%
+knowledge
+129
+1.35%
+information and
+communication
+technology
+
+virtual reality
+126
+1.32%
+health
+50
+0.52%
+learning analytics
+125
+1.31%
+creativity
+50
+0.52%
+computational
+
+117
+1.22%
+computer vision
+50
+0.52%
+
+thinking
+
+RODRIGO, Ma. Mercedes
+Ateneo de Manila University
+Philippines
+ROMERO, Cristobal
+University of Cordoba
+Spain
+SABOURIN, Jennifer
+North Carolina State University
+USA
+SHAW, Erin
+University of Southern California
+USA
+TIAN, Feng
+Xi’an Jiaotong University
+China
+VASSILEVA, Julita
+University of Saskatchewan
+Canada
+WANG, Ning
+University of Southern California
+USA
+WOOLF, Beverly Park
+University of Massachusetts
+USA
+XIE, Haoran
+Lingnan University
+Hong Kong
+YACEF, Kalina
+University of Sydney
+Australia
+YANG, Stephen
+National Central University
+Taiwan
+ZAPATA-RIVERA, Diego
+Educational Testing Service
+USA
+
+3.8. Software tools
+
+47
+0.49%
+
+outcome
+116
+1.21%
+simulator
+50
+0.52%
+experience
+114
+1.19%
+genetic algorithm
+50
+0.52%
+validation
+109
+1.14%
+robotics education
+50
+0.52%
+programming
+105
+1.10%
+learning style
+49
+0.51%
+impact
+103
+1.08%
+care
+49
+0.51%
+big data
+97
+1.01%
+blended learning
+48
+0.50%
+curriculum
+94
+0.98%
+game
+48
+0.50%
+motivation
+87
+0.91%
+remote lab
+48
+0.50%
+teaching
+87
+0.91%
+convolution neural
+network
+
+support vector
+
+82
+0.86%
+classroom
+46
+0.48%
+
+machine
+
+perception
+82
+0.86%
+self-efﬁcacy
+46
+0.48%
+training
+82
+0.86%
+sensor
+45
+0.47%
+mobile robot
+82
+0.86%
+robotic
+45
+0.47%
+project based
+
+81
+0.85%
+sentiment analysis
+44
+0.46%
+
+learning
+
+Table 11 presents some of the software tools that use AI technologies
+for educational purposes. Among the 30 listed software tools, it should be
+noted that 70% are used for language learning purposes, and 20% are
+related to mathematics learning. This indicates the popularity of applying
+AI technologies to facilitate language and mathematics learning. A
+possible reason for this may be the fact that most of the software are
+designed for primary and secondary students, for whom the learning of
+language and mathematics is a major task during their study. However,
+such results also reﬂect the lack of software designed for learning other
+types of subjects such as chemistry, literacy, and programming.
+
+ontology
+80
+0.84%
+online
+44
+0.46%
+management
+80
+0.84%
+automation
+44
+0.46%
+moocs
+77
+0.81%
+cancer
+44
+0.46%
+artiﬁcial neural
+
+76
+0.79%
+evaluation
+44
+0.46%
+
+network
+
+3.9. Introduction of Computers & Education: Artiﬁcial intelligence
+
+framework
+75
+0.78%
+future
+43
+0.45%
+surgical education
+75
+0.78%
+clustering
+43
+0.45%
+learning curve
+75
+0.78%
+decision tree
+43
+0.45%
+laparoscopy
+75
+0.78%
+social media
+42
+0.44%
+prediction
+74
+0.77%
+social robot
+42
+0.44%
+
+(continued on next page)
+
+The analysis of the publication sources indicates that most of the
+current AIEd studies are published by proceedings, so it is essential that
+more international AIEd-focused journals be launched to provide more
+contributing channels for scholars to share and publish their latest
+
+6
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 9 (continued)
+
+Table 10
+Examples of impactful AIEd studies.
+
+Keywords
+A
+%
+Keywords
+A
+%
+
+Studies
+Journal
+TC
+
+357
+
+Dautenhahn (2007)
+Philosophical Transactions of the Royal Society
+B
+
+237
+
+Lete et al. (2004)
+Behavior Research Methods Instruments &
+Computers
+
+engagement
+73
+0.76%
+network
+42
+0.44%
+assessment
+73
+0.76%
+risk
+41
+0.43%
+internet
+73
+0.76%
+engineering
+41
+0.43%
+school
+72
+0.75%
+university
+41
+0.43%
+medical education
+69
+0.72%
+online learning
+41
+0.43%
+innovation
+68
+0.71%
+emotion
+40
+0.42%
+
+García et al. (2007)
+Computers & Education
+210
+Thomaz and Breazeal
+
+Artiﬁcial Intelligence
+135
+
+(2008)
+
+Note: Some of the search terms used in our data collection also appeared in this
+table as frequently used keywords in the studied 9560 AIEd studies. A: publi-
+cation count; %: the proportion of publications in the total corpus.
+
+27.5
+
+Lykourentzou et al. (2009)
+Computers & Education
+126
+Studies
+Journal
+C/Y
+Dautenhahn (2007)
+Philosophical Transactions of the Royal Society
+B
+
+Costa et al. (2017)
+Computers In Human Behavior
+22.3
+Whitehill et al. (2014)
+IEEE Transactions on Affective Computing
+20
+Xing and Du (2019)
+Journal of Educational Computing Research,
+20
+Hussain et al. (2019)
+Artiﬁcial Intelligence Review
+19
+
+research work. As a demonstration of the need for more AIEd-focused
+journals, we present the publication trends of two relevant existing
+Elsevier journals related to educational technology, namely, Computers
+& Education and The Internet and Higher Education (see Fig. 5). From
+the annual trends of the publications in these two journals, we can see
+that they have reached saturation and tend to control the number of
+publications rather than expanding the scale. However, referring to the
+trend of publications related to AIEd (see Fig. 1), the continuing and fast-
+growing trend in this area is obvious. Such a phenomenon further dem-
+onstrates the great need to set up a community speciﬁcally concerning
+AIEd to provide opportunities for scholars to share their research on AIEd
+and to facilitate the further development of AIEd. With this in mind, there
+is a newly developed Elsevier journal called Computers & Education:
+Artiﬁcial Intelligence (CAEAI), which was launched at the moment when
+the whole ﬁeld of AIEd was undergoing dynamic development. CAEAI
+aims to offer a platform for scholars, practitioners, and educators to
+publish their studies, share their ideas, and highlight novel systems and
+pedagogical innovation on issues concerning AI’s use for educational
+purposes. As a sister journal to Computers & Education, CAEAI specif-
+ically focuses on AI’s application in education, for example, educational
+data analysis based on AI algorithms, e-learning system design based on
+AI, and learner emotion and behavior detection based on AI.
+
+4. Discussions and conclusion
+
+presented, particularly in terms of grants, conferences, journals, software
+tools, institutions, and researchers. It was found that research in the AIEd
+ﬁeld entered a stage of rapid development around 2012, and the numbers
+are still growing. The dramatic growth in citations received by the AIEd
+studies demonstrates the increasingly wide impact and inﬂuence of
+research on AIEd in academia. Such ﬁndings are consistent with previous
+reviews (e.g., Chen, Zou, & Xie, 2020, Chen, Zou, Cheng, & Xie, (2020),
+Yang, Hwang, & Sung, 2020, Xie, Chu, Hwang, & Wang, 2019) con-
+cerning educational technologies, uncovering increasing interest in
+research issues related to technology-related education. Results of sub-
+ject analysis reveal a diverse interest in AIEd among scholars from a
+variety of ﬁelds. However, most of the AIEd studies (e.g., Huang, Hwang,
+& Chang, 2020, Chang, Kao, Hwang, & Lin, 2020, Abbas, Hammad,
+Hwang, Khan, & Gilani, 2020) were distributed in the EDUCATION
+EDUCATIONAL RESEARCH and COMPUTER SCIENCE ARTIFICIAL IN-
+TELLIGENCE categories, indicating its close relation to education and
+computer science, particularly AI technologies. This is consistent with the
+deﬁnition and aim of AIEd as to apply AI technologies for achieving
+various educational purposes (e.g., Chen, Xie, Zou, & Hwang, 2020,
+Hwang, Xie, Wah, & Gasevic, 2020).
+
+In this article, a multi-perspective study on the development of AIEd is
+
+Fig. 3. Evolution of keywords used in AIEd studies.
+
+7
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Fig. 4. Funding trends in educational technology of the National Science Foundation (a), the Australia Research Council (b), the European Union fp7 and h2020
+projects (c), and the National Natural Science Foundation of China (d).
+
+applications for educational purposes to be launched so as to provide
+opportunities for researchers to share their AIEd work and to facilitate
+the development of this ﬁeld. In this sense, it is worth highlighting a
+recently launched journal, CAEAI, the objective of which is to afford a
+world-wide platform for researchers, developers, and educators to share
+their ideas and studies in relation to AIEd.
+
+Results of the trend of grants in relation to educational technology
+from major bodies like the National Science Foundation and Australia
+Research Council indicate a signiﬁcantly growing interest in and
+enthusiasm for this ﬁeld. Governments in various countries/regions such
+as the United States and the United Kingdom have been furiously
+investing in the development of technological instruments that are
+incorporated with AI technologies in classroom settings, particularly in
+the recent few years. The education and scientiﬁc research issues in
+relation to AIEd are thus of increasing interest internationally, not only
+among educators and researchers but also among governments and
+educational institutions. For example, in 2018, the National Natural
+Science Foundation of China, for the ﬁrst time, added the level-2 code
+F0701 of Education Information Science and Technology to encourage
+research on technology-enhanced education to facilitate the prospect of
+China’s educational technology research.
+
+In terms of available educational software with the integration of AI
+technologies, much has been designed for mathematics and language
+learning. How AI technologies can facilitate the learning of other types of
+subjects such as chemistry and programming should be further investi-
+gated and turned into practice in the form of software tools. Actually, in
+academia, researchers have been working on these directions. For
+example, Serban et al. (2020) proposed a dialogue-driven intelligent
+tutoring system Korbit. Korbit, with the use of machine learning, NLP,
+and reinforcement learning, aimed at providing interactive and tailored
+learning experiences. To promote STEM learning, Korbit used a
+mixed-interface
+involving
+various
+elements
+such
+as
+multimedia,
+dialogue-driven exercises, concept mapping, and gamiﬁcation. To relieve
+educators’ workload in assisting learners, particularly novice learners, to
+ﬁx programs, Miao et al. (2020) proposed PIPE, a deep learning method
+that was capable of predicting logical programming errors. The model
+seamlessly integrated a
+representation learning algorithm and a
+multi-label classiﬁcation algorithm to obtain the latent feature of a pro-
+gram and to further predict the errors. Furthermore, there are scholars
+working on the development of novel applications for facilitating edu-
+cation based on commercial AI-related products and tools. For example,
+Ralston et al. (2019) proposed and developed a voice interactive and
+multilingual chatbot capable of responding to learners’ mood, tone, and
+language with the use of IBM Watson Assistant, Tone Analyzer, and
+Language Translator. Experimental results of the analysis of responses
+concerning examination stress indicated the effectiveness of the chatbot
+in responding to learners. It is worth noting that the chatbot could be
+
+Publication source analysis indicates that currently, conference pro-
+ceedings dominate the publication of AIEd studies, which can be further
+conﬁrmed by the relatively prevalent conferences in relation to the
+application of information technologies to resolve issues concerning
+teaching/learning,
+for
+example,
+the
+International
+Conference
+on
+Learning Analytics and Knowledge, the International Conference on
+Artiﬁcial Intelligence in Education, and the International Conference on
+Educational Data Mining. Comparatively, the contribution of journals in
+terms of publishing AIEd studies was not as signiﬁcant as conferences.
+This may be due to the lack of journals that are particularly focusing on
+this area, as many of the AIEd journal articles were published in educa-
+tional technology-related journals such as Computers & Education and
+Internet and Higher Education. However, the trend analysis of the pub-
+lications in these two journals indicates that they tend to control the
+number of publications rather than expanding the scale. Thus, consid-
+ering the continuing growth and development of research on AIEd, there
+is a great need for more academic journals with a particular focus on AI
+
+8
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Table 11 (continued)
+
+Name of app
+Subject
+Description
+Website
+
+Table 11
+Examples of software tools used to apply AI technologies for educational
+purposes.
+
+Name of app
+Subject
+Description
+Website
+
+selection on various
+topics15
+
+16https://no
+plag.com/
+
+1https://www
+.amiralear
+ning.com/
+
+Noplag App
+language
+Noplag App is a writing
+assistance tool for
+plagiarism checking
+based on AI
+technologies 16
+
+Amira
+literacy
+Amira is a web-
+supported, AI-
+empowered educational
+application for K-3
+literacy learning1
+
+17http
+s://www.nu
+ance.com/
+
+Nuance
+language
+Nuance provides AI-
+driven speech
+recognition tools for
+students and faculty17
+
+2http
+s://www.car
+negielear
+ning.com/
+
+Pimsleur
+language
+Pimsleur is an AI-driven
+language learning app18
+
+Carnegie Learning
+math
+Carnegie Learning is an
+AI-empowered app for
+helping learners
+cultivate deep
+conceptual
+understanding of math2
+
+19http://que
+rium.com/
+
+3http
+s://www.co
+gnii.com/
+
+Cognii
+language
+Cognii provides AI-
+driven educational tools
+for K-12 education,
+higher education, and
+corporate training3
+
+18https:
+//www.pims
+leur.com/
+Querium
+STEM
+Querium is an AI-driven
+application for
+delivering customizable
+STEM tutoring courses
+to high school and
+college students19
+
+4https:
+//www.cueth
+ink.com/
+
+QuillBot
+language
+QuillBot is an AI-driven
+paraphrasing tool20
+
+21https://qui
+zlet.com/
+
+CueThink
+math
+CueThink is an AI-
+driven app for math
+education that is able to
+assess learner
+knowledge based on an
+engaging peer-to-peer
+strategy4
+
+20https://quill
+bot.com/
+Quizlet
+language,
+science,
+math,
+history, and
+coding
+
+Quizlet provides
+services ranging from
+the learning of foreign
+language, history, and
+science to standardized
+test preparation21
+
+5https:
+//www.drea
+mbox.com/
+
+22http
+s://www.re
+ady4.com/
+
+DreamBox Learning
+math
+DreamBox Learning is
+an AI-driven application
+for math education
+targeting elementary
+and middle school
+students5
+
+6https://
+edwin.ai/
+
+Ready4
+language
+Ready4 provides
+services concerning test
+preparation and college
+admissions services
+startup based on AI
+technologies22
+
+Edwin
+language
+Edwin provides AI-
+empowered services to
+learn foreign languages6
+
+Rosetta Stone
+
+7https://techcr
+unch.com/
+
+Language
+Learning
+
+23https://www
+.rosetta
+stone.com
+
+language
+Rosetta Stone Language
+Learning is an
+augmented reality AI-
+empowered app for
+language learning23
+
+Elemental Path
+language
+Elemental Path is an AI-
+driven product for
+learners to engage with
+real-time speech-driven
+communication7
+
+24https:
+//www.symb
+olab.com/
+
+8https://g
+lobalenglish
+.com/
+
+Symbolab
+math
+Symbolab is an AI-
+driven tool for
+mathematics
+education24
+
+GlobalEnglish
+language
+GlobalEnglish is an
+English learning
+application based on
+machine learning
+technologies8
+
+25https://h
+ellothink
+ster.com/
+
+9https://
+app.gramm
+arly.com/
+
+Thinkster Math
+math
+Thinkster Math provides
+custom programs for
+individual learners
+based on AI
+technologies25
+
+Grammarly
+language
+Grammarly is a machine
+learning-driven app
+combined with various
+NLP technologies for
+improving writing9
+
+26https://truesh
+elf.com/
+
+10http://www
+.itutorg
+roup.com/
+
+TrueShelf
+math
+TrueShelf is AI-
+empowered adaptive
+math learning software
+for middle school and
+high school students26
+
+iTutorGroup
+language
+ITutorGroup is an AI-
+driven application for
+individualized and
+personalized language
+learning10
+
+27htt
+ps://www.v
+ipkid.com
+
+11https://kid
+sense.ai/
+
+VIPKID
+language
+VIPKID is an AI-
+empowered
+personalized language
+learning tool27
+
+KidSense
+language
+KidSense provides AI-
+driven applications for
+children’s’ language
+learning11
+
+28htt
+ps://www.y
+abla.com/
+
+12https://www.l
+ingco.io/
+
+Yabla
+language
+Yabla provides
+personalized course
+materials based on AI
+technologies28
+
+Lingco Classroom
+language
+Lingco Classroom is an
+AI-driven tool for
+personalized language
+learning 12
+
+29https
+://www.maths
+ai.com/
+
+13https://lin
+guix.com/
+
+Maths AI App
+Maths AI App is an AI-
+empowered online K-12
+mathematics
+educational tool that is
+able to provide tailored
+learning materials29
+
+Linguix
+language
+Linguix is an AI-driven
+tool for detecting and
+resolving spelling and
+grammar issues in
+writing13
+
+30https://www
+.italk2l
+earn.com/
+
+14https://www.
+mygrammarc
+heck.com/
+
+MyGrammarCheck
+language
+MyGrammarCheck is a
+grammar checker based
+on machine learning
+technologies14
+
+15https://new
+sela.com/
+
+Talk2Learn
+Math
+Talk2Learn is an open-
+source AI-driven
+mathematics tutoring
+tool featuring
+revolutionary
+innovations such as an
+adaptive sequencer and
+voice recognition30
+
+Newsela
+language
+Newsela is an AI-driven
+tool for improving
+reading comprehension
+with rich article
+
+9
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+developed based on AI technologies, more attention should be paid to
+facilitate the learning of various subjects. Additionally, with the contin-
+ually growing number of studies being conducted, a specialized journal,
+CAEAI, focusing speciﬁcally on the ﬁeld, is needed and looks promising
+in terms of providing a platform for educators and researchers to share
+their AIEd studies and ideas. With this study, we hope to provide a brief
+overview of AIEd studies to facilitate readers’ understanding of its active
+status and promising future.
+
+Declaration of competing interest
+
+Fig. 5. Publication trends of Computers & Education and The Internet and
+Higher Education.
+
+As the research does not involve human participants directly, there is
+no need to seek ethical approval from a research review committee in the
+authors’ afﬁliations. The data can be obtained by sending emails to the
+corresponding author. The authors declare that they have no known
+competing ﬁnancial interests or personal relationships that could have
+appeared to inﬂuence the work reported in this paper.
+
+Acknowledgements
+
+The research described in this paper has been fully supported by the
+Research Seed Fund (102367) of Lingnan University, Hong Kong.
+
+widely applied in different scenarios, for example, student information
+centers and mental health services. In addition, how to facilitate learning
+by using AI technologies has also received great interest from the in-
+dustry. For example, IBM created IBM AI Education,6 an immersive on-
+line professional learning suite, focusing on applying AI to promote
+learning outcomes.
+
+References
+
+Abbas, M. A., Hammad, S., Hwang, G. J., Khan, S., & Gilani, S. M. M. (2020). An assistive
+
+environment for EAL academic writing using formulaic sequences classiﬁcation.
+Interactive Learning Environments, 1–15.
+Aksnes, D., Osipov, I., Moskaleva, O., & Kullerud, L. (2016). Arctic research publication
+
+trends: A pilot study. Rovaniemi, Finland: University of the Arctic.
+Chang, C. Y., Kao, C. H., Hwang, G. J., & Lin, F. H. (2020). From experiencing to critical
+
+thinking: a contextual game-based learning approach to improving nursing students’
+performance in Electrocardiogram training. Educational Technology Research and
+Development, 68(3), 1225–1245.
+Chen, X., Ding, R., Xu, K., Wang, S., Hao, T., & Zhou, Y. (2018). A bibliometric review of
+
+natural language processing empowered mobile computing. Wireless Communications
+and Mobile Computing, 2018.
+Chen, X., & Xie, H. (2020). A Structural Topic Modeling-Based Bibliometric Study of
+
+Sentiment Analysis Literature. Cognitive Computation, 1–33.
+Chen, X., Xie, H., Wang, F. L., Liu, Z., Xu, J., & Hao, T. (2018). A bibliometric analysis of
+
+natural language processing in medical research. BMC Medical Informatics and
+Decision Making, 18(1), 14.
+Chen, X., Xie, H., Zou, D., & Hwang, G. J. (2020a). Application and theory gaps during the
+
+rise of Artiﬁcial Intelligence in Education. Computers and Education: Artiﬁcial
+Intelligence, 1, 100002.
+Chen, X., Zou, D., Cheng, G., & Xie, H. (2020b). Detecting latent topics and trends in
+
+educational technologies over four decades using structural topic modeling: A
+retrospective of all volumes of computer & education. Computers & Education,
+103855.
+Chen, X., Zou, D., & Xie, H. (2020c). Fifty years of British Journal of Educational
+
+Technology: A topic modeling based bibliometric perspective. British Journal of
+Educational Technology, 51(3), 692–708.
+Costa, E. B., Fonseca, B., Santana, M. A., de Araújo, F. F., & Rego, J. (2017). Evaluating the
+
+effectiveness of educational data mining techniques for early prediction of students’
+academic failure in introductory programming courses. Computers in Human Behavior,
+73, 247–256.
+Dautenhahn, K. (2007). Socially intelligent robots: Dimensions of human–robot
+
+interaction. Philosophical Transactions of the Royal Society B: Biological Sciences,
+362(1480), 679–704.
+Ebadi, A., & Schiffauerova, A. (2016). How to boost scientiﬁc production? A statistical
+
+analysis of research funding and other inﬂuencing factors. Scientometrics, 106(3),
+1093–1116.
+García, P., Amandi, A., Schiafﬁno, S., & Campo, M. (2007). Evaluating Bayesian networks’
+
+precision for detecting students’ learning styles. Computers & Education, 49(3),
+794–808.
+Heradio, R., de la Torre, L., Galan, D., Cabrerizo, F. J., Herrera-Viedma, E., & Dormido, S.
+
+Results of top keywords used in AIEd publications demonstrate a
+broad interest in technical issues such as the use of various AI technol-
+ogies (e.g., machine learning, artiﬁcial neural network, convolution
+neural network, genetic algorithm, natural language learning, sentiment
+analysis, classiﬁcation, and clustering) and different types of applications
+and tools developed mainly based on AI technologies such as mobile
+games, intelligent tutoring systems, educational robots, augmented re-
+ality, virtual reality, and serious games. Second, several educational
+strategies, such as project-based learning, collaborative learning, blended
+learning, problem-based learning, and mobile learning, are of great in-
+terest among AIEd researchers. Third, issues concerning learners’ moti-
+vation, learning style, academic performance, computational thinking,
+perception, achievement, behavior, creativity, problem-solving, self-ef-
+ﬁcacy, emotion, critical thinking, and attitude are of great interest to
+AIEd scholars. Fourth, engineering education, higher education, mathe-
+matics education, language education, surgical education, robotics edu-
+cation, computer science education, STEM education, medical education,
+and science education are popular educational contexts to incorporate AI
+technologies to facilitate students’ learning. Furthermore, there are
+several sub-ﬁelds in educational technology, such as learning analytics
+and educational data mining, which are frequently mentioned in AIEd
+studies. Although these sub-ﬁelds are closely related to AIEd, it is sug-
+gested that research pioneers should clarify the differences between each
+of the sub-ﬁelds with their unique research foci or issues to be high-
+lighted. In addition, AIEd scholars have been interested in adopting AI
+technologies to facilitate the learning of students with special needs, such
+as those with dementia and autism spectrum disorders. However,
+although AIEd scholars have shown diverse interest in various perspec-
+tives and issues, little attention has been paid to educational theories,
+with only constructivism mentioned in the studies. It is advised that AIEd
+researchers should pay more attention to combine educational theory
+with AI technologies. In this way, their research can be more profound
+and theoretically sound with the guidance of authoritative and well-
+recognized theories.
+
+(2016). Virtual and remote labs in education: A bibliometric analysis. Computers &
+Education, 98, 14–38.
+Huang, H. L., Hwang, G. J., & Chang, C. Y. (2020). Learning to be a writer: A spherical
+
+video-based virtual reality approach to supporting descriptive article writing in high
+school Chinese courses. British Journal of Educational Technology, 51(4), 1386–1405.
+Hussain, M., Zhu, W., Zhang, W., Abidi, S. M. R., & Ali, S. (2019). Using machine learning
+
+To sum up, based on the results and ﬁndings, the increasing popu-
+larity and importance of AI applications for educational purposes has
+been conﬁrmed and highlighted. AIEd scholars have shown great interest
+in various issues and perspectives in this ﬁeld. However, educational
+theories seem to be absent. Also, in terms of educational software
+
+to predict student difﬁculties from learning session data. Artiﬁcial Intelligence Review,
+52(1), 381–407.
+Hwang, G. J., Xie, H., Wah, B. W., & Gasevic, D. (2020). Vision, challenges, roles and
+
+research issues of Artiﬁcial Intelligence in Education.
+
+6 https://www.mymindsparklearning.org/ibm-ai-education.
+
+10
+
+X. Chen et al.
+Computers and Education: Artiﬁcial Intelligence 1 (2020) 100005
+
+Serban, I. V., Gupta, V., Kochmar, E., Vu, D. D., Belfer, R., Pineau, J., … Bengio, Y. (2020).
+
+Kandlhofer, M., Steinbauer, G., Hirschmugl-Gaisch, S., & Huber, P. (2016 Oct 12).
+
+Artiﬁcial intelligence and computer science in education: From kindergarten to
+university. In 2016 IEEE frontiers in education conference (pp. 1–9). IEEE: FIE).
+Lete, B., Sprenger-Charolles, L., & Cole, P. (2004). Manulex: A grade-level lexical database
+
+A large-scale, open-domain, mixed-interface dialogue-based ITS for STEM. In
+Proceedings of the 21st international conference on artiﬁcial intelligence in education
+(AIED 2020). Springer.
+Snyder, J. E. (2011). Trend analysis of medical publications about LGBT persons:
+
+1950–2007. Journal of Homosexuality, 58(2), 164–188.
+Song, Y., Chen, X., Hao, T., Liu, Z., & Lan, Z. (2019). Exploring two decades of research on
+
+from French elementary school readers. Behavior Research Methods, Instruments, &
+Computers, 36(1), 156–166.
+Littlewort, G., Whitehill, J., Wu, T., Fasel, I., Frank, M., Movellan, J., & Bartlett, M. (2011,
+
+classroom dialogue by using bibliometric analysis. Computers & Education, 137,
+12–31.
+Thomaz, A. L., & Breazeal, C. (2008). Teachable robots: Understanding human teaching
+
+March). The computer expression recognition toolbox (CERT). In Face and gesture
+2011 (pp. 298–305). IEEE.
+Loonen, M. P., Hage, J. J., & Kon, M. (2007). Publications of plastic surgery research 1972
+
+behavior to build more effective robot learners. Artiﬁcial Intelligence, 172(6–7),
+716–737.
+Tran, B. X., McIntyre, R. S., Latkin, C. A., Phan, H. T., Vu, G. T., Nguyen, H. L. T., … Ho, R.
+
+through 2004: A longitudinal trend analysis of three international journals. Journal of
+Plastic, Reconstructive & Aesthetic Surgery, 60(8), 934–945.
+Luckin, R., Holmes, W., Grifﬁths, M., & Forcier, L. B. (2016). Intelligence unleashed: An
+
+argument for AI in education. London: UCL Knowledge Lab.
+Lykourentzou, I., Giannoukos, I., Nikolopoulos, V., Mpardis, G., & Loumos, V. (2009).
+
+(2019). The current research landscape on the artiﬁcial intelligence application in the
+management of depressive disorders: A bibliometric analysis. International Journal of
+Environmental Research and Public Health, 16(12), 2150.
+Tran, B. X., Vu, G. T., Ha, G. H., Vuong, Q. H., Ho, M. T., Vuong, T. T., … Latkin, C. A.
+
+Dropout prediction in e-learning courses through the combination of machine
+learning techniques. Computers & Education, 53(3), 950–965.
+Mair, J., & Reischauer, G. (2017). Capturing the dynamics of the sharing economy:
+
+(2019a). Global evolution of research in artiﬁcial intelligence in health and medicine:
+A bibliometric study. Journal of Clinical Medicine, 8(3), 360.
+Whitehill, J., Serpell, Z., Lin, Y. C., Foster, A., & Movellan, J. R. (2014). The faces of
+
+Institutional research on the plural forms and practices of sharing economy
+organizations. Technological Forecasting and Social Change, 125, 11–20.
+Martí-Parre~no, J., Mendez-Iba~nez, E., & Alonso-Arroyo, A. (2016). The use of gamiﬁcation
+
+engagement: Automatic recognition of student engagementfrom facial expressions.
+IEEE Transactions on Affective Computing, 5(1), 86–98.
+Xie, H., Chu, H. C., Hwang, G. J., & Wang, C. C. (2019). Trends and development in
+
+in education: A bibliometric and text mining analysis. Journal of Computer Assisted
+Learning, 32(6), 663–676.
+Miao, D., Dong, Y., & Lu, X. (2020). Pipe: Predicting logical programming errors in
+
+technology-enhanced adaptive/personalized learning: A systematic review of journal
+publications from 2007 to 2017. Computers & Education, 140, 103599.
+Xing, W., & Du, D. (2019). Dropout prediction in MOOCs: Using deep learning for
+
+programming exercises. In Proceedings of the 12th international conference on
+educational data mining. EDM 2020.
+Popenici, S. A., & Kerr, S. (2017). Exploring the impact of artiﬁcial intelligence on
+
+personalized intervention. Journal of Educational Computing Research, 57(3), 547–570.
+Yang, Q. F., Hwang, G. J., & Sung, H. Y. (2020). Trends and research issues of mobile
+
+teaching and learning in higher education. Research and Practice in Technology
+Enhanced Learning, 12(1), 22.
+Ralston, K., Chen, Y., Isah, H., & Zulkernine, F. (2019, December). A voice interactive
+
+learning studies in physical education: a review of. academic journal publications.
+Interactive Learning Environments, 28(4), 419–437.
+Ye, J., Ding, H., Ren, J., & Xia, Z. (2018). The publication trend of neuropathic pain in the
+
+world and China: A 20–years bibliometric analysis. The Journal of Headache and Pain,
+19(1), 1–8.
+
+multilingual student support system using IBM Watson. In 2019 18th IEEE
+international conference on machine learning and applications (ICMLA) (pp. 1924–1929).
+IEEE.
+Roemer, R. C., & Borchardt, R. (2015). Altmetrics and the role of librarians. Library
+
+Technology Reports, 51(5), 31–37.
+
+11
