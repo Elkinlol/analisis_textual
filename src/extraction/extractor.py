@@ -27,7 +27,7 @@ def leer_texto(ruta_pdf, max_paginas=2):
 
 INICIO = re.compile(r"A\s?B\s?S\s?T\s?R\s?A\s?C\s?T\s*[:.\-—]?", re.IGNORECASE)
 
-# Posibles finales del abstract (el más cercano gana)
+#Posibles ffinales abstract
 FINALES = [
     re.compile(r"keywords?\s*[:—\-]", re.IGNORECASE),
     re.compile(r"key\s+words?\s*[:—\-]", re.IGNORECASE),
