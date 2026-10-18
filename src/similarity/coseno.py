@@ -3,7 +3,7 @@ from math import acos, degrees, log, sqrt
 
 
 def calcular_idf(documentos):
-    """IDF suavizado: log((N + 1) / (df + 1)) + 1, calculado sobre TODO el corpus."""
+    #IDF suavizado: log((N + 1) / (df + 1)) + 1, calculado sobre TODO el corpus.
     n = len(documentos)
     frecuencia_doc = Counter()
     for doc in documentos:
@@ -13,7 +13,7 @@ def calcular_idf(documentos):
 
 
 def vectorizar(tokens, idf):
-    """Vector disperso: diccionario palabra -> peso TF-IDF."""
+    #Vector disperso: diccionario palabra -> peso TF-IDF.
     if not tokens:
         return {}
     total = len(tokens)
@@ -59,7 +59,7 @@ def top_terminos(tokens, idf, k=10):
 
 
 if __name__ == "__main__":
-    # Verificación a mano: A = "ai education", B = "ai research", C = "education research"
+    # prueba de escritorio
     docs = [["ai", "education"], ["ai", "research"], ["education", "research"]]
     idf = calcular_idf(docs)
     print("IDF:", {p: round(v, 4) for p, v in idf.items()})

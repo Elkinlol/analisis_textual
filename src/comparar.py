@@ -22,7 +22,7 @@ def titulo_de(articulo, indice):
 
 
 def leer_numeros(mensaje, minimo, maximo, cantidad_minima=1):
-    """Pide números separados por comas y valida cantidad, rango y repetidos."""
+    #Pide números separados por comas y valida cantidad, rango y repetidos.
     while True:
         try:
             numeros = [int(x) for x in input(mensaje).split(",")]

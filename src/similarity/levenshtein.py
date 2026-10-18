@@ -2,21 +2,20 @@ def construir_matriz(a, b):
     """Matriz completa de programación dinámica.
     Sirve para el caso de estudio (mostrar el llenado paso a paso)."""
     n, m = len(a), len(b)
-    D = [[0] * (m + 1) for _ in range(n + 1)]
+    matriz = [[0] * (m + 1) for _ in range(n + 1)]
     for i in range(n + 1):
-        D[i][0] = i
+        matriz[i][0] = i
     for j in range(m + 1):
-        D[0][j] = j
+        matriz[0][j] = j
     for i in range(1, n + 1):
         for j in range(1, m + 1):
             costo = 0 if a[i - 1] == b[j - 1] else 1
-            print (a,b)
-            D[i][j] = min(
-                D[i - 1][j] + 1,           # borrar
-                D[i][j - 1] + 1,           # insertar
-                D[i - 1][j - 1] + costo,   # sustituir / coincidir
+            matriz[i][j] = min(
+                matriz[i - 1][j] + 1,           # borrar
+                matriz[i][j - 1] + 1,           # insertar
+                matriz[i - 1][j - 1] + costo,   # sustituir / coincidir
             )
-    return D
+    return matriz
 
 
 def levenshtein(a, b):
@@ -43,12 +42,12 @@ def _normalizar(distancia, largo_a, largo_b):
 
 
 def similitud_palabras(tokens_a, tokens_b):
-    """Levenshtein con cada TOKEN como símbolo (rápido, ~10 mil celdas)."""
+    #Levenshtein con cada TOKEN como símbolo.
     return _normalizar(levenshtein(tokens_a, tokens_b), len(tokens_a), len(tokens_b))
 
 
 def similitud_caracteres(tokens_a, tokens_b):
-    """Levenshtein con cada LETRA como símbolo (lento, ~1 millón de celdas)."""
+    #Levenshtein con cada LETRA como símbolo.
     a, b = " ".join(tokens_a), " ".join(tokens_b)
     return _normalizar(levenshtein(a, b), len(a), len(b))
 
