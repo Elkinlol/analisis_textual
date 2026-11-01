@@ -42,19 +42,28 @@ def _normalizar(distancia, largo_a, largo_b):
 
 
 def similitud_palabras(tokens_a, tokens_b):
-    #Levenshtein con cada TOKEN como símbolo.
-    return _normalizar(levenshtein(tokens_a, tokens_b), len(tokens_a), len(tokens_b))
+    matriz = construir_matriz(tokens_a, tokens_b)
+
+    distancia = matriz[len(tokens_a)][len(tokens_b)]
+
+    return _normalizar(
+        distancia,
+        len(tokens_a),
+        len(tokens_b)
+    )
 
 
 def similitud_caracteres(tokens_a, tokens_b):
-    #Levenshtein con cada LETRA como símbolo.
-    a, b = " ".join(tokens_a), " ".join(tokens_b)
-    return _normalizar(levenshtein(a, b), len(a), len(b))
+    a = " ".join(tokens_a)
+    b = " ".join(tokens_b)
 
+    matriz = construir_matriz(a, b)
 
-if __name__ == "__main__":
-    for fila in construir_matriz("pan", "pana"):
-        print(fila)
-    print(levenshtein("casa", "cosa"), levenshtein("sol", "sal"), levenshtein("", "abc"))
-    print(similitud_palabras(["ai", "improves", "education"],
-                             ["ai", "supports", "education"]))
+    distancia = matriz[len(a)][len(b)]
+
+    return _normalizar(
+        distancia,
+        len(a),
+        len(b)
+    )
+

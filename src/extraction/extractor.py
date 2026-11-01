@@ -94,4 +94,3 @@ def limpiar_abstract(txt):
     txt = re.sub(r"(\w)- ([a-z])", r"\1\2", txt)               # unir palabras rotas
     return re.sub(r"\s+", " ", txt).strip()
 
-        

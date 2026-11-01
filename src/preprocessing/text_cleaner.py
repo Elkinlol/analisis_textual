@@ -21,7 +21,3 @@ def preprocesar(texto):
     tokens = texto.split()                     # 3. separar por espacios
     return [t for t in tokens if t not in STOPWORDS and len(t) > 1]  # 4. filtrar
 
-
-if __name__ == "__main__":
-    print(preprocesar("The use of AI-driven tools in education, in 2023, is growing."))
-    # esperado: ['use', 'ai', 'driven', 'tools', 'education', 'growing']

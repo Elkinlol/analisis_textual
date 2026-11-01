@@ -53,11 +53,3 @@ def similitud_needleman_wunsch(tokens_a, tokens_b):
         return 1.0
     return (puntaje(tokens_a, tokens_b) + mayor) / (2 * mayor)
 
-
-if __name__ == "__main__":
-    a = ["ai", "improves", "education"]
-    b = ["ai", "supports", "education", "research"]
-    for fila in construir_matriz(a, b):
-        print(fila)
-    print(alineamiento(a, b))
-    print(round(similitud_needleman_wunsch(a, b), 4), similitud_needleman_wunsch(a, a))
