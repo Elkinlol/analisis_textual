@@ -69,9 +69,7 @@ def calcular_similitud_tfidf(tokens_a, tokens_b, idf):
 
 
 def crear_similitud_tfidf(corpus_tokens):
-    idf = calcular_idf(corpus_tokens)
-
-    return idf
+    return calcular_idf(corpus_tokens)
 
 
 def top_terminos(tokens, idf, k=10):

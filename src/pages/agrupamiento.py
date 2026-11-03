@@ -28,10 +28,24 @@ def cargar():
 def distancias(nombre):
     """Matriz de distancias entre los documentos: 1 - similitud."""
     _, algoritmos = cargar()
-    representaciones, funcion = algoritmos[nombre]
-    s = matriz_similitud(representaciones, funcion)
+
+    representaciones, funcion, parametros = algoritmos[nombre]
+
+    s = matriz_similitud(
+        representaciones,
+        funcion,
+        parametros
+    )
+
     n = len(s)
-    return [[0.0 if i == j else 1 - s[i][j] for j in range(n)] for i in range(n)]
+
+    return [
+        [
+            0.0 if i == j else 1 - s[i][j]
+            for j in range(n)
+        ]
+        for i in range(n)
+    ]
 
 
 @st.cache_data(show_spinner=False)

@@ -16,8 +16,8 @@ def cargar():
 @st.cache_data(show_spinner=False)
 def calcular(nombre, indices):
     _, algoritmos = cargar()
-    representaciones, funcion = algoritmos[nombre]
-    return matriz_similitud([representaciones[i] for i in indices], funcion)
+    representaciones, funcion, parametros = algoritmos[nombre]
+    return matriz_similitud([representaciones[i] for i in indices], funcion, parametros)
 
 
 def titulo_de(doc):
