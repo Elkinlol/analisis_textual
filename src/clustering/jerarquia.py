@@ -60,16 +60,3 @@ def matriz_cofenetica(fusiones, n):
         miembros[n + paso] = miembros.pop(a) + miembros.pop(b)
     return C
 
-
-if __name__ == "__main__":
-    # Ejemplo de papel: A, B, C, D
-    D = [
-        [0, 2, 6, 10],
-        [2, 0, 5, 9],
-        [6, 5, 0, 4],
-        [10, 9, 4, 0],
-    ]
-    for criterio in ("single", "complete", "average"):
-        print(criterio)
-        for a, b, altura, tam in agrupar(D, criterio):
-            print(f"  une {a} y {b} a altura {altura}  (tamaño {tam})")

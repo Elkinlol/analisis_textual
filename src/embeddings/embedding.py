@@ -33,6 +33,3 @@ def main():
             }, f)
         print("Guardado:", salida, "| dimensión:", len(vectores[0]))
 
-
-if __name__ == "__main__":
-    main()

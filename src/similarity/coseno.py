@@ -19,7 +19,6 @@ def calcular_idf(documentos):
     frecuencia_doc = {}
 
     for doc in documentos:
-
         palabras_documento = []
 
         for palabra in doc:
@@ -62,16 +61,17 @@ def vectorizar(tokens, idf):
     return vector
 
 
+def calcular_similitud_tfidf(tokens_a, tokens_b, idf):
+    vector_a = vectorizar(tokens_a, idf)
+    vector_b = vectorizar(tokens_b, idf)
+
+    return similitud_coseno(vector_a, vector_b)
+
+
 def crear_similitud_tfidf(corpus_tokens):
     idf = calcular_idf(corpus_tokens)
 
-    def similitud(tokens_a, tokens_b):
-        vector_a = vectorizar(tokens_a, idf)
-        vector_b = vectorizar(tokens_b, idf)
-
-        return similitud_coseno(vector_a, vector_b)
-
-    return similitud
+    return idf
 
 
 def top_terminos(tokens, idf, k=10):

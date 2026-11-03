@@ -52,7 +52,3 @@ def main():
         print(f"{k:<6}" + "".join(f"{resultados[c]['siluetas'][k]:>12.4f}" for c in CRITERIOS))
 
     print("\nDendrogramas guardados en:", SALIDA)
-
-
-if __name__ == "__main__":
-    main()
